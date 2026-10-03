@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nepali Guitar Chords & Tabs Songbook</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-color: #1e293b;
+            --text-muted: #64748b;
+            --primary: #4f46e5;
+            --primary-hover: #4338ca;
+            --border-color: #e2e8f0;
+            --chord-color: #d97706;
+            --code-bg: #f1f5f9;
+            --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            --sidebar-width: 380px;
+        }
+
+        [data-theme="dark"] {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-color: #f8fafc;
+            --text-muted: #94a3b8;
+            --primary: #6366f1;
+            --primary-hover: #818cf8;
+            --border-color: #334155;
+            --chord-color: #fbbf24;
+            --code-bg: #090d16;
+            --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.5);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        /* Sidebar */
+        aside {
+            width: var(--sidebar-width);
+            background-color: var(--card-bg);
+            border-right: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            z-index: 10;
+            transition: background-color 0.3s, border-color 0.3s;
+        }
+
+        .sidebar-header {
+            padding: 20px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .sidebar-header h1 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--primary);
+        }
+
+        .search-box {
+            padding: 15px 20px;
+            border-bottom: 1px solid var(--border-color);
+            background: var(--card-bg);
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 10px 14px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-size: 0.95rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .search-input:focus {
+            border-color: var(--primary);
+        }
+
+        .song-list {
+            flex: 1;
+            overflow-y: auto;
+            padding: 10px;
+        }
+
+        .song-item {
+            padding: 12px 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-bottom: 4px;
+            transition: background-color 0.2s;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .song-item:hover {
+            background-color: var(--code-bg);
+        }
+
+        .song-item.active {
+            background-color: var(--primary);
+            color: white;
+        }
+
+        .song-item.active .song-meta-info {
+            color: #e0e7ff;
+        }
+
+        .song-item-title {
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+
+        .song-meta-info {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            display: flex;
+            gap: 10px;
+        }
+
+        /* Main Content Viewer */
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            overflow: hidden;
+            background-color: var(--bg-color);
+        }
+
+        .viewer-header {
+            padding: 15px 30px;
+            background-color: var(--card-bg);
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .song-title-area h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .song-badges {
+            display: flex;
+            gap: 10px;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .badge {
+            background-color: var(--code-bg);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+
+        .toolbar {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            background-color: var(--code-bg);
+            color: var(--text-color);
+            border: 1px solid var(--border-color);
+            padding: 8px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: background-color 0.2s, border-color 0.2s;
+        }
+
+        .btn:hover {
+            border-color: var(--primary);
+        }
+
+        .btn-primary {
+            background-color: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        .btn-primary:hover {
+            background-color: var(--primary-hover);
+        }
+
+        .transpose-group {
+            display: flex;
+            align-items: center;
+            background: var(--code-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            overflow: hidden;
+        }
+
+        .transpose-group button {
+            background: transparent;
+            border: none;
+            color: var(--text-color);
+            padding: 6px 10px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        .transpose-group button:hover {
+            background-color: var(--border-color);
+        }
+
+        .transpose-group span {
+            padding: 0 8px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .song-body-container {
+            flex: 1;
+            overflow-y: auto;
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .song-content-card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 40px;
+            max-width: 900px;
+            width: 100%;
+            box-shadow: var(--shadow);
+            overflow-x: auto;
+        }
+
+        pre {
+            font-family: 'Fira Code', monospace;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            white-space: pre;
+            color: var(--text-color);
+        }
+
+        pre .chord {
+            color: var(--chord-color);
+            font-weight: 600;
+        }
+
+        .empty-state {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            color: var(--text-muted);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .empty-state h3 {
+            font-size: 1.25rem;
+            margin-bottom: 8px;
+            color: var(--text-color);
+        }
+
+        /* Scroll control overlay */
+        .scroll-controls {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            padding: 10px 15px;
+            border-radius: 30px;
+            box-shadow: var(--shadow);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            z-index: 100;
+            display: none;
+        }
+
+        .scroll-controls.active {
+            display: flex;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            body {
+                flex-direction: column;
+            }
+            aside {
+                width: 100%;
+                height: 40vh;
+            }
+            main {
+                height: 60vh;
+            }
+            .viewer-header {
+                padding: 10px 15px;
+            }
+            .song-body-container {
+                padding: 15px;
+            }
+            .song-content-card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body data-theme="dark">
+
+    <aside>
+        <div class="sidebar-header">
+            <h1>🎸 Nepali Chords</h1>
+        </div>
+        <div class="search-box">
+            <input type="text" id="searchInput" class="search-input" placeholder="Search songs or artists...">
+        </div>
+        <div class="song-list" id="songList">
+            <!-- Populated via JS -->
+        </div>
+    </aside>
+
+    <main>
+        <div class="viewer-header" id="viewerHeader" style="display: none;">
+            <div class="song-title-area">
+                <h2 id="songTitleDisplay">Song Title</h2>
+                <div class="song-badges">
+                    <span class="badge" id="badgeCapo">Capo: None</span>
+                    <span class="badge" id="badgeGenre">Genre: N/A</span>
+                    <span class="badge" id="badgeStrumming">Strumming: N/A</span>
+                </div>
+            </div>
+            <div class="toolbar">
+                <div class="transpose-group" title="Transpose Chords">
+                    <button onclick="transpose(-1)">-</button>
+                    <span id="transposeDisplay">Key: 0</span>
+                    <button onclick="transpose(1)">+</button>
+                </div>
+                <button class="btn" onclick="adjustFontSize(1)" title="Increase Font Size">A+</button>
+                <button class="btn" onclick="adjustFontSize(-1)" title="Decrease Font Size">A-</button>
+                <button class="btn" id="scrollBtn" onclick="toggleAutoScroll()" title="Auto Scroll">📜 Scroll</button>
+                <button class="btn" onclick="toggleTheme()" title="Toggle Dark/Light Mode">🌓</button>
+            </div>
+        </div>
+
+        <div class="song-body-container" id="songContainer">
+            <div class="empty-state">
+                <h3>Select a song from the sidebar</h3>
+                <p>Browse through 200+ Nepali & Hindi guitar chord sheets with instant search & transposition.</p>
+            </div>
+        </div>
+    </main>
+
+    <div class="scroll-controls" id="scrollControls">
+        <span id="scrollSpeedLabel">Speed: 1x</span>
+        <button class="btn" onclick="changeScrollSpeed(-1)">-</button>
+        <button class="btn" onclick="changeScrollSpeed(1)">+</button>
+        <button class="btn btn-primary" onclick="toggleAutoScroll()">Stop</button>
+    </div>
+
+    <script>
+        let songs = [];
+        let currentSongIndex = -1;
+        let transposeOffset = 0;
+        let currentFontSize = 0.95; // rem
+        let autoScrolling = false;
+        let scrollSpeed = 1;
+        let scrollInterval = null;
+
+        const NOTES_SHARP = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
+        const NOTES_FLAT = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
+
+        // Chord matching regex
+        const CHORD_REGEX = /\b([A-G][#b]?(?:m|min|maj|dim|aug|sus|add|m7|maj7|7|9|11|13|add9|sus2|sus4|2|4|5|6)*(?:\/[A-G][#b]?)?)\b/g;
+
+        async function init() {
+            try {
+                const response = await fetch('songs.json');
+                songs = await response.json();
+                renderSongList(songs);
+                if (songs.length > 0) {
+                    selectSong(0);
+                }
+            } catch (e) {
+                console.error("Failed to load songs.json", e);
+                document.getElementById('songContainer').innerHTML = `
+                    <div class="empty-state">
+                        <h3>Error loading songs</h3>
+                        <p>Please make sure songs.json exists in the directory.</p>
+                    </div>
+                `;
+            }
+        }
+
+        function renderSongList(list) {
+            const container = document.getElementById('songList');
+            container.innerHTML = '';
+            list.forEach((song, idx) => {
+                const originalIndex = songs.indexOf(song);
+                const div = document.createElement('div');
+                div.className = `song-item ${originalIndex === currentSongIndex ? 'active' : ''}`;
+                div.onclick = () => selectSong(originalIndex);
+                div.innerHTML = `
+                    <div class="song-item-title">${song.title}</div>
+                    <div class="song-meta-info">
+                        <span>🎸 ${song.capo || 'No Capo'}</span>
+                        <span>🎵 ${song.genre || 'Music'}</span>
+                    </div>
+                `;
+                container.appendChild(div);
+            });
+        }
+
+        document.getElementById('searchInput').oninput = (e) => {
+            const term = e.target.value.toLowerCase();
+            const filtered = songs.filter(s => 
+                s.title.toLowerCase().includes(term) || 
+                (s.genre && s.genre.toLowerCase().includes(term)) ||
+                (s.capo && s.capo.toLowerCase().includes(term))
+            );
+            renderSongList(filtered);
+        };
+
+        function selectSong(index) {
+            currentSongIndex = index;
+            transposeOffset = 0;
+            document.getElementById('transposeDisplay').innerText = `Key: 0`;
+            document.getElementById('viewerHeader').style.display = 'flex';
+            
+            // Highlight in sidebar
+            const items = document.querySelectorAll('.song-item');
+            items.forEach((item, idx) => {
+                item.classList.toggle('active', idx === currentSongIndex);
+            });
+
+            renderCurrentSong();
+            
+            // Reset scroll
+            const container = document.getElementById('songContainer');
+            container.scrollTop = 0;
+            if (autoScrolling) toggleAutoScroll();
+        }
+
+        function renderCurrentSong() {
+            if (currentSongIndex < 0 || currentSongIndex >= songs.length) return;
+            const song = songs[currentSongIndex];
+
+            document.getElementById('songTitleDisplay').innerText = song.title;
+            document.getElementById('badgeCapo').innerText = `Capo: ${song.capo || 'None'}`;
+            document.getElementById('badgeGenre').innerText = `Genre: ${song.genre || 'N/A'}`;
+            document.getElementById('badgeStrumming').innerText = `Strumming: ${song.strumming || 'N/A'}`;
+
+            let htmlContent = '';
+            song.lines.forEach(lineObj => {
+                let text = lineObj.text;
+                // Escape HTML
+                text = text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+                
+                if (lineObj.is_chord) {
+                    // Transpose chords in this line
+                    text = text.replace(CHORD_REGEX, (match) => {
+                        const transposed = transposeChord(match, transposeOffset);
+                        return `<span class="chord">${transposed}</span>`;
+                    });
+                }
+                htmlContent += text + '\n';
+            });
+
+            document.getElementById('songContainer').innerHTML = `
+                <div class="song-content-card">
+                    <pre id="songPre" style="font-size: ${currentFontSize}rem;">${htmlContent}</pre>
+                </div>
+            `;
+        }
+
+        function transposeChord(chordStr, semitones) {
+            if (semitones === 0) return chordStr;
+            
+            // Handle slash chords like Am/G
+            if (chordStr.includes('/')) {
+                const parts = chordStr.split('/');
+                return transposeChord(parts[0], semitones) + '/' + transposeChord(parts[1], semitones);
+            }
+
+            // Match root note and suffix
+            const match = chordStr.match(/^([A-G][#b]?)(.*)$/);
+            if (!match) return chordStr;
+
+            const root = match[1];
+            const suffix = match[2];
+
+            let noteList = root.includes('b') ? NOTES_FLAT : NOTES_SHARP;
+            let index = noteList.indexOf(root);
+            if (index === -1) {
+                index = NOTES_SHARP.indexOf(root);
+                noteList = NOTES_SHARP;
+            }
+            if (index === -1) return chordStr;
+
+            let newIndex = (index + semitones) % 12;
+            if (newIndex < 0) newIndex += 12;
+
+            return noteList[newIndex] + suffix;
+        }
+
+        function transpose(semitones) {
+            transposeOffset += semitones;
+            document.getElementById('transposeDisplay').innerText = `Key: ${transposeOffset > 0 ? '+' + transposeOffset : transposeOffset}`;
+            renderCurrentSong();
+        }
+
+        function adjustFontSize(delta) {
+            currentFontSize = Math.max(0.75, Math.min(1.5, currentFontSize + (delta * 0.1)));
+            const pre = document.getElementById('songPre');
+            if (pre) pre.style.fontSize = `${currentFontSize}rem`;
+        }
+
+        function toggleTheme() {
+            const body = document.body;
+            const currentTheme = body.getAttribute('data-theme');
+            body.setAttribute('data-theme', currentTheme === 'dark' ? 'light' : 'dark');
+        }
+
+        function toggleAutoScroll() {
+            autoScrolling = !autoScrolling;
+            const controls = document.getElementById('scrollControls');
+            const container = document.getElementById('songContainer');
+            
+            if (autoScrolling) {
+                controls.classList.add('active');
+                scrollInterval = setInterval(() => {
+                    container.scrollTop += scrollSpeed;
+                    if (container.scrollTop + container.clientHeight >= container.scrollHeight) {
+                        toggleAutoScroll();
+                    }
+                }, 50);
+            } else {
+                controls.classList.remove('active');
+                clearInterval(scrollInterval);
+            }
+        }
+
+        function changeScrollSpeed(delta) {
+            scrollSpeed = Math.max(1, Math.min(10, scrollSpeed + delta));
+            document.getElementById('scrollSpeedLabel').innerText = `Speed: ${scrollSpeed}x`;
+        }
+
+        window.onload = init;
+    </script>
+</body>
+</html>
