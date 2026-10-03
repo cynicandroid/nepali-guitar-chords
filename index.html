@@ -64,6 +64,9 @@
         .sidebar-header {
             padding: 20px;
             border-bottom: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
         }
 
         .sidebar-header h1 {
@@ -73,6 +76,25 @@
             align-items: center;
             gap: 10px;
             color: var(--primary);
+            cursor: pointer;
+        }
+
+        .home-nav-btn {
+            background: var(--code-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 6px 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .home-nav-btn:hover {
+            border-color: var(--primary);
         }
 
         .search-box {
@@ -168,16 +190,39 @@
 
         .song-badges {
             display: flex;
+            align-items: center;
             gap: 10px;
             font-size: 0.85rem;
             color: var(--text-muted);
+            flex-wrap: wrap;
         }
 
         .badge {
             background-color: var(--code-bg);
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .strumming-badge-btn {
+            background-color: var(--primary);
+            color: white;
+            border: none;
             padding: 2px 8px;
             border-radius: 4px;
-            font-weight: 500;
+            cursor: pointer;
+            font-size: 0.75rem;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .strumming-badge-btn:hover {
+            opacity: 0.9;
         }
 
         .toolbar {
@@ -244,15 +289,16 @@
             font-weight: 600;
         }
 
-        .song-body-container {
+        .content-container {
             flex: 1;
             overflow-y: auto;
             padding: 30px;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
+            align-items: center;
         }
 
-        .song-content-card {
+        .content-card {
             background-color: var(--card-bg);
             border: 1px solid var(--border-color);
             border-radius: 12px;
@@ -260,7 +306,184 @@
             max-width: 900px;
             width: 100%;
             box-shadow: var(--shadow);
-            overflow-x: auto;
+        }
+
+        /* Strumming Visualizer Player Panel */
+        .strumming-player-panel {
+            background-color: var(--card-bg);
+            border: 2px solid var(--primary);
+            border-radius: 12px;
+            padding: 20px 30px;
+            max-width: 900px;
+            width: 100%;
+            margin-bottom: 20px;
+            box-shadow: var(--shadow);
+            display: none;
+            animation: fadeIn 0.2s ease-in-out;
+        }
+
+        .strumming-player-panel.active {
+            display: block;
+        }
+
+        .strumming-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+
+        .strumming-header h3 {
+            font-size: 1.1rem;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .strumming-strokes-row {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 15px 0;
+        }
+
+        .stroke-card {
+            background: var(--code-bg);
+            border: 2px solid var(--border-color);
+            border-radius: 10px;
+            width: 55px;
+            height: 75px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            transition: all 0.15s;
+        }
+
+        .stroke-card.active {
+            background: var(--primary);
+            border-color: var(--primary);
+            color: white;
+            transform: scale(1.08);
+            box-shadow: 0 0 12px rgba(99, 102, 241, 0.5);
+        }
+
+        .stroke-icon {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .stroke-label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .strumming-controls {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        /* Home Directory Styles */
+        .home-hero {
+            margin-bottom: 30px;
+        }
+
+        .home-hero h1 {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 12px;
+        }
+
+        .home-hero p {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+
+        .alphabet-nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .alphabet-btn {
+            background: var(--code-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            width: 32px;
+            height: 32px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 0.9rem;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .alphabet-btn:hover {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        .directory-section {
+            margin-bottom: 30px;
+        }
+
+        .directory-letter {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 12px;
+            padding-bottom: 4px;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .directory-songs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 10px;
+        }
+
+        .directory-song-card {
+            background: var(--code-bg);
+            border: 1px solid var(--border-color);
+            padding: 12px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.15s, border-color 0.15s;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .directory-song-card:hover {
+            transform: translateY(-2px);
+            border-color: var(--primary);
+        }
+
+        .directory-song-title {
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+
+        .directory-song-capo {
+            font-size: 0.75rem;
+            color: var(--text-muted);
         }
 
         pre {
@@ -269,28 +492,12 @@
             line-height: 1.6;
             white-space: pre;
             color: var(--text-color);
+            overflow-x: auto;
         }
 
         pre .chord {
             color: var(--chord-color);
             font-weight: 600;
-        }
-
-        .empty-state {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100%;
-            color: var(--text-muted);
-            text-align: center;
-            padding: 20px;
-        }
-
-        .empty-state h3 {
-            font-size: 1.25rem;
-            margin-bottom: 8px;
-            color: var(--text-color);
         }
 
         /* Scroll control overlay */
@@ -314,6 +521,11 @@
             display: flex;
         }
 
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
         /* Mobile Responsive */
         @media (max-width: 768px) {
             body {
@@ -321,18 +533,18 @@
             }
             aside {
                 width: 100%;
-                height: 40vh;
+                height: 35vh;
             }
             main {
-                height: 60vh;
+                height: 65vh;
             }
             .viewer-header {
                 padding: 10px 15px;
             }
-            .song-body-container {
+            .content-container {
                 padding: 15px;
             }
-            .song-content-card {
+            .content-card {
                 padding: 20px;
             }
         }
@@ -342,7 +554,8 @@
 
     <aside>
         <div class="sidebar-header">
-            <h1>🎸 Nepali Chords</h1>
+            <h1 onclick="showHome()">🎸 Nepali Chords</h1>
+            <button class="home-nav-btn" onclick="showHome()">🏠 Home</button>
         </div>
         <div class="search-box">
             <input type="text" id="searchInput" class="search-input" placeholder="Search songs or artists...">
@@ -359,7 +572,10 @@
                 <div class="song-badges">
                     <span class="badge" id="badgeCapo">Capo: None</span>
                     <span class="badge" id="badgeGenre">Genre: N/A</span>
-                    <span class="badge" id="badgeStrumming">Strumming: N/A</span>
+                    <span class="badge" id="badgeStrumming">
+                        <span id="badgeStrummingText">Strumming: N/A</span>
+                        <button class="strumming-badge-btn" id="strummingPlayBtn" onclick="toggleStrummingPlayer()">▶️ Play</button>
+                    </span>
                 </div>
             </div>
             <div class="toolbar">
@@ -375,11 +591,8 @@
             </div>
         </div>
 
-        <div class="song-body-container" id="songContainer">
-            <div class="empty-state">
-                <h3>Select a song from the sidebar</h3>
-                <p>Browse through 200+ Nepali & Hindi guitar chord sheets with instant search & transposition.</p>
-            </div>
+        <div class="content-container" id="contentContainer">
+            <!-- Loaded dynamically with Home Directory or Song Viewer -->
         </div>
     </main>
 
@@ -399,10 +612,15 @@
         let scrollSpeed = 1;
         let scrollInterval = null;
 
+        // Strumming player state
+        let strummingPlaying = false;
+        let strummingInterval = null;
+        let currentStrokeIndex = 0;
+        let currentStrokesList = [];
+        let strumBpm = 90;
+
         const NOTES_SHARP = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
         const NOTES_FLAT = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
-
-        // Chord matching regex
         const CHORD_REGEX = /\b([A-G][#b]?(?:m|min|maj|dim|aug|sus|add|m7|maj7|7|9|11|13|add9|sus2|sus4|2|4|5|6)*(?:\/[A-G][#b]?)?)\b/g;
 
         async function init() {
@@ -410,13 +628,11 @@
                 const response = await fetch('songs.json');
                 songs = await response.json();
                 renderSongList(songs);
-                if (songs.length > 0) {
-                    selectSong(0);
-                }
+                showHome();
             } catch (e) {
                 console.error("Failed to load songs.json", e);
-                document.getElementById('songContainer').innerHTML = `
-                    <div class="empty-state">
+                document.getElementById('contentContainer').innerHTML = `
+                    <div class="content-card">
                         <h3>Error loading songs</h3>
                         <p>Please make sure songs.json exists in the directory.</p>
                     </div>
@@ -430,7 +646,7 @@
             list.forEach((song, idx) => {
                 const originalIndex = songs.indexOf(song);
                 const div = document.createElement('div');
-                div.className = `song-item ${originalIndex === currentSongIndex ? 'active' : ''}`;
+                div.className = `song-item ${originalIndex === currentSongIndex && currentSongIndex !== -1 ? 'active' : ''}`;
                 div.onclick = () => selectSong(originalIndex);
                 div.innerHTML = `
                     <div class="song-item-title">${song.title}</div>
@@ -453,22 +669,95 @@
             renderSongList(filtered);
         };
 
+        function showHome() {
+            currentSongIndex = -1;
+            stopStrummingPlayer();
+            document.getElementById('viewerHeader').style.display = 'none';
+            
+            document.querySelectorAll('.song-item').forEach(item => item.classList.remove('active'));
+            if (autoScrolling) toggleAutoScroll();
+
+            const letters = sortedLetters();
+            let alphabetHtml = letters.map(let => `<a href="#letter-${let}" class="alphabet-btn">${let}</a>`).join('');
+            
+            let sectionsHtml = '';
+            letters.forEach(letter => {
+                const letterSongs = songs.filter(s => {
+                    const first = s.title ? s.title[0].toUpperCase() : '#';
+                    const key = first.match(/[A-Z]/) ? first : '#';
+                    return key === letter;
+                });
+
+                if (letterSongs.length > 0) {
+                    let songCards = letterSongs.map(s => {
+                        const origIdx = songs.indexOf(s);
+                        const capoText = s.capo && s.capo.toLowerCase() !== 'none' ? `Capo: ${s.capo}` : '';
+                        return `
+                            <div class="directory-song-card" onclick="selectSong(${origIdx})">
+                                <div class="directory-song-title">${s.title}</div>
+                                ${capoText ? `<div class="directory-song-capo">🎸 ${capoText}</div>` : ''}
+                            </div>
+                        `;
+                    }).join('');
+
+                    sectionsHtml += `
+                        <div class="directory-section" id="letter-${letter}">
+                            <div class="directory-letter">${letter}</div>
+                            <div class="directory-songs-grid">
+                                ${songCards}
+                            </div>
+                        </div>
+                    `;
+                }
+            });
+
+            document.getElementById('contentContainer').innerHTML = `
+                <div class="content-card" style="max-width: 1000px;">
+                    <div class="home-hero">
+                        <h1>🎶 Nepali Guitar Chords & Tabs Collection 🎸</h1>
+                        <p>Welcome to the digital songbook containing chords and lyrics for over 200+ popular Nepali, Hindi, and English songs. Click any song below or search in the sidebar to view chords, transpose keys, and auto-scroll.</p>
+                    </div>
+                    <div class="alphabet-nav">
+                        ${alphabetHtml}
+                    </div>
+                    <div class="directory-container">
+                        ${sectionsHtml}
+                    </div>
+                </div>
+            `;
+            document.getElementById('contentContainer').scrollTop = 0;
+        }
+
+        function sortedLetters() {
+            const setLetters = new Set();
+            songs.forEach(s => {
+                const first = s.title ? s.title[0].toUpperCase() : '#';
+                const key = first.match(/[A-Z]/) ? first : '#';
+                setLetters.add(key);
+            });
+            return Array.from(setLetters).sort((a, b) => {
+                if (a === '#') return 1;
+                if (b === '#') return -1;
+                return a.localeCompare(b);
+            });
+        }
+
         function selectSong(index) {
             currentSongIndex = index;
             transposeOffset = 0;
+            stopStrummingPlayer();
             document.getElementById('transposeDisplay').innerText = `Key: 0`;
             document.getElementById('viewerHeader').style.display = 'flex';
             
-            // Highlight in sidebar
             const items = document.querySelectorAll('.song-item');
             items.forEach((item, idx) => {
-                item.classList.toggle('active', idx === currentSongIndex);
+                const origIdx = songs.indexOf(songs[idx]);
+                item.classList.toggle('active', origIdx === currentSongIndex);
             });
 
             renderCurrentSong();
             
-            // Reset scroll
-            const container = document.getElementById('songContainer');
+            const container = document.getElementById('contentContainer');
             container.scrollTop = 0;
             if (autoScrolling) toggleAutoScroll();
         }
@@ -480,16 +769,22 @@
             document.getElementById('songTitleDisplay').innerText = song.title;
             document.getElementById('badgeCapo').innerText = `Capo: ${song.capo || 'None'}`;
             document.getElementById('badgeGenre').innerText = `Genre: ${song.genre || 'N/A'}`;
-            document.getElementById('badgeStrumming').innerText = `Strumming: ${song.strumming || 'N/A'}`;
+            document.getElementById('badgeStrummingText').innerText = `Strumming: ${song.strumming || 'N/A'}`;
+
+            // Hide/show play button depending on whether strumming is available
+            const playBtn = document.getElementById('strummingPlayBtn');
+            if (!song.strumming || song.strumming.toLowerCase() === 'n/a') {
+                playBtn.style.display = 'none';
+            } else {
+                playBtn.style.display = 'inline-flex';
+            }
 
             let htmlContent = '';
             song.lines.forEach(lineObj => {
                 let text = lineObj.text;
-                // Escape HTML
                 text = text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
                 
                 if (lineObj.is_chord) {
-                    // Transpose chords in this line
                     text = text.replace(CHORD_REGEX, (match) => {
                         const transposed = transposeChord(match, transposeOffset);
                         return `<span class="chord">${transposed}</span>`;
@@ -498,23 +793,144 @@
                 htmlContent += text + '\n';
             });
 
-            document.getElementById('songContainer').innerHTML = `
-                <div class="song-content-card">
+            document.getElementById('contentContainer').innerHTML = `
+                <div class="strumming-player-panel" id="strummingPlayerPanel">
+                    <div class="strumming-header">
+                        <h3>🎸 Strumming Pattern Visualizer: <span id="strumPatternTitle">${song.strumming || ''}</span></h3>
+                        <button class="btn" onclick="toggleStrummingPlayer()">✕ Close</button>
+                    </div>
+                    <div class="strumming-strokes-row" id="strokesRow">
+                        <!-- Populated dynamically -->
+                    </div>
+                    <div class="strumming-controls">
+                        <button class="btn btn-primary" id="strumPlayPauseBtn" onclick="toggleStrummingPlayback()">▶️ Play Rhythm</button>
+                        <button class="btn" onclick="adjustStrumBpm(-10)">🐢 Slower</button>
+                        <span id="strumBpmLabel" style="font-weight: 600; font-size: 0.9rem;">90 BPM</span>
+                        <button class="btn" onclick="adjustStrumBpm(10)">🐇 Faster</button>
+                    </div>
+                </div>
+                <div class="content-card">
                     <pre id="songPre" style="font-size: ${currentFontSize}rem;">${htmlContent}</pre>
                 </div>
             `;
         }
 
+        // Strumming Player Logic
+        function toggleStrummingPlayer() {
+            const panel = document.getElementById('strummingPlayerPanel');
+            if (!panel) return;
+            
+            const isOpen = panel.classList.toggle('active');
+            if (isOpen) {
+                buildStrokesCards();
+            } else {
+                stopStrummingPlayer();
+            }
+        }
+
+        function parseStrummingStrokes(strumStr) {
+            if (!strumStr) return [];
+            let strokes = [];
+            // Clean up special notes in brackets like [Reggee], (slur)
+            let cleaned = strumStr.replace(/\[.*?\]/g, '').replace(/\(.*?\)/g, '').toUpperCase();
+            
+            for (let i = 0; i < cleaned.length; i++) {
+                let ch = cleaned[i];
+                if (ch === 'D' || ch === 'U' || ch === 'M' || ch === 'S' || ch === 'X') {
+                    strokes.push(ch);
+                } else if (ch === ' ') {
+                    // Optional rest or spacing
+                }
+            }
+            if (strokes.length === 0) {
+                // Fallback default
+                strokes = ['D', 'D', 'U', 'U', 'D', 'U'];
+            }
+            return strokes;
+        }
+
+        function buildStrokesCards() {
+            if (currentSongIndex < 0) return;
+            const song = songs[currentSongIndex];
+            currentStrokesList = parseStrummingStrokes(song.strumming);
+            
+            const row = document.getElementById('strokesRow');
+            if (!row) return;
+
+            row.innerHTML = currentStrokesList.map((stroke, idx) => {
+                let icon = '↓';
+                let label = 'Down';
+                if (stroke === 'U') { icon = '↑'; label = 'Up'; }
+                else if (stroke === 'M' || stroke === 'X') { icon = '✖'; label = 'Mute'; }
+                else if (stroke === 'S') { icon = '✋'; label = 'Slap'; }
+
+                return `
+                    <div class="stroke-card" id="stroke-${idx}">
+                        <div class="stroke-icon">${icon}</div>
+                        <div class="stroke-label">${label}</div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function toggleStrummingPlayback() {
+            strummingPlaying = !strummingPlaying;
+            const btn = document.getElementById('strumPlayPauseBtn');
+            
+            if (strummingPlaying) {
+                if (btn) btn.innerText = '⏸️ Pause';
+                if (currentStrokesList.length === 0) buildStrokesCards();
+                
+                currentStrokeIndex = 0;
+                highlightStroke(currentStrokeIndex);
+                
+                // Interval calculation based on BPM (4 beats per cycle or per stroke)
+                let intervalMs = Math.round(60000 / strumBpm / 2); // 8th note spacing
+                strummingInterval = setInterval(() => {
+                    currentStrokeIndex = (currentStrokeIndex + 1) % currentStrokesList.length;
+                    highlightStroke(currentStrokeIndex);
+                }, intervalMs);
+            } else {
+                stopStrummingPlayer();
+            }
+        }
+
+        function highlightStroke(index) {
+            document.querySelectorAll('.stroke-card').forEach((card, idx) => {
+                card.classList.toggle('active', idx === index);
+            });
+        }
+
+        function stopStrummingPlayer() {
+            strummingPlaying = false;
+            clearInterval(strummingInterval);
+            const btn = document.getElementById('strumPlayPauseBtn');
+            if (btn) btn.innerText = '▶️ Play Rhythm';
+            document.querySelectorAll('.stroke-card').forEach(card => card.classList.remove('active'));
+        }
+
+        function adjustStrumBpm(delta) {
+            strumBpm = Math.max(40, Math.min(200, strumBpm + delta));
+            document.getElementById('strumBpmLabel').innerText = `${strumBpm} BPM`;
+            if (strummingPlaying) {
+                // Restart interval with new BPM
+                clearInterval(strummingInterval);
+                let intervalMs = Math.round(60000 / strumBpm / 2);
+                strummingInterval = setInterval(() => {
+                    currentStrokeIndex = (currentStrokeIndex + 1) % currentStrokesList.length;
+                    highlightStroke(currentStrokeIndex);
+                }, intervalMs);
+            }
+        }
+
         function transposeChord(chordStr, semitones) {
             if (semitones === 0) return chordStr;
             
-            // Handle slash chords like Am/G
             if (chordStr.includes('/')) {
                 const parts = chordStr.split('/');
                 return transposeChord(parts[0], semitones) + '/' + transposeChord(parts[1], semitones);
             }
 
-            // Match root note and suffix
             const match = chordStr.match(/^([A-G][#b]?)(.*)$/);
             if (!match) return chordStr;
 
@@ -556,10 +972,12 @@
         function toggleAutoScroll() {
             autoScrolling = !autoScrolling;
             const controls = document.getElementById('scrollControls');
-            const container = document.getElementById('songContainer');
+            const container = document.getElementById('contentContainer');
             
+            const btn = document.getElementById('scrollBtn');
             if (autoScrolling) {
                 controls.classList.add('active');
+                if (btn) btn.classList.add('btn-primary');
                 scrollInterval = setInterval(() => {
                     container.scrollTop += scrollSpeed;
                     if (container.scrollTop + container.clientHeight >= container.scrollHeight) {
@@ -568,6 +986,7 @@
                 }, 50);
             } else {
                 controls.classList.remove('active');
+                if (btn) btn.classList.remove('btn-primary');
                 clearInterval(scrollInterval);
             }
         }
