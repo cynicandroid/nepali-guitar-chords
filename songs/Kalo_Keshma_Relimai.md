@@ -15,7 +15,7 @@ G                                    Cadd9      D
 kalo kesh ma relimai badheko riban
 G                                   Cadd9    D     G
 timilai herdai relimai bitaaula jibana [X2]
-G                             Cadd9              G
+G                                Cadd9              G
 asanaiko rato sari chaara pangre gaadi [X2]
 G                                     Cadd9        G
 kini diula sunko chura baru rinai kaadi  

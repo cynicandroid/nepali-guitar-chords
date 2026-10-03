@@ -29,7 +29,7 @@ Zindagi Mein Tumhaare Siwa
        D
 O Humnawaaz] X2
 
-    D               F#m
+    D                  F#m
 [Ho Chaandni Jab Tak Raat
      D           G
 Deta Hai Har Koi Saath

@@ -43,7 +43,7 @@ Afnai karma ma atal rahena
 
 A5 (All DD Strum)
 Afnai pasina ma biswas rakhne
-   G5 C
+   G5                C
 Yo maan ta mero…. Nepali ho
  
    C        Em         Am      F

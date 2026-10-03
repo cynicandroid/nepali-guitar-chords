@@ -11,7 +11,7 @@
 ---
 
 ```text
-     d-d-D-du-uuD-dudu (Am, C)
+         d-d-D-du-uuD-dudu (Am, C)
 
 [Intro]
 G    D     Am    G    D     C

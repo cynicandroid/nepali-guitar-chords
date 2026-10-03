@@ -60,7 +60,7 @@ G#        A#        G
 Badhyata rahar hoina
                Cm
 Bholi ko dinai ma 
-    G#
+            G#
 samjhine man chaina
 A#                 G#
 Nabhanos yo man le manai ta ho ni

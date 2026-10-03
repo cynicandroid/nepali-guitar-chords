@@ -1,5 +1,7 @@
 # 🎶 Nepali Guitar Chords & Tabs Collection 🎸
 
+[License: GNU GPL v3 or later](LICENSE.md) · [Full license text](LICENSE)
+
 Welcome to the **Nepali Guitar Chords & Tabs Collection**! This repository is an interactive, digital songbook containing chords and lyrics for over 200+ popular Nepali, Hindi, and English songs.
 
 ## 🌟 Features
@@ -302,3 +304,11 @@ Here are some useful visual references included in this project:
 - [Yo samjhine man cha](songs/Yo_samjhine_man_cha.md) (Capo: 3rd Fret)
 
 ---
+
+## 🛠️ Regenerating the Database
+
+If you add or update `.docx` files in the `Guitar Tabs/` directory, you can easily rebuild the markdown directory and JSON database by running:
+
+```bash
+python3 convert.py
+```

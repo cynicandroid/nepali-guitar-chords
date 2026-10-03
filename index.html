@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nepali Guitar Chords & Tabs Songbook</title>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
             --bg-color: #f8fafc;
@@ -533,20 +532,42 @@
             }
             aside {
                 width: 100%;
-                height: 35vh;
+                height: 20vh;
+                min-height: 108px;
             }
             main {
-                height: 65vh;
+                height: 80vh;
+                min-height: 0;
             }
             .viewer-header {
-                padding: 10px 15px;
+                padding: 6px 8px;
+                gap: 5px;
+                flex-wrap: nowrap;
+                overflow-x: auto;
             }
+            .song-title-area { min-width: 0; flex: 1; }
+            .song-title-area h2 { font-size: 1rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+            .song-badges { gap: 4px; font-size: .7rem; flex-wrap: nowrap; }
+            .song-badges .badge { padding: 2px 5px; white-space: nowrap; }
+            #badgeGenre, #badgeStrummingText { display: none; }
+            .toolbar { gap: 3px; flex-wrap: nowrap; }
+            .toolbar .btn { padding: 5px 7px; font-size: .72rem; }
+            .transpose-group { padding: 2px; gap: 4px; white-space: nowrap; }
             .content-container {
-                padding: 15px;
+                padding: 4px;
             }
             .content-card {
-                padding: 20px;
+                padding: 8px;
+                border-radius: 6px;
             }
+            #songPre { font-size: .82rem !important; overflow-x: auto; }
+            .sidebar-header { padding: 7px 10px; }
+            .sidebar-header h1 { font-size: 1rem; }
+            .search-box { padding: 6px 10px; }
+            .song-list { padding: 3px 6px; }
+            .song-item { padding: 6px 9px; margin-bottom: 2px; }
+            .song-item-title { font-size: .82rem; }
+            .song-meta-info { font-size: .65rem; }
         }
     </style>
 </head>
@@ -618,6 +639,7 @@
         let currentStrokeIndex = 0;
         let currentStrokesList = [];
         let strumBpm = 90;
+        let audioContext = null;
 
         const NOTES_SHARP = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
         const NOTES_FLAT = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
@@ -649,10 +671,10 @@
                 div.className = `song-item ${originalIndex === currentSongIndex && currentSongIndex !== -1 ? 'active' : ''}`;
                 div.onclick = () => selectSong(originalIndex);
                 div.innerHTML = `
-                    <div class="song-item-title">${song.title}</div>
+                    <div class="song-item-title">${escapeHtml(song.title)}</div>
                     <div class="song-meta-info">
-                        <span>🎸 ${song.capo || 'No Capo'}</span>
-                        <span>🎵 ${song.genre || 'Music'}</span>
+                        <span>🎸 ${escapeHtml(song.capo || 'No Capo')}</span>
+                        <span>🎵 ${escapeHtml(song.genre || 'Music')}</span>
                     </div>
                 `;
                 container.appendChild(div);
@@ -668,6 +690,12 @@
             );
             renderSongList(filtered);
         };
+
+        function escapeHtml(value) {
+            const div = document.createElement('div');
+            div.textContent = value == null ? '' : String(value);
+            return div.innerHTML;
+        }
 
         function showHome() {
             currentSongIndex = -1;
@@ -694,8 +722,8 @@
                         const capoText = s.capo && s.capo.toLowerCase() !== 'none' ? `Capo: ${s.capo}` : '';
                         return `
                             <div class="directory-song-card" onclick="selectSong(${origIdx})">
-                                <div class="directory-song-title">${s.title}</div>
-                                ${capoText ? `<div class="directory-song-capo">🎸 ${capoText}</div>` : ''}
+                                <div class="directory-song-title">${escapeHtml(s.title)}</div>
+                                ${capoText ? `<div class="directory-song-capo">🎸 ${escapeHtml(capoText)}</div>` : ''}
                             </div>
                         `;
                     }).join('');
@@ -796,7 +824,7 @@
             document.getElementById('contentContainer').innerHTML = `
                 <div class="strumming-player-panel" id="strummingPlayerPanel">
                     <div class="strumming-header">
-                        <h3>🎸 Strumming Pattern Visualizer: <span id="strumPatternTitle">${song.strumming || ''}</span></h3>
+                        <h3>🎸 Strumming Pattern Visualizer: <span id="strumPatternTitle">${escapeHtml(song.strumming || '')}</span></h3>
                         <button class="btn" onclick="toggleStrummingPlayer()">✕ Close</button>
                     </div>
                     <div class="strumming-strokes-row" id="strokesRow">
@@ -883,12 +911,15 @@
                 
                 currentStrokeIndex = 0;
                 highlightStroke(currentStrokeIndex);
+                playStrokeTone(currentStrokesList[currentStrokeIndex]);
                 
                 // Interval calculation based on BPM (4 beats per cycle or per stroke)
                 let intervalMs = Math.round(60000 / strumBpm / 2); // 8th note spacing
                 strummingInterval = setInterval(() => {
+                    if (!currentStrokesList.length) return;
                     currentStrokeIndex = (currentStrokeIndex + 1) % currentStrokesList.length;
                     highlightStroke(currentStrokeIndex);
+                    playStrokeTone(currentStrokesList[currentStrokeIndex]);
                 }, intervalMs);
             } else {
                 stopStrummingPlayer();
@@ -899,6 +930,21 @@
             document.querySelectorAll('.stroke-card').forEach((card, idx) => {
                 card.classList.toggle('active', idx === index);
             });
+        }
+
+        function playStrokeTone(stroke) {
+            if (!stroke) return;
+            audioContext ||= new (window.AudioContext || window.webkitAudioContext)();
+            if (audioContext.state === 'suspended') audioContext.resume();
+            const oscillator = audioContext.createOscillator();
+            const gain = audioContext.createGain();
+            oscillator.type = stroke === 'U' ? 'triangle' : 'square';
+            oscillator.frequency.value = stroke === 'S' ? 180 : stroke === 'M' || stroke === 'X' ? 90 : 130;
+            gain.gain.setValueAtTime(0.045, audioContext.currentTime);
+            gain.gain.exponentialRampToValueAtTime(0.001, audioContext.currentTime + 0.055);
+            oscillator.connect(gain).connect(audioContext.destination);
+            oscillator.start();
+            oscillator.stop(audioContext.currentTime + 0.06);
         }
 
         function stopStrummingPlayer() {
@@ -917,8 +963,10 @@
                 clearInterval(strummingInterval);
                 let intervalMs = Math.round(60000 / strumBpm / 2);
                 strummingInterval = setInterval(() => {
+                    if (!currentStrokesList.length) return;
                     currentStrokeIndex = (currentStrokeIndex + 1) % currentStrokesList.length;
                     highlightStroke(currentStrokeIndex);
+                    playStrokeTone(currentStrokesList[currentStrokeIndex]);
                 }, intervalMs);
             }
         }

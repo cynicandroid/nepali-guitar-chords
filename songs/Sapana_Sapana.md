@@ -13,32 +13,32 @@
 ```text
 G
 Kun gau kun thau
-Cadd9
+        Cadd9
 k hola thegana
-D
+        D
 Gaule sabai vanna thale
-D7     G
+D7       G
 Usaiko sapana Ho.....
 
- G               (duuu)             Cadd9
+ G               (duuu)                 Cadd9
 [Sapana Sapana mero ho sapana
-     Am
+         Am
 Maile nae rakhidiye
-D    D7    G
+D       D7    G
 Ushko nau sa-pa-na ho…
 D         D7    G
 Ushko nau sa-pa-na] [X2]
 
-G    Cadd9
+G                   Cadd9
 Yo janam jindagi safal hune bho
-  D    D7  G
+      D     D7        G
 Kalpana maya ko pura hune bho [X2]
 
- G               (duuu)             Cadd9
+ G               (duuu)                 Cadd9
 [Sapana Sapana mero ho sapana
-     Am
+         Am
 Maile nae rakhidiye
-D    D7    G
+D       D7    G
 Ushko nau sa-pa-na ho…
 D         D7    G
 Ushko nau sa-pa-na] [X2]
@@ -52,47 +52,47 @@ Gaunle sabai bhanna thale
 D7        G
 usaiko sapana [x2]
 
-G               (duuu)             Cadd9
+G               (duuu)              Cadd9
 Sapana sapana ma timro sapna
- Am 
+     Am 
 Mayale rakhidiyo
-D   D7    G
+D      D7    G
 mero nau sa-pa-na ho…
 D        D7    G
 mero nau sa-pa-na] [X2]
 
 G
 yo manma kasaiko
- Cadd9
+         Cadd9
 mohani laage xa
-  D
+          D
 chaalai napai kasaiko 
-D7  G
+D7        G
 maya le badhe xa
 
 G
 yo manma sadhai nai
-     Cadd9
+         Cadd9
 timro bhar xa
-    D
+        D
 dui manko aba eutai 
 D7        G
 Ghar hune xa
 
-G               (duuu)             Cadd9
+G               (duuu)              Cadd9
 Sapana sapana ma timro sapna
- Am 
+     Am 
 Mayale rakhidiyo
-D   D7    G
+D      D7    G
 mero nau sa-pa-na ho…
 D        D7    G
 mero nau sa-pa-na] [X2]
 
- G               (duuu)          Cadd9
+ G               (duuu)              Cadd9
 Sapana Sapana mero ho sapana
-    Am
+        Am
 Maile nae rakhidiye
-D    D7    G
+D       D7    G
 Ushko nau sa-pa-na ho…
 D         D7    G
 Ushko nau sa-pa-na

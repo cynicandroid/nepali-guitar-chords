@@ -11,9 +11,9 @@
 ---
 
 ```text
-C           Am
+C                  Am
 [Hooho hoooooooo ho ho hoooo
-      G   C
+      G        C
 Haaha haaaaaaaa haha haaaa] [x2]
 
 G(h2),G, D(2), D, A(3) 
@@ -24,7 +24,7 @@ Aanganai bhari hiu nai jhare
 Aaru phoola hai tipi rakhe hai
 C        Em    Am       F
 Lekai ma bhari baisa ma phool-e 
-     G         C
+     G           C
 Maya ko mus-kanma
 C                F      G         C
 Samjhi deu sumpi deu yo jovan hamilai X2

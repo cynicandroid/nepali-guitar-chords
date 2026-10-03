@@ -38,8 +38,27 @@ def parse_docx(filepath):
             
             lines = []
             for p in paragraphs:
-                text_runs = p.findall('.//w:t', namespaces)
-                text = ''.join([node.text for node in text_runs if node.text is not None])
+                # Preserve Word's explicit tab characters. Joining only w:t
+                # nodes collapses tabs and moves chords to the left when a
+                # DOCX uses tabs for lyric/chord alignment.
+                text_parts = []
+                column = 0
+                for node in p.iter():
+                    if node.tag == f"{{{namespaces['w']}}}t":
+                        value = node.text or ''
+                        text_parts.append(value)
+                        column += len(value)
+                    elif node.tag == f"{{{namespaces['w']}}}tab":
+                        # Word's default tab stop is four monospaced columns
+                        # for these source documents. Expand to spaces so
+                        # Markdown and the browser preserve the same layout.
+                        spaces = 4 - (column % 4)
+                        text_parts.append(' ' * spaces)
+                        column += spaces
+                    elif node.tag == f"{{{namespaces['w']}}}br":
+                        text_parts.append('\n')
+                        column = 0
+                text = ''.join(text_parts)
                 lines.append(text)
                 
             metadata = {'capo': 'None', 'genre': 'N/A', 'strumming': 'N/A'}

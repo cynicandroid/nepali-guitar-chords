@@ -33,7 +33,7 @@ G        A        F#
 Badhyata rahar hoina
 Bm              
 Bholi ko dinai ma 
-  G
+          G
 samjhine man chaina
 A                           G
 Nabhanos yo man le manai ta ho ni

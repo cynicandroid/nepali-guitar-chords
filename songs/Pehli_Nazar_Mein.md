@@ -23,13 +23,13 @@ Em        D          Cadd9
 Jaane Kya Hoga Kya Hoga Kya Pata
 Em     D               Cadd9
 Is Pal Ko Milke Aa Jee Le Zara
-GD   Em     C    
+G       D   Em     C    
 Mein Hoon Yahan Tu Hai Yahan
-     G    D     Em     C    
+     G          D     Em     C    
 Meri Bahon Mein Aa Aa Bhi Ja
-G    D  Em  C
+G       D     Em      C
 O Jaan-E-Jaan Dono Jahan
-     G          D        Em   C
+     G            D        Em   C
 Meri Bahon Mein Aa Bhool Ja Aa
 
 G            Am          Em7       D
@@ -38,16 +38,16 @@ G        Am        D
 Bin Tere Lamha Bhi Dushwar Hai
 G           Am          Em7       C
 Dhadhkon Ko Tujhe Se Hi Darkar Hai
-            D            
+            D               
 Tujhse Hai Rahtein Tujhse Hai Chahtein
-GD   Em      C    
+G   D   Em      C    
 Tu Jo Mili Ek Din Mujhe
-     G  D        Em  C    
+     G        D        Em  C    
 Mein Kahin Ho Gaya Lapata
  
-G    D  Em  C
+G       D     Em      C
 O Jaan-E-Jaan Dono Jahan
-     G          D        Em   C
+     G            D        Em   C
 Meri Bahon Mein Aa Bhool Ja Aa
  
 G            Am         Em7     D
@@ -58,14 +58,14 @@ G           Am        Em7      C
 Bekhayali Di Hai Tere Pyaas Ne
              D
 Chaya Suroor Hai Kuch To Zaroor Hai
-GD      Em       C    
+G   D      Em       C    
 Yeh Dooriyan Jeene Na De
-    G   D  Em   C    
+    G          D  Em   C    
 Hal Mera Tujhe Na Pata
  
-G    D  Em  C
+G       D     Em      C
 O Jaan-E-Jaan Dono Jahan
-     G          D        Em   C
+     G            D        Em   C
 Meri Bahon Mein Aa Bhool Ja Aa
 ```
 

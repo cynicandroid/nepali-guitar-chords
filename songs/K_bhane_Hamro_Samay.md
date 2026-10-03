@@ -21,7 +21,7 @@ Strumming : DUM DU
  Dus mohar mahina ko kamai
  G  [Roll]           Em
 [Hamro joog ko paani ramro hoooo
- C         D    G
+ C             D            G
  Hamro samaya sachai ramailo]x2 [X2]
 
  Em      [DUU M D]
@@ -71,7 +71,7 @@ G
 Dus mohar mahina ko kamai
  G                      Em
 [Hamro joog ko paani ramro
-C        D   G
+C         D        G
 Hamro samaya sachai ramailo [X2]
 ```
 

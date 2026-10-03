@@ -7,7 +7,7 @@
     "strumming": "D U SUDU",
     "lines": [
       {
-        "text": "C           Am",
+        "text": "C                  Am",
         "is_chord": true
       },
       {
@@ -15,7 +15,7 @@
         "is_chord": false
       },
       {
-        "text": "      G   C",
+        "text": "      G        C",
         "is_chord": true
       },
       {
@@ -59,7 +59,7 @@
         "is_chord": false
       },
       {
-        "text": "     G         C",
+        "text": "     G           C",
         "is_chord": true
       },
       {
@@ -4497,7 +4497,7 @@
         "is_chord": false
       },
       {
-        "text": " A   F#m",
+        "text": " A             F#m",
         "is_chord": true
       },
       {
@@ -4541,7 +4541,7 @@
         "is_chord": false
       },
       {
-        "text": "A F#m",
+        "text": "A                F#m",
         "is_chord": true
       },
       {
@@ -4549,7 +4549,7 @@
         "is_chord": false
       },
       {
-        "text": "Bm          E  A",
+        "text": "Bm          E     A",
         "is_chord": true
       },
       {
@@ -4605,7 +4605,7 @@
         "is_chord": false
       },
       {
-        "text": "A   F#m",
+        "text": "A              F#m",
         "is_chord": true
       },
       {
@@ -4613,7 +4613,7 @@
         "is_chord": false
       },
       {
-        "text": "Bm           E   A",
+        "text": "Bm           E     A",
         "is_chord": true
       },
       {
@@ -4649,7 +4649,7 @@
         "is_chord": false
       },
       {
-        "text": "A   F#m",
+        "text": "A              F#m",
         "is_chord": true
       },
       {
@@ -4657,7 +4657,7 @@
         "is_chord": false
       },
       {
-        "text": "Bm         E  A",
+        "text": "Bm         E          A",
         "is_chord": true
       },
       {
@@ -4690,7 +4690,7 @@
     "strumming": "DUM DU",
     "lines": [
       {
-        "text": "G                      Em",
+        "text": "G                          Em",
         "is_chord": true
       },
       {
@@ -4770,7 +4770,7 @@
         "is_chord": false
       },
       {
-        "text": "G [roll]               Em",
+        "text": "G [roll]                  Em",
         "is_chord": false
       },
       {
@@ -7007,8 +7007,8 @@
         "is_chord": false
       },
       {
-        "text": "Dm           FG    C ",
-        "is_chord": false
+        "text": "Dm           F  G    C ",
+        "is_chord": true
       },
       {
         "text": "Man pareka sabai kuraharu, ",
@@ -7023,7 +7023,7 @@
         "is_chord": false
       },
       {
-        "text": "Am            E G     D",
+        "text": "Am            E  G     D",
         "is_chord": true
       },
       {
@@ -8316,7 +8316,7 @@
         "is_chord": false
       },
       {
-        "text": "    G#",
+        "text": "            G#",
         "is_chord": true
       },
       {
@@ -9376,7 +9376,7 @@
         "is_chord": false
       },
       {
-        "text": "   Em    D",
+        "text": "       Em                   D",
         "is_chord": true
       },
       {
@@ -9384,7 +9384,7 @@
         "is_chord": false
       },
       {
-        "text": "Em               D      Em",
+        "text": "Em               D       Em",
         "is_chord": true
       },
       {
@@ -9412,7 +9412,7 @@
         "is_chord": false
       },
       {
-        "text": "D                              Em",
+        "text": "D                                 Em",
         "is_chord": true
       },
       {
@@ -11974,7 +11974,7 @@
         "is_chord": false
       },
       {
-        "text": "F#m    Bm    D",
+        "text": "F#m     Bm    D",
         "is_chord": true
       },
       {
@@ -11982,7 +11982,7 @@
         "is_chord": false
       },
       {
-        "text": "F#m   Bm   D",
+        "text": "F#m    Bm   D",
         "is_chord": true
       },
       {
@@ -12050,7 +12050,7 @@
         "is_chord": false
       },
       {
-        "text": "D     E           D",
+        "text": "D                E           D",
         "is_chord": true
       },
       {
@@ -12110,7 +12110,7 @@
         "is_chord": false
       },
       {
-        "text": "F#m    Bm    D",
+        "text": "F#m     Bm    D",
         "is_chord": true
       },
       {
@@ -12118,7 +12118,7 @@
         "is_chord": false
       },
       {
-        "text": "F#m   Bm   D",
+        "text": "F#m    Bm   D",
         "is_chord": true
       },
       {
@@ -18523,7 +18523,7 @@
         "is_chord": false
       },
       {
-        "text": "    D               F#m",
+        "text": "    D                  F#m",
         "is_chord": true
       },
       {
@@ -20138,7 +20138,7 @@
         "is_chord": false
       },
       {
-        "text": " C         D    G",
+        "text": " C             D            G",
         "is_chord": true
       },
       {
@@ -20338,7 +20338,7 @@
         "is_chord": false
       },
       {
-        "text": "C        D   G",
+        "text": "C         D        G",
         "is_chord": true
       },
       {
@@ -22126,7 +22126,7 @@
         "is_chord": false
       },
       {
-        "text": "G                             Cadd9              G",
+        "text": "G                                Cadd9              G",
         "is_chord": true
       },
       {
@@ -24033,7 +24033,7 @@
     "strumming": "d-d-D-du (G, D)",
     "lines": [
       {
-        "text": "     d-d-D-du-uuD-dudu (Am, C)",
+        "text": "         d-d-D-du-uuD-dudu (Am, C)",
         "is_chord": false
       },
       {
@@ -26174,8 +26174,8 @@
         "is_chord": false
       },
       {
-        "text": "GD",
-        "is_chord": false
+        "text": "G               D",
+        "is_chord": true
       },
       {
         "text": "Timi Pani Basekaa Chhau Hasi",
@@ -26282,8 +26282,8 @@
         "is_chord": false
       },
       {
-        "text": "GD",
-        "is_chord": false
+        "text": "G               D",
+        "is_chord": true
       },
       {
         "text": "Timi Pani Basekaa Chhau Hasi",
@@ -27194,15 +27194,15 @@
         "is_chord": false
       },
       {
-        "text": "GEm   D     G",
-        "is_chord": false
+        "text": "G   Em     D     G",
+        "is_chord": true
       },
       {
         "text": "Marne kasailai rahar hudaina [x2]",
         "is_chord": false
       },
       {
-        "text": "G       Bm   Am     D",
+        "text": "G          Bm   Am     D",
         "is_chord": true
       },
       {
@@ -27278,7 +27278,7 @@
         "is_chord": false
       },
       {
-        "text": "Am          D Cadd9  G",
+        "text": "Am          D    Cadd9  G",
         "is_chord": true
       },
       {
@@ -27298,7 +27298,7 @@
         "is_chord": false
       },
       {
-        "text": "G       Bm   Am     D",
+        "text": "G          Bm   Am     D",
         "is_chord": true
       },
       {
@@ -27390,7 +27390,7 @@
         "is_chord": false
       },
       {
-        "text": "G       Bm   Am     D",
+        "text": "G          Bm   Am     D",
         "is_chord": true
       },
       {
@@ -28306,7 +28306,7 @@
         "is_chord": false
       },
       {
-        "text": "  G",
+        "text": "          G",
         "is_chord": true
       },
       {
@@ -29865,7 +29865,7 @@
         "is_chord": false
       },
       {
-        "text": "G    Cadd9",
+        "text": "G           Cadd9",
         "is_chord": true
       },
       {
@@ -29873,7 +29873,7 @@
         "is_chord": false
       },
       {
-        "text": "Am          D",
+        "text": "Am                  D",
         "is_chord": true
       },
       {
@@ -29881,7 +29881,7 @@
         "is_chord": false
       },
       {
-        "text": "C    D  G",
+        "text": "C       D         G",
         "is_chord": true
       },
       {
@@ -29901,7 +29901,7 @@
         "is_chord": false
       },
       {
-        "text": "  Cadd9",
+        "text": "          Cadd9",
         "is_chord": true
       },
       {
@@ -29909,7 +29909,7 @@
         "is_chord": false
       },
       {
-        "text": "Am    D",
+        "text": "Am          D",
         "is_chord": true
       },
       {
@@ -29917,8 +29917,8 @@
         "is_chord": false
       },
       {
-        "text": "C    DG",
-        "is_chord": false
+        "text": "C    D  G",
+        "is_chord": true
       },
       {
         "text": "dada kada saaraa] [X2]",
@@ -29949,7 +29949,7 @@
         "is_chord": false
       },
       {
-        "text": "   Cadd9",
+        "text": "           Cadd9",
         "is_chord": true
       },
       {
@@ -29973,7 +29973,7 @@
         "is_chord": false
       },
       {
-        "text": " G        Cadd9",
+        "text": " G          Cadd9",
         "is_chord": true
       },
       {
@@ -30001,7 +30001,7 @@
         "is_chord": false
       },
       {
-        "text": "G    Cadd9",
+        "text": "G           Cadd9",
         "is_chord": true
       },
       {
@@ -30009,7 +30009,7 @@
         "is_chord": false
       },
       {
-        "text": "Am          D",
+        "text": "Am                  D",
         "is_chord": true
       },
       {
@@ -30017,7 +30017,7 @@
         "is_chord": false
       },
       {
-        "text": "C    D  G",
+        "text": "C       D         G",
         "is_chord": true
       },
       {
@@ -30033,7 +30033,7 @@
         "is_chord": false
       },
       {
-        "text": "  Cadd9",
+        "text": "          Cadd9",
         "is_chord": true
       },
       {
@@ -30041,7 +30041,7 @@
         "is_chord": false
       },
       {
-        "text": "Am    D",
+        "text": "Am          D",
         "is_chord": true
       },
       {
@@ -30049,8 +30049,8 @@
         "is_chord": false
       },
       {
-        "text": "C    DG",
-        "is_chord": false
+        "text": "C    D  G",
+        "is_chord": true
       },
       {
         "text": "dada kada saaraa] [X2]",
@@ -30069,7 +30069,7 @@
         "is_chord": false
       },
       {
-        "text": "Cadd9",
+        "text": "        Cadd9",
         "is_chord": true
       },
       {
@@ -30085,15 +30085,15 @@
         "is_chord": false
       },
       {
-        "text": "CG",
-        "is_chord": false
+        "text": "C           G",
+        "is_chord": true
       },
       {
         "text": "dhartile aakash chhu-ne-chha",
         "is_chord": false
       },
       {
-        "text": " G    Cadd9",
+        "text": " G          Cadd9",
         "is_chord": true
       },
       {
@@ -30121,7 +30121,7 @@
         "is_chord": false
       },
       {
-        "text": "  Cadd9",
+        "text": "          Cadd9",
         "is_chord": true
       },
       {
@@ -30129,7 +30129,7 @@
         "is_chord": false
       },
       {
-        "text": "Am    D",
+        "text": "Am          D",
         "is_chord": true
       },
       {
@@ -30137,8 +30137,8 @@
         "is_chord": false
       },
       {
-        "text": "C    DG",
-        "is_chord": false
+        "text": "C    D  G",
+        "is_chord": true
       },
       {
         "text": "dada kada saaraa",
@@ -30153,7 +30153,7 @@
         "is_chord": false
       },
       {
-        "text": "G    Cadd9",
+        "text": "G           Cadd9",
         "is_chord": true
       },
       {
@@ -30161,7 +30161,7 @@
         "is_chord": false
       },
       {
-        "text": "Am          D",
+        "text": "Am                  D",
         "is_chord": true
       },
       {
@@ -30169,7 +30169,7 @@
         "is_chord": false
       },
       {
-        "text": "C    D  G",
+        "text": "C       D         G",
         "is_chord": true
       },
       {
@@ -30201,7 +30201,7 @@
         "is_chord": false
       },
       {
-        "text": " Cadd9",
+        "text": "         Cadd9",
         "is_chord": true
       },
       {
@@ -30217,7 +30217,7 @@
         "is_chord": false
       },
       {
-        "text": "C     G",
+        "text": "C        G",
         "is_chord": true
       },
       {
@@ -30225,7 +30225,7 @@
         "is_chord": false
       },
       {
-        "text": " G   Cadd9",
+        "text": " G         Cadd9",
         "is_chord": true
       },
       {
@@ -30253,7 +30253,7 @@
         "is_chord": false
       },
       {
-        "text": "G    Cadd9",
+        "text": "G           Cadd9",
         "is_chord": true
       },
       {
@@ -30261,7 +30261,7 @@
         "is_chord": false
       },
       {
-        "text": "Am          D",
+        "text": "Am                  D",
         "is_chord": true
       },
       {
@@ -30269,7 +30269,7 @@
         "is_chord": false
       },
       {
-        "text": "C    D  G",
+        "text": "C       D         G",
         "is_chord": true
       },
       {
@@ -30285,7 +30285,7 @@
         "is_chord": false
       },
       {
-        "text": "  Cadd9",
+        "text": "          Cadd9",
         "is_chord": true
       },
       {
@@ -30293,7 +30293,7 @@
         "is_chord": false
       },
       {
-        "text": "Am    D",
+        "text": "Am          D",
         "is_chord": true
       },
       {
@@ -30301,8 +30301,8 @@
         "is_chord": false
       },
       {
-        "text": "C    DG",
-        "is_chord": false
+        "text": "C    D  G",
+        "is_chord": true
       },
       {
         "text": "dada kada saaraa] [X2]",
@@ -33791,7 +33791,7 @@
         "is_chord": false
       },
       {
-        "text": "Bb   C",
+        "text": "Bb         C",
         "is_chord": true
       },
       {
@@ -33899,7 +33899,7 @@
         "is_chord": false
       },
       {
-        "text": "Bb    C",
+        "text": "Bb          C",
         "is_chord": true
       },
       {
@@ -34003,7 +34003,7 @@
         "is_chord": false
       },
       {
-        "text": "Bb    C",
+        "text": "Bb          C",
         "is_chord": true
       },
       {
@@ -34276,7 +34276,7 @@
         "is_chord": false
       },
       {
-        "text": "F           D",
+        "text": "F                    D",
         "is_chord": true
       },
       {
@@ -34393,15 +34393,15 @@
         "is_chord": false
       },
       {
-        "text": "GD   Em     C    ",
-        "is_chord": false
+        "text": "G       D   Em     C    ",
+        "is_chord": true
       },
       {
         "text": "Mein Hoon Yahan Tu Hai Yahan",
         "is_chord": false
       },
       {
-        "text": "     G    D     Em     C    ",
+        "text": "     G          D     Em     C    ",
         "is_chord": true
       },
       {
@@ -34409,7 +34409,7 @@
         "is_chord": false
       },
       {
-        "text": "G    D  Em  C",
+        "text": "G       D     Em      C",
         "is_chord": true
       },
       {
@@ -34417,7 +34417,7 @@
         "is_chord": false
       },
       {
-        "text": "     G          D        Em   C",
+        "text": "     G            D        Em   C",
         "is_chord": true
       },
       {
@@ -34453,7 +34453,7 @@
         "is_chord": false
       },
       {
-        "text": "            D            ",
+        "text": "            D               ",
         "is_chord": true
       },
       {
@@ -34461,15 +34461,15 @@
         "is_chord": false
       },
       {
-        "text": "GD   Em      C    ",
-        "is_chord": false
+        "text": "G   D   Em      C    ",
+        "is_chord": true
       },
       {
         "text": "Tu Jo Mili Ek Din Mujhe",
         "is_chord": false
       },
       {
-        "text": "     G  D        Em  C    ",
+        "text": "     G        D        Em  C    ",
         "is_chord": true
       },
       {
@@ -34481,7 +34481,7 @@
         "is_chord": false
       },
       {
-        "text": "G    D  Em  C",
+        "text": "G       D     Em      C",
         "is_chord": true
       },
       {
@@ -34489,7 +34489,7 @@
         "is_chord": false
       },
       {
-        "text": "     G          D        Em   C",
+        "text": "     G            D        Em   C",
         "is_chord": true
       },
       {
@@ -34533,15 +34533,15 @@
         "is_chord": false
       },
       {
-        "text": "GD      Em       C    ",
-        "is_chord": false
+        "text": "G   D      Em       C    ",
+        "is_chord": true
       },
       {
         "text": "Yeh Dooriyan Jeene Na De",
         "is_chord": false
       },
       {
-        "text": "    G   D  Em   C    ",
+        "text": "    G          D  Em   C    ",
         "is_chord": true
       },
       {
@@ -34553,7 +34553,7 @@
         "is_chord": false
       },
       {
-        "text": "G    D  Em  C",
+        "text": "G       D     Em      C",
         "is_chord": true
       },
       {
@@ -34561,7 +34561,7 @@
         "is_chord": false
       },
       {
-        "text": "     G          D        Em   C",
+        "text": "     G            D        Em   C",
         "is_chord": true
       },
       {
@@ -35132,7 +35132,7 @@
     "strumming": "D 1 2 3 [Finger]",
     "lines": [
       {
-        "text": "D DUDU D",
+        "text": "        D DUDU D",
         "is_chord": false
       },
       {
@@ -36084,7 +36084,7 @@
         "is_chord": false
       },
       {
-        "text": "  G",
+        "text": "      G",
         "is_chord": true
       },
       {
@@ -36228,7 +36228,7 @@
         "is_chord": false
       },
       {
-        "text": "  G",
+        "text": "      G",
         "is_chord": true
       },
       {
@@ -40125,7 +40125,7 @@
     "strumming": "DUMUD D DUDU / DM DUM",
     "lines": [
       {
-        "text": " E              B        A        E",
+        "text": " E              B           A        E",
         "is_chord": true
       },
       {
@@ -40141,7 +40141,7 @@
         "is_chord": false
       },
       {
-        "text": " E             B A          E",
+        "text": " E             B         A          E",
         "is_chord": true
       },
       {
@@ -40157,7 +40157,7 @@
         "is_chord": false
       },
       {
-        "text": "E             B A            E",
+        "text": "E             B      A            E",
         "is_chord": true
       },
       {
@@ -40185,7 +40185,7 @@
         "is_chord": false
       },
       {
-        "text": "E             B A            E",
+        "text": "E             B      A            E",
         "is_chord": true
       },
       {
@@ -40197,8 +40197,8 @@
         "is_chord": false
       },
       {
-        "text": " E            BA            E",
-        "is_chord": false
+        "text": " E            B     A            E",
+        "is_chord": true
       },
       {
         "text": "Kalpanama Ramayera Aafain Ma Haraidindaa",
@@ -40213,7 +40213,7 @@
         "is_chord": false
       },
       {
-        "text": " E           B   A            E",
+        "text": " E           B     A            E",
         "is_chord": true
       },
       {
@@ -40229,7 +40229,7 @@
         "is_chord": false
       },
       {
-        "text": "E             B A            E",
+        "text": "E             B      A            E",
         "is_chord": true
       },
       {
@@ -40257,7 +40257,7 @@
         "is_chord": false
       },
       {
-        "text": " E              B  A           E",
+        "text": " E              B         A           E",
         "is_chord": true
       },
       {
@@ -40285,7 +40285,7 @@
         "is_chord": false
       },
       {
-        "text": "E             B A            E",
+        "text": "E             B      A            E",
         "is_chord": true
       },
       {
@@ -40599,7 +40599,7 @@
         "is_chord": false
       },
       {
-        "text": "Cadd9",
+        "text": "        Cadd9",
         "is_chord": true
       },
       {
@@ -40607,7 +40607,7 @@
         "is_chord": false
       },
       {
-        "text": "D",
+        "text": "        D",
         "is_chord": true
       },
       {
@@ -40615,7 +40615,7 @@
         "is_chord": false
       },
       {
-        "text": "D7     G",
+        "text": "D7       G",
         "is_chord": true
       },
       {
@@ -40627,7 +40627,7 @@
         "is_chord": false
       },
       {
-        "text": " G               (duuu)             Cadd9",
+        "text": " G               (duuu)                 Cadd9",
         "is_chord": false
       },
       {
@@ -40635,7 +40635,7 @@
         "is_chord": false
       },
       {
-        "text": "     Am",
+        "text": "         Am",
         "is_chord": true
       },
       {
@@ -40643,7 +40643,7 @@
         "is_chord": false
       },
       {
-        "text": "D    D7    G",
+        "text": "D       D7    G",
         "is_chord": true
       },
       {
@@ -40663,7 +40663,7 @@
         "is_chord": false
       },
       {
-        "text": "G    Cadd9",
+        "text": "G                   Cadd9",
         "is_chord": true
       },
       {
@@ -40671,7 +40671,7 @@
         "is_chord": false
       },
       {
-        "text": "  D    D7  G",
+        "text": "      D     D7        G",
         "is_chord": true
       },
       {
@@ -40683,7 +40683,7 @@
         "is_chord": false
       },
       {
-        "text": " G               (duuu)             Cadd9",
+        "text": " G               (duuu)                 Cadd9",
         "is_chord": false
       },
       {
@@ -40691,7 +40691,7 @@
         "is_chord": false
       },
       {
-        "text": "     Am",
+        "text": "         Am",
         "is_chord": true
       },
       {
@@ -40699,7 +40699,7 @@
         "is_chord": false
       },
       {
-        "text": "D    D7    G",
+        "text": "D       D7    G",
         "is_chord": true
       },
       {
@@ -40755,7 +40755,7 @@
         "is_chord": false
       },
       {
-        "text": "G               (duuu)             Cadd9",
+        "text": "G               (duuu)              Cadd9",
         "is_chord": false
       },
       {
@@ -40763,7 +40763,7 @@
         "is_chord": false
       },
       {
-        "text": " Am ",
+        "text": "     Am ",
         "is_chord": true
       },
       {
@@ -40771,7 +40771,7 @@
         "is_chord": false
       },
       {
-        "text": "D   D7    G",
+        "text": "D      D7    G",
         "is_chord": true
       },
       {
@@ -40799,7 +40799,7 @@
         "is_chord": false
       },
       {
-        "text": " Cadd9",
+        "text": "         Cadd9",
         "is_chord": true
       },
       {
@@ -40807,7 +40807,7 @@
         "is_chord": false
       },
       {
-        "text": "  D",
+        "text": "          D",
         "is_chord": true
       },
       {
@@ -40815,7 +40815,7 @@
         "is_chord": false
       },
       {
-        "text": "D7  G",
+        "text": "D7        G",
         "is_chord": true
       },
       {
@@ -40835,7 +40835,7 @@
         "is_chord": false
       },
       {
-        "text": "     Cadd9",
+        "text": "         Cadd9",
         "is_chord": true
       },
       {
@@ -40843,7 +40843,7 @@
         "is_chord": false
       },
       {
-        "text": "    D",
+        "text": "        D",
         "is_chord": true
       },
       {
@@ -40863,7 +40863,7 @@
         "is_chord": false
       },
       {
-        "text": "G               (duuu)             Cadd9",
+        "text": "G               (duuu)              Cadd9",
         "is_chord": false
       },
       {
@@ -40871,7 +40871,7 @@
         "is_chord": false
       },
       {
-        "text": " Am ",
+        "text": "     Am ",
         "is_chord": true
       },
       {
@@ -40879,7 +40879,7 @@
         "is_chord": false
       },
       {
-        "text": "D   D7    G",
+        "text": "D      D7    G",
         "is_chord": true
       },
       {
@@ -40899,7 +40899,7 @@
         "is_chord": false
       },
       {
-        "text": " G               (duuu)          Cadd9",
+        "text": " G               (duuu)              Cadd9",
         "is_chord": false
       },
       {
@@ -40907,7 +40907,7 @@
         "is_chord": false
       },
       {
-        "text": "    Am",
+        "text": "        Am",
         "is_chord": true
       },
       {
@@ -40915,7 +40915,7 @@
         "is_chord": false
       },
       {
-        "text": "D    D7    G",
+        "text": "D       D7    G",
         "is_chord": true
       },
       {
@@ -46349,7 +46349,7 @@
         "is_chord": false
       },
       {
-        "text": "             G    A",
+        "text": "             G                  A",
         "is_chord": true
       },
       {
@@ -48126,7 +48126,7 @@
     "strumming": "D DU UDU / DM UUM",
     "lines": [
       {
-        "text": "C   Am       C",
+        "text": "C              Am       C",
         "is_chord": true
       },
       {
@@ -48134,8 +48134,8 @@
         "is_chord": false
       },
       {
-        "text": "CAm        C",
-        "is_chord": false
+        "text": "C               Am        C",
+        "is_chord": true
       },
       {
         "text": "Timro maya lau malai raksi jhai chadhe cha]x2",
@@ -48150,8 +48150,8 @@
         "is_chord": false
       },
       {
-        "text": " AmC",
-        "is_chord": false
+        "text": " Am             C",
+        "is_chord": true
       },
       {
         "text": "[Barule kammar herana kastari hallaune]x2",
@@ -48162,7 +48162,7 @@
         "is_chord": false
       },
       {
-        "text": "C   Am        C",
+        "text": "C              Am        C",
         "is_chord": true
       },
       {
@@ -48170,7 +48170,7 @@
         "is_chord": false
       },
       {
-        "text": "C    Am         C",
+        "text": "C               Am         C",
         "is_chord": true
       },
       {
@@ -48186,8 +48186,8 @@
         "is_chord": false
       },
       {
-        "text": " AmC",
-        "is_chord": false
+        "text": " Am             C",
+        "is_chord": true
       },
       {
         "text": "[Papi aankha herana kastari dulaune]x2",
@@ -48198,7 +48198,7 @@
         "is_chord": false
       },
       {
-        "text": " C   Am       F         C  ",
+        "text": " C        Am       F         C  ",
         "is_chord": true
       },
       {
@@ -48206,7 +48206,7 @@
         "is_chord": false
       },
       {
-        "text": "C Am    F         C",
+        "text": "C        Am         F         C",
         "is_chord": true
       },
       {
@@ -48238,8 +48238,8 @@
         "is_chord": false
       },
       {
-        "text": " AmC",
-        "is_chord": false
+        "text": " Am             C",
+        "is_chord": true
       },
       {
         "text": "[Barule kammar herana kastari hallaune]x2",
@@ -48254,7 +48254,7 @@
         "is_chord": false
       },
       {
-        "text": " C   Am          F         C  ",
+        "text": " C        Am          F         C  ",
         "is_chord": true
       },
       {
@@ -48262,7 +48262,7 @@
         "is_chord": false
       },
       {
-        "text": "C Am    F       C",
+        "text": "C        Am         F       C",
         "is_chord": true
       },
       {
@@ -48286,7 +48286,7 @@
         "is_chord": false
       },
       {
-        "text": "   C      Am       C",
+        "text": "   C                  Am       C",
         "is_chord": true
       },
       {
@@ -48294,7 +48294,7 @@
         "is_chord": false
       },
       {
-        "text": "C    Am         C",
+        "text": "C               Am         C",
         "is_chord": true
       },
       {
@@ -48310,8 +48310,8 @@
         "is_chord": false
       },
       {
-        "text": " AmC",
-        "is_chord": false
+        "text": " Am             C",
+        "is_chord": true
       },
       {
         "text": "[Papi aankha herana kastari dulaune]x2 ",
@@ -48322,7 +48322,7 @@
         "is_chord": false
       },
       {
-        "text": "C   Am       C",
+        "text": "C              Am       C",
         "is_chord": true
       },
       {
@@ -48330,8 +48330,8 @@
         "is_chord": false
       },
       {
-        "text": "CAm        C",
-        "is_chord": false
+        "text": "C               Am        C",
+        "is_chord": true
       },
       {
         "text": "Timro maya lau malai raksi jhai chadhe cha]x2",
@@ -48346,16 +48346,16 @@
         "is_chord": false
       },
       {
-        "text": " AmC",
-        "is_chord": false
+        "text": " Am             C",
+        "is_chord": true
       },
       {
         "text": "[Barule kammar herana kastari hallaune",
         "is_chord": false
       },
       {
-        "text": "AmC",
-        "is_chord": false
+        "text": "Am              C",
+        "is_chord": true
       },
       {
         "text": "Papi aankha herana kastari dulaune] x2",
@@ -51322,7 +51322,7 @@
         "is_chord": false
       },
       {
-        "text": "   G5 C",
+        "text": "   G5                C",
         "is_chord": true
       },
       {

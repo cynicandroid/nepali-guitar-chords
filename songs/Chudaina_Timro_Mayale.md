@@ -40,11 +40,11 @@ Am        E     C      G
 Bhanana malai timro thegana, 
   Am    E       C     G
 batauna malai timro chahana
-Dm           FG    C 
+Dm           F  G    C 
 Man pareka sabai kuraharu, 
    E                           E
 chithima nai sabai lekhinou bhane
-Am            E G     D
+Am            E  G     D
 Jhan jhan mutuma aago dankinchha, 
     F         C        G
 nabaljheko ghau baljhinchha

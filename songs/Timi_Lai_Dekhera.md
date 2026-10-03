@@ -32,7 +32,7 @@ A            E            Bm      A
 Yasai Thauma Ghumna Ayeko Ma Auta Pardeshi
 A                     E            Bm      A
 HO Ho Ho Yasai Thauma Ghumna Ayeko Ma Auta Pardeshi
-             G    A
+             G                  A
 Thahai Napai Basechha Maya Akasa Bhanda Beshi x2
 A
 Hiu Paryo Fururu Himali Bhegaima
