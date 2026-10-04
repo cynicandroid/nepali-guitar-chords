@@ -6,8 +6,8 @@ const APP_SHELL = [
     './src/app.js',
     './src/styles.css',
     './songs.json',
-    './assets/icons/icon-192.svg',
-    './assets/icons/icon-512.svg',
+    './assets/icons/icon-192.png',
+    './assets/icons/icon-512.png',
     './assets/webaudiofont/WebAudioFontPlayer.js',
     './assets/webaudiofont/0250_SoundBlasterOld_sf2.js'
 ];

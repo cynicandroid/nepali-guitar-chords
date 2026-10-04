@@ -9,6 +9,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -23,9 +24,9 @@
         <div class="sidebar-header">
             <h1 onclick="showHome()">Nepali Chords</h1>
             <div class="sidebar-nav-actions">
-                <button class="home-nav-btn" onclick="showHome()" title="Go to home">🏠 Home</button>
-                <button class="home-nav-btn" onclick="showHelp()" title="Open guitar chord help">❔ Help</button>
-                <button class="home-nav-btn install-nav-btn" id="installBtn" onclick="installApp()" title="Install Nepali Chords" hidden>⬇ Install</button>
+                <button class="home-nav-btn" onclick="showHome()" title="Go to home"><span class="nav-icon">🏠</span><span>Home</span></button>
+                <button class="home-nav-btn" onclick="showHelp()" title="Open chord help"><span class="nav-icon chord-icon">🎸</span><span>Chord Help</span></button>
+                <button class="home-nav-btn install-nav-btn" id="installBtn" onclick="installApp()" title="Install for offline mode" aria-label="Install for offline mode" hidden><span class="nav-icon">⬇</span><span>Install</span></button>
             </div>
         </div>
         <div class="search-box">

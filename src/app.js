@@ -96,7 +96,7 @@ function isAppInstalled() {
 
 async function installApp() {
     if (!deferredInstallPrompt) {
-        alert('To install Nepali Chords, use your browser menu and choose “Install app” or “Add to Home Screen.”');
+        alert(getInstallInstructions());
         return;
     }
 
@@ -104,6 +104,36 @@ async function installApp() {
     const choice = await deferredInstallPrompt.userChoice;
     if (choice.outcome === 'accepted') dom.installBtn.hidden = true;
     deferredInstallPrompt = null;
+}
+
+function getInstallInstructions() {
+    const userAgent = navigator.userAgent;
+    const isIOS = /iPhone|iPad|iPod/i.test(userAgent);
+    const isAndroid = /Android/i.test(userAgent);
+    const isFirefox = /Firefox/i.test(userAgent);
+    const isSafari = /Safari/i.test(userAgent) && !/Chrome|CriOS|Android/i.test(userAgent);
+    const isWindows = /Windows/i.test(userAgent);
+    const isMac = /Macintosh|Mac OS X/i.test(userAgent);
+
+    if (isIOS) {
+        return 'On iPhone or iPad: open Safari’s Share menu, choose “Add to Home Screen,” then tap Add.';
+    }
+    if (isAndroid && isFirefox) {
+        return 'In Firefox for Android: open the browser menu and choose “Install” or “Add to Home screen.”';
+    }
+    if (isAndroid) {
+        return 'In Android Chrome: open the browser menu and choose “Install app” or “Add to Home screen.”';
+    }
+    if (isWindows) {
+        return 'In Chrome or Edge on Windows: choose the Install icon in the address bar, or open the browser menu and choose “Install app.”';
+    }
+    if (isMac && isSafari) {
+        return 'In Safari on macOS: open the File menu and choose “Add to Dock.”';
+    }
+    if (isMac) {
+        return 'In Chrome or Edge on macOS: choose the Install icon in the address bar, or choose “Install app” from the browser menu.';
+    }
+    return 'Open your browser menu and choose “Install app” or “Add to Home Screen.”';
 }
 
 function renderSongList(list) {

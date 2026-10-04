@@ -2,21 +2,24 @@
   "name": "Nepali Guitar Chords",
   "short_name": "Nepali Chords",
   "description": "A songbook of Nepali guitar chords, lyrics, and strumming patterns.",
+  "id": "./",
   "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#0f172a",
   "theme_color": "#0f172a",
+  "prefer_related_applications": false,
   "icons": [
     {
-      "src": "assets/icons/icon-192.svg",
+      "src": "assets/icons/icon-192.png",
       "sizes": "192x192",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "assets/icons/icon-512.svg",
+      "src": "assets/icons/icon-512.png",
       "sizes": "512x512",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "purpose": "any maskable"
     }
   ]

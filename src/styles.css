@@ -93,6 +93,28 @@ aside {
     color: var(--primary);
 }
 
+.sidebar-nav-actions .home-nav-btn {
+    flex-direction: column;
+    gap: 1px;
+    line-height: 1.1;
+    justify-content: center;
+    min-height: 48px;
+}
+
+.sidebar-nav-actions .nav-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.1rem;
+    height: 1.1rem;
+    font-size: 1.1rem;
+    line-height: 1;
+}
+
+.sidebar-nav-actions .chord-icon {
+    font-size: 0.95rem;
+}
+
 .sidebar-nav-actions {
     display: flex;
     align-items: center;
@@ -597,11 +619,11 @@ pre .chord {
         min-height: 100vh;
         overflow: auto;
     }
-    aside {
-        width: 100%;
-        height: auto;
-        min-height: 108px;
-        max-height: 24vh;
+            aside {
+                width: 100%;
+                height: auto;
+                min-height: 0;
+                max-height: none;
     }
     main {
         height: auto;
@@ -634,10 +656,11 @@ pre .chord {
         border-radius: 6px;
     }
     #songPre { overflow-x: auto; }
-    .sidebar-header { padding: 7px 10px; }
-    .sidebar-header h1 { font-size: 1rem; }
-    .home-nav-btn { padding: 5px 7px; font-size: .75rem; }
-    .help-header { flex-direction: column; }
+            .sidebar-header { padding: 7px 10px; }
+            .sidebar-header h1 { font-size: 1rem; }
+            .home-nav-btn { padding: 5px 7px; font-size: .75rem; }
+            .song-list { display: none; }
+            .help-header { flex-direction: column; }
     .help-header h1 { font-size: 1.5rem; }
     .help-image-card { padding: 10px; }
     .search-box { padding: 6px 10px; }
