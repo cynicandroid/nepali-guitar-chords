@@ -11,6 +11,7 @@
 ---
 
 ```text
+
             C                     Dm
 Neele neele ambar par, chaand jab aaye
       C                Dm
@@ -94,6 +95,7 @@ Dm          C          Dm
 Neele neele ambar par, chaand jab aaye
 
 La la la
+
 ```
 
 ---

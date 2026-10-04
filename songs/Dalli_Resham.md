@@ -11,6 +11,7 @@
 ---
 
 ```text
+
  Em
 [K ko sancho dalli resham falamko sancho 
 Em
@@ -74,6 +75,7 @@ E
 Udera jau ki danda ma bhanjyang 
 A
 Resham firiri
+
 ```
 
 ---

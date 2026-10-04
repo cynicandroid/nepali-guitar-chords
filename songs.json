@@ -7,7 +7,11 @@
     "strumming": "D U SUDU",
     "lines": [
       {
-        "text": "C                  Am",
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "C\t\t           Am",
         "is_chord": true
       },
       {
@@ -15,7 +19,7 @@
         "is_chord": false
       },
       {
-        "text": "      G        C",
+        "text": "      G\t\t   C",
         "is_chord": true
       },
       {
@@ -59,7 +63,7 @@
         "is_chord": false
       },
       {
-        "text": "     G           C",
+        "text": "     G\t         C",
         "is_chord": true
       },
       {
@@ -221,6 +225,10 @@
       {
         "text": "Samjhi deu sumpi deu yo jovan hamilai [x4]",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -231,6 +239,10 @@
     "genre": "Campfire",
     "strumming": "D D UUD DUDU",
     "lines": [
+      {
+        "text": " ",
+        "is_chord": false
+      },
       {
         "text": "[Verse 1]",
         "is_chord": false
@@ -360,6 +372,10 @@
     "genre": "Party, 5S",
     "strumming": "D UMUD",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "A|-2-4-5---3-2-0—",
         "is_chord": true
@@ -545,6 +561,10 @@
     "genre": "Party",
     "strumming": "D D UUD DUDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "Am      F              C    G",
         "is_chord": true
@@ -808,6 +828,10 @@
       {
         "text": "mero prem] x3",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -818,6 +842,10 @@
     "genre": "Campfire, Hindi 4S",
     "strumming": "D DU UDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "Am                   F          C",
         "is_chord": true
@@ -1109,6 +1137,10 @@
       {
         "text": "Agar Tum Na Hote Agar Tum Na Hote",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -1119,6 +1151,10 @@
     "genre": "Party",
     "strumming": "D U DUDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "D            A          E          A   ",
         "is_chord": true
@@ -1366,6 +1402,10 @@
       {
         "text": "(Aago lagyo dilaima damkal bolai deu)x2",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -1376,6 +1416,10 @@
     "genre": "N/A",
     "strumming": "D D UUD DDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "Am                      G",
         "is_chord": true
@@ -1553,6 +1597,10 @@
     "genre": "Campfire",
     "strumming": "DDU UDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "G                Em",
         "is_chord": true
@@ -1746,6 +1794,10 @@
     "genre": "Party",
     "strumming": "DUMDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "D              G       D",
         "is_chord": true
@@ -1993,6 +2045,14 @@
       {
         "text": "kalko pani raksi ganayo] X2",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -2003,6 +2063,10 @@
     "genre": "Campfire, 5S",
     "strumming": "DDU UDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "F#m                     D",
         "is_chord": true
@@ -2144,6 +2208,10 @@
     "genre": "Campfire",
     "strumming": "DU DUDU",
     "lines": [
+      {
+        "text": " ",
+        "is_chord": false
+      },
       {
         "text": "Am",
         "is_chord": true
@@ -2315,6 +2383,14 @@
       {
         "text": "[Bichod ko belai ma] x4",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -2325,6 +2401,10 @@
     "genre": "Campfire, Hindi",
     "strumming": "Du Du (slur) [Reggee]",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "G      Em     Am     D",
         "is_chord": true
@@ -2560,6 +2640,18 @@
       {
         "text": "khushi ka khumaar,  kya kehna]X2",
         "is_chord": false
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -2570,6 +2662,10 @@
     "genre": "Campfire , 5S",
     "strumming": "D D UUD DUDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "G                                 Em                Am",
         "is_chord": true
@@ -2904,6 +3000,10 @@
     "strumming": "D DU MUDU",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": "G           Bm         C",
         "is_chord": true
       },
@@ -3113,6 +3213,10 @@
       },
       {
         "text": "[Jiudai Marne Yo Avagi Dekhera] X4",
+        "is_chord": false
+      },
+      {
+        "text": "",
         "is_chord": false
       }
     ]
@@ -3451,6 +3555,14 @@
       {
         "text": "X",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -3684,6 +3796,10 @@
       {
         "text": "The answer is blowin' in the wind ] X2",
         "is_chord": false
+      },
+      {
+        "text": " ",
+        "is_chord": false
       }
     ]
   },
@@ -3694,6 +3810,10 @@
     "genre": "Party",
     "strumming": "D D UUD DDU",
     "lines": [
+      {
+        "text": " ",
+        "is_chord": false
+      },
       {
         "text": "G                       D",
         "is_chord": true
@@ -3997,6 +4117,14 @@
       {
         "text": "jaba pugchu ma saathi",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -4007,6 +4135,10 @@
     "genre": "Party",
     "strumming": "DUM DU, Barre",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "G|-----5h7-5-5-----------5h7-5-5—-- (X2)",
         "is_chord": false
@@ -4446,6 +4578,14 @@
       {
         "text": "Jam kata jam jam kata jam jam jam",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -4456,6 +4596,10 @@
     "genre": "Party",
     "strumming": "duDu  duDu, barre",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "4(5/7, 7,7,7,4) 5(7,7) 4(4,7)",
         "is_chord": false
@@ -4497,7 +4641,7 @@
         "is_chord": false
       },
       {
-        "text": " A             F#m",
+        "text": " A\t\t\t   F#m",
         "is_chord": true
       },
       {
@@ -4541,7 +4685,7 @@
         "is_chord": false
       },
       {
-        "text": "A                F#m",
+        "text": "A\t\t\t\t F#m",
         "is_chord": true
       },
       {
@@ -4549,7 +4693,7 @@
         "is_chord": false
       },
       {
-        "text": "Bm          E     A",
+        "text": "Bm          E\t  A",
         "is_chord": true
       },
       {
@@ -4605,7 +4749,7 @@
         "is_chord": false
       },
       {
-        "text": "A              F#m",
+        "text": "A\t\t\t   F#m",
         "is_chord": true
       },
       {
@@ -4613,7 +4757,7 @@
         "is_chord": false
       },
       {
-        "text": "Bm           E     A",
+        "text": "Bm           E\t   A",
         "is_chord": true
       },
       {
@@ -4649,7 +4793,7 @@
         "is_chord": false
       },
       {
-        "text": "A              F#m",
+        "text": "A\t\t\t   F#m",
         "is_chord": true
       },
       {
@@ -4657,7 +4801,7 @@
         "is_chord": false
       },
       {
-        "text": "Bm         E          A",
+        "text": "Bm         E\t\t  A",
         "is_chord": true
       },
       {
@@ -4679,6 +4823,14 @@
       {
         "text": "udayo relai le [x4]",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -4690,7 +4842,11 @@
     "strumming": "DUM DU",
     "lines": [
       {
-        "text": "G                          Em",
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "G           \t           Em",
         "is_chord": true
       },
       {
@@ -4770,7 +4926,7 @@
         "is_chord": false
       },
       {
-        "text": "G [roll]                  Em",
+        "text": "G [roll]     \t          Em",
         "is_chord": false
       },
       {
@@ -4872,6 +5028,18 @@
       {
         "text": "Kanchi baschin eklai runa lai] X2",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -4882,6 +5050,10 @@
     "genre": "N/A",
     "strumming": "DUM D",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "छर्का ढेबा, छमाना बकुला",
         "is_chord": false
@@ -5155,6 +5327,10 @@
     "genre": "Party, 5S",
     "strumming": "D UMUDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "D",
         "is_chord": true
@@ -5690,6 +5866,10 @@
     "strumming": "DDUM DU",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": " C                Am",
         "is_chord": true
       },
@@ -5992,6 +6172,10 @@
       {
         "text": "Malai ma jastai maya chaincha] X2",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -6002,6 +6186,10 @@
     "genre": "Campfire",
     "strumming": "DM DM",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "  D        Bm         A            D",
         "is_chord": true
@@ -6161,6 +6349,14 @@
       {
         "text": "China Company, China Company x2",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -6168,21 +6364,9 @@
     "title": "Chiso Chiso Hawa Ma",
     "filename": "Chiso_Chiso_Hawa_Ma.md",
     "capo": "None",
-    "genre": "N/A",
-    "strumming": "N/A",
+    "genre": "Campfire, oldschool",
+    "strumming": "DUUD DU",
     "lines": [
-      {
-        "text": "No Capo",
-        "is_chord": false
-      },
-      {
-        "text": "Genre : Campfire, oldschool",
-        "is_chord": false
-      },
-      {
-        "text": "Strumming : DUUD DU",
-        "is_chord": false
-      },
       {
         "text": "",
         "is_chord": false
@@ -6396,6 +6580,10 @@
     "genre": "Campfire",
     "strumming": "D MUDU D",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "G                  Em          Am     D",
         "is_chord": true
@@ -6625,6 +6813,10 @@
     "genre": "Party , 5S",
     "strumming": "D DU UDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": " Am            Em          D C     Am",
         "is_chord": true
@@ -6880,6 +7072,10 @@
       {
         "text": "Chiya bari ma, Chiya bari ma",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -7007,7 +7203,7 @@
         "is_chord": false
       },
       {
-        "text": "Dm           F  G    C ",
+        "text": "Dm           F\tG    C ",
         "is_chord": true
       },
       {
@@ -7023,7 +7219,7 @@
         "is_chord": false
       },
       {
-        "text": "Am            E  G     D",
+        "text": "Am            E\t G     D",
         "is_chord": true
       },
       {
@@ -7123,6 +7319,10 @@
     "genre": "Campfire, Hindi, 5S",
     "strumming": "DDU UDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "D             G              D",
         "is_chord": true
@@ -7297,21 +7497,9 @@
     "title": "Country Road",
     "filename": "Country_Road.md",
     "capo": "None",
-    "genre": "N/A",
-    "strumming": "N/A",
+    "genre": "Campfire, English",
+    "strumming": "DD-U-UDU / D(root) D dudu",
     "lines": [
-      {
-        "text": "No Capo",
-        "is_chord": false
-      },
-      {
-        "text": "Genre : Campfire, English",
-        "is_chord": false
-      },
-      {
-        "text": "Strumming : DD-U-UDU / D(root) D dudu",
-        "is_chord": false
-      },
       {
         "text": "",
         "is_chord": false
@@ -7575,6 +7763,10 @@
       {
         "text": "Take me home, down country roads; [x2]",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -7585,6 +7777,10 @@
     "genre": "Party, 4S",
     "strumming": "ddUmudu",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": " Em",
         "is_chord": true
@@ -7836,6 +8032,10 @@
       {
         "text": "Resham firiri",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -7846,6 +8046,10 @@
     "genre": "Party",
     "strumming": "D UMDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "G            Em",
         "is_chord": true
@@ -8120,6 +8324,10 @@
     "strumming": "DDUMD",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": "[Single Down Strum]",
         "is_chord": false
       },
@@ -8316,7 +8524,7 @@
         "is_chord": false
       },
       {
-        "text": "            G#",
+        "text": "\t\t    G#",
         "is_chord": true
       },
       {
@@ -8637,6 +8845,10 @@
     "strumming": "D UDDUD",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": " A          G",
         "is_chord": true
       },
@@ -8785,6 +8997,10 @@
     "genre": "Party",
     "strumming": "D UDDUD",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "  A          G",
         "is_chord": true
@@ -8951,6 +9167,10 @@
       },
       {
         "text": "(Aaucha ajhai jhajhalko) X2] X2",
+        "is_chord": false
+      },
+      {
+        "text": "",
         "is_chord": false
       }
     ]
@@ -9272,6 +9492,10 @@
     "strumming": "DDU UDU",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": "Em                [arpeggio]",
         "is_chord": false
       },
@@ -9376,7 +9600,7 @@
         "is_chord": false
       },
       {
-        "text": "       Em                   D",
+        "text": "\t   Em\t\t\t\t    D",
         "is_chord": true
       },
       {
@@ -9384,7 +9608,7 @@
         "is_chord": false
       },
       {
-        "text": "Em               D       Em",
+        "text": "Em               D \t     Em",
         "is_chord": true
       },
       {
@@ -9412,7 +9636,7 @@
         "is_chord": false
       },
       {
-        "text": "D                                 Em",
+        "text": "D                    \t          Em",
         "is_chord": true
       },
       {
@@ -9627,6 +9851,10 @@
       {
         "text": "[Repeat whole song again]",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -9637,6 +9865,10 @@
     "genre": "Campfire, Hindi",
     "strumming": "DUDUD D D",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "G          Em",
         "is_chord": true
@@ -9966,6 +10198,10 @@
     "genre": "Campfire",
     "strumming": "DU DDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": " G#              DD",
         "is_chord": false
@@ -10297,6 +10533,26 @@
       {
         "text": "ahile aba phool bhayo",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -10305,16 +10561,8 @@
     "filename": "Dum_Maru_Dum.md",
     "capo": "None",
     "genre": "N/A",
-    "strumming": "N/A",
+    "strumming": "DDUUD DUDU",
     "lines": [
-      {
-        "text": "No Capo",
-        "is_chord": false
-      },
-      {
-        "text": "Strumming : DDUUD DUDU",
-        "is_chord": false
-      },
       {
         "text": "",
         "is_chord": false
@@ -10589,6 +10837,10 @@
     "strumming": "DDU MUDU",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": " G",
         "is_chord": true
       },
@@ -10773,6 +11025,10 @@
     "genre": "Campfire,  Hindi, 5S",
     "strumming": "D-UM-D-UM-D",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "G                Cadd9    D           G",
         "is_chord": true
@@ -11014,6 +11270,10 @@
     "genre": "N/A",
     "strumming": "D u u D u u",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "A                            E",
         "is_chord": true
@@ -11323,6 +11583,10 @@
     "genre": "Campfire, Hindi",
     "strumming": "DDU--UDU (fast) /D-MUUDU (slow)",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "Em        D     Em",
         "is_chord": true
@@ -11950,6 +12214,10 @@
     "strumming": "DDUMUDU",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": "[Music]",
         "is_chord": false
       },
@@ -11974,7 +12242,7 @@
         "is_chord": false
       },
       {
-        "text": "F#m     Bm    D",
+        "text": "F#m\t    Bm    D",
         "is_chord": true
       },
       {
@@ -11982,7 +12250,7 @@
         "is_chord": false
       },
       {
-        "text": "F#m    Bm   D",
+        "text": "F#m\t   Bm   D",
         "is_chord": true
       },
       {
@@ -12050,7 +12318,7 @@
         "is_chord": false
       },
       {
-        "text": "D                E           D",
+        "text": "D\t\t\t     E           D",
         "is_chord": true
       },
       {
@@ -12110,7 +12378,7 @@
         "is_chord": false
       },
       {
-        "text": "F#m     Bm    D",
+        "text": "F#m\t    Bm    D",
         "is_chord": true
       },
       {
@@ -12118,7 +12386,7 @@
         "is_chord": false
       },
       {
-        "text": "F#m    Bm   D",
+        "text": "F#m\t   Bm   D",
         "is_chord": true
       },
       {
@@ -12159,6 +12427,14 @@
       },
       {
         "text": "हाहाहाहा हा.. हाहाहाहा हा ..हाहाहाहा हा..",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "       ",
         "is_chord": false
       }
     ]
@@ -12361,6 +12637,18 @@
       {
         "text": "Pachyauri malmal ko",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -12371,6 +12659,14 @@
     "genre": "Party, 5S",
     "strumming": "D UM DU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": " Em",
         "is_chord": true
@@ -12725,6 +13021,10 @@
     "strumming": "D UMUDU",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": "E",
         "is_chord": true
       },
@@ -12959,6 +13259,10 @@
       {
         "text": "[म चाँही..आफ्नै.. बाटो..लागुँ है..अब]x2",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -12969,6 +13273,10 @@
     "genre": "Campfire, Party",
     "strumming": "D UMUDU, Barre",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "G",
         "is_chord": true
@@ -13419,6 +13727,10 @@
     "genre": "Campfire",
     "strumming": "D D UUD DUDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "G             C     G      D",
         "is_chord": true
@@ -13970,6 +14282,10 @@
     "strumming": "DUMDU",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": " D         Am  G D",
         "is_chord": true
       },
@@ -14186,6 +14502,10 @@
     "genre": "Campfire",
     "strumming": "DUDD D DUDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "G           D",
         "is_chord": true
@@ -14533,6 +14853,18 @@
       {
         "text": "oo priyea",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -14540,21 +14872,9 @@
     "title": "Gurasa Ko Feda Muni",
     "filename": "Gurasa_Ko_Feda_Muni.md",
     "capo": "None",
-    "genre": "N/A",
-    "strumming": "N/A",
+    "genre": "Party, Campfire",
+    "strumming": "D D UUD DUDU",
     "lines": [
-      {
-        "text": "No Capo",
-        "is_chord": false
-      },
-      {
-        "text": "Genre: Party, Campfire",
-        "is_chord": false
-      },
-      {
-        "text": "Strumming : D D UUD DUDU",
-        "is_chord": false
-      },
       {
         "text": "",
         "is_chord": false
@@ -14708,6 +15028,10 @@
     "genre": "Party",
     "strumming": "DUMDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "G                   Am",
         "is_chord": true
@@ -14877,6 +15201,10 @@
     "genre": "N/A",
     "strumming": "DD DD DD DD/DU DU DU DU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "[Press unpress each down stroke]",
         "is_chord": false
@@ -15144,6 +15472,10 @@
       {
         "text": "Naa jaane kis pe aayega] X2",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -15154,6 +15486,10 @@
     "genre": "N/A",
     "strumming": "D UDU M  DU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "G               Cadd9",
         "is_chord": true
@@ -15453,6 +15789,10 @@
       {
         "text": "Pyaro Nepal ma",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -15463,6 +15803,10 @@
     "genre": "Campfire Party English",
     "strumming": "DUMU DUMU",
     "lines": [
+      {
+        "text": " ",
+        "is_chord": false
+      },
       {
         "text": "C",
         "is_chord": true
@@ -15634,6 +15978,10 @@
       {
         "text": "Coming down on a sunny day ]x2",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -15644,6 +15992,10 @@
     "genre": "Campfire Party",
     "strumming": "DUMDU",
     "lines": [
+      {
+        "text": " ",
+        "is_chord": false
+      },
       {
         "text": " C",
         "is_chord": true
@@ -15875,6 +16227,10 @@
       {
         "text": "Lahai nacha firiri",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -15885,6 +16241,10 @@
     "genre": "Campfire",
     "strumming": "d dU udu",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "        D                                       G",
         "is_chord": true
@@ -16174,6 +16534,10 @@
     "genre": "Campfire, oldschool",
     "strumming": "DDUMUDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "2(10) 1(10AP,14,12,10,14,12,10,9) 2(12) 2(10) 1(9AP,12,10,9,12,10,9,7) 2(10)   ",
         "is_chord": false
@@ -16520,6 +16884,10 @@
     "strumming": "DUDUD D DUD",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": "E                                                      Asus2",
         "is_chord": true
       },
@@ -16774,6 +17142,10 @@
       {
         "text": "yehi yehi yeee… yee x8",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -16784,6 +17156,10 @@
     "genre": "N/A",
     "strumming": "DUS DU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "F            A#",
         "is_chord": true
@@ -16919,6 +17295,10 @@
       {
         "text": "Nirmohi aphnuko ko chara eh]x2",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -16929,6 +17309,10 @@
     "genre": "Campfire, English",
     "strumming": "DD UUD DUDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "Am                                         E7",
         "is_chord": true
@@ -17411,6 +17795,10 @@
     "strumming": "DUSUDU",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": "Am",
         "is_chord": true
       },
@@ -17681,6 +18069,10 @@
       {
         "text": "घर आऊआऊ लाग्छ (ल है!) x2",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -17691,6 +18083,10 @@
     "genre": "Party",
     "strumming": "",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": " C                   Am",
         "is_chord": true
@@ -17886,6 +18282,10 @@
       {
         "text": "Sorry sorry sorry......x2",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -17896,6 +18296,10 @@
     "genre": "Campfire, English",
     "strumming": "D D UUD DUDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "[ D D D D]",
         "is_chord": true
@@ -18230,6 +18634,10 @@
     "strumming": "DUMUDU",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": "F",
         "is_chord": true
       },
@@ -18440,6 +18848,14 @@
       {
         "text": "Maya Bhaye Daraunu Pardaina",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -18450,6 +18866,10 @@
     "genre": "Campfire, Hindi",
     "strumming": "D DU UDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": " D                     Bm",
         "is_chord": true
@@ -18523,7 +18943,7 @@
         "is_chord": false
       },
       {
-        "text": "    D                  F#m",
+        "text": "    D\t               F#m",
         "is_chord": true
       },
       {
@@ -18797,6 +19217,10 @@
       {
         "text": "O Humnawaaz] X2",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -18807,6 +19231,10 @@
     "genre": "Party",
     "strumming": "DD UUD DUDU - Barre all",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": " Am             E   ",
         "is_chord": true
@@ -18968,6 +19396,10 @@
     "genre": "N/A",
     "strumming": "DDUMUDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "E                                                     E",
         "is_chord": true
@@ -19131,16 +19563,8 @@
     "filename": "Jiwan_ho_Ghamachaya.md",
     "capo": "None",
     "genre": "N/A",
-    "strumming": "N/A",
+    "strumming": "DD UUD DDU",
     "lines": [
-      {
-        "text": "No Capo",
-        "is_chord": false
-      },
-      {
-        "text": "Strumming : DD UUD DDU ",
-        "is_chord": false
-      },
       {
         "text": "",
         "is_chord": false
@@ -19360,6 +19784,10 @@
       {
         "text": "yo jindagani] [X8]",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -19535,6 +19963,10 @@
     "genre": "N/A",
     "strumming": "DUMDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": " G        F     G",
         "is_chord": true
@@ -19758,6 +20190,10 @@
       {
         "text": "Ghar Hamro Pokhara] x4",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -19768,6 +20204,10 @@
     "genre": "Party, OldSchool, 4S",
     "strumming": "DUMDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "Strum..",
         "is_chord": false
@@ -20138,7 +20578,7 @@
         "is_chord": false
       },
       {
-        "text": " C             D            G",
+        "text": " C      \t   D\t\t    G",
         "is_chord": true
       },
       {
@@ -20338,7 +20778,7 @@
         "is_chord": false
       },
       {
-        "text": "C         D        G",
+        "text": "C      \t  D\t\t   G",
         "is_chord": true
       },
       {
@@ -20354,6 +20794,10 @@
     "genre": "Campfire ,4S",
     "strumming": "D D UUD DUDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "C.       G           Am      F       C                                Ha Ha Ha Hm Hm Hm Hm Hm Hm Hm Hm Hm Hm ",
         "is_chord": false
@@ -20580,6 +21024,18 @@
       },
       {
         "text": "Hm He He He Hey Hey x2",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
         "is_chord": false
       }
     ]
@@ -20876,6 +21332,14 @@
     "genre": "Party",
     "strumming": "DUM—–DU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "E",
         "is_chord": true
@@ -21379,6 +21843,10 @@
     "strumming": "D DUDUD D D",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": "C              Dm       C",
         "is_chord": true
       },
@@ -21620,6 +22088,10 @@
     "strumming": "DUDUM du",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": "G                        Em",
         "is_chord": true
       },
@@ -21806,6 +22278,14 @@
       {
         "text": "Jo hai sama kal ho na ho] X2",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -21816,6 +22296,10 @@
     "genre": "Party, 4S, OldSchool",
     "strumming": "DDUMDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "G [Down Down]  A",
         "is_chord": false
@@ -22099,6 +22583,10 @@
       {
         "text": "[Aaha kati lai paraune sodha rama lai] x5",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -22109,6 +22597,10 @@
     "genre": "Camfire",
     "strumming": "D DU UDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "G                                    Cadd9      D",
         "is_chord": true
@@ -22126,7 +22618,7 @@
         "is_chord": false
       },
       {
-        "text": "G                                Cadd9              G",
+        "text": "G                    \t         Cadd9              G",
         "is_chord": true
       },
       {
@@ -22286,6 +22778,10 @@
     "genre": "N/A",
     "strumming": "DU SU DU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "[Single strum]",
         "is_chord": false
@@ -22555,6 +23051,10 @@
     "genre": "Campfire, Hindi",
     "strumming": "DDU UDU",
     "lines": [
+      {
+        "text": " ",
+        "is_chord": false
+      },
       {
         "text": "  G",
         "is_chord": true
@@ -23038,6 +23538,22 @@
       {
         "text": "Tu thehra kinara.",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -23231,6 +23747,10 @@
       {
         "text": "bhare pheri yekantama runu ta chadai cha",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -23241,6 +23761,10 @@
     "genre": "Party, Hindi",
     "strumming": "D D UUD DDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "[Single strum]",
         "is_chord": false
@@ -23507,6 +24031,10 @@
     "strumming": "DUMDU",
     "lines": [
       {
+        "text": " ",
+        "is_chord": false
+      },
+      {
         "text": " A ",
         "is_chord": true
       },
@@ -23733,6 +24261,10 @@
       {
         "text": "Ani sundar muskaan timro] X2",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -23743,6 +24275,10 @@
     "genre": "Party oldschool",
     "strumming": "DUMUDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "G         Em",
         "is_chord": true
@@ -24022,6 +24558,18 @@
       {
         "text": "दिक्तेल बजार लै लै सम्झनामा आउँछौ हजार X4",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -24033,7 +24581,7 @@
     "strumming": "d-d-D-du (G, D)",
     "lines": [
       {
-        "text": "         d-d-D-du-uuD-dudu (Am, C)",
+        "text": "\t     d-d-D-du-uuD-dudu (Am, C)",
         "is_chord": false
       },
       {
@@ -24246,6 +24794,10 @@
     "strumming": "DUM DU DUM",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": "Am               C",
         "is_chord": true
       },
@@ -24416,6 +24968,10 @@
       {
         "text": "Kusume Rumal Kusme Rumal 2x",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -24426,6 +24982,10 @@
     "genre": "Campfire",
     "strumming": "D DUDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": " G              D",
         "is_chord": true
@@ -24633,6 +25193,14 @@
       {
         "text": "lag ja gale,fir............... ",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -24643,6 +25211,10 @@
     "genre": "N/A",
     "strumming": "DU DD U DUDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "D           A",
         "is_chord": true
@@ -24848,6 +25420,10 @@
     "genre": "campfire",
     "strumming": "DD UUD DUDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": " D   Bm          G",
         "is_chord": true
@@ -25223,6 +25799,10 @@
     "strumming": "DUMDU",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": "G                         D",
         "is_chord": true
       },
@@ -25403,6 +25983,10 @@
     "genre": "Campfire English",
     "strumming": "D du D",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "       G              D",
         "is_chord": true
@@ -25822,6 +26406,18 @@
       {
         "text": "let it be",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -25832,6 +26428,10 @@
     "genre": "Campfire , 5S",
     "strumming": "D D UUD DUDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": " G          Bm       Am",
         "is_chord": true
@@ -26174,7 +26774,7 @@
         "is_chord": false
       },
       {
-        "text": "G               D",
+        "text": "G\t\t\t\tD",
         "is_chord": true
       },
       {
@@ -26282,7 +26882,7 @@
         "is_chord": false
       },
       {
-        "text": "G               D",
+        "text": "G\t\t\t\tD",
         "is_chord": true
       },
       {
@@ -26306,6 +26906,14 @@
     "genre": "Campfire, 5S",
     "strumming": "D DUDU D",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "[G... D….Em…. C…D ..G ]",
         "is_chord": false
@@ -26623,6 +27231,10 @@
     "genre": "N/A",
     "strumming": "D D UM D",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": " G",
         "is_chord": true
@@ -27171,6 +27783,10 @@
       {
         "text": "Lapcha ko chaap jasto",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -27194,7 +27810,7 @@
         "is_chord": false
       },
       {
-        "text": "G   Em     D     G",
+        "text": "G\tEm\t   D     G",
         "is_chord": true
       },
       {
@@ -27202,7 +27818,7 @@
         "is_chord": false
       },
       {
-        "text": "G          Bm   Am     D",
+        "text": "G    \t   Bm   Am     D",
         "is_chord": true
       },
       {
@@ -27278,7 +27894,7 @@
         "is_chord": false
       },
       {
-        "text": "Am          D    Cadd9  G",
+        "text": "Am          D\t Cadd9  G",
         "is_chord": true
       },
       {
@@ -27298,7 +27914,7 @@
         "is_chord": false
       },
       {
-        "text": "G          Bm   Am     D",
+        "text": "G    \t   Bm   Am     D",
         "is_chord": true
       },
       {
@@ -27390,7 +28006,7 @@
         "is_chord": false
       },
       {
-        "text": "G          Bm   Am     D",
+        "text": "G    \t   Bm   Am     D",
         "is_chord": true
       },
       {
@@ -27420,6 +28036,10 @@
       {
         "text": "Marne kasailai rahar hudaina",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -27430,6 +28050,10 @@
     "genre": "Party",
     "strumming": "DU DDU",
     "lines": [
+      {
+        "text": " ",
+        "is_chord": false
+      },
       {
         "text": " D           A",
         "is_chord": true
@@ -27661,16 +28285,8 @@
     "filename": "Maya_-_Asutosh_KC.md",
     "capo": "None",
     "genre": "N/A",
-    "strumming": "N/A",
+    "strumming": "DUDD UDUDUDU",
     "lines": [
-      {
-        "text": "No Capo",
-        "is_chord": false
-      },
-      {
-        "text": "Strumming : DUDD UDUDUDU",
-        "is_chord": false
-      },
       {
         "text": "",
         "is_chord": false
@@ -28013,6 +28629,10 @@
     "strumming": "D D UUD DUDU",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": "A",
         "is_chord": true
       },
@@ -28207,6 +28827,10 @@
       {
         "text": "maya jalaima maya jalaima x4",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -28217,6 +28841,10 @@
     "genre": "N/A",
     "strumming": "DDUUDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "[Fast DUD 1st, & DD 2nd]",
         "is_chord": false
@@ -28306,7 +28934,7 @@
         "is_chord": false
       },
       {
-        "text": "          G",
+        "text": "\t\t  G",
         "is_chord": true
       },
       {
@@ -28376,6 +29004,14 @@
       {
         "text": "Ju ju na na na na na na",
         "is_chord": false
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -28386,6 +29022,10 @@
     "genre": "N/A",
     "strumming": "DD UUD DDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "R-1-2-3-R-3-2-1 [Dm, Bb, C, Dm]",
         "is_chord": true
@@ -28487,6 +29127,10 @@
     "genre": "Campfire, Hindi 5S",
     "strumming": "DM UUM",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "              A         D",
         "is_chord": true
@@ -28682,6 +29326,18 @@
       {
         "text": "Na tere baju lagda jee",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -28692,6 +29348,10 @@
     "genre": "Campfire, Hindi",
     "strumming": "D D UUD DUDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "A                   D",
         "is_chord": true
@@ -28987,6 +29647,18 @@
       {
         "text": "[Saajan saajan, saajan saajan] X2",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -28995,16 +29667,8 @@
     "filename": "Mere_samne_wali_khidki.md",
     "capo": "None",
     "genre": "N/A",
-    "strumming": "N/A",
+    "strumming": "DUMU DUM",
     "lines": [
-      {
-        "text": "No Capo",
-        "is_chord": false
-      },
-      {
-        "text": "Strumming : DUMU DUM",
-        "is_chord": false
-      },
       {
         "text": "",
         "is_chord": false
@@ -29232,6 +29896,10 @@
       {
         "text": "Ek chaand ka tukda rehta hai",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -29242,6 +29910,10 @@
     "genre": "Emotional",
     "strumming": "DUM DU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "[5,4,3,2]",
         "is_chord": false
@@ -29433,6 +30105,22 @@
       {
         "text": "Bichod ko jindagi] X2",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -29443,6 +30131,10 @@
     "genre": "N/A",
     "strumming": "DUMDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "G      A          G           A      G",
         "is_chord": true
@@ -29865,7 +30557,7 @@
         "is_chord": false
       },
       {
-        "text": "G           Cadd9",
+        "text": "G\t\t    Cadd9",
         "is_chord": true
       },
       {
@@ -29873,7 +30565,7 @@
         "is_chord": false
       },
       {
-        "text": "Am                  D",
+        "text": "Am      \t\t    D",
         "is_chord": true
       },
       {
@@ -29881,7 +30573,7 @@
         "is_chord": false
       },
       {
-        "text": "C       D         G",
+        "text": "C\t    D\t\t  G",
         "is_chord": true
       },
       {
@@ -29901,7 +30593,7 @@
         "is_chord": false
       },
       {
-        "text": "          Cadd9",
+        "text": "\t\t  Cadd9",
         "is_chord": true
       },
       {
@@ -29909,7 +30601,7 @@
         "is_chord": false
       },
       {
-        "text": "Am          D",
+        "text": "Am\t\t    D",
         "is_chord": true
       },
       {
@@ -29917,7 +30609,7 @@
         "is_chord": false
       },
       {
-        "text": "C    D  G",
+        "text": "C    D\tG",
         "is_chord": true
       },
       {
@@ -29949,7 +30641,7 @@
         "is_chord": false
       },
       {
-        "text": "           Cadd9",
+        "text": "\t\t   Cadd9",
         "is_chord": true
       },
       {
@@ -29973,7 +30665,7 @@
         "is_chord": false
       },
       {
-        "text": " G          Cadd9",
+        "text": " G\t        Cadd9",
         "is_chord": true
       },
       {
@@ -30001,7 +30693,7 @@
         "is_chord": false
       },
       {
-        "text": "G           Cadd9",
+        "text": "G\t\t    Cadd9",
         "is_chord": true
       },
       {
@@ -30009,7 +30701,7 @@
         "is_chord": false
       },
       {
-        "text": "Am                  D",
+        "text": "Am      \t\t    D",
         "is_chord": true
       },
       {
@@ -30017,7 +30709,7 @@
         "is_chord": false
       },
       {
-        "text": "C       D         G",
+        "text": "C\t    D\t\t  G",
         "is_chord": true
       },
       {
@@ -30033,7 +30725,7 @@
         "is_chord": false
       },
       {
-        "text": "          Cadd9",
+        "text": "\t\t  Cadd9",
         "is_chord": true
       },
       {
@@ -30041,7 +30733,7 @@
         "is_chord": false
       },
       {
-        "text": "Am          D",
+        "text": "Am\t\t    D",
         "is_chord": true
       },
       {
@@ -30049,7 +30741,7 @@
         "is_chord": false
       },
       {
-        "text": "C    D  G",
+        "text": "C    D\tG",
         "is_chord": true
       },
       {
@@ -30069,7 +30761,7 @@
         "is_chord": false
       },
       {
-        "text": "        Cadd9",
+        "text": "\t\tCadd9",
         "is_chord": true
       },
       {
@@ -30085,7 +30777,7 @@
         "is_chord": false
       },
       {
-        "text": "C           G",
+        "text": "C\t\t\tG",
         "is_chord": true
       },
       {
@@ -30093,7 +30785,7 @@
         "is_chord": false
       },
       {
-        "text": " G          Cadd9",
+        "text": " G\t\t    Cadd9",
         "is_chord": true
       },
       {
@@ -30121,7 +30813,7 @@
         "is_chord": false
       },
       {
-        "text": "          Cadd9",
+        "text": "\t\t  Cadd9",
         "is_chord": true
       },
       {
@@ -30129,7 +30821,7 @@
         "is_chord": false
       },
       {
-        "text": "Am          D",
+        "text": "Am\t\t    D",
         "is_chord": true
       },
       {
@@ -30137,7 +30829,7 @@
         "is_chord": false
       },
       {
-        "text": "C    D  G",
+        "text": "C    D\tG",
         "is_chord": true
       },
       {
@@ -30153,7 +30845,7 @@
         "is_chord": false
       },
       {
-        "text": "G           Cadd9",
+        "text": "G\t\t    Cadd9",
         "is_chord": true
       },
       {
@@ -30161,7 +30853,7 @@
         "is_chord": false
       },
       {
-        "text": "Am                  D",
+        "text": "Am      \t\t    D",
         "is_chord": true
       },
       {
@@ -30169,7 +30861,7 @@
         "is_chord": false
       },
       {
-        "text": "C       D         G",
+        "text": "C\t    D\t\t  G",
         "is_chord": true
       },
       {
@@ -30201,7 +30893,7 @@
         "is_chord": false
       },
       {
-        "text": "         Cadd9",
+        "text": "\t\t Cadd9",
         "is_chord": true
       },
       {
@@ -30217,7 +30909,7 @@
         "is_chord": false
       },
       {
-        "text": "C        G",
+        "text": "C\t     G",
         "is_chord": true
       },
       {
@@ -30225,7 +30917,7 @@
         "is_chord": false
       },
       {
-        "text": " G         Cadd9",
+        "text": " G\t\t   Cadd9",
         "is_chord": true
       },
       {
@@ -30253,7 +30945,7 @@
         "is_chord": false
       },
       {
-        "text": "G           Cadd9",
+        "text": "G\t\t    Cadd9",
         "is_chord": true
       },
       {
@@ -30261,7 +30953,7 @@
         "is_chord": false
       },
       {
-        "text": "Am                  D",
+        "text": "Am      \t\t    D",
         "is_chord": true
       },
       {
@@ -30269,7 +30961,7 @@
         "is_chord": false
       },
       {
-        "text": "C       D         G",
+        "text": "C\t    D\t\t  G",
         "is_chord": true
       },
       {
@@ -30285,7 +30977,7 @@
         "is_chord": false
       },
       {
-        "text": "          Cadd9",
+        "text": "\t\t  Cadd9",
         "is_chord": true
       },
       {
@@ -30293,7 +30985,7 @@
         "is_chord": false
       },
       {
-        "text": "Am          D",
+        "text": "Am\t\t    D",
         "is_chord": true
       },
       {
@@ -30301,7 +30993,7 @@
         "is_chord": false
       },
       {
-        "text": "C    D  G",
+        "text": "C    D\tG",
         "is_chord": true
       },
       {
@@ -30323,16 +31015,8 @@
     "filename": "Muglana_hera_jadai_chu.md",
     "capo": "None",
     "genre": "N/A",
-    "strumming": "N/A",
+    "strumming": "D UM UDU",
     "lines": [
-      {
-        "text": "No Capo",
-        "is_chord": false
-      },
-      {
-        "text": "Strumming : D UM UDU",
-        "is_chord": false
-      },
       {
         "text": "",
         "is_chord": false
@@ -30559,6 +31243,10 @@
     "strumming": "DS UU SU",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": " C              Dm",
         "is_chord": true
       },
@@ -30784,6 +31472,10 @@
     "strumming": "D UUD UUD DUDU",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": "G              Am",
         "is_chord": true
       },
@@ -30964,6 +31656,10 @@
     "genre": "N/A",
     "strumming": "D dudu D dudu",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "C",
         "is_chord": true
@@ -31331,6 +32027,10 @@
       {
         "text": "Namana Laaj Yestari",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -31341,6 +32041,10 @@
     "genre": "Party",
     "strumming": "DUM DU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "G",
         "is_chord": true
@@ -31704,6 +32408,14 @@
       {
         "text": "kasle paalcha ani-kaalai-ma] x2",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -31714,6 +32426,10 @@
     "genre": "Campfire",
     "strumming": "DDU UDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "G                    D     G",
         "is_chord": true
@@ -31951,6 +32667,10 @@
     "genre": "N/A",
     "strumming": "DDU UDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "            C                     Dm",
         "is_chord": true
@@ -32282,6 +33002,10 @@
       {
         "text": "La la la",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -32290,16 +33014,8 @@
     "filename": "Nira_Jahile_Risaune.md",
     "capo": "None",
     "genre": "N/A",
-    "strumming": "N/A",
+    "strumming": "DUMDU",
     "lines": [
-      {
-        "text": "No Capo",
-        "is_chord": false
-      },
-      {
-        "text": "Strumming : DUMDU",
-        "is_chord": false
-      },
       {
         "text": "",
         "is_chord": false
@@ -32539,6 +33255,10 @@
       {
         "text": "Nira kahile hola maya sanga maya misauni",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -32549,6 +33269,10 @@
     "genre": "Campfire, Hindi",
     "strumming": "D DU UDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "C    D    G        Am           G",
         "is_chord": true
@@ -32779,6 +33503,18 @@
       },
       {
         "text": "Pal Pal Dil Ke Paas Tum Rehti Ho X2",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
         "is_chord": false
       }
     ]
@@ -33194,6 +33930,14 @@
       {
         "text": "yo ta timrai sahara ho....",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -33204,6 +33948,10 @@
     "genre": "Party",
     "strumming": "DDU UDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "C",
         "is_chord": true
@@ -33463,6 +34211,10 @@
       {
         "text": "timi pirati ko chhata odhau na",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -33473,6 +34225,10 @@
     "genre": "Campfire, 5S",
     "strumming": "DUMD D DUDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "F      Am   Dm      Gm",
         "is_chord": true
@@ -33688,6 +34444,22 @@
       {
         "text": "Mero Uthane Palo Mero Uthane Palo",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -33698,6 +34470,10 @@
     "genre": "N/A",
     "strumming": "DD UUD DUDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "[Intro, Slow down strokes only] ",
         "is_chord": false
@@ -33791,7 +34567,7 @@
         "is_chord": false
       },
       {
-        "text": "Bb         C",
+        "text": "Bb\t\t   C",
         "is_chord": true
       },
       {
@@ -33899,7 +34675,7 @@
         "is_chord": false
       },
       {
-        "text": "Bb          C",
+        "text": "Bb\t\t    C",
         "is_chord": true
       },
       {
@@ -34003,7 +34779,7 @@
         "is_chord": false
       },
       {
-        "text": "Bb          C",
+        "text": "Bb\t\t    C",
         "is_chord": true
       },
       {
@@ -34025,6 +34801,18 @@
       {
         "text": "Tu hi bata",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -34035,6 +34823,10 @@
     "genre": "Campfire",
     "strumming": "DD UUD DUDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "[Intro, Slow down strokes only] ",
         "is_chord": false
@@ -34276,7 +35068,7 @@
         "is_chord": false
       },
       {
-        "text": "F                    D",
+        "text": "F          \t\t\t D",
         "is_chord": true
       },
       {
@@ -34333,6 +35125,22 @@
       },
       {
         "text": "Tu hi bata",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
         "is_chord": false
       }
     ]
@@ -34393,7 +35201,7 @@
         "is_chord": false
       },
       {
-        "text": "G       D   Em     C    ",
+        "text": "G\t\tD   Em     C    ",
         "is_chord": true
       },
       {
@@ -34401,7 +35209,7 @@
         "is_chord": false
       },
       {
-        "text": "     G          D     Em     C    ",
+        "text": "     G\t\t    D     Em     C    ",
         "is_chord": true
       },
       {
@@ -34409,7 +35217,7 @@
         "is_chord": false
       },
       {
-        "text": "G       D     Em      C",
+        "text": "G\t    D\t  Em\t  C",
         "is_chord": true
       },
       {
@@ -34417,7 +35225,7 @@
         "is_chord": false
       },
       {
-        "text": "     G            D        Em   C",
+        "text": "     G\t          D        Em   C",
         "is_chord": true
       },
       {
@@ -34453,7 +35261,7 @@
         "is_chord": false
       },
       {
-        "text": "            D               ",
+        "text": "            D\t            ",
         "is_chord": true
       },
       {
@@ -34461,7 +35269,7 @@
         "is_chord": false
       },
       {
-        "text": "G   D   Em      C    ",
+        "text": "G\tD   Em      C    ",
         "is_chord": true
       },
       {
@@ -34469,7 +35277,7 @@
         "is_chord": false
       },
       {
-        "text": "     G        D        Em  C    ",
+        "text": "     G\t\t  D        Em  C    ",
         "is_chord": true
       },
       {
@@ -34481,7 +35289,7 @@
         "is_chord": false
       },
       {
-        "text": "G       D     Em      C",
+        "text": "G\t    D\t  Em\t  C",
         "is_chord": true
       },
       {
@@ -34489,7 +35297,7 @@
         "is_chord": false
       },
       {
-        "text": "     G            D        Em   C",
+        "text": "     G\t          D        Em   C",
         "is_chord": true
       },
       {
@@ -34533,7 +35341,7 @@
         "is_chord": false
       },
       {
-        "text": "G   D      Em       C    ",
+        "text": "G\tD      Em       C    ",
         "is_chord": true
       },
       {
@@ -34541,7 +35349,7 @@
         "is_chord": false
       },
       {
-        "text": "    G          D  Em   C    ",
+        "text": "    G\t\t   D  Em   C    ",
         "is_chord": true
       },
       {
@@ -34553,7 +35361,7 @@
         "is_chord": false
       },
       {
-        "text": "G       D     Em      C",
+        "text": "G\t    D\t  Em\t  C",
         "is_chord": true
       },
       {
@@ -34561,11 +35369,19 @@
         "is_chord": false
       },
       {
-        "text": "     G            D        Em   C",
+        "text": "     G\t          D        Em   C",
         "is_chord": true
       },
       {
         "text": "Meri Bahon Mein Aa Bhool Ja Aa",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
         "is_chord": false
       }
     ]
@@ -34891,6 +35707,10 @@
     "strumming": "D D UUD DDU",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": "G     C     C     G",
         "is_chord": true
       },
@@ -35132,7 +35952,7 @@
     "strumming": "D 1 2 3 [Finger]",
     "lines": [
       {
-        "text": "        D DUDU D",
+        "text": "\t\tD DUDU D",
         "is_chord": false
       },
       {
@@ -35389,6 +36209,14 @@
     "strumming": "DUMDU",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": "[Same rhythm as ghas katne khurekra]",
         "is_chord": false
       },
@@ -35525,6 +36353,10 @@
     "genre": "N/A",
     "strumming": "DD UUD DUDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "C [no Strum]   Am      F               C",
         "is_chord": false
@@ -35748,6 +36580,10 @@
       {
         "text": "Pilayo sathile] x2",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -35758,6 +36594,10 @@
     "genre": "Campfire",
     "strumming": "D DUDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "A      D      A             D",
         "is_chord": true
@@ -36041,6 +36881,22 @@
       {
         "text": "Kholu kholu laagchha hai",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -36051,6 +36907,10 @@
     "genre": "Party",
     "strumming": "D D UUD DDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "C       Em     F      G",
         "is_chord": true
@@ -36084,7 +36944,7 @@
         "is_chord": false
       },
       {
-        "text": "      G",
+        "text": "\t  G",
         "is_chord": true
       },
       {
@@ -36228,7 +37088,7 @@
         "is_chord": false
       },
       {
-        "text": "      G",
+        "text": "\t  G",
         "is_chord": true
       },
       {
@@ -36241,6 +37101,14 @@
       },
       {
         "text": "mero yo prem patra",
+        "is_chord": false
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": "",
         "is_chord": false
       }
     ]
@@ -36551,6 +37419,10 @@
       {
         "text": "Subah Ghar Jana... Kood ke Diwar] x2",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -36561,6 +37433,10 @@
     "genre": "Party, 5S",
     "strumming": "(DUDU)MUDU Bar, slur the roll",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "       A",
         "is_chord": true
@@ -36750,6 +37626,10 @@
     "genre": "Campfire Party",
     "strumming": "DUM D",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "G",
         "is_chord": true
@@ -37366,6 +38246,10 @@
       {
         "text": "Mai Jane Putali Relai Ma] X6",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -37376,6 +38260,10 @@
     "genre": "Campfire 4S",
     "strumming": "D (dudu D)",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "G      D           Em      C",
         "is_chord": true
@@ -37531,6 +38419,10 @@
       {
         "text": "Sing the whole song again",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -37541,6 +38433,10 @@
     "genre": "Party",
     "strumming": "D DU UDU / DD UUD DUDU (if fast) Barre",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "C",
         "is_chord": true
@@ -37799,6 +38695,10 @@
     "strumming": "D UMUDU",
     "lines": [
       {
+        "text": " ",
+        "is_chord": false
+      },
+      {
         "text": " G                    Em",
         "is_chord": true
       },
@@ -38024,6 +38924,10 @@
     "strumming": "DUMU UDU",
     "lines": [
       {
+        "text": " ",
+        "is_chord": false
+      },
+      {
         "text": "     G               C          D                G",
         "is_chord": true
       },
@@ -38245,6 +39149,10 @@
     "strumming": "DUUDU DUUUDU (slurr) - All Barre",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": " A                     ",
         "is_chord": true
       },
@@ -38455,6 +39363,10 @@
       {
         "text": "Umkera ho resham… Resham",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -38465,6 +39377,10 @@
     "genre": "Campfire Party",
     "strumming": "ddUmudu, Barre",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": " A                         Bm",
         "is_chord": true
@@ -38728,6 +39644,10 @@
       {
         "text": "resham firiri] X3",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -38738,6 +39658,10 @@
     "genre": "Campfire",
     "strumming": "DDU UDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "C-Dm-F-C",
         "is_chord": false
@@ -38872,21 +39796,9 @@
     "title": "Roop Tera Mastana",
     "filename": "Roop_Tera_Mastana.md",
     "capo": "None",
-    "genre": "N/A",
-    "strumming": "N/A",
+    "genre": "Party",
+    "strumming": "D D UDUDUD",
     "lines": [
-      {
-        "text": "No Capo",
-        "is_chord": false
-      },
-      {
-        "text": "Genre: Party ",
-        "is_chord": false
-      },
-      {
-        "text": "Strumming : D D UDUDUD",
-        "is_chord": false
-      },
       {
         "text": " ",
         "is_chord": false
@@ -39069,21 +39981,9 @@
     "title": "Sadhai Sadhai",
     "filename": "Sadhai_Sadhai.md",
     "capo": "None",
-    "genre": "N/A",
-    "strumming": "N/A",
+    "genre": "Campfire, 5S",
+    "strumming": "D-DUUD-DUD",
     "lines": [
-      {
-        "text": "No Capo",
-        "is_chord": false
-      },
-      {
-        "text": "Genre: Campfire, 5S",
-        "is_chord": false
-      },
-      {
-        "text": "Strumming : D-DUUD-DUD",
-        "is_chord": false
-      },
       {
         "text": "A                  Bm",
         "is_chord": true
@@ -39375,6 +40275,14 @@
       {
         "text": "Atit ka ti dhun haru",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -39385,6 +40293,10 @@
     "genre": "Campfire",
     "strumming": "D DuDu",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "F                                  Gm",
         "is_chord": true
@@ -39723,6 +40635,10 @@
     "genre": "N/A",
     "strumming": "DDU UDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": " E         A",
         "is_chord": true
@@ -40114,6 +41030,18 @@
       {
         "text": "ho gaye hum paagal",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -40125,7 +41053,11 @@
     "strumming": "DUMUD D DUDU / DM DUM",
     "lines": [
       {
-        "text": " E              B           A        E",
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": " E              B\t        A        E",
         "is_chord": true
       },
       {
@@ -40141,7 +41073,7 @@
         "is_chord": false
       },
       {
-        "text": " E             B         A          E",
+        "text": " E             B\t\t A          E",
         "is_chord": true
       },
       {
@@ -40157,7 +41089,7 @@
         "is_chord": false
       },
       {
-        "text": "E             B      A            E",
+        "text": "E             B\t\t A            E",
         "is_chord": true
       },
       {
@@ -40185,7 +41117,7 @@
         "is_chord": false
       },
       {
-        "text": "E             B      A            E",
+        "text": "E             B\t\t A            E",
         "is_chord": true
       },
       {
@@ -40197,7 +41129,7 @@
         "is_chord": false
       },
       {
-        "text": " E            B     A            E",
+        "text": " E            B\t\tA            E",
         "is_chord": true
       },
       {
@@ -40213,7 +41145,7 @@
         "is_chord": false
       },
       {
-        "text": " E           B     A            E",
+        "text": " E           B\t   A            E",
         "is_chord": true
       },
       {
@@ -40229,7 +41161,7 @@
         "is_chord": false
       },
       {
-        "text": "E             B      A            E",
+        "text": "E             B\t\t A            E",
         "is_chord": true
       },
       {
@@ -40257,7 +41189,7 @@
         "is_chord": false
       },
       {
-        "text": " E              B         A           E",
+        "text": " E              B\t\t  A           E",
         "is_chord": true
       },
       {
@@ -40285,7 +41217,7 @@
         "is_chord": false
       },
       {
-        "text": "E             B      A            E",
+        "text": "E             B\t\t A            E",
         "is_chord": true
       },
       {
@@ -40301,6 +41233,10 @@
     "genre": "Campfire, 5S",
     "strumming": "D–U-D-U — U-D-U",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "[1 fast down stroke, each chord and e,B]",
         "is_chord": false
@@ -40591,6 +41527,10 @@
     "strumming": "DUMDU DUMDU",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": "G",
         "is_chord": true
       },
@@ -40599,7 +41539,7 @@
         "is_chord": false
       },
       {
-        "text": "        Cadd9",
+        "text": "\t\tCadd9",
         "is_chord": true
       },
       {
@@ -40607,7 +41547,7 @@
         "is_chord": false
       },
       {
-        "text": "        D",
+        "text": "\t\tD",
         "is_chord": true
       },
       {
@@ -40615,7 +41555,7 @@
         "is_chord": false
       },
       {
-        "text": "D7       G",
+        "text": "D7\t     G",
         "is_chord": true
       },
       {
@@ -40627,7 +41567,7 @@
         "is_chord": false
       },
       {
-        "text": " G               (duuu)                 Cadd9",
+        "text": " G               (duuu) \t            Cadd9",
         "is_chord": false
       },
       {
@@ -40635,7 +41575,7 @@
         "is_chord": false
       },
       {
-        "text": "         Am",
+        "text": "\t     Am",
         "is_chord": true
       },
       {
@@ -40643,7 +41583,7 @@
         "is_chord": false
       },
       {
-        "text": "D       D7    G",
+        "text": "D\t    D7    G",
         "is_chord": true
       },
       {
@@ -40663,7 +41603,7 @@
         "is_chord": false
       },
       {
-        "text": "G                   Cadd9",
+        "text": "G\t\t\t\t    Cadd9",
         "is_chord": true
       },
       {
@@ -40671,7 +41611,7 @@
         "is_chord": false
       },
       {
-        "text": "      D     D7        G",
+        "text": "\t  D\t    D7\t\t  G",
         "is_chord": true
       },
       {
@@ -40683,7 +41623,7 @@
         "is_chord": false
       },
       {
-        "text": " G               (duuu)                 Cadd9",
+        "text": " G               (duuu) \t            Cadd9",
         "is_chord": false
       },
       {
@@ -40691,7 +41631,7 @@
         "is_chord": false
       },
       {
-        "text": "         Am",
+        "text": "\t     Am",
         "is_chord": true
       },
       {
@@ -40699,7 +41639,7 @@
         "is_chord": false
       },
       {
-        "text": "D       D7    G",
+        "text": "D\t    D7    G",
         "is_chord": true
       },
       {
@@ -40755,7 +41695,7 @@
         "is_chord": false
       },
       {
-        "text": "G               (duuu)              Cadd9",
+        "text": "G               (duuu) \t            Cadd9",
         "is_chord": false
       },
       {
@@ -40763,7 +41703,7 @@
         "is_chord": false
       },
       {
-        "text": "     Am ",
+        "text": "\t Am ",
         "is_chord": true
       },
       {
@@ -40771,7 +41711,7 @@
         "is_chord": false
       },
       {
-        "text": "D      D7    G",
+        "text": "D\t   D7    G",
         "is_chord": true
       },
       {
@@ -40799,7 +41739,7 @@
         "is_chord": false
       },
       {
-        "text": "         Cadd9",
+        "text": "\t\t Cadd9",
         "is_chord": true
       },
       {
@@ -40807,7 +41747,7 @@
         "is_chord": false
       },
       {
-        "text": "          D",
+        "text": "\t\t  D",
         "is_chord": true
       },
       {
@@ -40815,7 +41755,7 @@
         "is_chord": false
       },
       {
-        "text": "D7        G",
+        "text": "D7\t\t  G",
         "is_chord": true
       },
       {
@@ -40835,7 +41775,7 @@
         "is_chord": false
       },
       {
-        "text": "         Cadd9",
+        "text": "\t     Cadd9",
         "is_chord": true
       },
       {
@@ -40843,7 +41783,7 @@
         "is_chord": false
       },
       {
-        "text": "        D",
+        "text": "\t    D",
         "is_chord": true
       },
       {
@@ -40863,7 +41803,7 @@
         "is_chord": false
       },
       {
-        "text": "G               (duuu)              Cadd9",
+        "text": "G               (duuu) \t            Cadd9",
         "is_chord": false
       },
       {
@@ -40871,7 +41811,7 @@
         "is_chord": false
       },
       {
-        "text": "     Am ",
+        "text": "\t Am ",
         "is_chord": true
       },
       {
@@ -40879,7 +41819,7 @@
         "is_chord": false
       },
       {
-        "text": "D      D7    G",
+        "text": "D\t   D7    G",
         "is_chord": true
       },
       {
@@ -40899,7 +41839,7 @@
         "is_chord": false
       },
       {
-        "text": " G               (duuu)              Cadd9",
+        "text": " G               (duuu) \t         Cadd9",
         "is_chord": false
       },
       {
@@ -40907,7 +41847,7 @@
         "is_chord": false
       },
       {
-        "text": "        Am",
+        "text": "\t    Am",
         "is_chord": true
       },
       {
@@ -40915,7 +41855,7 @@
         "is_chord": false
       },
       {
-        "text": "D       D7    G",
+        "text": "D\t    D7    G",
         "is_chord": true
       },
       {
@@ -40939,6 +41879,10 @@
     "genre": "Campfire, Hindi",
     "strumming": "D DUDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": " G                       F",
         "is_chord": true
@@ -41137,6 +42081,10 @@
       },
       {
         "text": "Aashiqui Ke Liye",
+        "is_chord": false
+      },
+      {
+        "text": "",
         "is_chord": false
       }
     ]
@@ -41498,6 +42446,10 @@
     "strumming": "D D UUD DUDU",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": "G                              Em",
         "is_chord": true
       },
@@ -41738,6 +42690,10 @@
     "genre": "Party",
     "strumming": "DUM",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": " D           G",
         "is_chord": true
@@ -42003,6 +42959,10 @@
     "genre": "N/A",
     "strumming": "DUMUDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "G",
         "is_chord": true
@@ -42390,6 +43350,10 @@
       {
         "text": "suna mero nirmaya",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -42398,16 +43362,8 @@
     "filename": "So_Gaya_Ye_Jaha.md",
     "capo": "None",
     "genre": "N/A",
-    "strumming": "N/A",
+    "strumming": "DMU UDU",
     "lines": [
-      {
-        "text": "No Capo",
-        "is_chord": false
-      },
-      {
-        "text": "Strumming : DMU UDU",
-        "is_chord": false
-      },
       {
         "text": "",
         "is_chord": false
@@ -42589,6 +43545,10 @@
     "genre": "Campfire, English",
     "strumming": "D DUX DU",
     "lines": [
+      {
+        "text": " ",
+        "is_chord": false
+      },
       {
         "text": "C  Em  F  C",
         "is_chord": true
@@ -42864,6 +43824,14 @@
       {
         "text": "Oooo, oooo, ooo",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -42874,6 +43842,10 @@
     "genre": "N/A",
     "strumming": "DUD DUD DDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": " D                       Bm",
         "is_chord": true
@@ -43272,6 +44244,10 @@
     "strumming": "DUMUDU",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": "G",
         "is_chord": true
       },
@@ -43585,6 +44561,10 @@
     "strumming": "DMU UDU",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": "               G               G             ",
         "is_chord": true
       },
@@ -43786,6 +44766,10 @@
     "strumming": "D DDU",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": "A      F#m   A     F#m",
         "is_chord": true
       },
@@ -43904,6 +44888,18 @@
       {
         "text": "एउटै सहारा  तिम्रै मायाको",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -43914,6 +44910,10 @@
     "genre": "Campfire 4S",
     "strumming": "D DDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": " G         Em  G        Em",
         "is_chord": true
@@ -44073,6 +45073,14 @@
       {
         "text": "yeutai sahara timrai maya ko x2",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -44083,6 +45091,10 @@
     "genre": "Campfire",
     "strumming": "DuDuUDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "[Roll strum and up pull on _]",
         "is_chord": false
@@ -44257,6 +45269,10 @@
     "strumming": "D U DUDU",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": "G                 C                  Am",
         "is_chord": true
       },
@@ -44414,6 +45430,10 @@
     "strumming": "D DUDU D DUDU",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": "C           Em            F   G",
         "is_chord": true
       },
@@ -44560,28 +45580,24 @@
       {
         "text": "Ishwor ko timi malai upahaar hau",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
   {
     "title": "Suntali Mai Katima Ramro Darbara",
     "filename": "Suntali_Mai_Katima_Ramro_Darbara.md",
-    "capo": "None",
-    "genre": "N/A",
-    "strumming": "N/A",
+    "capo": ", 44, (20L,50M,20H)",
+    "genre": "Party , 5S, OldSchool",
+    "strumming": "DUMUDU",
     "lines": [
-      {
-        "text": "No Capo, 44, (20L,50M,20H)",
-        "is_chord": false
-      },
-      {
-        "text": "Genre: Party , 5S, OldSchool",
-        "is_chord": false
-      },
-      {
-        "text": "Strumming : DUMUDU ",
-        "is_chord": false
-      },
       {
         "text": "",
         "is_chord": false
@@ -44813,16 +45829,8 @@
     "filename": "Sweet_Caroline.md",
     "capo": "None",
     "genre": "N/A",
-    "strumming": "N/A",
+    "strumming": "D-DUMUDU /DD-DUDU-DUDU-DUDU",
     "lines": [
-      {
-        "text": "No Capo",
-        "is_chord": false
-      },
-      {
-        "text": "Strumming : D-DUMUDU /DD-DUDU-DUDU-DUDU",
-        "is_chord": false
-      },
       {
         "text": "E [Palm mute]",
         "is_chord": false
@@ -45082,6 +46090,18 @@
       {
         "text": "... fade repeating \"Sweet Caroline...\"",
         "is_chord": false
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -45092,6 +46112,10 @@
     "genre": "Campfire",
     "strumming": "D UDUD UUD DU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "G",
         "is_chord": true
@@ -45495,6 +46519,10 @@
       {
         "text": "Ma jaane Sikkima tira] x2",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -45505,6 +46533,10 @@
     "genre": "Campfire Party English",
     "strumming": "D DUDUDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "            G",
         "is_chord": true
@@ -45843,6 +46875,10 @@
     "strumming": "D DUDU",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": "LA la laal la la la la la la la…",
         "is_chord": false
       },
@@ -46084,6 +47120,10 @@
     "strumming": "D DU UDU",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": "[Archipelago]",
         "is_chord": false
       },
@@ -46265,6 +47305,10 @@
     "strumming": "D UMUDU",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": "[Arpeggio]",
         "is_chord": false
       },
@@ -46349,7 +47393,7 @@
         "is_chord": false
       },
       {
-        "text": "             G                  A",
+        "text": "             G\t\t\t\t    A",
         "is_chord": true
       },
       {
@@ -46487,6 +47531,10 @@
       {
         "text": "Pirati Gaseko X4",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -46497,6 +47545,10 @@
     "genre": "Campfire, 4S",
     "strumming": "DDUMUDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "D                               G",
         "is_chord": true
@@ -46718,6 +47770,14 @@
     "genre": "Campfire",
     "strumming": "D DUDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "D                                 D",
         "is_chord": true
@@ -46990,6 +48050,10 @@
       {
         "text": "तिमी नै, तिमी नै हौ",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -47000,6 +48064,10 @@
     "genre": "Campfire 4S",
     "strumming": "DUMU UMU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "C                 Dm",
         "is_chord": true
@@ -47203,6 +48271,10 @@
       {
         "text": "Maya basisakecha x2",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -47213,6 +48285,10 @@
     "genre": "Campfire",
     "strumming": "D D UUD DUDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "[Single Strum]",
         "is_chord": false
@@ -47572,6 +48648,26 @@
       {
         "text": "Hoo oo Hoo oo x2",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -47582,6 +48678,10 @@
     "genre": "campfire, 4S",
     "strumming": "DUM DU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": " G",
         "is_chord": true
@@ -47776,21 +48876,9 @@
     "title": "Timro Nyano",
     "filename": "Timro_Nyano.md",
     "capo": "None",
-    "genre": "N/A",
-    "strumming": "N/A",
+    "genre": "Campfire",
+    "strumming": "D D UUD DDU",
     "lines": [
-      {
-        "text": "No Capo",
-        "is_chord": false
-      },
-      {
-        "text": "Genre: Campfire",
-        "is_chord": false
-      },
-      {
-        "text": "Strumming : D D UUD DDU ",
-        "is_chord": false
-      },
       {
         "text": "",
         "is_chord": false
@@ -47901,21 +48989,9 @@
     "title": "Timro Tyo Hasilo Muhar Ko",
     "filename": "Timro_Tyo_Hasilo_Muhar_Ko.md",
     "capo": "None",
-    "genre": "N/A",
-    "strumming": "N/A",
+    "genre": "Campfire",
+    "strumming": "D D UUD DDU",
     "lines": [
-      {
-        "text": "No Capo",
-        "is_chord": false
-      },
-      {
-        "text": "Genre: Campfire ",
-        "is_chord": false
-      },
-      {
-        "text": "Strumming : D D UUD DDU",
-        "is_chord": false
-      },
       {
         "text": "",
         "is_chord": false
@@ -48126,7 +49202,11 @@
     "strumming": "D DU UDU / DM UUM",
     "lines": [
       {
-        "text": "C              Am       C",
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "C\t\t\t   Am       C",
         "is_chord": true
       },
       {
@@ -48134,7 +49214,7 @@
         "is_chord": false
       },
       {
-        "text": "C               Am        C",
+        "text": "C\t\t\t\tAm        C",
         "is_chord": true
       },
       {
@@ -48150,7 +49230,7 @@
         "is_chord": false
       },
       {
-        "text": " Am             C",
+        "text": " Am\t\t\t\tC",
         "is_chord": true
       },
       {
@@ -48162,7 +49242,7 @@
         "is_chord": false
       },
       {
-        "text": "C              Am        C",
+        "text": "C\t\t\t   Am        C",
         "is_chord": true
       },
       {
@@ -48170,7 +49250,7 @@
         "is_chord": false
       },
       {
-        "text": "C               Am         C",
+        "text": "C\t\t\t    Am         C",
         "is_chord": true
       },
       {
@@ -48186,7 +49266,7 @@
         "is_chord": false
       },
       {
-        "text": " Am             C",
+        "text": " Am\t\t\t\tC",
         "is_chord": true
       },
       {
@@ -48198,7 +49278,7 @@
         "is_chord": false
       },
       {
-        "text": " C        Am       F         C  ",
+        "text": " C \t\t  Am       F         C  ",
         "is_chord": true
       },
       {
@@ -48206,7 +49286,7 @@
         "is_chord": false
       },
       {
-        "text": "C        Am         F         C",
+        "text": "C\t\t Am\t\t    F         C",
         "is_chord": true
       },
       {
@@ -48238,7 +49318,7 @@
         "is_chord": false
       },
       {
-        "text": " Am             C",
+        "text": " Am\t\t\t\tC",
         "is_chord": true
       },
       {
@@ -48254,7 +49334,7 @@
         "is_chord": false
       },
       {
-        "text": " C        Am          F         C  ",
+        "text": " C \t\t  Am          F         C  ",
         "is_chord": true
       },
       {
@@ -48262,7 +49342,7 @@
         "is_chord": false
       },
       {
-        "text": "C        Am         F       C",
+        "text": "C\t\t Am\t\t    F       C",
         "is_chord": true
       },
       {
@@ -48286,7 +49366,7 @@
         "is_chord": false
       },
       {
-        "text": "   C                  Am       C",
+        "text": "   C\t\t\t      Am       C",
         "is_chord": true
       },
       {
@@ -48294,7 +49374,7 @@
         "is_chord": false
       },
       {
-        "text": "C               Am         C",
+        "text": "C\t\t\t    Am         C",
         "is_chord": true
       },
       {
@@ -48310,7 +49390,7 @@
         "is_chord": false
       },
       {
-        "text": " Am             C",
+        "text": " Am\t\t\t\tC",
         "is_chord": true
       },
       {
@@ -48322,7 +49402,7 @@
         "is_chord": false
       },
       {
-        "text": "C              Am       C",
+        "text": "C\t\t\t   Am       C",
         "is_chord": true
       },
       {
@@ -48330,7 +49410,7 @@
         "is_chord": false
       },
       {
-        "text": "C               Am        C",
+        "text": "C\t\t\t\tAm        C",
         "is_chord": true
       },
       {
@@ -48346,7 +49426,7 @@
         "is_chord": false
       },
       {
-        "text": " Am             C",
+        "text": " Am\t\t\t\tC",
         "is_chord": true
       },
       {
@@ -48354,7 +49434,7 @@
         "is_chord": false
       },
       {
-        "text": "Am              C",
+        "text": "Am\t\t\t\tC",
         "is_chord": true
       },
       {
@@ -48370,6 +49450,10 @@
     "genre": "Party, Hindi",
     "strumming": "DU DDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "A",
         "is_chord": true
@@ -48825,6 +49909,10 @@
       {
         "text": "Main Tere Agal Bagal Hoon..",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -48835,6 +49923,10 @@
     "genre": "Campfire Hindi",
     "strumming": "DDUM DU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "        Em           G       Em",
         "is_chord": true
@@ -49074,6 +50166,14 @@
       {
         "text": "Tujhe dekha to yeh jaana sanam...",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -49084,6 +50184,10 @@
     "genre": "Campfire , Hindi",
     "strumming": "D D UUDD",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "       G             Em",
         "is_chord": true
@@ -49318,21 +50422,9 @@
     "title": "Tum Hi Ho",
     "filename": "Tum_Hi_Ho.md",
     "capo": "None",
-    "genre": "N/A",
-    "strumming": "N/A",
+    "genre": "Campfire, Hindi, 4S",
+    "strumming": "DDUUD DUDU",
     "lines": [
-      {
-        "text": "No Capo",
-        "is_chord": false
-      },
-      {
-        "text": "Genre: Campfire, Hindi, 4S",
-        "is_chord": false
-      },
-      {
-        "text": "Strumming : DDUUD DUDU",
-        "is_chord": false
-      },
       {
         "text": "",
         "is_chord": false
@@ -49639,6 +50731,10 @@
     "strumming": "Du Du U Du",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": " A               D",
         "is_chord": true
       },
@@ -49865,6 +50961,34 @@
       {
         "text": "Wo shaam kuchh ajeeb thi ",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -49875,6 +50999,14 @@
     "genre": "Campfire Party",
     "strumming": "DDU UDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "F            Bb    F              Bb",
         "is_chord": true
@@ -50102,6 +51234,10 @@
       {
         "text": "Koi to dilbar ho yaar",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -50110,16 +51246,8 @@
     "filename": "Ye_dosti.md",
     "capo": "None",
     "genre": "N/A",
-    "strumming": "N/A",
+    "strumming": "D DU UDU",
     "lines": [
-      {
-        "text": "No Capo",
-        "is_chord": false
-      },
-      {
-        "text": "Strumming : D DU UDU",
-        "is_chord": false
-      },
       {
         "text": "",
         "is_chord": false
@@ -50374,6 +51502,10 @@
     "strumming": "Down strum slow",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": "F",
         "is_chord": true
       },
@@ -50467,6 +51599,18 @@
       },
       {
         "text": "Tera Saath Na…",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
         "is_chord": false
       }
     ]
@@ -50845,6 +51989,14 @@
       {
         "text": "joon timilai ma sunaai rahechhu] x2",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -50855,6 +52007,10 @@
     "genre": "Campfire, Hindi",
     "strumming": "D UDU D.. U D U / D U U UDU",
     "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
       {
         "text": "        E              F#m",
         "is_chord": true
@@ -51050,6 +52206,14 @@
       {
         "text": "Yeh Jeevan Hai…",
         "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
       }
     ]
   },
@@ -51194,6 +52358,10 @@
     "strumming": "DD UUD DUDU / D DU UDU",
     "lines": [
       {
+        "text": "",
+        "is_chord": false
+      },
+      {
         "text": "C         Em       ",
         "is_chord": true
       },
@@ -51322,7 +52490,7 @@
         "is_chord": false
       },
       {
-        "text": "   G5                C",
+        "text": "   G5\t\t\t\t C",
         "is_chord": true
       },
       {
@@ -51467,6 +52635,14 @@
       },
       {
         "text": "Yo mann ta mero Nepali ho [x2]",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
         "is_chord": false
       }
     ]
@@ -51616,6 +52792,10 @@
       },
       {
         "text": "Timi Nai Bhani Deu, Ae Jane Nithuri.. Jane Nithuri",
+        "is_chord": false
+      },
+      {
+        "text": "",
         "is_chord": false
       }
     ]

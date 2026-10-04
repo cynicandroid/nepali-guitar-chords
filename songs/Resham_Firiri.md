@@ -11,6 +11,7 @@
 ---
 
 ```text
+
  A                         Bm
 [Resham firiri, resham firiri
              E     
@@ -77,6 +78,7 @@ Resham firiri, resham firiri
 [Udera jauki dandama bhanjyang,
 Bm         A
 resham firiri] X3
+
 ```
 
 ---

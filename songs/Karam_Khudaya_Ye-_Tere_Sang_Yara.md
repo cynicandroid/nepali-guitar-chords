@@ -11,6 +11,7 @@
 ---
 
 ```text
+ 
   G
 O karam Khudaya hai
       C             Am
@@ -132,6 +133,10 @@ Khush rang bahara
 Main behta musafir
            G
 Tu thehra kinara.
+
+
+
+
 ```
 
 ---

@@ -11,6 +11,7 @@
 ---
 
 ```text
+
        G             Em
 Dil ka dariya beh hi gaya
        C          D

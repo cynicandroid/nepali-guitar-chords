@@ -35,7 +35,7 @@ G                         D
 Jun Malai Bhanchhau Bhane Hajur
 Em             Am
 Ujyaalo Timi Mero
-G               D
+G				D
 Timi Pani Basekaa Chhau Hasi
 Am        D      G
 Kaleji ko Serofero
@@ -62,7 +62,7 @@ G                         D
 Jun Malai Bhanchhau Bhane Hajur
 Em             Am
 Ujyaalo Timi Mero
-G               D
+G				D
 Timi Pani Basekaa Chhau Hasi
 Am        D      G
 Kaleji ko Serofero

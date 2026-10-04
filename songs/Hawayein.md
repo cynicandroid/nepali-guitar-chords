@@ -11,75 +11,76 @@
 ---
 
 ```text
-        D                                       G
+
+        D                   G
 Tujh ko… main rakh loon wahaan
-                       A                          D
+          A                   D
 Jahaan pe kahin ..Hai mera yaqeen.
-         D                       G
+     D              G
 Main jo… tera naa huaa
-                 A                      D
+          A              D
 Kisi ka nahin… Kisi ka nahin
 
-                            G
+                 G
 Le jaayein jaane kahaan..Hawayein, hawayein…
-                           D
+                 D
 Le jaayein tujhe kahaan.. Hawayein, hawayein.
-                            G
+                G
 Begaani hai yeh baaghi.. Hawayein, hawayein
-                          D
+               D
 Le jaaye mujhe kahaan.. Hawayein, hawayein.
-                            Em
+                 Em
 Le jaayein jaane kahaan,
-                         A                         D
+             A               D
 na mujhko khaba, Na tujhko pataa…
-                G                                D
+         G                  D
 Oool ooo hooooo .. ohh oooh ohhhh x2
-A               D
+A        D
 Oooo ohh oh ooo
 
-                         D
+               D
 Banaati hai jo tu…
-                                  A                                   G
+                  A                    G
 Woh yaadein jaane sang mere kab tak chale
-                     Em
+             Em
 Inhi mein to meri…
-                                    A                                      D
+                    A                    D
 Subah bhi dhale, Shamein dhale Mausam dhale
-                            D
+               D
 Khayalon ka shehar…
-                       A                               G
+              A                 G
 Tu jaane tere hone se hi aabaad hai
-                             Em
+               Em
 Hawayein haq mein…
-                        A                             D
+              A                  D
 Wohi hai aate jaate jo tera naam le.
  
-                         G
+               G
 Deti hain jo sadayein…Hawayein, hawayein
-                          D
+               D
 Na jaane kya batayein…Hawayein, hawayein.
-                        G
+               G
 Le jaaye tujhe kahaan.. hawayein, hawayein
-                          D
+                D
 Le jaaye mujhe kahaan..Hawayein, hawayein.
-                            Em
+                 Em
 Le jaayein jaane kahaan,
-                         A                           D
+              A               D
 na mujhko khabar, Na tujhko pataa…
 
-                 G                              D 
+         G                  D 
 Oool ooo hooooo .. ohh oooh ohhhh x2
-A               D
+A        D
 Oooo ohh oh ooo
 
-                          G 
+                G 
 [Le jaaye jaane kahaan (hawayein hawayein)
-                        D
+               D
 Le jaaye tujhe kahaan (hawayein hawayein)] X4
 
-G                    D       G                    D 
+G           D      G          D 
 Oool ooo hooooo .. ohh oooh ohhhh x2
-A               D
+A        D
 Oooo ohh oh ooo
 ```
 

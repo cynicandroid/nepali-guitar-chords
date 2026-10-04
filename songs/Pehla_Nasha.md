@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 [Intro, Slow down strokes only] 
 F                Bb
 Chaahe tum kuchh na kaho
@@ -34,7 +35,7 @@ F                   C
 Naya pyaar hai naya intezaar
     Bb               F
 Kar loon me kya apna haal
-Bb         C
+Bb		   C
 Aye dil-e-beqarar
 Bb           F
 Mere dil-E-bekaraar
@@ -61,7 +62,7 @@ F                   C
 Naya pyaar hai naya intezaar
     Bb               F
 Kar loon me kya apna haal
-Bb          C
+Bb		    C
 Aye dil-e-beqarar
 Bb           F
 Mere dil-e-bekaraar
@@ -87,12 +88,15 @@ F                   C
 Naya pyaar hai naya intezaar
     Bb               F
 Kar loon me kya apna haal
-Bb          C
+Bb		    C
 Aye dil-e-beqarar
 Bb           F
 Mere dil-e-bekaraar
       C
 Tu hi bata
+
+
+
 ```
 
 ---

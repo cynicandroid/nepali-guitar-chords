@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 A      D      A             D
 pokhiyera gham ko jhulka aaa
 A                        G
@@ -82,6 +83,10 @@ D                  A
 kholu kholu lagchha hai
 G        D        G              A
 Kholu kholu laagchha hai
+
+
+
+
 ```
 
 ---

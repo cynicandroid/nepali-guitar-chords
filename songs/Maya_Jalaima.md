@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 A
 Aaunchhu bhanera ma
 D                  A
@@ -60,6 +61,7 @@ D                     A
 Aarkai sanga maya jaalaima
 D         A           D
 maya jalaima maya jalaima x4
+
 ```
 
 ---

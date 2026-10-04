@@ -11,12 +11,12 @@
 ---
 
 ```text
+
 [Arpeggio]
 A          Bm
 Timi Jowan lai 
           E             A
 hooo Dekhera Pirati Gaseko
-
 
 
 A
@@ -32,7 +32,7 @@ A            E            Bm      A
 Yasai Thauma Ghumna Ayeko Ma Auta Pardeshi
 A                     E            Bm      A
 HO Ho Ho Yasai Thauma Ghumna Ayeko Ma Auta Pardeshi
-             G                  A
+             G				    A
 Thahai Napai Basechha Maya Akasa Bhanda Beshi x2
 A
 Hiu Paryo Fururu Himali Bhegaima
@@ -67,6 +67,7 @@ F#m        Bm
 Timi Jowan lai Hoo Dekhera 
 E          A
 Pirati Gaseko X4
+
 ```
 
 ---

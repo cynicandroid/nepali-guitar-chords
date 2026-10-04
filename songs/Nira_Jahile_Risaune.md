@@ -1,8 +1,8 @@
 # Nira Jahile Risaune
 
-**Capo:** None  
+**Capo:**   
 **Genre:** N/A  
-**Strumming:** N/A  
+**Strumming:** DUMDU  
 
 ---
 
@@ -11,8 +11,6 @@
 ---
 
 ```text
-No Capo
-Strumming : DUMDU
 
 A
 [Nira jaile risauni, nira jaile risauni
@@ -73,6 +71,7 @@ A
 Nira jaile risauni, nira jaile risauni
      D                      A
 Nira kahile hola maya sanga maya misauni
+
 ```
 
 ---

@@ -11,6 +11,7 @@
 ---
 
 ```text
+
  C              Dm
 [Musu Musu Hasi Deu Na Lai Lai
 G              C

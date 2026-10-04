@@ -2,7 +2,7 @@
 
 **Capo:** None  
 **Genre:** N/A  
-**Strumming:** N/A  
+**Strumming:** DUCUD DDU DUCUD  
 
 ---
 
@@ -17,72 +17,71 @@ Key : C
 Genre : Party
 Strumming : DUCUD DDU DUCUD
 
-C         Am      F        G        (x2)
-DUCUD DDU DUCUD
+C    Am   F    G  (x2)
 
-C                 Am
+C         Am
 Chaubandi cholo
-F      G                       C         Am  F G
-Kalo   sari kya suhayeko
-C              Am
+F    G            C     Am  F G
+Kalo sari kya suhayeko
+C        Am
 Hatai ma rumal
-F                 G
+F         G
 Nidhar ma tiko
-C          Am       F     G
-      Ranga kati mileko
+C     Am      F   G
+   Ranga kati mileko
  
 F  G (x2)
  
-C                G                         Am        F
+C       G              Am    F
 Chamachama gardai mero anganima
-C         G       Am                F      C     G
+C      G     Am          F     C   G
 Kina timi ayi  nachna thaleki
-               Am          F                 C   Am
+        Am      F          C   Am
 Phulbarima phuleko phula jhai
-F      G                    C           Am   F   G
+F   G           C       Am   F   G
 Hoo nachna kina ayeki
- F                   G
+ F          G
 [Maya maile timrai lagi
-F                                  G
+F                    G
 Timrai lagi maile yo jyanai phaleko ho
 
-C      Am                F            G
+C     Am          F       G
 Sirai ma fulbandi gala ma naugyadi
-C                     G              Am                     F
+C            G         Am          F
 Hey nakai ma phuli hoo kaan ma jhumka 
-C     Am
+C    Am
 kati suhayeki
-F    G                            C           Am      F    G
+F    G             C         Am      F    G
 Hoo nachna kina ayeki.. hooo yeah
 
 (Chords during solo)
-C  Am  F  G  (x4)
+[C  Am  F  G  (x4)
 ] X2
 
-C                  Am
+C         Am
 Chaubandi cholo
 F     G
 Kalo sari
-C              Am
+C        Am
 Hatai ma rumal
-F                  G
+F         G
 Nidhar ma tiko
-C               Am
+C        Am
 Nakai ma phuli hoo
-F                       G
+F           G
 Kaan ma jhumka
-                     C    Am   F  G
+           C    Am  F  G
 Kati suhayeko
  
 [Instrumental] (x2)
 C    Am    F   G
  
 hooo hooo
-F           G                    C   Am   F   G
+F      G           C   Am  F  G
 nachna kina hooo ayeki
-C                 Am             C         Am
+C         Am         C     Am
 Chaubandi cholo hatai ma rumal
-C                 Am
+C         Am
 Chaubandi cholo
 ```
 

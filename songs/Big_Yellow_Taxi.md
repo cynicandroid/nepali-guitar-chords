@@ -93,6 +93,8 @@ Yeah they paved paradise, put up a parking lot
 D           G               A                D
 I said they paved paradise, put up a parking lot
 X
+
+
 ```
 
 ---

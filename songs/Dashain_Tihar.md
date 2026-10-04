@@ -11,17 +11,18 @@
 ---
 
 ```text
-G            Em
+
+G        Em
 Barsa ra din ma lai lai
-G             Em
+G        Em
 Harsa ka din yi lai lai [ x2 ]
 A
 Dashain tihar chad ra baada
-A                    Am                G
+A             Am            G
 Khusi le sara varyo ni sansara
-G          A
+G         A
 Ahh ha ha ha aa
-A                     Am               G
+A             Am            G
 Khusi le sara varyo ni sansara
 G
 Ooooooo AhhhhaaaahaaAhhhh aaaa haa
@@ -31,51 +32,51 @@ D
 Oooooooooooo
  
 
-G             Em
+G        Em
 Aarka ko desh ma lai lai
-G              Em
+G        Em
 Samjhana aako ni malai
-G             Em
+G         Em
 Sayapatri fuleko aagan
-G                   Em
+G            Em
 Rato akchata jamara lagai
 A
 Yeta mero aasu ko dhara
-A               Am       G
+A            Am          G
 Uta holan raatai ti nidhara
 G         A
 Ahh ha ha ha aaa
-A              Am       G
+A            Am          G
 Uta holan raatai ti nidhara
  
  
-G        Em
+G      Em
 Supari mala yo dai lai
-G            Em
+G         Em
 Bato vari aankha ti failai
-G                Em
+G           Em
 Basdai holi meri bahini
-G                 Em
+G          Em
 Daju aaune din haru gandai
 A
 Yespali pakkai aauchu ma bahini
-A                 Am                   G
+A           Am              G
 Sajauna lai aafnai tyo sansara
-G         A
+G      A
 Ahh ha ha ha aaa
-A                 Am                  G
+A           Am              G
 Sajauna lai aafnai tyo sansara
 G         A
 Ahh ha ha ha aa
-A                    Am                G
+A             Am            G
 Khusi le sara varyo ni sansara
 G         A
 Ahh ha ha ha aaa
-A               Am              G
+A         Am             G
 Uta holan raatai ti nidhara
 G         A
 Ahh ha ha ha aaa
-A                  Am                   G
+A            Am              G
  Sajauna lai aafnai tyo sansara
 ```
 

@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 Am               C
 Maya Ko Baari Ma Priti Ko Fula x2
 C       D    C  C
@@ -54,6 +55,7 @@ C       D    C  C
 Sangali Rakheko Kusume Rumal
 Am     G     Am    C
 Kusume Rumal Kusme Rumal 2x
+
 ```
 
 ---

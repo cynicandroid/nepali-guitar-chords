@@ -67,6 +67,7 @@ that too many people have died
 [The answer my friend is blowin in the wind
               D              G
 The answer is blowin' in the wind ] X2
+ 
 ```
 
 ---

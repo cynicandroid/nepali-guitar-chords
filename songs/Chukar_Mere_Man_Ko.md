@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 D             G              D
 Hoo.. hoo hoo ho.. Hohoho ho hooo X2
 [Single strum each chord]

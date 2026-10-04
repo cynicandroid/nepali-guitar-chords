@@ -14,9 +14,9 @@
 Key : G
 Strumming : D dudu
 
-G   Em     D     G
+G	Em	   D     G
 Marne kasailai rahar hudaina [x2]
-G          Bm   Am     D
+G    	   Bm   Am     D
 Tara namareko prahar hudaina [x2]
 G       Bm  D        
 Bhagera jau kun thau jau [x2]
@@ -35,12 +35,12 @@ Jivan kina yeha chaldaina ustai
 [Batti diyoma baldaina ustai [x2]
 G     Bm        D
 Kasto khatan ho yo niyatiko [x2]
-Am          D    Cadd9  G
+Am          D	 Cadd9  G
 Kun nivchha kahile thahar hudaina [x2]
 
 G     Em       D     G
 Marne kasailai rahar hudaina [x2]
-G          Bm   Am     D
+G    	   Bm   Am     D
 Tara namareko prahar hudaina [x2]
 G       Bm  D        
 Bhagera jau kun thau jau [x2]
@@ -63,7 +63,7 @@ Marne kasailai rahar hudaina
 
 G     Em       D     G
 Marne kasailai rahar hudaina [x2]
-G          Bm   Am     D
+G    	   Bm   Am     D
 Tara namareko prahar hudaina [x2]
 G       Bm  D        
 Bhagera jau kun thau jau [x2]
@@ -71,6 +71,7 @@ Am      D       Cadd9 G
 Manchhe namarne sahar hudaina [x2]
 G     Em       D     G
 Marne kasailai rahar hudaina
+
 ```
 
 ---

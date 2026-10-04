@@ -57,6 +57,7 @@ dui kadam saath hidau
 chuttinu ta chadai cha
       Bb         F      Bb           F
 bhare pheri yekantama runu ta chadai cha
+
 ```
 
 ---

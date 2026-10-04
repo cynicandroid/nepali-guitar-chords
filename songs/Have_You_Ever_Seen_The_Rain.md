@@ -11,6 +11,7 @@
 ---
 
 ```text
+ 
 C
 Someone told me long ago
 C                                   G
@@ -54,6 +55,7 @@ It can't stop, I wonder
 Have you ever seen the rain) X2
 F        G                C
 Coming down on a sunny day ]x2
+
 ```
 
 ---

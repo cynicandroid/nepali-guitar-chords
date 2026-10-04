@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 G
 [Nachideu maichyang
 timi damphuko talaima] x2
@@ -102,6 +103,8 @@ mata fasdina jaalima] x2
 G
 [Bihe gari chhadeu bhane
 kasle paalcha ani-kaalai-ma] x2
+
+
 ```
 
 ---

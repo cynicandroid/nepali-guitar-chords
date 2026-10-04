@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 C         Em       
 Jaso gara je bhana 
 Am                  F   Dm
@@ -43,7 +44,7 @@ Afnai karma ma atal rahena
 
 A5 (All DD Strum)
 Afnai pasina ma biswas rakhne
-   G5                C
+   G5				 C
 Yo maan ta mero…. Nepali ho
  
    C        Em         Am      F
@@ -80,6 +81,8 @@ Am                  F   Dm
 jata sukai laijau malai
     G        F         C
 Yo mann ta mero Nepali ho [x2]
+
+
 ```
 
 ---

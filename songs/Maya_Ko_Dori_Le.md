@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 [Fast DUD 1st, & DD 2nd]
 Bm                         G 
 Mayako dori le nisthoori morilai
@@ -33,7 +34,7 @@ G        A        F#
 Badhyata rahar hoina
 Bm              
 Bholi ko dinai ma 
-          G
+		  G
 samjhine man chaina
 A                           G
 Nabhanos yo man le manai ta ho ni
@@ -51,6 +52,8 @@ A                         G
 Timrai ho bhana sunna chahanchu
 Bm
 Ju ju na na na na na na
+ 
+
 ```
 
 ---

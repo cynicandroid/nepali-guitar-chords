@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 C           Em            F   G
 Sundarta ko timi udaharan hau
         C         Em          F   G
@@ -48,6 +49,8 @@ Pari ko ti-----mi euta namuna hau
 Sankai chaina timro rupama
           C G    F           C
 Ishwor ko timi malai upahaar hau
+
+
 ```
 
 ---

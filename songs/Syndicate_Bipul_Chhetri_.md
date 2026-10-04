@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 G
 Bheta bhayo aja hami,
 G
@@ -112,6 +113,7 @@ chhadi rakhyau malai etai tira
 [Timi jaane Siligudi, 
 D                G
 Ma jaane Sikkima tira] x2
+
 ```
 
 ---

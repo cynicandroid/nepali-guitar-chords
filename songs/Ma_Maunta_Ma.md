@@ -11,6 +11,7 @@
 ---
 
 ```text
+
  G          Bm       Am
 Ma maunta ma aljhi raheko
 D7      G       Bm    Am   D7

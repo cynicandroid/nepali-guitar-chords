@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 C [no Strum]   Am      F               C
 Piudina bhanda bhandai pilayo saaa..thile
 [Strum]
@@ -67,6 +68,7 @@ C              Am      F           C
 [Ma chu vani bharosa dilayo sathile
 Dm          C
 Pilayo sathile] x2
+
 ```
 
 ---

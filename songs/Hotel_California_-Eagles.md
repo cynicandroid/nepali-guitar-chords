@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 Am                                         E7
 On a dark desert highway, cool wind in my hair
 G                               D

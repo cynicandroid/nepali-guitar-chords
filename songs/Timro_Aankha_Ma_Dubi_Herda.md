@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 [Single Strum]
 G        Em7 
 Aau Mero Najeek
@@ -101,6 +102,11 @@ Timi suna, ma sunauchu
 Maan Vari Ka Mera Maya Ka Dhun Haru
 D
 Hoo oo Hoo oo x2
+
+
+
+
+
 ```
 
 ---

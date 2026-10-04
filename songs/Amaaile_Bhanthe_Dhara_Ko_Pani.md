@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 D              G       D
 amaile bhanthe dharako pani x2
 D               G      D
@@ -73,6 +74,8 @@ mareni mareni mareni tirkhaile
 [tara babai le bhanthe
 D
 kalko pani raksi ganayo] X2
+
+
 ```
 
 ---

@@ -11,6 +11,7 @@
 ---
 
 ```text
+
  A               D
 [Wo shaam kuchh ajeeb thi 
    A          D
@@ -68,6 +69,13 @@ A         D
 aaj bhi kareeb hain] X2
    A            D
 Wo shaam kuchh ajeeb thi 
+
+
+
+
+
+
+
 ```
 
 ---

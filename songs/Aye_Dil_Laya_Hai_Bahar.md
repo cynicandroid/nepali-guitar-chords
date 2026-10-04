@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 G      Em     Am     D
 [Oooho Lala Lala laaa …]
 
@@ -70,6 +71,9 @@ apnon ka pyar,  kya kehna
 Milein hum, chhalak utha 
               Am  D        G
 khushi ka khumaar,  kya kehna]X2
+ 
+
+
 ```
 
 ---

@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 A                   D
 [Mera dil bhi kitna pagal hai,
      E              A
@@ -85,6 +86,9 @@ Yeh pyar to tum se karta hai] X2
  
         D              A
 [Saajan saajan, saajan saajan] X2
+
+
+
 ```
 
 ---

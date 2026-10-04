@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 [Intro, Slow down strokes only] 
 D                G      
 Chaahe tum kuchh na kaho 
@@ -71,7 +72,7 @@ D          G        A          D
 Sapne de gaya vo hazaron range ke [x2]
 F                        D
 Reh jaoon jaise main haar ke
-F                    D
+F          			 D
 Aur choome vo mujhe pyaar se
 
 D            A
@@ -86,6 +87,10 @@ G               D
 Mere dil-e beqarar
 A
 Tu hi bata
+
+
+
+
 ```
 
 ---

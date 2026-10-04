@@ -1,8 +1,8 @@
 # Maya - Asutosh KC
 
-**Capo:** None  
+**Capo:**   
 **Genre:** N/A  
-**Strumming:** N/A  
+**Strumming:** DUDD UDUDUDU  
 
 ---
 
@@ -11,8 +11,6 @@
 ---
 
 ```text
-No Capo
-Strumming : DUDD UDUDUDU
 
 C       G       C
 Taha chaina K ho yo

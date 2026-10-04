@@ -1,8 +1,8 @@
 # Dum Maru Dum
 
-**Capo:** None  
+**Capo:**   
 **Genre:** N/A  
-**Strumming:** N/A  
+**Strumming:** DDUUD DUDU  
 
 ---
 
@@ -11,8 +11,6 @@
 ---
 
 ```text
-No Capo
-Strumming : DDUUD DUDU
 
 [All Barre Chords]
  Am

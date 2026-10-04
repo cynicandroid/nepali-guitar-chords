@@ -11,6 +11,8 @@
 ---
 
 ```text
+
+
 [Same rhythm as ghas katne khurekra]
 G      Em  Cadd9  D
 पिंढी-मा बसेर मेरै बाटो हेरेर x2

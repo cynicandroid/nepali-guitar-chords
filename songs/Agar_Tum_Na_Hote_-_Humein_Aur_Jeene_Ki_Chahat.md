@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 Am                   F          C
 [Hamein Aur Jeene Ki Chaahat Na Hoti
             F                C
@@ -84,6 +85,7 @@ Am                 F           C
 In Aankhon Ke Aansoo Na Kehlaate Moti
             F              C
 Agar Tum Na Hote Agar Tum Na Hote
+
 ```
 
 ---

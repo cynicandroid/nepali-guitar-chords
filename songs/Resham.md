@@ -11,6 +11,7 @@
 ---
 
 ```text
+
  A                     
 [Sano ma sano kamal ko Hanga, resham]x2
 A            Bm       E         A
@@ -64,6 +65,7 @@ Bm        Bm    E
 Kaha jali,
        A          A
 Umkera ho resham… Resham
+
 ```
 
 ---

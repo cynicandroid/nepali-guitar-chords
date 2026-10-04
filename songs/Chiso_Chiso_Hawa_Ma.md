@@ -1,8 +1,8 @@
 # Chiso Chiso Hawa Ma
 
-**Capo:** None  
-**Genre:** N/A  
-**Strumming:** N/A  
+**Capo:**   
+**Genre:** Campfire, oldschool  
+**Strumming:** DUUD DU  
 
 ---
 
@@ -11,9 +11,6 @@
 ---
 
 ```text
-No Capo
-Genre : Campfire, oldschool
-Strumming : DUUD DU
 
 Em
 Chiso chiso hawa ma

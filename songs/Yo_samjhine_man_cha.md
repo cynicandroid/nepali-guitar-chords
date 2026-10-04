@@ -46,6 +46,7 @@ C                               Dm
 Yo Samjhine Mann Cha Ma Birsu Kasari
 Dm                  G7        C
 Timi Nai Bhani Deu, Ae Jane Nithuri.. Jane Nithuri
+
 ```
 
 ---

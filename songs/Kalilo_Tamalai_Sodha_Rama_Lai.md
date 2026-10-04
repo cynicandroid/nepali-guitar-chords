@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 G [Down Down]  A
 Chhati ma mero yo choto bhoto
 G [Down Down]      A [DUDUDUDU]
@@ -82,6 +83,7 @@ G             A [DUDUDUDU]
 Kilai paraune sodha rama lai
       G                A          G
 [Aaha kati lai paraune sodha rama lai] x5
+
 ```
 
 ---

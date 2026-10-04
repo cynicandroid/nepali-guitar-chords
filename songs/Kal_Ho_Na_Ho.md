@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 G                        Em
 [Har ghadi badal raha hai roop zindagi
 G                   Em
@@ -58,6 +59,8 @@ Chaav hai kahhi hai dhoop zidnagi
 [Har pal yahan jee bhar jiyo
          C Dm         G
 Jo hai sama kal ho na ho] X2
+
+
 ```
 
 ---

@@ -11,6 +11,7 @@
 ---
 
 ```text
+
  G              D
 [lag ja gale,ke fir yeh
 G        Em   G     D
@@ -63,6 +64,8 @@ Shaayad phir is janam mein
 Mulaqaat ho na ho
 G
 lag ja gale,fir............... 
+
+
 ```
 
 ---

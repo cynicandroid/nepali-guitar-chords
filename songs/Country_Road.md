@@ -1,8 +1,8 @@
 # Country Road
 
-**Capo:** None  
-**Genre:** N/A  
-**Strumming:** N/A  
+**Capo:**   
+**Genre:** Campfire, English  
+**Strumming:** DD-U-UDU / D(root) D dudu  
 
 ---
 
@@ -11,9 +11,6 @@
 ---
 
 ```text
-No Capo
-Genre : Campfire, English
-Strumming : DD-U-UDU / D(root) D dudu
 
 G              Em7             
 Almost Heaven; West Virginia,
@@ -80,6 +77,7 @@ take me home, country roads] [X2]
 
         D/F#               G     
 Take me home, down country roads; [x2]
+
 ```
 
 ---

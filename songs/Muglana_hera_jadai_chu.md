@@ -1,8 +1,8 @@
 # Muglana hera jadai chu
 
-**Capo:** None  
+**Capo:**   
 **Genre:** N/A  
-**Strumming:** N/A  
+**Strumming:** D UM UDU  
 
 ---
 
@@ -11,8 +11,6 @@
 ---
 
 ```text
-No Capo
-Strumming : D UM UDU
 
 [Chorus]
 G                   Am

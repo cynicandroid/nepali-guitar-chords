@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 G                    D     G
 [naya naya sajaau hai sansaar
 G                       D   G

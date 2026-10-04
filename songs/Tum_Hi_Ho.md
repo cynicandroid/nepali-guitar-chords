@@ -1,8 +1,8 @@
 # Tum Hi Ho
 
-**Capo:** None  
-**Genre:** N/A  
-**Strumming:** N/A  
+**Capo:**   
+**Genre:** Campfire, Hindi, 4S  
+**Strumming:** DDUUD DUDU  
 
 ---
 
@@ -11,9 +11,6 @@
 ---
 
 ```text
-No Capo
-Genre: Campfire, Hindi, 4S
-Strumming : DDUUD DUDU
 
 e|-------7-----8------------|
 B|----8-----8-----8--10--7--|

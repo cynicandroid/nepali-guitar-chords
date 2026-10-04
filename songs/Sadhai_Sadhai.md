@@ -1,8 +1,8 @@
 # Sadhai Sadhai
 
-**Capo:** None  
-**Genre:** N/A  
-**Strumming:** N/A  
+**Capo:**   
+**Genre:** Campfire, 5S  
+**Strumming:** D-DUUD-DUD  
 
 ---
 
@@ -11,9 +11,6 @@
 ---
 
 ```text
-No Capo
-Genre: Campfire, 5S
-Strumming : D-DUUD-DUD
 A                  Bm
 Sadhai sadhai aai rahancha
 E  D       A
@@ -87,6 +84,8 @@ Atit ka ti dhun haru ] X2
 
 E   D            A
 Atit ka ti dhun haru
+
+
 ```
 
 ---

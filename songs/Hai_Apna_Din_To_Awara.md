@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 [Press unpress each down stroke]
  A                D
 [Hai apna dil to awara
@@ -78,6 +79,7 @@ Naa jaane kis pe aayega
 [Hai apna dil to awara
 Bm        D   E    A
 Naa jaane kis pe aayega] X2
+
 ```
 
 ---

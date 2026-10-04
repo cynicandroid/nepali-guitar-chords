@@ -1,2 +1,4 @@
 /Guitar Tabs/*
 .DS_Store
+__pycache__/convert.cpython-312.pyc
+__pycache__/server.cpython-312.pyc

@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 [1 fast down stroke, each chord and e,B]
  C             Am
 [Saanjha paray pachhi ni lai lai

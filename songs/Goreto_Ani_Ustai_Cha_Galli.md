@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 G           D
 [Goreto ani ustai cha galli
 Cadd9               G
@@ -98,6 +99,9 @@ G        Cadd9
 oo priyea
    G
 oo priyea
+
+
+
 ```
 
 ---

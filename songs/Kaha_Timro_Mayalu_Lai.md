@@ -1,8 +1,8 @@
 # Kaha Timro Mayalu Lai
 
-**Capo:** None, 51, mid max other 0  
+**Capo:** None
 **Genre:** N/A  
-**Strumming:** N/A  
+**Strumming:** DUMDU
 
 ---
 
@@ -11,10 +11,6 @@
 ---
 
 ```text
-Key : A
-Genre: Party, 5S
-Strumming : DUMDU - Barre
-
 A           Bm
 [Kaha Timro Mayalu Lai 
 E        A

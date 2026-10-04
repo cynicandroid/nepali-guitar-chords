@@ -11,6 +11,7 @@
 ---
 
 ```text
+
        G              D
 When I find myself in times of trouble 
 Em          C
@@ -116,6 +117,9 @@ G                D
 Whisper words of wisdom
        C (A2,0) G
 let it be
+
+
+
 ```
 
 ---

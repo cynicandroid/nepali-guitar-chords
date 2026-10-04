@@ -11,6 +11,7 @@
 ---
 
 ```text
+
  G#              DD
 [Dui paate suiro 
 G#          
@@ -94,6 +95,11 @@ A#        G#
 jindagiko saar ho
 A#        G#
 ahile aba phool bhayo
+
+
+
+
+
 ```
 
 ---

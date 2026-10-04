@@ -11,6 +11,7 @@
 ---
 
 ```text
+ 
 Am
 Asarai mahinama, pani paryo rujhaune
 Am                       C
@@ -54,6 +55,8 @@ Am      C        F       C
 Naudada pari cha company sahara
  Am        G     F
 [Bichod ko belai ma] x4
+
+
 ```
 
 ---

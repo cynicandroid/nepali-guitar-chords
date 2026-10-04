@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 F      Am   Dm      Gm
 Parkhi Base Aaula Bhani 
 C           F      C         F
@@ -65,6 +66,10 @@ F      Am   Dm      Gm
 Parkhi Base Aaula Bhani 
 C           F      C          F
 Mero Uthane Palo Mero Uthane Palo
+
+
+
+
 ```
 
 ---

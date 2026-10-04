@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 G                   Am
 [(Gurasai fulyo)X2,(banai ma) x2
 C             D        G

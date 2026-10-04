@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 G      D           Em      C
 Ram sailee Ma ta Yo banako Pirale
 G      D          Cadd9       G
@@ -50,6 +51,7 @@ G       D         Cadd9      G
 Gum Khaye Yesai Birano Sahar ma
 ..
 Sing the whole song again
+
 ```
 
 ---

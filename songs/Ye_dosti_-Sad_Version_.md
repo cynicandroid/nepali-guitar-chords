@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 F
 Tune Yeh Kya Kiya
 F
@@ -35,6 +36,9 @@ C
 Todengeeee Dum Magarrrrr
 Dm
 Tera Saath Na…
+
+
+
 ```
 
 ---

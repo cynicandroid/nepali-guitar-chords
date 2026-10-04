@@ -11,6 +11,7 @@
 ---
 
 ```text
+
   A          G
 [(Deurali ko chautari ma) x2
 A          G
@@ -53,6 +54,7 @@ A          G
 Sangini le aakha chopeko
                     A
 (Aaucha ajhai jhajhalko) X2] X2
+
 ```
 
 ---

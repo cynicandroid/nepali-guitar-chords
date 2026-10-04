@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 C
 Aaaaa aaaaa aaaaa  aaaaa x 2
 C
@@ -76,6 +77,7 @@ Gm
 kali malai banaula
 G                           (C F G C X3)
 timi pirati ko chhata odhau na
+
 ```
 
 ---

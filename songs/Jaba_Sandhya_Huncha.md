@@ -11,6 +11,7 @@
 ---
 
 ```text
+
  Am             E   
 [Malai disakeko dil 
 E7            Am

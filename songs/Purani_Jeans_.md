@@ -86,6 +86,7 @@ C               Am
 Woh Raton ko... Jagna
            F               C
 Subah Ghar Jana... Kood ke Diwar] x2
+
 ```
 
 ---

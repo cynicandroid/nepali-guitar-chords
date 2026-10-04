@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 C       Em     F      G
 maya ko pahilo saugat swarup
 C          Em   F      G
@@ -19,7 +20,7 @@ C      Em          F       G
 korera maya ko diu sabda timilai
         C 
 mero yo prem patra 
-      G
+	  G
 mero yo prem patra 
         C          F
 mero yo prem patra
@@ -55,10 +56,12 @@ C          Em       F         G
 sumpidaichu maya ko diu sabda timilai
         C 
 mero yo prem patra 
-      G
+	  G
 mero yo prem patra 
         C          F
 mero yo prem patra
+ 
+
 ```
 
 ---

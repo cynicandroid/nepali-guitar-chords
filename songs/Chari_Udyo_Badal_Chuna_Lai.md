@@ -11,7 +11,8 @@
 ---
 
 ```text
-G                          Em
+
+G           	           Em
 Chari udyo baadal chuna lai
  Am
 [Ma baseko relai gudyo
@@ -31,7 +32,7 @@ Nachuttine kasam khako..hooo
 Am         D        G
 Nachuttine kasam khako
 
-G [roll]                  Em
+G [roll]     	          Em
 Chari udyo baadal chuna lai
  Am
 [Ma baseko relai gudyo
@@ -57,6 +58,9 @@ Chari udyo baadal chuna lai
 [Ma baseko relai gudyo
                D          G
 Kanchi baschin eklai runa lai] X2
+
+
+
 ```
 
 ---

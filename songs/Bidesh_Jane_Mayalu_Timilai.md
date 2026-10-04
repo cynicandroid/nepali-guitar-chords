@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 G           Bm         C
 Bidesh Jane Mayalu Timilai
 Am       D7            G
@@ -64,6 +65,7 @@ G                    Em
 Timro Sathi Lai Ke Ko Pira
  C             Am      G
 [Jiudai Marne Yo Avagi Dekhera] X4
+
 ```
 
 ---

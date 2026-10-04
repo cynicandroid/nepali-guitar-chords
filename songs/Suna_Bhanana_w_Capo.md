@@ -11,6 +11,7 @@
 ---
 
 ```text
+
  G         Em  G        Em
 [suna bhanana, juna herana
 G         D    C     D      G
@@ -51,6 +52,8 @@ G         D   C     D  G
 jastai katha, timro hamro
 Am         D  C      D    G
 yeutai sahara timrai maya ko x2
+
+
 ```
 
 ---

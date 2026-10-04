@@ -1,8 +1,8 @@
 # Suntali Mai Katima Ramro Darbara
 
-**Capo:** None  
-**Genre:** N/A  
-**Strumming:** N/A  
+**Capo:** , 44, (20L,50M,20H)  
+**Genre:** Party , 5S, OldSchool  
+**Strumming:** DUMUDU  
 
 ---
 
@@ -11,9 +11,6 @@
 ---
 
 ```text
-No Capo, 44, (20L,50M,20H)
-Genre: Party , 5S, OldSchool
-Strumming : DUMUDU 
 
 [Bar Chords, press release bar]
  Am

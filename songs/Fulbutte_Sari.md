@@ -1,8 +1,8 @@
 # Fulbutte Sari
 
-**Capo:** None  
-**Genre:** N/A  
-**Strumming:** N/A  
+**Capo:** 8 Fret, Key G/ 5th fret 
+**Genre:** Party 
+**Strumming:** DUUD UUD DU 
 
 ---
 
@@ -11,9 +11,6 @@
 ---
 
 ```text
-Capo on 8th Fret, Key G/ 5th fret 
-Genre: Party
-Strum : DUUD UUD DU
 
 G                 Em
 Phul butte saari, sapakka pari
@@ -59,6 +56,9 @@ G                 Em
 Phul butte saari, sapakka pari
 C                G
 Pachyauri malmal ko
+
+
+
 ```
 
 ---

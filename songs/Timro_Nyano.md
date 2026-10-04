@@ -1,8 +1,8 @@
 # Timro Nyano
 
-**Capo:** None  
-**Genre:** N/A  
-**Strumming:** N/A  
+**Capo:**   
+**Genre:** Campfire  
+**Strumming:** D D UUD DDU  
 
 ---
 
@@ -11,9 +11,6 @@
 ---
 
 ```text
-No Capo
-Genre: Campfire
-Strumming : D D UUD DDU 
 
 G          D            C
 timro nyano angalo ko maya

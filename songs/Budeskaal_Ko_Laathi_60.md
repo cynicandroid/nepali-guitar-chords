@@ -11,6 +11,7 @@
 ---
 
 ```text
+ 
 G                       D
 Samay sangai bitdai cha jindagi mero
 G                   D
@@ -87,6 +88,8 @@ G7          C
 K hune chau sandhai mero saath 
      D            G
 jaba pugchu ma saathi
+
+
 ```
 
 ---

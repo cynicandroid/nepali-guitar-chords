@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 Em                [arpeggio]
 Dherai choti aakha judhyo
               D   [arpeggio]
@@ -37,16 +38,16 @@ Hasu kasari , maaya bolu kasari [X2]
 [Jindagi bageko paani jasto hoo
 D                          Em
 Aaudaina farkera feri feri hoo] X2                                              
-       Em                   D
+	   Em				    D
 Hoo maya ta dui din ko gham chyaa ho
-Em               D       Em
+Em               D 	     Em
 Karma le doryaai kataa laani hoo
 D                           Em
 Hasi rakhana maya boli rakhana [X2]
 
  Em
 [Aakhai ko vaaka maa manai aljhiyo
-D                                 Em
+D                    	          Em
 Kahile kahi dukne mutu feri baljhiyo] x2
     Em                         D
 Hoo lajaalu muskaan le saath deuna

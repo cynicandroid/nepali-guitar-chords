@@ -11,6 +11,7 @@
 ---
 
 ```text
+
  D                     Bm
 [Jab Koi Baat Bigad Jaaye
         D              G
@@ -29,7 +30,7 @@ Zindagi Mein Tumhaare Siwa
        D
 O Humnawaaz] X2
 
-    D                  F#m
+    D	               F#m
 [Ho Chaandni Jab Tak Raat
      D           G
 Deta Hai Har Koi Saath
@@ -98,6 +99,7 @@ Zindage Mein Tumhaare Siva
 [Tum Dena Saath Mera
        D
 O Humnawaaz] X2
+
 ```
 
 ---

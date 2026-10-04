@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 G               Cadd9
 Ghar aagana ani saathi bhai
 Em7                 D
@@ -86,6 +87,7 @@ Em7               D         G         Cadd9
 Mann vane saannani utaichha haamro Nepal ma
 Em7      D
 Pyaro Nepal ma
+
 ```
 
 ---

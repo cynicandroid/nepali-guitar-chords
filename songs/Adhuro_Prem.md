@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 Am      F              C    G
 Eklo jiwan ma kabal satha khojethe
 Am      F              C      G
@@ -77,6 +78,7 @@ Am               F
 adhuroooooooo o hooooooooo
 C  G
 mero prem] x3
+
 ```
 
 ---

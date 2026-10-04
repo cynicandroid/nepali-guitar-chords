@@ -11,6 +11,7 @@
 ---
 
 ```text
+
  E         A
 [Samne yeh kaun aaya, 
 E
@@ -109,6 +110,9 @@ E           A
 Dekh ke bas ek hi jhalak,
 E
 ho gaye hum paagal
+
+
+
 ```
 
 ---

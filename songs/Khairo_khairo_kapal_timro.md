@@ -11,6 +11,7 @@
 ---
 
 ```text
+ 
  A 
 [Khairo khairo kapal timro
                 D
@@ -68,6 +69,7 @@ Juna jasto rupa timro
 Aaha pipal pate otha
           A
 Ani sundar muskaan timro] X2
+
 ```
 
 ---

@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 F            A#
 Hiunta hoina phapreko dangura
 F           A#
@@ -45,6 +46,7 @@ C
 [Hongkong pokhara
 F
 Nirmohi aphnuko ko chara eh]x2
+
 ```
 
 ---

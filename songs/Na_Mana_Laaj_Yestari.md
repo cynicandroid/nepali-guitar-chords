@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 C
 [Strum]
 G           C
@@ -103,6 +104,7 @@ G         C
 Naau Samu Yestari
 G            C
 Namana Laaj Yestari
+
 ```
 
 ---

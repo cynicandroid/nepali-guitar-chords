@@ -1,8 +1,8 @@
 # So Gaya Ye Jaha
 
-**Capo:** None  
+**Capo:**   
 **Genre:** N/A  
-**Strumming:** N/A  
+**Strumming:** DMU UDU  
 
 ---
 
@@ -11,8 +11,6 @@
 ---
 
 ```text
-No Capo
-Strumming : DMU UDU
 
 E       A    E       A
 Hmm Hmm Hmm, Hmm Hmm Hmm

@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 G                Em
 Ali alikati pida huda ni,
 D                 G

@@ -1,8 +1,8 @@
 # Mere samne wali khidki
 
-**Capo:** None  
+**Capo:**   
 **Genre:** N/A  
-**Strumming:** N/A  
+**Strumming:** DUMU DUM  
 
 ---
 
@@ -11,8 +11,6 @@
 ---
 
 ```text
-No Capo
-Strumming : DUMU DUM
 
        G          D
 Mere saamnewali khidki mein
@@ -70,6 +68,7 @@ kuch ukhda ukhda rehta hai
 Mere saamnewaali khidki mein 
       Em             C
 Ek chaand ka tukda rehta hai
+
 ```
 
 ---

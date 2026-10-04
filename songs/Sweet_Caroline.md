@@ -1,8 +1,8 @@
 # Sweet Caroline
 
-**Capo:** None  
+**Capo:**   
 **Genre:** N/A  
-**Strumming:** N/A  
+**Strumming:** D-DUMUDU /DD-DUDU-DUDU-DUDU  
 
 ---
 
@@ -11,8 +11,6 @@
 ---
 
 ```text
-No Capo
-Strumming : D-DUMUDU /DD-DUDU-DUDU-DUDU
 E [Palm mute]
 La la la.. La la la la… [x2]
 A
@@ -78,6 +76,9 @@ A             D             E    D   C#m  Bm
 I believe they never could
 
 ... fade repeating "Sweet Caroline..."
+ 
+
+
 ```
 
 ---

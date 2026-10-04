@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 D            A          E          A   
 Debre aankha jhimkyauda tir chalyo re
 D             A         E          A
@@ -73,6 +74,7 @@ A          D
 Yo mutu ko chheu
 A
 (Aago lagyo dilaima damkal bolai deu)x2
+
 ```
 
 ---

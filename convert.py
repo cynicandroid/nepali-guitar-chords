@@ -38,26 +38,19 @@ def parse_docx(filepath):
             
             lines = []
             for p in paragraphs:
-                # Preserve Word's explicit tab characters. Joining only w:t
-                # nodes collapses tabs and moves chords to the left when a
-                # DOCX uses tabs for lyric/chord alignment.
+                # Copy paragraph content literally. Joining only w:t nodes
+                # loses Word tabs; expanding them or normalizing whitespace
+                # changes the source layout. Markdown code blocks preserve
+                # both tabs and spaces.
                 text_parts = []
-                column = 0
                 for node in p.iter():
                     if node.tag == f"{{{namespaces['w']}}}t":
                         value = node.text or ''
                         text_parts.append(value)
-                        column += len(value)
                     elif node.tag == f"{{{namespaces['w']}}}tab":
-                        # Word's default tab stop is four monospaced columns
-                        # for these source documents. Expand to spaces so
-                        # Markdown and the browser preserve the same layout.
-                        spaces = 4 - (column % 4)
-                        text_parts.append(' ' * spaces)
-                        column += spaces
+                        text_parts.append('\t')
                     elif node.tag == f"{{{namespaces['w']}}}br":
                         text_parts.append('\n')
-                        column = 0
                 text = ''.join(text_parts)
                 lines.append(text)
                 
@@ -69,12 +62,12 @@ def parse_docx(filepath):
                 if not clean:
                     continue
                 
-                capo_match = re.match(r'^Capo\s*:\s*(.*)$', clean, re.IGNORECASE)
+                capo_match = re.match(r'^(?:Capo\s*:\s*|No\s+Capo\s*:?)\s*(.*)$', clean, re.IGNORECASE)
                 genre_match = re.match(r'^Genre\s*:\s*(.*)$', clean, re.IGNORECASE)
                 strumming_match = re.match(r'^Strumming\s*:\s*(.*)$', clean, re.IGNORECASE)
                 
                 if capo_match:
-                    metadata['capo'] = capo_match.group(1).strip()
+                    metadata['capo'] = capo_match.group(1).strip() or 'None'
                     body_start_idx = i + 1
                 elif genre_match:
                     metadata['genre'] = genre_match.group(1).strip()
@@ -86,10 +79,6 @@ def parse_docx(filepath):
                     break
                     
             body_lines = lines[body_start_idx:]
-            while body_lines and not body_lines[0].strip():
-                body_lines.pop(0)
-            while body_lines and not body_lines[-1].strip():
-                body_lines.pop()
                 
             return metadata, body_lines
     except Exception as e:
@@ -105,7 +94,7 @@ def main():
     
     for filepath in docx_files:
         basename = os.path.basename(filepath)
-        if basename.startswith('_'):
+        if basename.startswith(('_', '~$')):
             continue  # Skip utility files
             
         title = basename[:-5].strip()
@@ -188,6 +177,7 @@ def main():
     # Generate main README.md
     readme_content = []
     readme_content.append("# 🎶 Nepali Guitar Chords & Tabs Collection 🎸\n")
+    readme_content.append("[License: GNU GPL v3 or later](LICENSE.md) · [Full license text](LICENSE)\n")
     readme_content.append("Welcome to the **Nepali Guitar Chords & Tabs Collection**! This repository is an interactive, digital songbook containing chords and lyrics for over 200+ popular Nepali, Hindi, and English songs.\n")
     
     readme_content.append("## 🌟 Features\n")
@@ -197,6 +187,19 @@ def main():
     
     readme_content.append("## 🖥️ Interactive Web Companion (GitHub Pages)\n")
     readme_content.append("You can open `index.html` in any browser to launch the beautiful, responsive, mobile-friendly songbook web app. It is completely static and ready to be hosted on **GitHub Pages**!\n")
+    readme_content.append("### Dependencies and Installation\n")
+    readme_content.append("Required:\n")
+    readme_content.append("- Python 3.9 or newer — used by `server.py` and `convert.py`")
+    readme_content.append("- A modern browser such as Safari, Chrome, Firefox, or Edge\n")
+    readme_content.append("Optional:\n")
+    readme_content.append("- [Just](https://github.com/casey/just) — provides the short commands in `justfile`")
+    readme_content.append("- Microsoft Word or Google Docs — only needed when adding or editing source `.docx` files\n")
+    readme_content.append("The project has no Python packages or Node.js packages to install. The guitar audio resources are included locally under `assets/webaudiofont/`.\n")
+    readme_content.append("On macOS with Homebrew:\n\n```bash\nbrew install python just\n```\n")
+    readme_content.append("Verify the installation:\n\n```bash\npython3 --version\njust --version   # optional\n```\n")
+    readme_content.append("If Homebrew is not installed, install Python from [python.org](https://www.python.org/downloads/) or use the Python installation already available on your Mac. Just can be installed separately using its [installation instructions](https://github.com/casey/just#installation).\n")
+    readme_content.append("#### Linux\n\nOn Debian or Ubuntu:\n\n```bash\nsudo apt update\nsudo apt install python3 just\n```\n\nOn Fedora:\n\n```bash\nsudo dnf install python3\n```\n\nJust can be installed separately on distributions that do not package it. Verify with `python3 --version` and `just --version`. Start the server with:\n\n```bash\njust serve\n```\n")
+    readme_content.append("#### Windows\n\nInstall Python 3 from [python.org](https://www.python.org/downloads/windows/) and enable **Add Python to PATH** during installation. In PowerShell, verify it with:\n\n```powershell\npy --version\n```\n\nInstall Just using [Scoop](https://scoop.sh/):\n\n```powershell\nscoop install just\n```\n\nOr install it using [Chocolatey](https://chocolatey.org/install):\n\n```powershell\nchoco install just\n```\n\nStart the server without Just:\n\n```powershell\npy server.py\n```\n\nOr with Just:\n\n```powershell\njust serve\n```\n")
     readme_content.append("### Web App Highlights:\n")
     readme_content.append("- 🔍 **Instant Search:** Find any song by title in milliseconds.")
     readme_content.append("- 🎼 **Transposition:** Transpose the key of any song up or down with a single click (with column alignment preserved!).")

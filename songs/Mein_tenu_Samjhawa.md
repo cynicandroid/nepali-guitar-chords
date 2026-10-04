@@ -11,6 +11,7 @@
 ---
 
 ```text
+
               A         D
 [Main tenu samjhawan ki
              A         D
@@ -60,6 +61,9 @@ Tu dil tuhi oo jaan meri [x2]
 Main tenu samjhawan ki
              A         D
 Na tere baju lagda jee
+
+
+
 ```
 
 ---

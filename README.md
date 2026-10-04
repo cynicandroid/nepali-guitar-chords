@@ -14,6 +14,88 @@ Welcome to the **Nepali Guitar Chords & Tabs Collection**! This repository is an
 
 You can open `index.html` in any browser to launch the beautiful, responsive, mobile-friendly songbook web app. It is completely static and ready to be hosted on **GitHub Pages**!
 
+### Dependencies and Installation
+
+Required:
+
+- Python 3.9 or newer — used by `server.py` and `convert.py`
+- A modern browser such as Safari, Chrome, Firefox, or Edge
+
+Optional:
+
+- [Just](https://github.com/casey/just) — provides the short commands in `justfile`
+- Microsoft Word or Google Docs — only needed when adding or editing source `.docx` files
+
+The project has no Python packages or Node.js packages to install. The guitar audio resources are included locally under `assets/webaudiofont/`.
+
+On macOS with Homebrew:
+
+```bash
+brew install python just
+```
+
+Verify the installation:
+
+```bash
+python3 --version
+just --version   # optional
+```
+
+If Homebrew is not installed, install Python from [python.org](https://www.python.org/downloads/) or use the Python installation already available on your Mac. Just can be installed separately using its [installation instructions](https://github.com/casey/just#installation).
+
+#### Linux
+
+On Debian or Ubuntu:
+
+```bash
+sudo apt update
+sudo apt install python3 just
+```
+
+On Fedora:
+
+```bash
+sudo dnf install python3
+```
+
+Just can be installed separately on distributions that do not package it. Verify with `python3 --version` and `just --version`. Start the server with:
+
+```bash
+just serve
+```
+
+#### Windows
+
+Install Python 3 from [python.org](https://www.python.org/downloads/windows/) and enable **Add Python to PATH** during installation. In PowerShell, verify it with:
+
+```powershell
+py --version
+```
+
+Install Just using [Scoop](https://scoop.sh/):
+
+```powershell
+scoop install just
+```
+
+Or install it using [Chocolatey](https://chocolatey.org/install):
+
+```powershell
+choco install just
+```
+
+Start the server without Just:
+
+```powershell
+py server.py
+```
+
+Or with Just:
+
+```powershell
+just serve
+```
+
 ### Web App Highlights:
 
 - 🔍 **Instant Search:** Find any song by title in milliseconds.
@@ -264,7 +346,7 @@ Here are some useful visual references included in this project:
 - [Suna Katha Yeuta Geet](songs/Suna_Katha_Yeuta_Geet.md)
 - [Suna Saili](songs/Suna_Saili.md)
 - [Sundarta Ko Timi (Namuna)](songs/Sundarta_Ko_Timi_Namuna.md) (Capo: None , Key : C)
-- [Suntali Mai Katima Ramro Darbara](songs/Suntali_Mai_Katima_Ramro_Darbara.md)
+- [Suntali Mai Katima Ramro Darbara](songs/Suntali_Mai_Katima_Ramro_Darbara.md) (Capo: , 44, (20L,50M,20H))
 - [Sweet Caroline](songs/Sweet_Caroline.md)
 - [Syndicate Bipul Chhetri_](songs/Syndicate_Bipul_Chhetri_.md) (Capo: 9th Fret)
 

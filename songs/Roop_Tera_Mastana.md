@@ -1,8 +1,8 @@
 # Roop Tera Mastana
 
-**Capo:** None  
-**Genre:** N/A  
-**Strumming:** N/A  
+**Capo:**   
+**Genre:** Party  
+**Strumming:** D D UDUDUD  
 
 ---
 
@@ -11,9 +11,6 @@
 ---
 
 ```text
-No Capo
-Genre: Party 
-Strumming : D D UDUDUD
  
 C         A#      C         A#
 Roop Tera Mastana Pyar Mera Diwana

@@ -1,8 +1,8 @@
 # Ye dosti
 
-**Capo:** None  
+**Capo:**   
 **Genre:** N/A  
-**Strumming:** N/A  
+**Strumming:** D DU UDU  
 
 ---
 
@@ -11,8 +11,6 @@
 ---
 
 ```text
-No Capo
-Strumming : D DU UDU
 
 A
 Yeh dosti hum nahin todenge

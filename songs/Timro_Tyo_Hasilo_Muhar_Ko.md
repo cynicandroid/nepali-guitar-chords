@@ -1,8 +1,8 @@
 # Timro Tyo Hasilo Muhar Ko
 
-**Capo:** None  
-**Genre:** N/A  
-**Strumming:** N/A  
+**Capo:**   
+**Genre:** Campfire  
+**Strumming:** D D UUD DDU  
 
 ---
 
@@ -11,9 +11,6 @@
 ---
 
 ```text
-No Capo
-Genre: Campfire 
-Strumming : D D UUD DDU
 
 D                 G
 Timro tyo hasilo muhar ko

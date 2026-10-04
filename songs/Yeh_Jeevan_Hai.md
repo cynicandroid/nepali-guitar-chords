@@ -11,6 +11,7 @@
 ---
 
 ```text
+
         E              F#m
 [Yeh Jeevan Hai, Is Jeevan Ka
 F#m       E        B            E
@@ -60,6 +61,8 @@ F#m       E         B              E
 Yahi Hai, Yahi Hai, Yahi Hai Chaon Dhoop
 E
 Yeh Jeevan Hai…
+
+
 ```
 
 ---

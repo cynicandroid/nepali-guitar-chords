@@ -11,6 +11,7 @@
 ---
 
 ```text
+
  C                Am
 [Dhaka topi daura surbal lako
               C
@@ -87,6 +88,7 @@ Malai Nepali haina vanna kaha paincha
 [Mata Nepal ko maya garne choro 
       Dm(DD)    G(DD)     C
 Malai ma jastai maya chaincha] X2
+
 ```
 
 ---

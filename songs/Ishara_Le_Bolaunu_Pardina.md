@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 F
 Isharale Bolaunu Pardaina
 F          Gm      C7     F
@@ -64,6 +65,8 @@ F             Gm      C7 F
 Maya Na Bhaye Bolaunu ke Khaancho
 F          Gm      C7      F
 Maya Bhaye Daraunu Pardaina
+
+
 ```
 
 ---

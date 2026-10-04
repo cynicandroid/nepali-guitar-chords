@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 G                Cadd9    D           G
 [Ek Ajnabi Hasina Se Yun Mulaqat Ho Gayi
 G                   Cadd9

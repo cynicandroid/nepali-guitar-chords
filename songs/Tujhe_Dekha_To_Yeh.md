@@ -11,6 +11,7 @@
 ---
 
 ```text
+
         Em           G       Em
 [[Tujhe dekha to yeh jaana sanam
       G                  Bm
@@ -71,6 +72,8 @@ Ab yahaan se kahaan jaaye hum?
 Teri baahoon mein mar jaaye hum
       Em           G       Em
 Tujhe dekha to yeh jaana sanam...
+
+
 ```
 
 ---

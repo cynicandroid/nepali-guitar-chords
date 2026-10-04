@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 C                 Dm
 Timi pari tyo gau ma
             F  G      C
@@ -62,6 +63,7 @@ F     G         C
 Nasha lagi sakecha
 Dm   F        C
 Maya basisakecha x2
+
 ```
 
 ---

@@ -1,8 +1,8 @@
 # Jiwan ho Ghamachaya
 
-**Capo:** None  
+**Capo:**   
 **Genre:** N/A  
-**Strumming:** N/A  
+**Strumming:** DD UUD DDU  
 
 ---
 
@@ -11,8 +11,6 @@
 ---
 
 ```text
-No Capo
-Strumming : DD UUD DDU 
 
        C        Dm    
 Jeevan ho gham chaya,
@@ -68,6 +66,7 @@ yo jindagani
 [yo jindagani, yo jindagani, 
         C
 yo jindagani] [X8]
+
 ```
 
 ---

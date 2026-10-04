@@ -11,6 +11,7 @@
 ---
 
 ```text
+
  G        F     G
 [Jomsomai Bazar Ma
 G         F        G   
@@ -67,6 +68,7 @@ F                             G
 Aahile Samma Bha Chaina Gharbara
 F               G
 Ghar Hamro Pokhara] x4
+
 ```
 
 ---

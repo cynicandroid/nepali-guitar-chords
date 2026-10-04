@@ -11,6 +11,7 @@
 ---
 
 ```text
+
  G                       F
 [Saanson Ki Zaroorat Hai Jaise
 G                       G
@@ -61,6 +62,7 @@ C            G        F   C
 Bas Ek Sanam Chaahiye ee  ee
 F             G
 Aashiqui Ke Liye
+
 ```
 
 ---

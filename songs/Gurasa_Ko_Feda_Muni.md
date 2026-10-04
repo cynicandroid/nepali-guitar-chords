@@ -1,8 +1,8 @@
 # Gurasa Ko Feda Muni
 
-**Capo:** None  
-**Genre:** N/A  
-**Strumming:** N/A  
+**Capo:**   
+**Genre:** Party, Campfire  
+**Strumming:** D D UUD DUDU  
 
 ---
 
@@ -11,9 +11,6 @@
 ---
 
 ```text
-No Capo
-Genre: Party, Campfire
-Strumming : D D UUD DUDU
 
 Bm                               D
 Gurasha ko fed muni, samjhana ko chaya

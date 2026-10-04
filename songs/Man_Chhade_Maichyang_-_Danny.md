@@ -77,6 +77,7 @@ G         C
 Appa sune gaal parla
 F               G
 Lapcha ko chaap jasto
+
 ```
 
 ---

@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 G|-----5h7-5-5-----------5h7-5-5—-- (X2)
 D|-7-7---------7---7-7-7---------7-
 
@@ -121,6 +122,8 @@ Am
 Dampu le aja kya bhancha jam
 Am  G    Am      G    Am  
 Jam kata jam jam kata jam jam jam
+
+
 ```
 
 ---

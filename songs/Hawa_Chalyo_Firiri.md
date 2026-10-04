@@ -11,43 +11,44 @@
 ---
 
 ```text
+ 
  C
 [Asare mahina simsime paani
 C
 Pari rahekai chha ni
 F
 Timilai bhetna bhanera
-             G                   C
+       G           C
 Chhata odhera aako saani] X2
   
-           C                   F
+      C              F
 [Hawa chalyo siriri aatai jiriri
 F
 Ma bajauchu murali tiriri
-         G            C
+     G         C
 Timi nacha firiri] X2 
-             G             C
+        G         C
 Ae timi nacha firiri
-          G            C
+      G            C
 Lahai nacha firiri
  
 
 C
 Aankha ti dui aankha
-            F                    C
+       F            C
 Timrai lagi ho mero yo bhaka
 C
 Pari banma koyali gayo
-            F                        C
+       F              C
 Timlai dekherai manai ramayo
  
 C
 Pauju pauma pauju
-         F                              C
+     F                 C
 Timi chheu aauda ma ta lajauchu
 C
 Haatma chura rato chura
-           F                        C
+      F             C
 Chino mayako ke cha hajur
  
  C
@@ -56,19 +57,20 @@ C
 Phool diye oilaula
 F
 Yahi jyan timlai upahar bhayo
-G                    C
+G            C
 Sangai jiwan bitaula] X2
  
-C                              F
+C                   F
 [Hawa chalyo siriri aatai jiriri
 F
 Ma bajauchu murali tiriri
-         G              C
+     G          C
 Timi naacha firiri] X2 
-             G            C
+        G         C
 Ae timi nacha firiri
-          G               C
+      G         C
 Lahai nacha firiri
+
 ```
 
 ---

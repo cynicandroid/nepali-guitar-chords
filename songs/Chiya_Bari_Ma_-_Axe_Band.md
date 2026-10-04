@@ -11,6 +11,7 @@
 ---
 
 ```text
+
  Am            Em          D C     Am
 [Dekhe timilai hijo hai rati sapani ma
 Am       Em           D C          Am
@@ -75,6 +76,7 @@ G               Am
 Danda pari ma, chhautari ma
 D          Am  D          Am
 Chiya bari ma, Chiya bari ma
+
 ```
 
 ---

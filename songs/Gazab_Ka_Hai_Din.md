@@ -11,6 +11,7 @@
 ---
 
 ```text
+
 G             C     G      D
 Gazab ka hai din, socho zara
 G    C          G      D

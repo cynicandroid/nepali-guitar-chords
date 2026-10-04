@@ -11,7 +11,9 @@
 ---
 
 ```text
-C.       G           Am      F       C                                Ha Ha Ha Hm Hm Hm Hm Hm Hm Hm Hm Hm Hm 
+
+C.       G           Am      F      C   
+Ha Ha Ha Hm Hm Hm Hm Hm Hm Hm Hm Hm Hm 
    Am       C
 Hm He He He Hey Hey x2
 
@@ -68,6 +70,9 @@ tyo ankha ko neer talaima
 C-G-Am   F          C                                Ha Ha Ha Hm Hm Hm Hm Hm Hm Hm Hm Hm Hm 
    Am       C
 Hm He He He Hey Hey x2
+
+
+
 ```
 
 ---

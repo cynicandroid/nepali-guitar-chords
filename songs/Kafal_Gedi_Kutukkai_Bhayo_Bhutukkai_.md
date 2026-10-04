@@ -1,8 +1,8 @@
 # Kafal Gedi Kutukkai Bhayo Bhutukkai_
 
 **Capo:** 2nd fret  
-**Genre:** N/A  
-**Strumming:** N/A  
+**Genre:** Party,oldschool, 4S 
+**Strumming:** DUMD 
 
 ---
 
@@ -11,9 +11,6 @@
 ---
 
 ```text
-Scale: G
-Genre: Party,oldschool, 4S
-Strumming: DUMD
 
  Em           G
 [Majhi dai le jaalai hanyo
