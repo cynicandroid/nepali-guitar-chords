@@ -1,6 +1,6 @@
 /Guitar Tabs/*
-!/Guitar Tabs/_Guitar Chords.jpg
-!/Guitar Tabs/_Guitar-chord-chart.png
+!/Guitar Tabs/guitar-chords.jpg
+!/Guitar Tabs/guitar-chord-chart.png
 !/Guitar Tabs/circle-of-fifths.webp
 .DS_Store
 __pycache__/convert.cpython-312.pyc
