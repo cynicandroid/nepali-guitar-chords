@@ -89,6 +89,10 @@ aside {
     border-color: var(--primary);
 }
 
+.install-nav-btn {
+    color: var(--primary);
+}
+
 .sidebar-nav-actions {
     display: flex;
     align-items: center;

@@ -22,6 +22,7 @@ let webAudioFontPlayer = null;
 let webAudioFontReady = false;
 const G_CHORD_MIDI = [43, 47, 50, 55, 59, 67];
 const dom = {};
+let deferredInstallPrompt = null;
 
 const NOTES_SHARP = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
 const NOTES_FLAT = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
@@ -32,7 +33,7 @@ function cacheDom() {
         'contentContainer', 'viewerHeader', 'songList', 'searchInput',
         'transposeDisplay', 'songTitleDisplay', 'badgeCapo', 'badgeGenre',
         'badgeStrummingText', 'strummingPlayBtn', 'scrollControls', 'scrollBtn',
-        'scrollPlayPauseBtn', 'scrollSpeedLabel'
+        'scrollPlayPauseBtn', 'scrollSpeedLabel', 'installBtn'
     ].forEach(id => {
         dom[id] = document.getElementById(id);
     });
@@ -45,6 +46,8 @@ function bindEvents() {
 async function init() {
     cacheDom();
     bindEvents();
+    registerServiceWorker();
+    setupInstallPrompt();
 
     try {
         const response = await fetch('songs.json');
@@ -60,6 +63,47 @@ async function init() {
             </div>
         `;
     }
+}
+
+function registerServiceWorker() {
+    if (!('serviceWorker' in navigator)) return;
+    navigator.serviceWorker.register('sw.js').catch(error => {
+        console.warn('Service worker registration failed:', error);
+    });
+}
+
+function setupInstallPrompt() {
+    if (isAppInstalled()) return;
+    // Keep an install affordance visible on browsers without beforeinstallprompt
+    // as well; the click handler gives those browsers their manual instructions.
+    dom.installBtn.hidden = false;
+
+    window.addEventListener('beforeinstallprompt', event => {
+        event.preventDefault();
+        deferredInstallPrompt = event;
+        dom.installBtn.hidden = false;
+    });
+
+    window.addEventListener('appinstalled', () => {
+        deferredInstallPrompt = null;
+        dom.installBtn.hidden = true;
+    });
+}
+
+function isAppInstalled() {
+    return window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+}
+
+async function installApp() {
+    if (!deferredInstallPrompt) {
+        alert('To install Nepali Chords, use your browser menu and choose “Install app” or “Add to Home Screen.”');
+        return;
+    }
+
+    deferredInstallPrompt.prompt();
+    const choice = await deferredInstallPrompt.userChoice;
+    if (choice.outcome === 'accepted') dom.installBtn.hidden = true;
+    deferredInstallPrompt = null;
 }
 
 function renderSongList(list) {

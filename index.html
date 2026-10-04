@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nepali Guitar Chords</title>
+    <meta name="theme-color" content="#0f172a">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="manifest" href="manifest.json">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -20,6 +25,7 @@
             <div class="sidebar-nav-actions">
                 <button class="home-nav-btn" onclick="showHome()" title="Go to home">🏠 Home</button>
                 <button class="home-nav-btn" onclick="showHelp()" title="Open guitar chord help">❔ Help</button>
+                <button class="home-nav-btn install-nav-btn" id="installBtn" onclick="installApp()" title="Install Nepali Chords" hidden>⬇ Install</button>
             </div>
         </div>
         <div class="search-box">
