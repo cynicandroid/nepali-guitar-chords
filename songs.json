@@ -11,7 +11,7 @@
         "is_chord": false
       },
       {
-        "text": "C\t\t           Am",
+        "text": "C                      Am",
         "is_chord": true
       },
       {
@@ -19,7 +19,7 @@
         "is_chord": false
       },
       {
-        "text": "      G\t\t   C",
+        "text": "      G              C",
         "is_chord": true
       },
       {
@@ -248,7 +248,7 @@
         "is_chord": false
       },
       {
-        "text": "     G               Am         C           D              G",
+        "text": "     G       Am       C      D         G",
         "is_chord": true
       },
       {
@@ -256,7 +256,7 @@
         "is_chord": false
       },
       {
-        "text": "    G                 Am        C           D         G",
+        "text": "    G         Am       C   D          G",
         "is_chord": true
       },
       {
@@ -268,7 +268,7 @@
         "is_chord": false
       },
       {
-        "text": "   Em          C             D           G",
+        "text": "   Em      C         D       G",
         "is_chord": true
       },
       {
@@ -280,7 +280,7 @@
         "is_chord": false
       },
       {
-        "text": "  G          Am     C          D               G",
+        "text": "  G      Am     C      D         G",
         "is_chord": true
       },
       {
@@ -296,7 +296,7 @@
         "is_chord": false
       },
       {
-        "text": "  G      Am          C           D               G",
+        "text": "  G      Am        C        D        G",
         "is_chord": true
       },
       {
@@ -304,7 +304,7 @@
         "is_chord": false
       },
       {
-        "text": "   G           Am            C                D         G",
+        "text": "   G         Am         C      D         G",
         "is_chord": true
       },
       {
@@ -316,7 +316,7 @@
         "is_chord": false
       },
       {
-        "text": "    Em          Am      D         G",
+        "text": "   Em       Am        D     G",
         "is_chord": true
       },
       {
@@ -328,7 +328,7 @@
         "is_chord": false
       },
       {
-        "text": "  G          Am     C          D               G",
+        "text": "  G      Am     C      D         G",
         "is_chord": true
       },
       {
@@ -340,7 +340,7 @@
         "is_chord": false
       },
       {
-        "text": "   Em          C             D           G",
+        "text": "   Em     C          D          G",
         "is_chord": true
       },
       {
@@ -356,7 +356,7 @@
         "is_chord": false
       },
       {
-        "text": "  G          Am     C          D               G",
+        "text": "  G      Am     C      D         G",
         "is_chord": true
       },
       {
@@ -4641,7 +4641,7 @@
         "is_chord": false
       },
       {
-        "text": " A\t\t\t   F#m",
+        "text": " A                    F#m",
         "is_chord": true
       },
       {
@@ -4685,7 +4685,7 @@
         "is_chord": false
       },
       {
-        "text": "A\t\t\t\t F#m",
+        "text": "A                       F#m",
         "is_chord": true
       },
       {
@@ -4693,7 +4693,7 @@
         "is_chord": false
       },
       {
-        "text": "Bm          E\t  A",
+        "text": "Bm          E       A",
         "is_chord": true
       },
       {
@@ -4749,7 +4749,7 @@
         "is_chord": false
       },
       {
-        "text": "A\t\t\t   F#m",
+        "text": "A                    F#m",
         "is_chord": true
       },
       {
@@ -4757,7 +4757,7 @@
         "is_chord": false
       },
       {
-        "text": "Bm           E\t   A",
+        "text": "Bm           E      A",
         "is_chord": true
       },
       {
@@ -4793,7 +4793,7 @@
         "is_chord": false
       },
       {
-        "text": "A\t\t\t   F#m",
+        "text": "A                   F#m",
         "is_chord": true
       },
       {
@@ -4801,7 +4801,7 @@
         "is_chord": false
       },
       {
-        "text": "Bm         E\t\t  A",
+        "text": "Bm         E        A",
         "is_chord": true
       },
       {
@@ -8524,7 +8524,7 @@
         "is_chord": false
       },
       {
-        "text": "\t\t    G#",
+        "text": "         G#",
         "is_chord": true
       },
       {
@@ -9600,7 +9600,7 @@
         "is_chord": false
       },
       {
-        "text": "\t   Em\t\t\t\t    D",
+        "text": "    Em                     D",
         "is_chord": true
       },
       {
@@ -9608,7 +9608,7 @@
         "is_chord": false
       },
       {
-        "text": "Em               D \t     Em",
+        "text": "Em               D       Em",
         "is_chord": true
       },
       {
@@ -9636,7 +9636,7 @@
         "is_chord": false
       },
       {
-        "text": "D                    \t          Em",
+        "text": "D                                Em",
         "is_chord": true
       },
       {
@@ -20578,7 +20578,7 @@
         "is_chord": false
       },
       {
-        "text": " C      \t   D\t\t    G",
+        "text": " C              D         G",
         "is_chord": true
       },
       {
@@ -20778,7 +20778,7 @@
         "is_chord": false
       },
       {
-        "text": "C      \t  D\t\t   G",
+        "text": "C         D        G",
         "is_chord": true
       },
       {
@@ -26774,7 +26774,7 @@
         "is_chord": false
       },
       {
-        "text": "G\t\t\t\tD",
+        "text": "G.            D",
         "is_chord": true
       },
       {
@@ -26882,7 +26882,7 @@
         "is_chord": false
       },
       {
-        "text": "G\t\t\t\tD",
+        "text": "G             D",
         "is_chord": true
       },
       {
@@ -28934,7 +28934,7 @@
         "is_chord": false
       },
       {
-        "text": "\t\t  G",
+        "text": "         G",
         "is_chord": true
       },
       {
@@ -30557,7 +30557,7 @@
         "is_chord": false
       },
       {
-        "text": "G\t\t    Cadd9",
+        "text": "G.          Cadd9",
         "is_chord": true
       },
       {
@@ -30565,7 +30565,7 @@
         "is_chord": false
       },
       {
-        "text": "Am      \t\t    D",
+        "text": "Am                  D",
         "is_chord": true
       },
       {
@@ -30573,7 +30573,7 @@
         "is_chord": false
       },
       {
-        "text": "C\t    D\t\t  G",
+        "text": "C.      D         G",
         "is_chord": true
       },
       {
@@ -30593,7 +30593,7 @@
         "is_chord": false
       },
       {
-        "text": "\t\t  Cadd9",
+        "text": "          Cadd9",
         "is_chord": true
       },
       {
@@ -30601,7 +30601,7 @@
         "is_chord": false
       },
       {
-        "text": "Am\t\t    D",
+        "text": "Am.         D",
         "is_chord": true
       },
       {
@@ -30609,7 +30609,7 @@
         "is_chord": false
       },
       {
-        "text": "C    D\tG",
+        "text": "C    D    G",
         "is_chord": true
       },
       {
@@ -30641,7 +30641,7 @@
         "is_chord": false
       },
       {
-        "text": "\t\t   Cadd9",
+        "text": "         Cadd9",
         "is_chord": true
       },
       {
@@ -30665,7 +30665,7 @@
         "is_chord": false
       },
       {
-        "text": " G\t        Cadd9",
+        "text": "            Cadd9",
         "is_chord": true
       },
       {
@@ -30693,7 +30693,7 @@
         "is_chord": false
       },
       {
-        "text": "G\t\t    Cadd9",
+        "text": "G           Cadd9",
         "is_chord": true
       },
       {
@@ -30701,7 +30701,7 @@
         "is_chord": false
       },
       {
-        "text": "Am      \t\t    D",
+        "text": "Am                  D",
         "is_chord": true
       },
       {
@@ -30709,7 +30709,7 @@
         "is_chord": false
       },
       {
-        "text": "C\t    D\t\t  G",
+        "text": "C.       D.       G",
         "is_chord": true
       },
       {
@@ -30725,7 +30725,7 @@
         "is_chord": false
       },
       {
-        "text": "\t\t  Cadd9",
+        "text": "         Cadd9",
         "is_chord": true
       },
       {
@@ -30733,7 +30733,7 @@
         "is_chord": false
       },
       {
-        "text": "Am\t\t    D",
+        "text": "Am.         D",
         "is_chord": true
       },
       {
@@ -30741,7 +30741,7 @@
         "is_chord": false
       },
       {
-        "text": "C    D\tG",
+        "text": "C    D    G",
         "is_chord": true
       },
       {
@@ -30761,7 +30761,7 @@
         "is_chord": false
       },
       {
-        "text": "\t\tCadd9",
+        "text": "      Cadd9",
         "is_chord": true
       },
       {
@@ -30777,7 +30777,7 @@
         "is_chord": false
       },
       {
-        "text": "C\t\t\tG",
+        "text": "C.         G",
         "is_chord": true
       },
       {
@@ -30785,7 +30785,7 @@
         "is_chord": false
       },
       {
-        "text": " G\t\t    Cadd9",
+        "text": " G.        Cadd9",
         "is_chord": true
       },
       {
@@ -30813,7 +30813,7 @@
         "is_chord": false
       },
       {
-        "text": "\t\t  Cadd9",
+        "text": "         Cadd9",
         "is_chord": true
       },
       {
@@ -30821,7 +30821,7 @@
         "is_chord": false
       },
       {
-        "text": "Am\t\t    D",
+        "text": "Am.         D",
         "is_chord": true
       },
       {
@@ -30829,7 +30829,7 @@
         "is_chord": false
       },
       {
-        "text": "C    D\tG",
+        "text": "C    D    G",
         "is_chord": true
       },
       {
@@ -30845,7 +30845,7 @@
         "is_chord": false
       },
       {
-        "text": "G\t\t    Cadd9",
+        "text": "G.          Cadd9",
         "is_chord": true
       },
       {
@@ -30853,7 +30853,7 @@
         "is_chord": false
       },
       {
-        "text": "Am      \t\t    D",
+        "text": "Am                  D",
         "is_chord": true
       },
       {
@@ -30861,7 +30861,7 @@
         "is_chord": false
       },
       {
-        "text": "C\t    D\t\t  G",
+        "text": "C        D        G",
         "is_chord": true
       },
       {
@@ -30893,7 +30893,7 @@
         "is_chord": false
       },
       {
-        "text": "\t\t Cadd9",
+        "text": "       Cadd9",
         "is_chord": true
       },
       {
@@ -30909,7 +30909,7 @@
         "is_chord": false
       },
       {
-        "text": "C\t     G",
+        "text": "C.       G",
         "is_chord": true
       },
       {
@@ -30917,7 +30917,7 @@
         "is_chord": false
       },
       {
-        "text": " G\t\t   Cadd9",
+        "text": " G        Cadd9",
         "is_chord": true
       },
       {
@@ -30945,7 +30945,7 @@
         "is_chord": false
       },
       {
-        "text": "G\t\t    Cadd9",
+        "text": "G.          Cadd9",
         "is_chord": true
       },
       {
@@ -30953,7 +30953,7 @@
         "is_chord": false
       },
       {
-        "text": "Am      \t\t    D",
+        "text": "Am                  D",
         "is_chord": true
       },
       {
@@ -30961,7 +30961,7 @@
         "is_chord": false
       },
       {
-        "text": "C\t    D\t\t  G",
+        "text": "C.       D        G",
         "is_chord": true
       },
       {
@@ -30977,7 +30977,7 @@
         "is_chord": false
       },
       {
-        "text": "\t\t  Cadd9",
+        "text": "         Cadd9",
         "is_chord": true
       },
       {
@@ -30985,7 +30985,7 @@
         "is_chord": false
       },
       {
-        "text": "Am\t\t    D",
+        "text": "Am          D",
         "is_chord": true
       },
       {
@@ -30993,7 +30993,7 @@
         "is_chord": false
       },
       {
-        "text": "C    D\tG",
+        "text": "C    D    G",
         "is_chord": true
       },
       {
@@ -34567,7 +34567,7 @@
         "is_chord": false
       },
       {
-        "text": "Bb\t\t   C",
+        "text": "Bb.          C",
         "is_chord": true
       },
       {
@@ -34675,7 +34675,7 @@
         "is_chord": false
       },
       {
-        "text": "Bb\t\t    C",
+        "text": "Bb.          C",
         "is_chord": true
       },
       {
@@ -34779,7 +34779,7 @@
         "is_chord": false
       },
       {
-        "text": "Bb\t\t    C",
+        "text": "Bb.          C",
         "is_chord": true
       },
       {
@@ -35068,7 +35068,7 @@
         "is_chord": false
       },
       {
-        "text": "F          \t\t\t D",
+        "text": "F                    D",
         "is_chord": true
       },
       {
@@ -35201,7 +35201,7 @@
         "is_chord": false
       },
       {
-        "text": "G\t\tD   Em     C    ",
+        "text": "G.        D   Em    C    ",
         "is_chord": true
       },
       {
@@ -35209,7 +35209,7 @@
         "is_chord": false
       },
       {
-        "text": "     G\t\t    D     Em     C    ",
+        "text": "     G.         D         Em     C ",
         "is_chord": true
       },
       {
@@ -35217,7 +35217,7 @@
         "is_chord": false
       },
       {
-        "text": "G\t    D\t  Em\t  C",
+        "text": "G.       D       Em  C",
         "is_chord": true
       },
       {
@@ -35225,7 +35225,7 @@
         "is_chord": false
       },
       {
-        "text": "     G\t          D        Em   C",
+        "text": "     G              D        Em   C",
         "is_chord": true
       },
       {
@@ -35261,7 +35261,7 @@
         "is_chord": false
       },
       {
-        "text": "            D\t            ",
+        "text": "            D            ",
         "is_chord": true
       },
       {
@@ -35269,7 +35269,7 @@
         "is_chord": false
       },
       {
-        "text": "G\tD   Em      C    ",
+        "text": "G.    D  Em      C    ",
         "is_chord": true
       },
       {
@@ -35277,7 +35277,7 @@
         "is_chord": false
       },
       {
-        "text": "     G\t\t  D        Em  C    ",
+        "text": "     G          D         Em  C    ",
         "is_chord": true
       },
       {
@@ -35289,7 +35289,7 @@
         "is_chord": false
       },
       {
-        "text": "G\t    D\t  Em\t  C",
+        "text": "G.       D       Em  C",
         "is_chord": true
       },
       {
@@ -35297,7 +35297,7 @@
         "is_chord": false
       },
       {
-        "text": "     G\t          D        Em   C",
+        "text": "     G.             D         Em   C",
         "is_chord": true
       },
       {
@@ -35341,7 +35341,7 @@
         "is_chord": false
       },
       {
-        "text": "G\tD      Em       C    ",
+        "text": "G     D     Em       C    ",
         "is_chord": true
       },
       {
@@ -35349,7 +35349,7 @@
         "is_chord": false
       },
       {
-        "text": "    G\t\t   D  Em   C    ",
+        "text": "    G.            D   Em   C    ",
         "is_chord": true
       },
       {
@@ -35361,7 +35361,7 @@
         "is_chord": false
       },
       {
-        "text": "G\t    D\t  Em\t  C",
+        "text": "G        D.    Em.   C",
         "is_chord": true
       },
       {
@@ -35369,7 +35369,7 @@
         "is_chord": false
       },
       {
-        "text": "     G\t          D        Em   C",
+        "text": "     G.             D        Em   C",
         "is_chord": true
       },
       {
@@ -35952,7 +35952,7 @@
     "strumming": "D 1 2 3 [Finger]",
     "lines": [
       {
-        "text": "\t\tD DUDU D",
+        "text": "D DUDU D",
         "is_chord": false
       },
       {
@@ -41057,7 +41057,7 @@
         "is_chord": false
       },
       {
-        "text": " E              B\t        A        E",
+        "text": " E              B           A        E",
         "is_chord": true
       },
       {
@@ -41073,7 +41073,7 @@
         "is_chord": false
       },
       {
-        "text": " E             B\t\t A          E",
+        "text": " E             B         A          E",
         "is_chord": true
       },
       {
@@ -41089,7 +41089,7 @@
         "is_chord": false
       },
       {
-        "text": "E             B\t\t A            E",
+        "text": "E             B     A            E",
         "is_chord": true
       },
       {
@@ -41117,7 +41117,7 @@
         "is_chord": false
       },
       {
-        "text": "E             B\t\t A            E",
+        "text": "E             B.              A          E",
         "is_chord": true
       },
       {
@@ -41129,7 +41129,7 @@
         "is_chord": false
       },
       {
-        "text": " E            B\t\tA            E",
+        "text": " E            B     A            E",
         "is_chord": true
       },
       {
@@ -41145,7 +41145,7 @@
         "is_chord": false
       },
       {
-        "text": " E           B\t   A            E",
+        "text": " E           B     A           E",
         "is_chord": true
       },
       {
@@ -41161,7 +41161,7 @@
         "is_chord": false
       },
       {
-        "text": "E             B\t\t A            E",
+        "text": "E             B     A             E",
         "is_chord": true
       },
       {
@@ -41189,7 +41189,7 @@
         "is_chord": false
       },
       {
-        "text": " E              B\t\t  A           E",
+        "text": " E              B.       A           E",
         "is_chord": true
       },
       {
@@ -41217,7 +41217,7 @@
         "is_chord": false
       },
       {
-        "text": "E             B\t\t A            E",
+        "text": "E             B.    A            E",
         "is_chord": true
       },
       {
@@ -41539,7 +41539,7 @@
         "is_chord": false
       },
       {
-        "text": "\t\tCadd9",
+        "text": "           Cadd9",
         "is_chord": true
       },
       {
@@ -41547,7 +41547,7 @@
         "is_chord": false
       },
       {
-        "text": "\t\tD",
+        "text": "            D",
         "is_chord": true
       },
       {
@@ -41555,7 +41555,7 @@
         "is_chord": false
       },
       {
-        "text": "D7\t     G",
+        "text": "D7        G",
         "is_chord": true
       },
       {
@@ -41567,7 +41567,7 @@
         "is_chord": false
       },
       {
-        "text": " G               (duuu) \t            Cadd9",
+        "text": " G    (duuu)          Cadd9",
         "is_chord": false
       },
       {
@@ -41575,7 +41575,7 @@
         "is_chord": false
       },
       {
-        "text": "\t     Am",
+        "text": "               Am",
         "is_chord": true
       },
       {
@@ -41583,7 +41583,7 @@
         "is_chord": false
       },
       {
-        "text": "D\t    D7    G",
+        "text": "D         D7    G",
         "is_chord": true
       },
       {
@@ -41603,7 +41603,7 @@
         "is_chord": false
       },
       {
-        "text": "G\t\t\t\t    Cadd9",
+        "text": "G.                          Cadd9",
         "is_chord": true
       },
       {
@@ -41611,7 +41611,7 @@
         "is_chord": false
       },
       {
-        "text": "\t  D\t    D7\t\t  G",
+        "text": "     D          D7        G",
         "is_chord": true
       },
       {
@@ -41623,7 +41623,7 @@
         "is_chord": false
       },
       {
-        "text": " G               (duuu) \t            Cadd9",
+        "text": " G         (duuu)      Cadd9",
         "is_chord": false
       },
       {
@@ -41631,7 +41631,7 @@
         "is_chord": false
       },
       {
-        "text": "\t     Am",
+        "text": "               Am",
         "is_chord": true
       },
       {
@@ -41639,7 +41639,7 @@
         "is_chord": false
       },
       {
-        "text": "D\t    D7    G",
+        "text": "D         D7    G",
         "is_chord": true
       },
       {
@@ -41695,7 +41695,7 @@
         "is_chord": false
       },
       {
-        "text": "G               (duuu) \t            Cadd9",
+        "text": "G          (duuu)     Cadd9",
         "is_chord": false
       },
       {
@@ -41703,7 +41703,7 @@
         "is_chord": false
       },
       {
-        "text": "\t Am ",
+        "text": "       Am ",
         "is_chord": true
       },
       {
@@ -41711,7 +41711,7 @@
         "is_chord": false
       },
       {
-        "text": "D\t   D7    G",
+        "text": "D        D7    G",
         "is_chord": true
       },
       {
@@ -41739,7 +41739,7 @@
         "is_chord": false
       },
       {
-        "text": "\t\t Cadd9",
+        "text": "             Cadd9",
         "is_chord": true
       },
       {
@@ -41747,7 +41747,7 @@
         "is_chord": false
       },
       {
-        "text": "\t\t  D",
+        "text": "              D",
         "is_chord": true
       },
       {
@@ -41755,7 +41755,7 @@
         "is_chord": false
       },
       {
-        "text": "D7\t\t  G",
+        "text": "D7.           G",
         "is_chord": true
       },
       {
@@ -41775,7 +41775,7 @@
         "is_chord": false
       },
       {
-        "text": "\t     Cadd9",
+        "text": "           Cadd9",
         "is_chord": true
       },
       {
@@ -41783,7 +41783,7 @@
         "is_chord": false
       },
       {
-        "text": "\t    D",
+        "text": "          D",
         "is_chord": true
       },
       {
@@ -41803,7 +41803,7 @@
         "is_chord": false
       },
       {
-        "text": "G               (duuu) \t            Cadd9",
+        "text": "G         (duuu)      Cadd9",
         "is_chord": false
       },
       {
@@ -41811,7 +41811,7 @@
         "is_chord": false
       },
       {
-        "text": "\t Am ",
+        "text": "       Am ",
         "is_chord": true
       },
       {
@@ -41819,7 +41819,7 @@
         "is_chord": false
       },
       {
-        "text": "D\t   D7    G",
+        "text": "D.       D7    G",
         "is_chord": true
       },
       {
@@ -41839,7 +41839,7 @@
         "is_chord": false
       },
       {
-        "text": " G               (duuu) \t         Cadd9",
+        "text": " G         (duuu)     Cadd9",
         "is_chord": false
       },
       {
@@ -41847,7 +41847,7 @@
         "is_chord": false
       },
       {
-        "text": "\t    Am",
+        "text": "          Am",
         "is_chord": true
       },
       {
@@ -41855,7 +41855,7 @@
         "is_chord": false
       },
       {
-        "text": "D\t    D7    G",
+        "text": "D.        D7    G",
         "is_chord": true
       },
       {
@@ -47393,7 +47393,7 @@
         "is_chord": false
       },
       {
-        "text": "             G\t\t\t\t    A",
+        "text": "             G.                         A",
         "is_chord": true
       },
       {
@@ -49206,7 +49206,7 @@
         "is_chord": false
       },
       {
-        "text": "C\t\t\t   Am       C",
+        "text": "C.             Am       C",
         "is_chord": true
       },
       {
@@ -49214,7 +49214,7 @@
         "is_chord": false
       },
       {
-        "text": "C\t\t\t\tAm        C",
+        "text": "C.               Am      C",
         "is_chord": true
       },
       {
@@ -49230,7 +49230,7 @@
         "is_chord": false
       },
       {
-        "text": " Am\t\t\t\tC",
+        "text": " Am.             C",
         "is_chord": true
       },
       {
@@ -49242,7 +49242,7 @@
         "is_chord": false
       },
       {
-        "text": "C\t\t\t   Am        C",
+        "text": "C.             Am         C",
         "is_chord": true
       },
       {
@@ -49250,7 +49250,7 @@
         "is_chord": false
       },
       {
-        "text": "C\t\t\t    Am         C",
+        "text": "C.              Am          C",
         "is_chord": true
       },
       {
@@ -49266,7 +49266,7 @@
         "is_chord": false
       },
       {
-        "text": " Am\t\t\t\tC",
+        "text": " Am.             C",
         "is_chord": true
       },
       {
@@ -49278,7 +49278,7 @@
         "is_chord": false
       },
       {
-        "text": " C \t\t  Am       F         C  ",
+        "text": " C.       Am       F         C  ",
         "is_chord": true
       },
       {
@@ -49286,7 +49286,7 @@
         "is_chord": false
       },
       {
-        "text": "C\t\t Am\t\t    F         C",
+        "text": "C      Am           F        C",
         "is_chord": true
       },
       {
@@ -49318,7 +49318,7 @@
         "is_chord": false
       },
       {
-        "text": " Am\t\t\t\tC",
+        "text": " Am            C",
         "is_chord": true
       },
       {
@@ -49334,7 +49334,7 @@
         "is_chord": false
       },
       {
-        "text": " C \t\t  Am          F         C  ",
+        "text": " C          Am          F          C  ",
         "is_chord": true
       },
       {
@@ -49342,7 +49342,7 @@
         "is_chord": false
       },
       {
-        "text": "C\t\t Am\t\t    F       C",
+        "text": "C           Am.        F         C",
         "is_chord": true
       },
       {
@@ -49366,7 +49366,7 @@
         "is_chord": false
       },
       {
-        "text": "   C\t\t\t      Am       C",
+        "text": "   C.               Am         C",
         "is_chord": true
       },
       {
@@ -49374,7 +49374,7 @@
         "is_chord": false
       },
       {
-        "text": "C\t\t\t    Am         C",
+        "text": "C                 Am       C",
         "is_chord": true
       },
       {
@@ -49390,7 +49390,7 @@
         "is_chord": false
       },
       {
-        "text": " Am\t\t\t\tC",
+        "text": " Am              C",
         "is_chord": true
       },
       {
@@ -49402,7 +49402,7 @@
         "is_chord": false
       },
       {
-        "text": "C\t\t\t   Am       C",
+        "text": "C               Am      C",
         "is_chord": true
       },
       {
@@ -49410,7 +49410,7 @@
         "is_chord": false
       },
       {
-        "text": "C\t\t\t\tAm        C",
+        "text": "C                Am        C",
         "is_chord": true
       },
       {
@@ -49426,7 +49426,7 @@
         "is_chord": false
       },
       {
-        "text": " Am\t\t\t\tC",
+        "text": " Am              C",
         "is_chord": true
       },
       {
@@ -49434,7 +49434,7 @@
         "is_chord": false
       },
       {
-        "text": "Am\t\t\t\tC",
+        "text": "Am              C",
         "is_chord": true
       },
       {
@@ -52490,7 +52490,7 @@
         "is_chord": false
       },
       {
-        "text": "   G5\t\t\t\t C",
+        "text": "   G5             C",
         "is_chord": true
       },
       {
