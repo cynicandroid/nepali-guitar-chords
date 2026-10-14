@@ -80,6 +80,21 @@
         <button class="btn btn-primary" id="scrollPlayPauseBtn" onclick="toggleScrollPlayback()" title="Pause auto scroll">⏸</button>
     </div>
 
+    <div class="install-help-modal" id="installHelpModal" hidden role="dialog" aria-modal="true" aria-labelledby="installHelpTitle">
+        <div class="install-help-card">
+            <button class="install-help-close" onclick="closeInstallHelp()" aria-label="Close installation instructions">×</button>
+            <h2 id="installHelpTitle">Add Nepali Chords to your Home Screen</h2>
+            <p>On iPhone and iPad, install from your browser’s Share menu:</p>
+            <ol>
+                <li>Tap the <strong>Share</strong> button in your browser.</li>
+                <li>Scroll down and tap <strong>Add to Home Screen</strong>.</li>
+                <li>Tap <strong>Add</strong> to finish.</li>
+            </ol>
+            <p class="install-help-note">If you do not see this option, open the page directly in your browser rather than inside another app.</p>
+            <button class="btn btn-primary" onclick="closeInstallHelp()">Got it</button>
+        </div>
+    </div>
+
     <script src="src/app.js"></script>
 </body>
 </html>

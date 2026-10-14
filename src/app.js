@@ -1,6 +1,7 @@
 let songs = [];
 const favoriteSongs = new Set();
 const FAVORITES_STORAGE_KEY = 'nepali-guitar-chords-favorites';
+const SAMPLER_SETTINGS_STORAGE_KEY = 'nepali-guitar-chords-sampler-settings';
 let currentSongIndex = -1;
 let returnLetter = null;
 let transposeOffset = 0;
@@ -21,6 +22,12 @@ let drumMachinePlaying = false;
 let drumNoiseBuffer = null;
 let selectedDrumBeat = 'pop-44';
 let drumBpm = 100;
+let drumSamplerExpanded = false;
+let tanpuraPluckIndex = 0;
+let tanpuraDroneOscillators = [];
+let tanpuraSa = 'C#';
+let tanpuraPattern = 'PSSS';
+let tanpuraVolume = 0.7;
 let strummingInterval = null;
 let strummingLoopTimeout = null;
 let currentStrokeIndex = 0;
@@ -61,6 +68,7 @@ async function init() {
     try {
         const response = await fetch('songs.json');
         songs = await response.json();
+        loadSamplerSettings();
         loadFavoriteSongs();
         renderSongList(songs);
         showHome();
@@ -106,7 +114,11 @@ function isAppInstalled() {
 
 async function installApp() {
     if (!deferredInstallPrompt) {
-        alert(getInstallInstructions());
+        if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+            showInstallHelp();
+        } else {
+            alert(getInstallInstructions());
+        }
         return;
     }
 
@@ -114,6 +126,19 @@ async function installApp() {
     const choice = await deferredInstallPrompt.userChoice;
     if (choice.outcome === 'accepted') dom.installBtn.hidden = true;
     deferredInstallPrompt = null;
+}
+
+function showInstallHelp() {
+    const modal = document.getElementById('installHelpModal');
+    if (!modal) return;
+    modal.hidden = false;
+    const closeButton = modal.querySelector('.install-help-close');
+    if (closeButton) closeButton.focus();
+}
+
+function closeInstallHelp() {
+    const modal = document.getElementById('installHelpModal');
+    if (modal) modal.hidden = true;
 }
 
 function getInstallInstructions() {
@@ -126,7 +151,7 @@ function getInstallInstructions() {
     const isMac = /Macintosh|Mac OS X/i.test(userAgent);
 
     if (isIOS) {
-        return 'On iPhone or iPad: open Safari’s Share menu, choose “Add to Home Screen,” then tap Add.';
+        return 'On iPhone or iPad: open your browser’s Share menu, choose “Add to Home Screen,” then tap Add.';
     }
     if (isAndroid && isFirefox) {
         return 'In Firefox for Android: open the browser menu and choose “Install” or “Add to Home screen.”';
@@ -173,6 +198,56 @@ function handleSearch(e) {
         (s.capo && s.capo.toLowerCase().includes(term))
     );
     renderSongList(filtered);
+    if (currentSongIndex === -1) {
+        renderSearchDirectory(filtered, term);
+    }
+}
+
+function renderSearchDirectory(list, term = '') {
+    const container = dom.contentContainer;
+    if (!container) return;
+    if (!term) {
+        showHome();
+        return;
+    }
+
+    const letters = Array.from(new Set(list.map(song => {
+        const first = song.title?.[0]?.toUpperCase() || '#';
+        return /[A-Z]/.test(first) ? first : '#';
+    }))).sort((a, b) => a === '#' ? 1 : b === '#' ? -1 : a.localeCompare(b));
+
+    const sections = letters.map(letter => {
+        const letterSongs = list.filter(song => {
+            const first = song.title?.[0]?.toUpperCase() || '#';
+            return (/^[A-Z]$/.test(first) ? first : '#') === letter;
+        });
+        return `
+            <div class="directory-section" id="mobile-search-letter-${letter}">
+                <div class="directory-letter">${letter}</div>
+                <div class="directory-songs-grid">
+                    ${letterSongs.map(song => {
+                        const index = songs.indexOf(song);
+                        const capoText = song.capo && song.capo.toLowerCase() !== 'none' ? `Capo: ${song.capo}` : '';
+                        return `<div class="directory-song-card" onclick="selectSong(${index}, '${letter}')">
+                            <div class="directory-song-title">${escapeHtml(song.title)}</div>
+                            ${capoText ? `<div class="directory-song-capo">🎸 ${escapeHtml(capoText)}</div>` : ''}
+                        </div>`;
+                    }).join('')}
+                </div>
+            </div>`;
+    }).join('');
+
+    container.innerHTML = `
+        <div class="content-card" style="max-width: 1000px;">
+            <div class="home-hero">
+                <h2>Search Results</h2>
+                <p>${list.length} song${list.length === 1 ? '' : 's'} found.</p>
+            </div>
+            <div class="directory-container">
+                ${sections || '<p class="favorites-empty">No matching songs found.</p>'}
+            </div>
+        </div>`;
+    container.scrollTop = 0;
 }
 
 function escapeHtml(value) {
@@ -185,6 +260,7 @@ function showHome() {
     currentSongIndex = -1;
     stopStrummingPlayer();
     stopDrumMachine();
+    stopTablaMachine();
     document.getElementById('viewerHeader').style.display = 'none';
     document.getElementById('backToListBtn').hidden = true;
     dom.searchInput.value = '';
@@ -249,6 +325,7 @@ function showHelp() {
     currentSongIndex = -1;
     stopStrummingPlayer();
     stopDrumMachine();
+    stopTablaMachine();
     document.getElementById('viewerHeader').style.display = 'none';
     document.getElementById('backToListBtn').hidden = true;
     document.querySelectorAll('.song-item').forEach(item => item.classList.remove('active'));
@@ -289,6 +366,7 @@ function showFavorites() {
     currentSongIndex = -1;
     stopStrummingPlayer();
     stopDrumMachine();
+    stopTablaMachine();
     document.getElementById('viewerHeader').style.display = 'none';
     document.getElementById('backToListBtn').hidden = true;
     document.querySelectorAll('.song-item').forEach(item => item.classList.remove('active'));
@@ -375,6 +453,7 @@ function selectSong(index, sourceLetter = null) {
     transposeOffset = 0;
     stopStrummingPlayer();
     stopDrumMachine();
+    stopTablaMachine();
     document.getElementById('transposeDisplay').innerText = `Key: 0`;
     document.getElementById('viewerHeader').style.display = 'flex';
     
@@ -432,16 +511,15 @@ function renderCurrentSong() {
         htmlContent += text + '\n';
     });
 
-    selectedDrumBeat = 'pop-44';
-    drumBpm = 100;
+    selectedDrumBeat = DRUM_BEATS[selectedDrumBeat] ? selectedDrumBeat : 'pop-44';
+    drumBpm = Number.isFinite(drumBpm) ? drumBpm : 100;
     document.getElementById('contentContainer').innerHTML = `
         <section class="drum-machine-panel" aria-label="Drum beat sampler">
-            <div class="drum-machine-heading">
+            <div class="drum-machine-heading" onclick="toggleDrumMachinePanel()" onkeydown="if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); toggleDrumMachinePanel(); }" role="button" tabindex="0">
                 <h5>🥁 Drum Beat Sampler</h5>
-                <button class="drum-machine-toggle" id="drumMachineToggle" onclick="toggleDrumMachinePanel()" aria-label="Expand drum beat sampler" aria-expanded="false" aria-controls="drumMachineBody">+</button>
+                <button class="drum-machine-toggle" id="drumMachineToggle" onclick="event.stopPropagation(); toggleDrumMachinePanel()" aria-label="${drumSamplerExpanded ? 'Collapse' : 'Expand'} drum beat sampler" aria-expanded="${drumSamplerExpanded}" aria-controls="drumMachineBody">${drumSamplerExpanded ? '−' : '+'}</button>
             </div>
-            <div class="drum-machine-body" id="drumMachineBody" hidden>
-                <p class="drum-machine-description">Choose a groove to play along.</p>
+            <div class="drum-machine-body" id="drumMachineBody"${drumSamplerExpanded ? '' : ' hidden'}>
                 <div class="drum-machine-controls">
                     <label>Beat
                         <select id="drumBeatSelect" onchange="selectDrumBeat(this.value)">
@@ -473,6 +551,45 @@ function renderCurrentSong() {
                 <div class="drum-beat-indicator" id="drumBeatIndicator" aria-live="off"></div>
             </div>
         </section>
+        <section class="drum-machine-panel tabla-machine-panel" aria-label="Tabla ko Taal Ma">
+            <div class="drum-machine-heading" onclick="toggleTablaMachinePanel()" onkeydown="if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); toggleTablaMachinePanel(); }" role="button" tabindex="0">
+                <h5>🪘 Tabla ko Taal Ma</h5>
+                <button class="drum-machine-toggle" id="tablaMachineToggle" onclick="event.stopPropagation(); toggleTablaMachinePanel()" aria-label="${tablaSamplerExpanded ? 'Collapse' : 'Expand'} tabla sampler" aria-expanded="${tablaSamplerExpanded}" aria-controls="tablaMachineBody">${tablaSamplerExpanded ? '−' : '+'}</button>
+            </div>
+            <div class="drum-machine-body" id="tablaMachineBody"${tablaSamplerExpanded ? '' : ' hidden'}>
+                <div class="drum-machine-controls">
+                    <label>Note
+                        <select id="tablaNoteSelect" onchange="setTablaNote(this.value)">
+                            <option value="C">C</option><option value="C#">C#</option><option value="D">D</option><option value="D#">D#</option>
+                            <option value="E">E</option><option value="F">F</option><option value="F#">F#</option><option value="G">G</option>
+                            <option value="G#">G#</option><option value="A" selected>A</option><option value="A#">A#</option><option value="B">B</option>
+                        </select>
+                    </label>
+                    <label>Taal
+                        <select id="tablaTaalSelect" onchange="setTablaTaal(this.value)">
+                            <option value="teentaal">Teentaal · 16</option>
+                            <option value="dadra">Dadra · 6</option>
+                            <option value="keherwa">Keherwa · 8</option>
+                            <option value="jhaptaal">Jhaptaal · 10</option>
+                            <option value="rupak">Rupak · 7</option>
+                            <option value="ektaal">Ektaal · 12</option>
+                            <option value="deepchandi">Deepchandi · 14</option>
+                            <option value="dhamar">Dhamar · 14</option>
+                            <option value="chautaal">Chautaal · 12</option>
+                            <option value="jhumra">Jhumra · 14</option>
+                            <option value="jhaptaal-open">Jhaptaal · Open Na · 10</option>
+                            <option value="keherwa-open">Keherwa · Open Na · 8</option>
+                            <option value="dadra-sharp">Dadra · Sharp Na · 6</option>
+                        </select>
+                    </label>
+                    <label class="drum-tempo-control">Tempo <span id="tablaBpmLabel">100 BPM</span>
+                        <input id="tablaBpmInput" type="range" min="30" max="220" value="100" oninput="setTablaBpm(this.value)">
+                    </label>
+                    <button class="btn btn-primary" id="tablaPlayBtn" onclick="toggleTablaMachine()">▶ Play tabla</button>
+                </div>
+                <div class="drum-beat-indicator" id="tablaBeatIndicator" aria-live="off"></div>
+            </div>
+        </section>
         <div class="strumming-player-panel" id="strummingPlayerPanel">
             <div class="strumming-header">
                 <h3>🎸 Strumming Pattern Visualizer: <span id="strumPatternTitle">${escapeHtml(song.strumming || '')}</span></h3>
@@ -495,7 +612,9 @@ function renderCurrentSong() {
         </div>
         </div>
     `;
+    syncSamplerControls();
     renderDrumBeatIndicator();
+    renderTablaIndicator();
 }
 
 function toggleDrumMachinePanel() {
@@ -504,6 +623,8 @@ function toggleDrumMachinePanel() {
     if (!body || !toggle) return;
     const expanded = body.hidden;
     body.hidden = !expanded;
+    drumSamplerExpanded = expanded;
+    saveSamplerSettings();
     toggle.textContent = expanded ? '−' : '+';
     toggle.setAttribute('aria-expanded', String(expanded));
     toggle.setAttribute('aria-label', `${expanded ? 'Collapse' : 'Expand'} drum beat sampler`);
@@ -528,12 +649,24 @@ const DRUM_BEATS = {
     'disco-24': { meter: 2, kick: [0, 2],    snare: [2],     hat: [0, 1, 2, 3] },
     'hiphop-44': { meter: 4, kick: [0, 5],   snare: [2, 6],  hat: [0, 1, 2, 3, 4, 5, 6, 7] },
     'hiphop-34': { meter: 3, kick: [0, 4],   snare: [2],     hat: [0, 2, 3, 4, 5] },
-    'hiphop-24': { meter: 2, kick: [0, 3],   snare: [2],     hat: [0, 1, 2, 3] }
+    'hiphop-24': { meter: 2, kick: [0, 3],   snare: [2],     hat: [0, 1, 2, 3] },
+    // Tanpura plucks are synthesized by playTanpuraPluck(). A pluck occurs
+    // every two beats, producing the familiar Sa-Sa-Pa-Sa cycle.
+    'tanpura-pa': { meter: 4, kind: 'tanpura', drone: 'Pa' },
+    'tanpura-ma': { meter: 4, kind: 'tanpura', drone: 'Ma' },
+    'tanpura-ni': { meter: 4, kind: 'tanpura', drone: 'Ni' }
 };
 
 function selectDrumBeat(value) {
     selectedDrumBeat = DRUM_BEATS[value] ? value : 'pop-44';
     drumMachineStep = 0;
+    tanpuraPluckIndex = 0;
+    const selectedBeat = DRUM_BEATS[selectedDrumBeat];
+    if (selectedBeat.kind === 'tanpura') {
+        tanpuraSa = selectedBeat.sa;
+        tanpuraPattern = selectedBeat.pattern;
+    }
+    saveSamplerSettings();
     if (drumMachinePlaying) {
         stopDrumMachine();
         startDrumMachine();
@@ -544,6 +677,7 @@ function selectDrumBeat(value) {
 
 function setDrumBpm(value) {
     drumBpm = Number(value);
+    saveSamplerSettings();
     document.getElementById('drumBpmLabel').textContent = `${drumBpm} BPM`;
     if (drumMachinePlaying) {
         stopDrumMachine();
@@ -568,10 +702,15 @@ function toggleDrumMachine() {
 function startDrumMachine() {
     const AudioContextClass = window.AudioContext || window.webkitAudioContext;
     if (!AudioContextClass) return;
+    if (tablaPlaying) {
+        stopTablaMachine();
+        collapseTablaMachinePanel();
+    }
     audioContext ||= new AudioContextClass();
     if (audioContext.state === 'suspended') audioContext.resume();
     drumMachinePlaying = true;
     drumMachineStep = 0;
+    tanpuraPluckIndex = 0;
     document.getElementById('drumPlayBtn').textContent = '⏹ Stop beat';
     renderDrumBeatIndicator();
     playDrumMachineStep();
@@ -583,6 +722,7 @@ function stopDrumMachine() {
     drumMachineInterval = null;
     drumMachinePlaying = false;
     drumMachineStep = 0;
+    stopTanpuraDrone();
     const button = document.getElementById('drumPlayBtn');
     if (button) button.textContent = '▶ Play beat';
     renderDrumBeatIndicator();
@@ -593,10 +733,131 @@ function playDrumMachineStep() {
     const beatIndex = Math.floor(drumMachineStep / 2);
     renderDrumBeatIndicator(beatIndex);
     const now = audioContext.currentTime;
+    if (beat.kind === 'tanpura') {
+        // The existing half-beat clock is retained. Tanpura sounds on every
+        // fourth tick, i.e. once every two beats (about 1.2s at 100 BPM).
+        if (drumMachineStep % 4 === 0) {
+            playTanpuraPluck(beat.drone, tanpuraPluckIndex, now);
+            tanpuraPluckIndex = (tanpuraPluckIndex + 1) % 4;
+        }
+        drumMachineStep = (drumMachineStep + 1) % (beat.meter * 2);
+        return;
+    }
     if (beat.kick.includes(drumMachineStep)) playDrumHit('kick', now);
     if (beat.snare.includes(drumMachineStep)) playDrumHit('snare', now);
     if (beat.hat.includes(drumMachineStep)) playDrumHit('hat', now);
     drumMachineStep = (drumMachineStep + 1) % (beat.meter * 2);
+}
+
+function playTanpuraPluck(drone, index, time) {
+    const context = audioContext;
+    // C# is used as the tonic, matching the sample implementation's intent.
+    // Sa-Sa-(Pa/Ma/Ni)-Sa gives the characteristic four-string cycle.
+    const tonic = getTanpuraTonic();
+    const ratios = { Sa: 1, Pa: 3 / 2, Ma: 4 / 3, Ni: 15 / 8 };
+    const patternNote = tanpuraPattern[index] || 'S';
+    const patternRatio = patternNote === 'M' ? ratios.Ma : patternNote === 'N' ? ratios.Ni : patternNote === 'P' ? ratios.Pa : ratios.Sa;
+    const note = patternRatio || (ratios[drone] || ratios.Pa);
+    const fundamental = tonic * note;
+    const output = context.createGain();
+    const body = context.createBiquadFilter();
+    body.type = 'lowpass';
+    body.frequency.setValueAtTime(4200, time);
+    body.Q.value = 0.7;
+    output.gain.setValueAtTime(0.0001, time);
+    output.gain.exponentialRampToValueAtTime(0.28 * tanpuraVolume, time + 0.025);
+    output.gain.exponentialRampToValueAtTime(0.0001, time + 5.5);
+    body.connect(output).connect(context.destination);
+
+    // Fundamental plus harmonics approximate the bright, buzzing jawari tone.
+    [1, 2, 3, 4, 5].forEach((partial, partialIndex) => {
+        const oscillator = context.createOscillator();
+        const partialGain = context.createGain();
+        oscillator.type = partialIndex === 0 ? 'triangle' : 'sine';
+        oscillator.frequency.setValueAtTime(fundamental * partial, time);
+        partialGain.gain.value = [1, 0.34, 0.18, 0.09, 0.04][partialIndex];
+        oscillator.connect(partialGain).connect(body);
+        oscillator.start(time);
+        oscillator.stop(time + 5.8);
+    });
+
+    // A tiny burst of filtered noise supplies the string attack.
+    if (!drumNoiseBuffer) {
+        drumNoiseBuffer = context.createBuffer(1, context.sampleRate, context.sampleRate);
+        const data = drumNoiseBuffer.getChannelData(0);
+        for (let i = 0; i < data.length; i++) data[i] = Math.random() * 2 - 1;
+    }
+    const noise = context.createBufferSource();
+    const noiseGain = context.createGain();
+    const noiseFilter = context.createBiquadFilter();
+    noise.buffer = drumNoiseBuffer;
+    noiseFilter.type = 'bandpass';
+    noiseFilter.frequency.value = 1800;
+    noiseFilter.Q.value = 0.8;
+    noiseGain.gain.setValueAtTime(0.08, time);
+    noiseGain.gain.exponentialRampToValueAtTime(0.0001, time + 0.08);
+    noise.connect(noiseFilter).connect(noiseGain).connect(output);
+    noise.start(time);
+    noise.stop(time + 0.1);
+}
+
+function startTanpuraDrone(drone) {
+    stopTanpuraDrone();
+    const context = audioContext;
+    const tonic = getTanpuraTonic();
+    const ratios = { Pa: 3 / 2, Ma: 4 / 3, Ni: 15 / 8 };
+    const droneFrequency = tonic * (ratios[drone] || ratios.Pa);
+
+    // Keep a quiet Sa and Pa/Ma/Ni resonance running between the articulated
+    // plucks. This is what makes the accompaniment feel sustained.
+    [tonic, droneFrequency].forEach((frequency, index) => {
+        const oscillator = context.createOscillator();
+        const gain = context.createGain();
+        const filter = context.createBiquadFilter();
+        oscillator.type = index === 0 ? 'sine' : 'triangle';
+        oscillator.frequency.value = frequency;
+        filter.type = 'lowpass';
+        filter.frequency.value = 1800;
+        gain.gain.value = (index === 0 ? 0.035 : 0.022) * tanpuraVolume;
+        oscillator.connect(filter).connect(gain).connect(context.destination);
+        oscillator.start();
+        tanpuraDroneOscillators.push(oscillator);
+    });
+}
+
+function getTanpuraTonic() {
+    const notes = { C: 261.63, 'C#': 277.18, D: 293.66, 'D#': 311.13, E: 329.63, F: 349.23, 'F#': 369.99, G: 392, 'G#': 415.3, A: 440, 'A#': 466.16, B: 493.88 };
+    return notes[tanpuraSa] || notes['C#'];
+}
+
+function setTanpuraSa(value) {
+    tanpuraSa = value;
+    if (drumMachinePlaying && DRUM_BEATS[selectedDrumBeat].kind === 'tanpura') {
+        startTanpuraDrone(DRUM_BEATS[selectedDrumBeat].drone);
+    }
+}
+
+function setTanpuraPattern(value) {
+    tanpuraPattern = /^[PMN]SSS$/.test(value) ? value : 'PSSS';
+}
+
+function setTanpuraVolume(value) {
+    tanpuraVolume = Number(value);
+    const label = document.getElementById('tanpuraVolumeLabel');
+    if (label) label.textContent = `${Math.round(tanpuraVolume * 100)}%`;
+}
+
+function stopTanpuraDrone() {
+    if (!tanpuraDroneOscillators.length || !audioContext) return;
+    tanpuraDroneOscillators.forEach(oscillator => {
+        try {
+            oscillator.stop(audioContext.currentTime + 0.03);
+            oscillator.disconnect();
+        } catch (error) {
+            // Ignore an oscillator that has already been stopped.
+        }
+    });
+    tanpuraDroneOscillators = [];
 }
 
 function playDrumHit(type, time) {
@@ -631,6 +892,253 @@ function playDrumHit(type, time) {
     noise.connect(filter).connect(gain);
     noise.start(time);
     noise.stop(time + duration);
+}
+
+const TABLA_TAALS = {
+    teentaal: { meter: 16, bols: ['Dha', 'Dhin', 'Dhin', 'Dha', 'Dha', 'Dhin', 'Dhin', 'Dha', 'Dha', 'Tin', 'Tin', 'Ta', 'Ta', 'Dhin', 'Dhin', 'Dha'] },
+    dadra: { meter: 6, bols: ['Dha', 'Dhi', 'Na', 'Dha', 'Tu', 'Na'] },
+    keherwa: { meter: 8, bols: ['Dha', 'Ge', 'Na', 'Ti', 'Na', 'Ka', 'Dhi', 'Na'] },
+    jhaptaal: { meter: 10, bols: ['Dhi', 'Na', 'Dhi', 'Dhi', 'Na', 'Tin', 'Na', 'Dhi', 'Dhi', 'Na'] },
+    rupak: { meter: 7, bols: ['Tin', 'Tin', 'Na', 'Dhin', 'Na', 'Dhin', 'Na'] },
+    ektaal: { meter: 12, bols: ['Dhin', 'Dhin', 'DhaGe', 'Tirakita', 'Tu', 'Na', 'Kat', 'Ta', 'Dhin', 'Dhin', 'DhaGe', 'Dhin'] },
+    deepchandi: { meter: 14, bols: ['Dha', 'Dhin', 'Dha', 'Dha', 'Dha', 'Tin', 'Ta', 'Ta', 'Tin', 'Dha', 'Dhin', 'Dha', 'Dha', 'Dha'] },
+    dhamar: { meter: 14, bols: ['Ka', 'Dhi', 'Ta', 'Dhi', 'Ta', 'Dha', 'Ge', 'Ti', 'Ta', 'Ki', 'Ta', 'Dhi', 'Ta', 'Dha'] },
+    chautaal: { meter: 12, bols: ['Dha', 'Dha', 'Dhin', 'Ta', 'Kit', 'Dha', 'Dhin', 'Ta', 'Tit', 'Kat', 'Gadi', 'Ghen'] },
+    jhumra: { meter: 14, bols: ['Dhin', 'Dha', 'Dhin', 'Dha', 'Tin', 'Ta', 'Dhin', 'Dha', 'Dhin', 'Dha', 'Tin', 'Ta', 'Dhin', 'Dha'] },
+    'jhaptaal-open': { meter: 10, bols: ['Dhi', 'NaOpen', 'Dhi', 'Dhi', 'NaOpen', 'Tin', 'NaOpen', 'Dhi', 'Dhi', 'NaOpen'] },
+    'keherwa-open': { meter: 8, bols: ['Dha', 'Ge', 'NaOpen', 'TeNe', 'NaOpen', 'Ke', 'Dhi', 'NaOpen'] },
+    'dadra-sharp': { meter: 6, bols: ['Dha', 'Dhi', 'NaSharp', 'Dha', 'Tu', 'NaSharp'] }
+};
+let tablaPlaying = false;
+let tablaInterval = null;
+let tablaStep = 0;
+let tablaBpm = 100;
+let tablaNote = 'A';
+let tablaTaal = 'teentaal';
+let tablaSamplerExpanded = false;
+const tablaBuffers = {};
+let tablaSamplesPromise = null;
+const TABLA_SAMPLE_FILES = ['ghe', 'na', 'na-open', 'na-sharp', 'tun', 'te', 'te-middlefinger', 'te-ne', 're', 'ke', 'tas'];
+const TABLA_BOL_SAMPLES = {
+    Dha: ['ghe', 'na'],
+    Dhin: ['ghe', 'tun'],
+    Dhi: ['ghe', 'te'],
+    Ge: ['ghe'],
+    Ghe: ['ghe'],
+    Na: ['na'],
+    NaOpen: ['na-open'],
+    NaSharp: ['na-sharp'],
+    Tin: ['tun'],
+    Tun: ['tun'],
+    Ti: ['te'],
+    Ta: ['te-middlefinger'],
+    Te: ['te'],
+    TeNe: ['te-ne'],
+    Re: ['re'],
+    Ke: ['ke'],
+    Ka: ['ke'],
+    Tu: ['tun'],
+    Tas: ['tas']
+};
+
+function toggleTablaMachinePanel() {
+    const body = document.getElementById('tablaMachineBody');
+    const toggle = document.getElementById('tablaMachineToggle');
+    if (!body || !toggle) return;
+    const expanded = body.hidden;
+    body.hidden = !expanded;
+    tablaSamplerExpanded = expanded;
+    saveSamplerSettings();
+    toggle.textContent = expanded ? '−' : '+';
+    toggle.setAttribute('aria-expanded', String(expanded));
+    toggle.setAttribute('aria-label', `${expanded ? 'Collapse' : 'Expand'} tabla sampler`);
+    if (!expanded) stopTablaMachine();
+}
+
+function collapseDrumMachinePanel() {
+    drumSamplerExpanded = false;
+    const body = document.getElementById('drumMachineBody');
+    const toggle = document.getElementById('drumMachineToggle');
+    if (body) body.hidden = true;
+    if (toggle) {
+        toggle.textContent = '+';
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-label', 'Expand drum beat sampler');
+    }
+    saveSamplerSettings();
+}
+
+function collapseTablaMachinePanel() {
+    tablaSamplerExpanded = false;
+    const body = document.getElementById('tablaMachineBody');
+    const toggle = document.getElementById('tablaMachineToggle');
+    if (body) body.hidden = true;
+    if (toggle) {
+        toggle.textContent = '+';
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-label', 'Expand tabla sampler');
+    }
+    saveSamplerSettings();
+}
+
+function setTablaBpm(value) {
+    tablaBpm = Number(value);
+    saveSamplerSettings();
+    const label = document.getElementById('tablaBpmLabel');
+    if (label) label.textContent = `${tablaBpm} BPM`;
+    if (tablaPlaying) startTablaMachine();
+}
+
+function setTablaNote(value) {
+    tablaNote = value;
+    saveSamplerSettings();
+}
+
+function setTablaTaal(value) {
+    tablaTaal = TABLA_TAALS[value] ? value : 'teentaal';
+    tablaStep = 0;
+    saveSamplerSettings();
+    renderTablaIndicator();
+    if (tablaPlaying) startTablaMachine();
+}
+
+function renderTablaIndicator(activeBeat = -1) {
+    const indicator = document.getElementById('tablaBeatIndicator');
+    if (!indicator) return;
+    const taal = TABLA_TAALS[tablaTaal];
+    indicator.innerHTML = Array.from({ length: taal.meter }, (_, index) =>
+        `<span class="drum-beat-dot${index === activeBeat ? ' active' : ''}" aria-label="Matra ${index + 1}">${index + 1}</span>`
+    ).join('');
+}
+
+function loadSamplerSettings() {
+    try {
+        const saved = JSON.parse(localStorage.getItem(SAMPLER_SETTINGS_STORAGE_KEY) || '{}');
+        if (DRUM_BEATS[saved.drumBeat]) selectedDrumBeat = saved.drumBeat;
+        if (Number.isFinite(Number(saved.drumBpm))) drumBpm = Number(saved.drumBpm);
+        if (typeof saved.tablaNote === 'string') tablaNote = saved.tablaNote;
+        if (TABLA_TAALS[saved.tablaTaal]) tablaTaal = saved.tablaTaal;
+        if (Number.isFinite(Number(saved.tablaBpm))) tablaBpm = Number(saved.tablaBpm);
+        if (typeof saved.drumSamplerExpanded === 'boolean') drumSamplerExpanded = saved.drumSamplerExpanded;
+        if (typeof saved.tablaSamplerExpanded === 'boolean') tablaSamplerExpanded = saved.tablaSamplerExpanded;
+    } catch (error) {
+        console.warn('Could not load sampler settings:', error);
+    }
+}
+
+function saveSamplerSettings() {
+    try {
+        localStorage.setItem(SAMPLER_SETTINGS_STORAGE_KEY, JSON.stringify({
+            drumBeat: selectedDrumBeat,
+            drumBpm,
+            tablaNote,
+            tablaTaal,
+            tablaBpm,
+            drumSamplerExpanded,
+            tablaSamplerExpanded
+        }));
+    } catch (error) {
+        console.warn('Could not save sampler settings:', error);
+    }
+}
+
+function syncSamplerControls() {
+    const drumSelect = document.getElementById('drumBeatSelect');
+    const drumTempo = document.getElementById('drumBpmInput');
+    const tablaNoteSelect = document.getElementById('tablaNoteSelect');
+    const tablaTaalSelect = document.getElementById('tablaTaalSelect');
+    const tablaTempo = document.getElementById('tablaBpmInput');
+    if (drumSelect) drumSelect.value = selectedDrumBeat;
+    if (drumTempo) drumTempo.value = String(drumBpm);
+    if (tablaNoteSelect) tablaNoteSelect.value = tablaNote;
+    if (tablaTaalSelect) tablaTaalSelect.value = tablaTaal;
+    if (tablaTempo) tablaTempo.value = String(tablaBpm);
+    const drumLabel = document.getElementById('drumBpmLabel');
+    const tablaLabel = document.getElementById('tablaBpmLabel');
+    if (drumLabel) drumLabel.textContent = `${drumBpm} BPM`;
+    if (tablaLabel) tablaLabel.textContent = `${tablaBpm} BPM`;
+}
+
+function toggleTablaMachine() {
+    if (tablaPlaying) stopTablaMachine();
+    else startTablaMachine();
+}
+
+async function loadTablaSamples() {
+    if (tablaSamplesPromise) return tablaSamplesPromise;
+    const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+    audioContext ||= new AudioContextClass();
+    tablaSamplesPromise = Promise.all(TABLA_SAMPLE_FILES.map(async name => {
+        const response = await fetch(`assets/tabla/${name}.wav`);
+        if (!response.ok) throw new Error(`Could not load tabla sample: ${name}.wav`);
+        tablaBuffers[name] = await audioContext.decodeAudioData(await response.arrayBuffer());
+    }));
+    return tablaSamplesPromise;
+}
+
+async function startTablaMachine() {
+    const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+    if (!AudioContextClass) return;
+    if (drumMachinePlaying) {
+        stopDrumMachine();
+        collapseDrumMachinePanel();
+    }
+    audioContext ||= new AudioContextClass();
+    if (audioContext.state === 'suspended') audioContext.resume();
+    try {
+        await loadTablaSamples();
+    } catch (error) {
+        console.error('Tabla samples could not be loaded:', error);
+        const button = document.getElementById('tablaPlayBtn');
+        if (button) button.textContent = '⚠ Tabla samples unavailable';
+        return;
+    }
+    clearInterval(tablaInterval);
+    tablaPlaying = true;
+    tablaStep = 0;
+    const button = document.getElementById('tablaPlayBtn');
+    if (button) button.textContent = '⏹ Stop tabla';
+    playTablaStep();
+    tablaInterval = setInterval(playTablaStep, 60000 / tablaBpm);
+}
+
+function stopTablaMachine() {
+    clearInterval(tablaInterval);
+    tablaInterval = null;
+    tablaPlaying = false;
+    tablaStep = 0;
+    const button = document.getElementById('tablaPlayBtn');
+    if (button) button.textContent = '▶ Play tabla';
+    renderTablaIndicator();
+}
+
+function getTablaNoteFrequency() {
+    const notes = { C: 261.63, 'C#': 277.18, D: 293.66, 'D#': 311.13, E: 329.63, F: 349.23, 'F#': 369.99, G: 392, 'G#': 415.3, A: 440, 'A#': 466.16, B: 493.88 };
+    return notes[tablaNote] || 440;
+}
+
+function playTablaStep() {
+    const taal = TABLA_TAALS[tablaTaal];
+    renderTablaIndicator(tablaStep);
+    playTablaBol(taal.bols[tablaStep], audioContext.currentTime);
+    tablaStep = (tablaStep + 1) % taal.meter;
+}
+
+function playTablaBol(bol, time) {
+    const context = audioContext;
+    const samples = TABLA_BOL_SAMPLES[bol] || TABLA_BOL_SAMPLES.Ta;
+    const playbackRate = getTablaNoteFrequency() / 440;
+    samples.forEach((sampleName, index) => {
+        const buffer = tablaBuffers[sampleName];
+        if (!buffer) return;
+        const source = context.createBufferSource();
+        const gain = context.createGain();
+        source.buffer = buffer;
+        source.playbackRate.value = playbackRate;
+        gain.gain.value = index === 0 ? 0.85 : 0.7;
+        source.connect(gain).connect(context.destination);
+        source.start(time);
+    });
 }
 
 // Strumming Player Logic
