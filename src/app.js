@@ -1,5 +1,8 @@
 let songs = [];
+const favoriteSongs = new Set();
+const FAVORITES_STORAGE_KEY = 'nepali-guitar-chords-favorites';
 let currentSongIndex = -1;
+let returnLetter = null;
 let transposeOffset = 0;
 let currentFontSize = 13; // px; matches the Markdown code-block baseline
 let autoScrolling = false;
@@ -12,6 +15,12 @@ let scrollDistanceRemainder = 0;
 
 // Strumming player state
 let strummingPlaying = false;
+let drumMachineInterval = null;
+let drumMachineStep = 0;
+let drumMachinePlaying = false;
+let drumNoiseBuffer = null;
+let selectedDrumBeat = 'pop-44';
+let drumBpm = 100;
 let strummingInterval = null;
 let strummingLoopTimeout = null;
 let currentStrokeIndex = 0;
@@ -52,6 +61,7 @@ async function init() {
     try {
         const response = await fetch('songs.json');
         songs = await response.json();
+        loadFavoriteSongs();
         renderSongList(songs);
         showHome();
     } catch (e) {
@@ -174,7 +184,11 @@ function escapeHtml(value) {
 function showHome() {
     currentSongIndex = -1;
     stopStrummingPlayer();
+    stopDrumMachine();
     document.getElementById('viewerHeader').style.display = 'none';
+    document.getElementById('backToListBtn').hidden = true;
+    dom.searchInput.value = '';
+    renderSongList(songs);
     
     document.querySelectorAll('.song-item').forEach(item => item.classList.remove('active'));
     if (autoScrolling) toggleAutoScroll();
@@ -195,7 +209,7 @@ function showHome() {
                 const origIdx = songs.indexOf(s);
                 const capoText = s.capo && s.capo.toLowerCase() !== 'none' ? `Capo: ${s.capo}` : '';
                 return `
-                    <div class="directory-song-card" onclick="selectSong(${origIdx})">
+                    <div class="directory-song-card" onclick="selectSong(${origIdx}, '${letter}')">
                         <div class="directory-song-title">${escapeHtml(s.title)}</div>
                         ${capoText ? `<div class="directory-song-capo">🎸 ${escapeHtml(capoText)}</div>` : ''}
                     </div>
@@ -216,7 +230,7 @@ function showHome() {
     document.getElementById('contentContainer').innerHTML = `
         <div class="content-card" style="max-width: 1000px;">
             <div class="home-hero">
-                <h1>Nepali Guitar Chords & Tabs Collection</h1>
+                <h2>Nepali Guitar Chords Collection</h2>
                 <p>Welcome to the digital songbook containing chords and lyrics for over 200+ popular Nepali, and some Hindi, and English songs. Click any song below or search in the sidebar to view chords, transpose keys, and auto-scroll.</p>
             </div>
             <div class="alphabet-nav">
@@ -234,7 +248,9 @@ function showHome() {
 function showHelp() {
     currentSongIndex = -1;
     stopStrummingPlayer();
+    stopDrumMachine();
     document.getElementById('viewerHeader').style.display = 'none';
+    document.getElementById('backToListBtn').hidden = true;
     document.querySelectorAll('.song-item').forEach(item => item.classList.remove('active'));
     if (autoScrolling) toggleAutoScroll();
 
@@ -245,7 +261,7 @@ function showHelp() {
                     <h1>Guitar Chord Help</h1>
                     <p>Use these reference charts to look up guitar chord shapes, chord relationships, and the circle of fifths.</p>
                 </div>
-                <button class="btn btn-primary" onclick="showHome()" title="Return to the song list">🏠 Home</button>
+                <a class="btn btn-primary request-songs-btn" href="mailto:cynicandroid@gmail.com?subject=Please%20add%20chords%20for%20this%20song" title="Request more songs"><span aria-hidden="true">✉️</span><span>Request More Songs</span></a>
             </div>
             <div class="help-images">
                 <section class="help-image-card">
@@ -260,10 +276,81 @@ function showHelp() {
                     <h2>Circle of Fifths</h2>
                     <img src="Guitar%20Tabs/circle-of-fifths.webp" alt="Circle of fifths reference diagram" loading="lazy">
                 </section>
+                <div>
+                    <footer class="collection-credit">Happy Playing Sathi - From Saroj Poudyal</footer>
+                </div>
             </div>
         </div>
     `;
     document.getElementById('contentContainer').scrollTop = 0;
+}
+
+function showFavorites() {
+    currentSongIndex = -1;
+    stopStrummingPlayer();
+    stopDrumMachine();
+    document.getElementById('viewerHeader').style.display = 'none';
+    document.getElementById('backToListBtn').hidden = true;
+    document.querySelectorAll('.song-item').forEach(item => item.classList.remove('active'));
+    if (autoScrolling) toggleAutoScroll();
+
+    const favorites = songs.filter((_, index) => favoriteSongs.has(index));
+    renderSongList(favorites);
+    const content = favorites.length
+        ? `<div class="directory-songs-grid">${favorites.map(song => {
+            const index = songs.indexOf(song);
+            const capoText = song.capo && song.capo.toLowerCase() !== 'none' ? `Capo: ${escapeHtml(song.capo)}` : '';
+            return `<div class="directory-song-card" onclick="selectSong(${index})"><div class="directory-song-title">${escapeHtml(song.title)}</div>${capoText ? `<div class="directory-song-capo">🎸 ${capoText}</div>` : ''}</div>`;
+        }).join('')}</div>`
+        : '<p class="favorites-empty">No favorite songs yet. Open a song and tap ☆ to add it here.</p>';
+
+    document.getElementById('contentContainer').innerHTML = `
+        <div class="content-card favorites-card">
+            <div class="help-header"><div><h1>☆ Favorite Songs</h1><p>${favorites.length} song${favorites.length === 1 ? '' : 's'} selected for this session.</p></div>
+            <button class="btn btn-primary" onclick="showHome()" title="Return to the song list">🏠 Home</button></div>
+            ${content}
+        </div>`;
+    document.getElementById('contentContainer').scrollTop = 0;
+}
+
+function loadFavoriteSongs() {
+    try {
+        const storedFavorites = JSON.parse(localStorage.getItem(FAVORITES_STORAGE_KEY) || '[]');
+        if (!Array.isArray(storedFavorites)) return;
+        songs.forEach((song, index) => {
+            if (storedFavorites.includes(song.filename)) favoriteSongs.add(index);
+        });
+    } catch (error) {
+        console.warn('Could not load saved favorites:', error);
+    }
+}
+
+function saveFavoriteSongs() {
+    try {
+        const filenames = Array.from(favoriteSongs, index => songs[index]?.filename).filter(Boolean);
+        localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(filenames));
+    } catch (error) {
+        console.warn('Could not save favorites:', error);
+    }
+}
+
+function toggleFavorite() {
+    if (currentSongIndex < 0) return;
+    if (favoriteSongs.has(currentSongIndex)) favoriteSongs.delete(currentSongIndex);
+    else favoriteSongs.add(currentSongIndex);
+    saveFavoriteSongs();
+    updateFavoriteButton();
+    if (document.querySelector('.favorites-card')) showFavorites();
+}
+
+function updateFavoriteButton() {
+    const button = document.getElementById('favoriteToggle');
+    if (!button) return;
+    const selected = favoriteSongs.has(currentSongIndex);
+    button.textContent = selected ? '★' : '☆';
+    button.setAttribute('aria-pressed', String(selected));
+    button.setAttribute('aria-label', selected ? 'Remove from favorites' : 'Add to favorites');
+    button.title = selected ? 'Remove from favorites' : 'Add to favorites';
 }
 
 function sortedLetters() {
@@ -280,10 +367,14 @@ function sortedLetters() {
     });
 }
 
-function selectSong(index) {
+function selectSong(index, sourceLetter = null) {
     currentSongIndex = index;
+    const titleInitial = songs[index]?.title?.[0]?.toUpperCase() || '#';
+    returnLetter = sourceLetter || (/[A-Z]/.test(titleInitial) ? titleInitial : '#');
+    document.getElementById('backToListBtn').hidden = false;
     transposeOffset = 0;
     stopStrummingPlayer();
+    stopDrumMachine();
     document.getElementById('transposeDisplay').innerText = `Key: 0`;
     document.getElementById('viewerHeader').style.display = 'flex';
     
@@ -297,7 +388,16 @@ function selectSong(index) {
     
     const container = document.getElementById('contentContainer');
     container.scrollTop = 0;
+    if (window.matchMedia('(max-width: 768px)').matches) window.scrollTo(0, 0);
     if (autoScrolling) toggleAutoScroll();
+}
+
+function goBackToSongList() {
+    const letter = returnLetter;
+    showHome();
+    if (!letter) return;
+    const section = document.getElementById(`letter-${letter}`);
+    if (section) section.scrollIntoView({ block: 'start' });
 }
 
 function renderCurrentSong() {
@@ -305,6 +405,7 @@ function renderCurrentSong() {
     const song = songs[currentSongIndex];
 
     document.getElementById('songTitleDisplay').innerText = song.title;
+    updateFavoriteButton();
     document.getElementById('badgeCapo').innerText = `Capo: ${song.capo || 'None'}`;
     document.getElementById('badgeGenre').innerText = `Genre: ${song.genre || 'N/A'}`;
     document.getElementById('badgeStrummingText').innerText = `Strumming: ${song.strumming || 'N/A'}`;
@@ -331,7 +432,47 @@ function renderCurrentSong() {
         htmlContent += text + '\n';
     });
 
+    selectedDrumBeat = 'pop-44';
+    drumBpm = 100;
     document.getElementById('contentContainer').innerHTML = `
+        <section class="drum-machine-panel" aria-label="Drum beat sampler">
+            <div class="drum-machine-heading">
+                <h5>🥁 Drum Beat Sampler</h5>
+                <button class="drum-machine-toggle" id="drumMachineToggle" onclick="toggleDrumMachinePanel()" aria-label="Expand drum beat sampler" aria-expanded="false" aria-controls="drumMachineBody">+</button>
+            </div>
+            <div class="drum-machine-body" id="drumMachineBody" hidden>
+                <p class="drum-machine-description">Choose a groove to play along.</p>
+                <div class="drum-machine-controls">
+                    <label>Beat
+                        <select id="drumBeatSelect" onchange="selectDrumBeat(this.value)">
+                            <option value="pop-44">Pop · 4/4</option>
+                            <option value="rock-44">Rock · 4/4</option>
+                            <option value="pop-34">Pop · 3/4</option>
+                            <option value="rock-34">Rock · 3/4</option>
+                        <option value="pop-24">Pop · 2/4</option>
+                        <option value="rock-24">Rock · 2/4</option>
+                        <option value="jazz-44">Jazz · 4/4</option>
+                        <option value="jazz-34">Jazz · 3/4</option>
+                        <option value="jazz-24">Jazz · 2/4</option>
+                        <option value="funk-44">Funk · 4/4</option>
+                        <option value="funk-34">Funk · 3/4</option>
+                        <option value="funk-24">Funk · 2/4</option>
+                        <option value="disco-44">Disco · 4/4</option>
+                        <option value="disco-34">Disco · 3/4</option>
+                        <option value="disco-24">Disco · 2/4</option>
+                        <option value="hiphop-44">Hip Hop · 4/4</option>
+                        <option value="hiphop-34">Hip Hop · 3/4</option>
+                        <option value="hiphop-24">Hip Hop · 2/4</option>
+                        </select>
+                    </label>
+                    <label class="drum-tempo-control">Tempo <span id="drumBpmLabel">100 BPM</span>
+                        <input id="drumBpmInput" type="range" min="60" max="180" value="100" oninput="setDrumBpm(this.value)">
+                    </label>
+                    <button class="btn btn-primary" id="drumPlayBtn" onclick="toggleDrumMachine()">▶ Play beat</button>
+                </div>
+                <div class="drum-beat-indicator" id="drumBeatIndicator" aria-live="off"></div>
+            </div>
+        </section>
         <div class="strumming-player-panel" id="strummingPlayerPanel">
             <div class="strumming-header">
                 <h3>🎸 Strumming Pattern Visualizer: <span id="strumPatternTitle">${escapeHtml(song.strumming || '')}</span></h3>
@@ -349,8 +490,147 @@ function renderCurrentSong() {
         </div>
         <div class="content-card">
         <pre id="songPre" style="font-size: ${currentFontSize}px;">${htmlContent}</pre>
+        <div class="song-footer-back-wrap">
+            <button class="btn song-footer-back" onclick="goBackToSongList()"><span aria-hidden="true">←</span><span>Back</span></button>
+        </div>
         </div>
     `;
+    renderDrumBeatIndicator();
+}
+
+function toggleDrumMachinePanel() {
+    const body = document.getElementById('drumMachineBody');
+    const toggle = document.getElementById('drumMachineToggle');
+    if (!body || !toggle) return;
+    const expanded = body.hidden;
+    body.hidden = !expanded;
+    toggle.textContent = expanded ? '−' : '+';
+    toggle.setAttribute('aria-expanded', String(expanded));
+    toggle.setAttribute('aria-label', `${expanded ? 'Collapse' : 'Expand'} drum beat sampler`);
+    if (!expanded) stopDrumMachine();
+}
+
+const DRUM_BEATS = {
+    'pop-44':  { meter: 4, kick: [0, 4],    snare: [2, 6],    hat: [0, 1, 2, 3, 4, 5, 6, 7] },
+    'rock-44': { meter: 4, kick: [0, 3, 4], snare: [2, 6],    hat: [0, 2, 4, 6] },
+    'pop-34':  { meter: 3, kick: [0],       snare: [2, 4],    hat: [0, 2, 4] },
+    'rock-34': { meter: 3, kick: [0, 4],    snare: [2],      hat: [0, 2, 4] },
+    'pop-24':  { meter: 2, kick: [0],       snare: [2],      hat: [0, 1, 2, 3] },
+    'rock-24': { meter: 2, kick: [0, 2],    snare: [1, 3],   hat: [0, 1, 2, 3] },
+    'jazz-44': { meter: 4, kick: [0, 4],    snare: [2, 6],   hat: [1, 3, 5, 7] },
+    'jazz-34': { meter: 3, kick: [0],       snare: [2, 4],   hat: [1, 3, 5] },
+    'jazz-24': { meter: 2, kick: [0],       snare: [2],     hat: [1, 3] },
+    'funk-44': { meter: 4, kick: [0, 3, 5], snare: [2, 6],   hat: [0, 1, 2, 3, 4, 5, 6, 7] },
+    'funk-34': { meter: 3, kick: [0, 3],    snare: [2, 4],   hat: [0, 1, 2, 3, 4, 5] },
+    'funk-24': { meter: 2, kick: [0, 3],    snare: [2],     hat: [0, 1, 2, 3] },
+    'disco-44': { meter: 4, kick: [0, 2, 4, 6], snare: [2, 6], hat: [0, 1, 2, 3, 4, 5, 6, 7] },
+    'disco-34': { meter: 3, kick: [0, 2, 4], snare: [2, 4],  hat: [0, 1, 2, 3, 4, 5] },
+    'disco-24': { meter: 2, kick: [0, 2],    snare: [2],     hat: [0, 1, 2, 3] },
+    'hiphop-44': { meter: 4, kick: [0, 5],   snare: [2, 6],  hat: [0, 1, 2, 3, 4, 5, 6, 7] },
+    'hiphop-34': { meter: 3, kick: [0, 4],   snare: [2],     hat: [0, 2, 3, 4, 5] },
+    'hiphop-24': { meter: 2, kick: [0, 3],   snare: [2],     hat: [0, 1, 2, 3] }
+};
+
+function selectDrumBeat(value) {
+    selectedDrumBeat = DRUM_BEATS[value] ? value : 'pop-44';
+    drumMachineStep = 0;
+    if (drumMachinePlaying) {
+        stopDrumMachine();
+        startDrumMachine();
+    } else {
+        renderDrumBeatIndicator();
+    }
+}
+
+function setDrumBpm(value) {
+    drumBpm = Number(value);
+    document.getElementById('drumBpmLabel').textContent = `${drumBpm} BPM`;
+    if (drumMachinePlaying) {
+        stopDrumMachine();
+        startDrumMachine();
+    }
+}
+
+function renderDrumBeatIndicator(activeBeat = -1) {
+    const indicator = document.getElementById('drumBeatIndicator');
+    if (!indicator) return;
+    const beat = DRUM_BEATS[selectedDrumBeat];
+    indicator.innerHTML = Array.from({ length: beat.meter }, (_, index) =>
+        `<span class="drum-beat-dot${index === activeBeat ? ' active' : ''}" aria-label="Beat ${index + 1}">${index + 1}</span>`
+    ).join('');
+}
+
+function toggleDrumMachine() {
+    if (drumMachinePlaying) stopDrumMachine();
+    else startDrumMachine();
+}
+
+function startDrumMachine() {
+    const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+    if (!AudioContextClass) return;
+    audioContext ||= new AudioContextClass();
+    if (audioContext.state === 'suspended') audioContext.resume();
+    drumMachinePlaying = true;
+    drumMachineStep = 0;
+    document.getElementById('drumPlayBtn').textContent = '⏹ Stop beat';
+    renderDrumBeatIndicator();
+    playDrumMachineStep();
+    drumMachineInterval = setInterval(playDrumMachineStep, 60000 / drumBpm / 2);
+}
+
+function stopDrumMachine() {
+    clearInterval(drumMachineInterval);
+    drumMachineInterval = null;
+    drumMachinePlaying = false;
+    drumMachineStep = 0;
+    const button = document.getElementById('drumPlayBtn');
+    if (button) button.textContent = '▶ Play beat';
+    renderDrumBeatIndicator();
+}
+
+function playDrumMachineStep() {
+    const beat = DRUM_BEATS[selectedDrumBeat];
+    const beatIndex = Math.floor(drumMachineStep / 2);
+    renderDrumBeatIndicator(beatIndex);
+    const now = audioContext.currentTime;
+    if (beat.kick.includes(drumMachineStep)) playDrumHit('kick', now);
+    if (beat.snare.includes(drumMachineStep)) playDrumHit('snare', now);
+    if (beat.hat.includes(drumMachineStep)) playDrumHit('hat', now);
+    drumMachineStep = (drumMachineStep + 1) % (beat.meter * 2);
+}
+
+function playDrumHit(type, time) {
+    const context = audioContext;
+    const gain = context.createGain();
+    gain.connect(context.destination);
+    const duration = type === 'kick' ? 0.32 : type === 'snare' ? 0.18 : 0.055;
+    gain.gain.setValueAtTime(type === 'hat' ? 0.12 : 0.45, time);
+    gain.gain.exponentialRampToValueAtTime(0.001, time + duration);
+
+    if (type === 'kick') {
+        const oscillator = context.createOscillator();
+        oscillator.type = 'sine';
+        oscillator.frequency.setValueAtTime(145, time);
+        oscillator.frequency.exponentialRampToValueAtTime(42, time + duration);
+        oscillator.connect(gain);
+        oscillator.start(time);
+        oscillator.stop(time + duration);
+        return;
+    }
+
+    if (!drumNoiseBuffer) {
+        drumNoiseBuffer = context.createBuffer(1, context.sampleRate, context.sampleRate);
+        const data = drumNoiseBuffer.getChannelData(0);
+        for (let i = 0; i < data.length; i++) data[i] = Math.random() * 2 - 1;
+    }
+    const noise = context.createBufferSource();
+    noise.buffer = drumNoiseBuffer;
+    const filter = context.createBiquadFilter();
+    filter.type = 'highpass';
+    filter.frequency.value = type === 'hat' ? 7000 : 1500;
+    noise.connect(filter).connect(gain);
+    noise.start(time);
+    noise.stop(time + duration);
 }
 
 // Strumming Player Logic

@@ -127,6 +127,42 @@ aside {
     background: var(--card-bg);
 }
 
+.search-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.search-row .search-input {
+    flex: 1;
+    min-width: 0;
+}
+
+.back-to-list-btn {
+    flex: 0 0 auto;
+    padding: 9px 12px;
+    font-size: 1.1rem;
+    align-items: center;
+    gap: 6px;
+}
+
+.back-to-list-btn[hidden] {
+    display: none;
+}
+
+.song-footer-back-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.song-footer-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 1rem;
+}
+
 .search-input {
     width: 100%;
     padding: 10px 14px;
@@ -231,6 +267,29 @@ main {
     gap: 6px;
 }
 
+.favorite-toggle {
+    color: var(--chord-color);
+    border: 1px solid var(--border-color);
+    cursor: pointer;
+    font-size: 1.15rem;
+    line-height: 1;
+    min-width: 34px;
+    justify-content: center;
+}
+
+.favorite-toggle:hover {
+    border-color: var(--chord-color);
+}
+
+.favorites-card .directory-songs-grid {
+    margin-top: 18px;
+}
+
+.favorites-empty {
+    color: var(--text-muted);
+    margin-top: 18px;
+}
+
 .strumming-badge-btn {
     background-color: var(--primary);
     color: white;
@@ -279,6 +338,10 @@ main {
     background-color: var(--primary);
     color: white;
     border-color: var(--primary);
+}
+
+.request-songs-btn {
+    text-decoration: none;
 }
 
 .btn-primary:hover {
@@ -344,6 +407,115 @@ main {
     box-shadow: var(--shadow);
     display: none;
     animation: fadeIn 0.2s ease-in-out;
+}
+
+.drum-machine-panel {
+    width: 100%;
+    max-width: 900px;
+    margin-bottom: 16px;
+    padding: 16px 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    background: var(--card-bg);
+    box-shadow: var(--shadow);
+}
+
+.drum-machine-heading h3 {
+    margin: 0;
+}
+
+.drum-machine-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.drum-machine-toggle {
+    display: grid;
+    width: 32px;
+    height: 32px;
+    flex: 0 0 auto;
+    place-items: center;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    background: var(--code-bg);
+    color: var(--text-color);
+    cursor: pointer;
+    font-size: 1.25rem;
+    line-height: 1;
+}
+
+.drum-machine-toggle:hover {
+    border-color: var(--primary);
+}
+
+.drum-machine-body[hidden] {
+    display: none;
+}
+
+.drum-machine-description {
+    margin-top: 5px;
+    color: var(--text-muted);
+    font-size: .85rem;
+}
+
+.drum-machine-controls {
+    display: flex;
+    align-items: end;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.drum-machine-controls label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.drum-machine-controls select {
+    min-height: 36px;
+    padding: 6px 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    background: var(--bg-color);
+    color: var(--text-color);
+    font: inherit;
+}
+
+.drum-tempo-control {
+    min-width: 175px;
+}
+
+.drum-tempo-control input {
+    width: 100%;
+    accent-color: var(--primary);
+}
+
+.drum-beat-indicator {
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.drum-beat-dot {
+    display: grid;
+    width: 28px;
+    height: 28px;
+    place-items: center;
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    color: var(--text-muted);
+    font-size: .75rem;
+}
+
+.drum-beat-dot.active {
+    border-color: var(--primary);
+    background: var(--primary);
+    color: white;
 }
 
 .strumming-player-panel.active {
@@ -419,8 +591,8 @@ main {
     margin-bottom: 30px;
 }
 
-.home-hero h1 {
-    font-size: 2rem;
+.home-hero h2 {
+    font-size: 1.5rem;
     font-weight: 800;
     color: var(--primary);
     margin-bottom: 12px;
@@ -641,11 +813,16 @@ pre .chord {
     }
     .song-title-area { min-width: 0; flex: 1 1 100%; }
     .song-title-area h2 { font-size: 1rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .song-badges { gap: 4px; font-size: .7rem; flex-wrap: nowrap; }
+    .song-badges { gap: 4px; font-size: .7rem; flex-wrap: wrap; }
     .song-badges .badge { padding: 2px 5px; white-space: nowrap; }
-    #badgeGenre, #badgeStrummingText { display: none; }
+    #badgeGenre { display: none; }
+    #badgeStrumming { max-width: 100%; flex-wrap: wrap; white-space: normal; }
+    #badgeStrummingText { display: inline; white-space: normal; overflow-wrap: anywhere; }
     .toolbar { gap: 3px; flex-wrap: wrap; width: 100%; }
     .toolbar .btn { padding: 5px 7px; font-size: .72rem; }
+    .drum-machine-panel { padding: 12px; }
+    .drum-machine-controls { gap: 8px; }
+    .drum-tempo-control { flex: 1 1 145px; }
     .transpose-group { padding: 2px; gap: 4px; white-space: nowrap; }
     .content-container {
         padding: 4px;

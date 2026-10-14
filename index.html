@@ -25,12 +25,16 @@
             <h1 onclick="showHome()">Nepali Chords</h1>
             <div class="sidebar-nav-actions">
                 <button class="home-nav-btn" onclick="showHome()" title="Go to home"><span class="nav-icon">🏠</span><span>Home</span></button>
+                <button class="home-nav-btn" onclick="showFavorites()" title="Show favorite songs"><span class="nav-icon" aria-hidden="true">☆</span><span>Favorites</span></button>
                 <button class="home-nav-btn" onclick="showHelp()" title="Open chord help"><span class="nav-icon chord-icon">🎸</span><span>Chord Help</span></button>
                 <button class="home-nav-btn install-nav-btn" id="installBtn" onclick="installApp()" title="Install for offline mode" aria-label="Install for offline mode" hidden><span class="nav-icon">⬇</span><span>Install</span></button>
             </div>
         </div>
         <div class="search-box">
-            <input type="text" id="searchInput" class="search-input" placeholder="Search Songs. Filter by Genre or Capo fret">
+            <div class="search-row">
+                <input type="text" id="searchInput" class="search-input" placeholder="Search Songs. Filter by Genre or Capo fret">
+                <button class="btn back-to-list-btn" id="backToListBtn" onclick="goBackToSongList()" title="Back to song list" aria-label="Back to song list" hidden><span aria-hidden="true">←</span><span>Back</span></button>
+            </div>
         </div>
         <div class="song-list" id="songList">
             <!-- Populated via JS -->
@@ -42,6 +46,7 @@
             <div class="song-title-area">
                 <h2 id="songTitleDisplay">Song Title</h2>
                 <div class="song-badges">
+                    <button class="badge favorite-toggle" id="favoriteToggle" onclick="toggleFavorite()" aria-label="Add to favorites" aria-pressed="false" title="Add to favorites">☆</button>
                     <span class="badge" id="badgeCapo">Capo: None</span>
                     <span class="badge" id="badgeGenre">Genre: N/A</span>
                     <span class="badge" id="badgeStrumming">
