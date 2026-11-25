@@ -1,6 +1,8 @@
 # Lekali He He Choya Ko Doko
 
 **Capo:** None  
+**Singer:** Ram Thapa<br>
+**Key:** G<br>
 **Genre:** N/A  
 **Strumming:** DUMDU  
 

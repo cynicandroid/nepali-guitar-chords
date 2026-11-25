@@ -1,6 +1,8 @@
 # Suna Katha Yeuta Geet
 
 **Capo:** None  
+**Singer:** Danny Denzongpa<br>
+**Key:** G<br>
 **Genre:** Campfire  
 **Strumming:** DuDuUDU  
 

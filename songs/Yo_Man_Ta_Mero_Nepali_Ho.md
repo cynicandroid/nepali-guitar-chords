@@ -1,6 +1,8 @@
 # Yo Man Ta Mero Nepali Ho
 
 **Capo:** None, 16  
+**Singer:** <br>
+**Key:** C<br>
 **Genre:** Party, 5S  
 **Strumming:** DD UUD DUDU / D DU UDU  
 

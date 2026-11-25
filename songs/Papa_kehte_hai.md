@@ -1,6 +1,8 @@
 # Papa kehte hai
 
 **Capo:** none  
+**Singer:** Udit Narayan<br>
+**Key:** C<br>
 **Genre:** N/A  
 **Strumming:** N/A  
 

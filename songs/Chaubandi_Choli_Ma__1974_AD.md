@@ -1,6 +1,8 @@
 # Chaubandi Choli Ma – 1974 AD
 
 **Capo:** 4th Fret  
+**Singer:** 1974 AD<br>
+**Key:** D<br>
 **Genre:** Party, 5S  
 **Strumming:** D UMUDU  
 

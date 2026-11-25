@@ -1,6 +1,8 @@
 # Phul ko Ankha Ma
 
 **Capo:** None  
+**Singer:** Ani Cho Dolma<br>
+**Key:** D<br>
 **Genre:** N/A  
 **Strumming:** D 1 2 3 [Finger]  
 

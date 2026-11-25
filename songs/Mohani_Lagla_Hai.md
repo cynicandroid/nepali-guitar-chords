@@ -1,6 +1,8 @@
 # Mohani Lagla Hai
 
 **Capo:** None  
+**Singer:** Narayan Gopal<br>
+**Key:** G<br>
 **Genre:** N/A  
 **Strumming:** DUMDU  
 

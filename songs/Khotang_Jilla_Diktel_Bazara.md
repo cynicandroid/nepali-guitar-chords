@@ -1,6 +1,8 @@
 # Khotang Jilla Diktel Bazara
 
 **Capo:** None  
+**Singer:** <br>
+**Key:** G<br>
 **Genre:** Party oldschool  
 **Strumming:** DUMUDU  
 

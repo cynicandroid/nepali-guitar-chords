@@ -1,6 +1,8 @@
 # I_d Love You To Want Me - Lobo
 
 **Capo:** 3rd Fret  
+**Singer:** Lobo<br>
+**Key:** G<br>
 **Genre:** Campfire, English  
 **Strumming:** D D UUD DUDU  
 

@@ -1,6 +1,8 @@
 # Aankha Ma Timilai
 
 **Capo:** None  
+**Singer:** Nabin K Bhattarai<br>
+**Key:** G<br>
 **Genre:** Campfire  
 **Strumming:** D D UUD DUDU  
 

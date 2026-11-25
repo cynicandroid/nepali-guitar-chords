@@ -1,6 +1,8 @@
 # Maya Ko Dori Le
 
 **Capo:** none, barre chords  
+**Singer:** Deepak Bajracharya<br>
+**Key:** Bm<br>
 **Genre:** N/A  
 **Strumming:** DDUUDU  
 

@@ -1,6 +1,8 @@
 # Who Saam Kuch Ajeeb Thi
 
 **Capo:** 1st Fret  
+**Singer:** Kishore Kumar<br>
+**Key:** D<br>
 **Genre:** Campfire  
 **Strumming:** Du Du U Du  
 

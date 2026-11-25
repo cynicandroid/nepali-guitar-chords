@@ -1,6 +1,8 @@
 # Sasto Mutu
 
 **Capo:** None  
+**Singer:** Sajjan Raj Vaidya<br>
+**Key:** G<br>
 **Genre:** N/A  
 **Strumming:** N/A  
 

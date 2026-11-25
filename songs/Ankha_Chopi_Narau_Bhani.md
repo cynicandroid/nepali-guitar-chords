@@ -1,6 +1,8 @@
 # Ankha Chopi Narau Bhani
 
 **Capo:** None, Narayan  
+**Singer:** Narayan Gopal<br>
+**Key:** F#m<br>
 **Genre:** Campfire, 5S  
 **Strumming:** DDU UDU  
 

@@ -1,6 +1,8 @@
 # Hawa Chalyo Firiri
 
 **Capo:** None  
+**Singer:** Mahesh Kafle<br>
+**Key:** C<br>
 **Genre:** Campfire Party  
 **Strumming:** DUMDU  
 

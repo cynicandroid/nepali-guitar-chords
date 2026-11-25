@@ -1,6 +1,8 @@
 # Gajalu Le Ankha Chopne k ramri
 
 **Capo:** None  
+**Singer:** The Himalayan Band<br>
+**Key:** G<br>
 **Genre:** Campfire, Party  
 **Strumming:** D UMUDU, Barre  
 

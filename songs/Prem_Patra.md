@@ -1,6 +1,8 @@
 # Prem Patra
 
 **Capo:** None  
+**Singer:** Anil Singh<br>
+**Key:** C<br>
 **Genre:** Party  
 **Strumming:** D D UUD DDU  
 

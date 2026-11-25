@@ -1,6 +1,8 @@
 # Rato Ra Chanda Surya
 
 **Capo:** None  
+**Singer:** 1984 AD<br>
+**Key:** C<br>
 **Genre:** Party  
 **Strumming:** D DU UDU / DD UUD DUDU (if fast) Barre  
 

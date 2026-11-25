@@ -1,6 +1,8 @@
 # Tu Mere Agal Bagal Hey
 
 **Capo:** None  
+**Singer:** Misc Soundtrack<br>
+**Key:** A<br>
 **Genre:** Party, Hindi  
 **Strumming:** DU DDU  
 

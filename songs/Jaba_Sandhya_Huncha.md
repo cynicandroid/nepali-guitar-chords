@@ -1,6 +1,8 @@
 # Jaba Sandhya Huncha
 
 **Capo:** None  
+**Singer:** Yogeshwar Amatya<br>
+**Key:** Am<br>
 **Genre:** Party  
 **Strumming:** DD UUD DUDU - Barre all  
 

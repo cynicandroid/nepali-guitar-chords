@@ -1,6 +1,8 @@
 # Maya - Asutosh KC
 
 **Capo:**   
+**Singer:** Ashutosh KC<br>
+**Key:** C<br>
 **Genre:** N/A  
 **Strumming:** DUDD UDUDUDU  
 

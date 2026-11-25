@@ -1,6 +1,8 @@
 # Bidesh Jane Mayalu Timilai
 
 **Capo:** none  
+**Singer:** Dipak Thapa<br>
+**Key:** G<br>
 **Genre:** Oldschool  
 **Strumming:** D DU MUDU  
 

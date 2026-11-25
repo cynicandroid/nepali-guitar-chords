@@ -1,6 +1,8 @@
 # Kalo Keshma Relimai
 
 **Capo:** 4th Fret  
+**Singer:** Dinesh Dhakal<br>
+**Key:** G<br>
 **Genre:** Camfire  
 **Strumming:** D DU UDU  
 

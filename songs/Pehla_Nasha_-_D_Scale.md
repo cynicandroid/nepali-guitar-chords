@@ -1,6 +1,8 @@
 # Pehla Nasha - D Scale
 
 **Capo:** none  
+**Singer:** Udit Narayan<br>
+**Key:** D<br>
 **Genre:** Campfire  
 **Strumming:** DD UUD DUDU  
 

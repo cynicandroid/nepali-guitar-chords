@@ -1,6 +1,8 @@
 # Sooraj Duba He Yaro
 
 **Capo:** No capo Key: D  
+**Singer:** <br>
+**Key:** D<br>
 **Genre:** N/A  
 **Strumming:** DUD DUD DDU  
 

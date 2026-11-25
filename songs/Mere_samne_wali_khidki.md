@@ -1,6 +1,8 @@
 # Mere samne wali khidki
 
 **Capo:**   
+**Singer:** Kishor Kumar<br>
+**Key:** G<br>
 **Genre:** N/A  
 **Strumming:** DUMU DUM  
 

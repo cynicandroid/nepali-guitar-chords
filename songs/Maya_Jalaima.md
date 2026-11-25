@@ -1,6 +1,8 @@
 # Maya Jalaima
 
 **Capo:** None  
+**Singer:** Sabin Rai<br>
+**Key:** A<br>
 **Genre:** Party  
 **Strumming:** D D UUD DUDU  
 

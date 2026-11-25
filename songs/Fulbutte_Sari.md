@@ -1,6 +1,8 @@
 # Fulbutte Sari
 
 **Capo:** 8 Fret, Key G/ 5th fret 
+**Singer:** Marmik Lama<br>
+**Key:** G<br>
 **Genre:** Party 
 **Strumming:** DUUD UUD DU 
 

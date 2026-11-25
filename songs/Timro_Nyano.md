@@ -1,6 +1,8 @@
 # Timro Nyano
 
 **Capo:**   
+**Singer:** The Uglyz<br>
+**Key:** D<br>
 **Genre:** Campfire  
 **Strumming:** D D UUD DDU  
 

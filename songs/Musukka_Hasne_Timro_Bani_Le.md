@@ -1,6 +1,8 @@
 # Musukka Hasne Timro Bani Le
 
 **Capo:** 2nd  
+**Singer:** Swapnil Sharma<br>
+**Key:** G<br>
 **Genre:** Party, campfire , 4S  
 **Strumming:** D UUD UUD DUDU  
 

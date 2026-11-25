@@ -1,6 +1,8 @@
 # Neele Neele Ambar Par
 
 **Capo:** none  
+**Singer:** Nitin Bali<br>
+**Key:** Dm<br>
 **Genre:** N/A  
 **Strumming:** DDU UDU  
 

@@ -1,6 +1,8 @@
 # Muglana hera jadai chu
 
 **Capo:**   
+**Singer:** Sanjeev Singh<br>
+**Key:** G<br>
 **Genre:** N/A  
 **Strumming:** D UM UDU  
 

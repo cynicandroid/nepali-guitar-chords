@@ -1,6 +1,8 @@
 # Jati maya laye pani
 
 **Capo:** None  
+**Singer:** Arun Thapa<br>
+**Key:** E<br>
 **Genre:** N/A  
 **Strumming:** DDUMUDU  
 

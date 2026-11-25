@@ -1,6 +1,8 @@
 # Tum Hi Ho
 
 **Capo:**   
+**Singer:** Andmesh Kamaleng<br>
+**Key:** C<br>
 **Genre:** Campfire, Hindi, 4S  
 **Strumming:** DDUUD DUDU  
 

@@ -1,6 +1,8 @@
 # Chaubandi Cholo_
 
 **Capo:** None  
+**Singer:** Mukti And Revival<br>
+**Key:** F<br>
 **Genre:** N/A  
 **Strumming:** DUCUD DDU DUCUD  
 

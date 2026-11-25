@@ -1,6 +1,8 @@
 # Country Road
 
 **Capo:**   
+**Singer:** James Taylor<br>
+**Key:** G<br>
 **Genre:** Campfire, English  
 **Strumming:** DD-U-UDU / D(root) D dudu  
 

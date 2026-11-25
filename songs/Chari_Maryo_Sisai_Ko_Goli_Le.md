@@ -1,6 +1,8 @@
 # Chari Maryo Sisai Ko Goli Le
 
 **Capo:** None Key : A  
+**Singer:** Nepathya<br>
+**Key:** A<br>
 **Genre:** Party  
 **Strumming:** duDu  duDu, barre  
 

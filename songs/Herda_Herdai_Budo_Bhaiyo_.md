@@ -1,6 +1,8 @@
 # Herda Herdai Budo Bhaiyo_
 
 **Capo:** 2nd Fret  
+**Singer:** The Firantee<br>
+**Key:** E<br>
 **Genre:** Campfire Party  
 **Strumming:** DUDUD D DUD  
 

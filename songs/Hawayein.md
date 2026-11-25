@@ -1,6 +1,8 @@
 # Hawayein
 
 **Capo:** None  
+**Singer:** Misc Soundtrack<br>
+**Key:** D<br>
 **Genre:** Campfire  
 **Strumming:** d dU udu  
 

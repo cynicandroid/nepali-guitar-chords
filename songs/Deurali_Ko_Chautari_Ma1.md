@@ -1,6 +1,8 @@
 # Deurali Ko Chautari Ma(1)
 
 **Capo:** None  
+**Singer:** Sanjeep Pradhan<br>
+**Key:** A<br>
 **Genre:** Party  
 **Strumming:** D UDDUD  
 

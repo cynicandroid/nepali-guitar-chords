@@ -1,6 +1,8 @@
 # Hongkong Pokhara_
 
 **Capo:** None  
+**Singer:** Kandara<br>
+**Key:** F<br>
 **Genre:** N/A  
 **Strumming:** DUS DU  
 

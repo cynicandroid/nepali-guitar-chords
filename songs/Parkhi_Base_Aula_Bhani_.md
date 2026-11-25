@@ -1,6 +1,8 @@
 # Parkhi Base Aula Bhani_
 
 **Capo:** None  
+**Singer:** Narayan Gopal<br>
+**Key:** F<br>
 **Genre:** Campfire, 5S  
 **Strumming:** DUMD D DUDU  
 

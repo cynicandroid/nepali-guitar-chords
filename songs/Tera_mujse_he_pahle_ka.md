@@ -1,6 +1,8 @@
 # Tera mujse he pahle ka
 
 **Capo:** 1st fret  
+**Singer:** Misc Soundtrack<br>
+**Key:** G<br>
 **Genre:** campfire, Hindi  
 **Strumming:** D DUDU  
 

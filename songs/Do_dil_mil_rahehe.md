@@ -1,6 +1,8 @@
 # Do dil mil rahehe
 
 **Capo:** 3rd Fret  
+**Singer:** Misc Soundtrack<br>
+**Key:** G<br>
 **Genre:** Campfire, Hindi  
 **Strumming:** DUDUD D D  
 

@@ -1,6 +1,8 @@
 # Ek Ladki Bhigi Bhagisi
 
 **Capo:** None  
+**Singer:** Kishore Kumar<br>
+**Key:** Em<br>
 **Genre:** Campfire, Hindi  
 **Strumming:** DDU--UDU (fast) /D-MUUDU (slow)  
 

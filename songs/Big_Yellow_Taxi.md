@@ -1,6 +1,8 @@
 # Big Yellow Taxi
 
 **Capo:** None  
+**Singer:** Joni Mitchell<br>
+**Key:** D<br>
 **Genre:** N/A  
 **Strumming:** N/A  
 

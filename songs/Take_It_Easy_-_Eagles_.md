@@ -1,6 +1,8 @@
 # Take It Easy - Eagles_
 
 **Capo:** None  
+**Singer:** Eagles<br>
+**Key:** G<br>
 **Genre:** Campfire Party English  
 **Strumming:** D DUDUDU  
 

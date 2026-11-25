@@ -1,6 +1,8 @@
 # Gurasai Fulyo Banaima
 
 **Capo:** 3rd Fret  
+**Singer:** 1974 AD<br>
+**Key:** G<br>
 **Genre:** Party  
 **Strumming:** DUMDU  
 

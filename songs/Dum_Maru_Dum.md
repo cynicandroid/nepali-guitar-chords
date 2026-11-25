@@ -1,6 +1,8 @@
 # Dum Maru Dum
 
 **Capo:**   
+**Singer:** Robin N' Looza<br>
+**Key:** Am<br>
 **Genre:** N/A  
 **Strumming:** DDUUD DUDU  
 

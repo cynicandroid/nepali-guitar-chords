@@ -1,6 +1,8 @@
 # Nachideu Maichang_
 
 **Capo:** No capo  
+**Singer:** Sambhujit Baskota<br>
+**Key:** G<br>
 **Genre:** Party  
 **Strumming:** DUM DU  
 

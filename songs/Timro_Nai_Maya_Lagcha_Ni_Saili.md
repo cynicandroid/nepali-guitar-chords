@@ -1,6 +1,8 @@
 # Timro Nai Maya Lagcha Ni Saili
 
 **Capo:** None  
+**Singer:** Jhalak Man Gandarbha<br>
+**Key:** G<br>
 **Genre:** campfire, 4S  
 **Strumming:** DUM DU  
 

@@ -1,6 +1,8 @@
 # Tere jaisa yaar kaha
 
 **Capo:** none  
+**Singer:** Misc Soundtrack<br>
+**Key:** G<br>
 **Genre:** Campfire Hindi  
 **Strumming:** D DU UDU  
 

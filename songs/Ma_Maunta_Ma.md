@@ -1,6 +1,8 @@
 # Ma Maunta Ma
 
 **Capo:** none Key : G  
+**Singer:** Robin N' Looza<br>
+**Key:** G<br>
 **Genre:** Campfire , 5S  
 **Strumming:** D D UUD DUDU  
 

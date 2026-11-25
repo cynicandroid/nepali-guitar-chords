@@ -1,6 +1,8 @@
 # Amaaile Bhanthe Dhara Ko Pani
 
 **Capo:** None  
+**Singer:** Udit Narayan<br>
+**Key:** D<br>
 **Genre:** Party  
 **Strumming:** DUMDU  
 

@@ -1,6 +1,8 @@
 # K Bhanu Ma Kaso Gari Pare
 
 **Capo:** None  
+**Singer:** Misc Soundtrack<br>
+**Key:** Am<br>
 **Genre:** Campfire ,4S  
 **Strumming:** D D UUD DUDU  
 

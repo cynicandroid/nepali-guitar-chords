@@ -1,6 +1,8 @@
 # Aaganai Bhari
 
 **Capo:** None  
+**Singer:** Nepathya<br>
+**Key:** C<br>
 **Genre:** Party, 4S  
 **Strumming:** D U SUDU  
 

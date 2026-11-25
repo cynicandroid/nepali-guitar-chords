@@ -1,6 +1,8 @@
 # Sirima Siri Ni Kancha
 
 **Capo:** 1st Fret or none  
+**Singer:** <br>
+**Key:** G<br>
 **Genre:** N/A  
 **Strumming:** DUMUDU  
 

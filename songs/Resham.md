@@ -1,6 +1,8 @@
 # Resham
 
 **Capo:** None  
+**Singer:** Nepathya<br>
+**Key:** A<br>
 **Genre:** Party 5S  
 **Strumming:** DUUDU DUUUDU (slurr) - All Barre  
 

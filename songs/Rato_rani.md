@@ -1,6 +1,8 @@
 # Rato rani
 
 **Capo:** None  
+**Singer:** Danny Denzongpa<br>
+**Key:** G<br>
 **Genre:** Party 4S  
 **Strumming:** D UMUDU  
 

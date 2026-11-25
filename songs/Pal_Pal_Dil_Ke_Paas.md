@@ -1,6 +1,8 @@
 # Pal Pal Dil Ke Paas
 
 **Capo:** None  
+**Singer:** Kishor Kumar<br>
+**Key:** G<br>
 **Genre:** Campfire, Hindi  
 **Strumming:** D DU UDU  
 

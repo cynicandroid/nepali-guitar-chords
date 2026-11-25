@@ -1,6 +1,8 @@
 # Chiso Chiso Hawa Ma
 
 **Capo:**   
+**Singer:** Danny Denzongpa<br>
+**Key:** D<br>
 **Genre:** Campfire, oldschool  
 **Strumming:** DUUD DU  
 

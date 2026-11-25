@@ -1,6 +1,8 @@
 # Timi ma bhanda kosau
 
 **Capo:** none  
+**Singer:** Sugam Pokhrel<br>
+**Key:** D<br>
 **Genre:** Campfire  
 **Strumming:** D DUDU  
 

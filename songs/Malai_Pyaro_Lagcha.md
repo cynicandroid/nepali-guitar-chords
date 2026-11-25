@@ -1,6 +1,8 @@
 # Malai Pyaro Lagcha
 
 **Capo:** No Capo, Key : D  
+**Singer:** Yogeshwor Amatya<br>
+**Key:** D<br>
 **Genre:** N/A  
 **Strumming:** D D UM D  
 

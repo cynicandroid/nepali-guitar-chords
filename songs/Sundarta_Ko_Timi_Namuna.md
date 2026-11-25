@@ -1,6 +1,8 @@
 # Sundarta Ko Timi (Namuna)
 
 **Capo:** None , Key : C  
+**Singer:** Sabin Rai<br>
+**Key:** C<br>
 **Genre:** Campfire  
 **Strumming:** D DUDU D DUDU  
 

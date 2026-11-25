@@ -1,6 +1,8 @@
 # Yeh Jeevan Hai
 
 **Capo:** None  
+**Singer:** Misc Soundtrack<br>
+**Key:** E<br>
 **Genre:** Campfire, Hindi  
 **Strumming:** D UDU D.. U D U / D U U UDU  
 

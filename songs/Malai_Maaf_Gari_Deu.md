@@ -1,6 +1,8 @@
 # Malai Maaf Gari Deu
 
 **Capo:** None  
+**Singer:** Narayan Gopal<br>
+**Key:** D<br>
 **Genre:** Campfire, 5S  
 **Strumming:** D DUDU D  
 

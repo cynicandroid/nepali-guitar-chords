@@ -1,6 +1,8 @@
 # Kusume Rumal
 
 **Capo:** 3rd Fret  
+**Singer:** Misc Soundtrack<br>
+**Key:** C<br>
 **Genre:** Campfire  
 **Strumming:** DUM DU DUM  
 

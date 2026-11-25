@@ -1,9 +1,25 @@
+import { readJson, writeJson } from './state/storage.js';
+import { parseStrummingPattern } from './audio/strumming-config.js';
+import { DRUM_BEATS } from './audio/drum-config.js';
+import { TABLA_BOL_SAMPLES, TABLA_SAMPLE_FILES } from './audio/tabla-config.js';
+import { getAudioContext } from './audio/audio-context.js';
+import { createDrumVoicePlayer } from './audio/drum-machine.js';
+import { createTablaSamplePlayer } from './audio/tabla-machine.js';
+import { createStrummingPlayer } from './audio/strumming-player.js';
+import { renderDirectory, renderFavorites } from './views/directory.js';
+import { renderHelpView } from './views/help.js';
+import { createFavoritesStore } from './state/favorites.js';
+import { createSongHistoryStore } from './state/history.js';
+
 let songs = [];
-const favoriteSongs = new Set();
 const FAVORITES_STORAGE_KEY = 'nepali-guitar-chords-favorites';
+const favoritesStore = createFavoritesStore(FAVORITES_STORAGE_KEY);
+const favoriteSongs = favoritesStore.indices;
+const songHistory = createSongHistoryStore('nepali-guitar-chords-song-history');
 const SAMPLER_SETTINGS_STORAGE_KEY = 'nepali-guitar-chords-sampler-settings';
 let currentSongIndex = -1;
 let returnLetter = null;
+let helpReturnSongIndex = null;
 let transposeOffset = 0;
 let currentFontSize = 13; // px; matches the Markdown code-block baseline
 let autoScrolling = false;
@@ -19,26 +35,40 @@ let strummingPlaying = false;
 let drumMachineInterval = null;
 let drumMachineStep = 0;
 let drumMachinePlaying = false;
-let drumNoiseBuffer = null;
 let selectedDrumBeat = 'pop-44';
 let drumBpm = 100;
 let drumSamplerExpanded = false;
-let tanpuraPluckIndex = 0;
-let tanpuraDroneOscillators = [];
-let tanpuraSa = 'C#';
-let tanpuraPattern = 'PSSS';
-let tanpuraVolume = 0.7;
-let strummingInterval = null;
-let strummingLoopTimeout = null;
-let currentStrokeIndex = 0;
+let rhythmSamplerExpanded = false;
 let currentStrokesList = [];
 let strumBpm = 90;
 let audioContext = null;
-let webAudioFontPlayer = null;
-let webAudioFontReady = false;
-const G_CHORD_MIDI = [43, 47, 50, 55, 59, 67];
+let metronomePlaying = false;
+let metronomeInterval = null;
+let metronomeStep = 0;
+let metronomeBpm = 90;
+let metronomeAccent = true;
+let performanceControlsExpanded = false;
+let screenAwakeEnabled = true;
+let wakeLock = null;
+let tablaStartToken = 0;
+const drumVoicePlayer = createDrumVoicePlayer();
+const tablaSamplePlayer = createTablaSamplePlayer({
+    sampleFiles: TABLA_SAMPLE_FILES,
+    bolSamples: TABLA_BOL_SAMPLES
+});
+const strummingPlayer = createStrummingPlayer({
+    getContext: () => (audioContext ||= getAudioContext()),
+    getSampledGuitar: () => ({
+        instrument: window._tone_0250_SoundBlasterOld_sf2,
+        instrumentName: '_tone_0250_SoundBlasterOld_sf2',
+        Player: window.WebAudioFontPlayer
+    }),
+    onStroke: highlightStroke
+});
 const dom = {};
 let deferredInstallPrompt = null;
+let waitingServiceWorker = null;
+let reloadingForUpdate = false;
 
 const NOTES_SHARP = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
 const NOTES_FLAT = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
@@ -68,8 +98,10 @@ async function init() {
     try {
         const response = await fetch('songs.json');
         songs = await response.json();
+        songs.sort((left, right) => left.title.localeCompare(right.title));
         loadSamplerSettings();
         loadFavoriteSongs();
+        songHistory.load();
         renderSongList(songs);
         showHome();
     } catch (e) {
@@ -85,9 +117,40 @@ async function init() {
 
 function registerServiceWorker() {
     if (!('serviceWorker' in navigator)) return;
-    navigator.serviceWorker.register('sw.js').catch(error => {
+    navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' }).then(registration => {
+        if (registration.waiting && navigator.serviceWorker.controller) showAppUpdate(registration.waiting);
+        registration.addEventListener('updatefound', () => {
+            const installingWorker = registration.installing;
+            if (!installingWorker) return;
+            installingWorker.addEventListener('statechange', () => {
+                if (installingWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                    showAppUpdate(installingWorker);
+                }
+            });
+        });
+        registration.update().catch(error => console.warn('App update check failed:', error));
+    }).catch(error => {
         console.warn('Service worker registration failed:', error);
     });
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+        if (!reloadingForUpdate) return;
+        reloadingForUpdate = false;
+        window.location.reload();
+    });
+    document.getElementById('applyAppUpdate')?.addEventListener('click', () => {
+        if (!waitingServiceWorker) return;
+        reloadingForUpdate = true;
+        waitingServiceWorker.postMessage({ type: 'SKIP_WAITING' });
+    });
+    document.getElementById('dismissAppUpdate')?.addEventListener('click', () => {
+        document.getElementById('appUpdateBanner').hidden = true;
+    });
+}
+
+function showAppUpdate(worker) {
+    waitingServiceWorker = worker;
+    const banner = document.getElementById('appUpdateBanner');
+    if (banner) banner.hidden = false;
 }
 
 function setupInstallPrompt() {
@@ -176,14 +239,28 @@ function renderSongList(list) {
     container.innerHTML = '';
     list.forEach((song, idx) => {
         const originalIndex = songs.indexOf(song);
+        const genre = String(song.genre || '').trim();
+        const genreMeta = genre && !['none', 'n/a'].includes(genre.toLowerCase())
+            ? `<span>🎵 ${escapeHtml(genre)}</span>`
+            : '';
+        const singer = String(song.singer || '').trim();
+        const singerMeta = singer && !['unknown', 'none', 'n/a'].includes(singer.toLowerCase())
+            ? `<span>🎤 ${escapeHtml(singer)}</span>`
+            : '';
+        const capo = String(song.capo || '').trim();
+        const capoMeta = capo && !['none', 'no capo'].includes(capo.toLowerCase())
+            ? `<span>${capo.toLowerCase().includes('barre') ? '☝️' : '🎸'} ${escapeHtml(capo)}</span>`
+            : '';
         const div = document.createElement('div');
         div.className = `song-item ${originalIndex === currentSongIndex && currentSongIndex !== -1 ? 'active' : ''}`;
+        div.dataset.songIndex = String(originalIndex);
         div.onclick = () => selectSong(originalIndex);
         div.innerHTML = `
             <div class="song-item-title">${escapeHtml(song.title)}</div>
             <div class="song-meta-info">
-                <span>🎸 ${escapeHtml(song.capo || 'No Capo')}</span>
-                <span>🎵 ${escapeHtml(song.genre || 'Music')}</span>
+                ${capoMeta}
+                ${genreMeta}
+                ${singerMeta}
             </div>
         `;
         container.appendChild(div);
@@ -195,7 +272,8 @@ function handleSearch(e) {
     const filtered = songs.filter(s => 
         s.title.toLowerCase().includes(term) || 
         (s.genre && s.genre.toLowerCase().includes(term)) ||
-        (s.capo && s.capo.toLowerCase().includes(term))
+        (s.capo && s.capo.toLowerCase().includes(term)) ||
+        (s.singer && s.singer.toLowerCase().includes(term))
     );
     renderSongList(filtered);
     if (currentSongIndex === -1) {
@@ -211,42 +289,7 @@ function renderSearchDirectory(list, term = '') {
         return;
     }
 
-    const letters = Array.from(new Set(list.map(song => {
-        const first = song.title?.[0]?.toUpperCase() || '#';
-        return /[A-Z]/.test(first) ? first : '#';
-    }))).sort((a, b) => a === '#' ? 1 : b === '#' ? -1 : a.localeCompare(b));
-
-    const sections = letters.map(letter => {
-        const letterSongs = list.filter(song => {
-            const first = song.title?.[0]?.toUpperCase() || '#';
-            return (/^[A-Z]$/.test(first) ? first : '#') === letter;
-        });
-        return `
-            <div class="directory-section" id="mobile-search-letter-${letter}">
-                <div class="directory-letter">${letter}</div>
-                <div class="directory-songs-grid">
-                    ${letterSongs.map(song => {
-                        const index = songs.indexOf(song);
-                        const capoText = song.capo && song.capo.toLowerCase() !== 'none' ? `Capo: ${song.capo}` : '';
-                        return `<div class="directory-song-card" onclick="selectSong(${index}, '${letter}')">
-                            <div class="directory-song-title">${escapeHtml(song.title)}</div>
-                            ${capoText ? `<div class="directory-song-capo">🎸 ${escapeHtml(capoText)}</div>` : ''}
-                        </div>`;
-                    }).join('')}
-                </div>
-            </div>`;
-    }).join('');
-
-    container.innerHTML = `
-        <div class="content-card" style="max-width: 1000px;">
-            <div class="home-hero">
-                <h2>Search Results</h2>
-                <p>${list.length} song${list.length === 1 ? '' : 's'} found.</p>
-            </div>
-            <div class="directory-container">
-                ${sections || '<p class="favorites-empty">No matching songs found.</p>'}
-            </div>
-        </div>`;
+    container.innerHTML = renderDirectory({ songs, listedSongs: list, escapeHtml, title: 'Search Results', description: `${list.length} song${list.length === 1 ? '' : 's'} found.`, searchable: true });
     container.scrollTop = 0;
 }
 
@@ -257,6 +300,7 @@ function escapeHtml(value) {
 }
 
 function showHome() {
+    helpReturnSongIndex = null;
     currentSongIndex = -1;
     stopStrummingPlayer();
     stopDrumMachine();
@@ -268,60 +312,15 @@ function showHome() {
     
     document.querySelectorAll('.song-item').forEach(item => item.classList.remove('active'));
     if (autoScrolling) toggleAutoScroll();
+    stopMetronome();
+    releaseWakeLock();
 
-    const letters = sortedLetters();
-    let alphabetHtml = letters.map(let => `<a href="#letter-${let}" class="alphabet-btn">${let}</a>`).join('');
-    
-    let sectionsHtml = '';
-    letters.forEach(letter => {
-        const letterSongs = songs.filter(s => {
-            const first = s.title ? s.title[0].toUpperCase() : '#';
-            const key = first.match(/[A-Z]/) ? first : '#';
-            return key === letter;
-        });
-
-        if (letterSongs.length > 0) {
-            let songCards = letterSongs.map(s => {
-                const origIdx = songs.indexOf(s);
-                const capoText = s.capo && s.capo.toLowerCase() !== 'none' ? `Capo: ${s.capo}` : '';
-                return `
-                    <div class="directory-song-card" onclick="selectSong(${origIdx}, '${letter}')">
-                        <div class="directory-song-title">${escapeHtml(s.title)}</div>
-                        ${capoText ? `<div class="directory-song-capo">🎸 ${escapeHtml(capoText)}</div>` : ''}
-                    </div>
-                `;
-            }).join('');
-
-            sectionsHtml += `
-                <div class="directory-section" id="letter-${letter}">
-                    <div class="directory-letter">${letter}</div>
-                    <div class="directory-songs-grid">
-                        ${songCards}
-                    </div>
-                </div>
-            `;
-        }
-    });
-
-    document.getElementById('contentContainer').innerHTML = `
-        <div class="content-card" style="max-width: 1000px;">
-            <div class="home-hero">
-                <h2>Nepali Guitar Chords Collection</h2>
-                <p>Welcome to the digital songbook containing chords and lyrics for over 200+ popular Nepali, and some Hindi, and English songs. Click any song below or search in the sidebar to view chords, transpose keys, and auto-scroll.</p>
-            </div>
-            <div class="alphabet-nav">
-                ${alphabetHtml}
-            </div>
-            <div class="directory-container">
-                ${sectionsHtml}
-            </div>
-            <footer class="collection-credit">Collection from Saroj Poudyal.</footer>
-        </div>
-    `;
+    document.getElementById('contentContainer').innerHTML = renderDirectory({ songs, escapeHtml, title: 'Nepali Guitar Chords Collection', description: 'Welcome to the digital songbook containing chords and lyrics for over 200+ popular Nepali, and some Hindi, and English songs. Click any song below or search in the sidebar to view chords, transpose keys, and auto-scroll.' });
     document.getElementById('contentContainer').scrollTop = 0;
 }
 
-function showHelp() {
+function showHelp(circleKey = null, returnSongIndex = null) {
+    helpReturnSongIndex = returnSongIndex;
     currentSongIndex = -1;
     stopStrummingPlayer();
     stopDrumMachine();
@@ -330,39 +329,50 @@ function showHelp() {
     document.getElementById('backToListBtn').hidden = true;
     document.querySelectorAll('.song-item').forEach(item => item.classList.remove('active'));
     if (autoScrolling) toggleAutoScroll();
+    stopMetronome();
+    releaseWakeLock();
 
-    document.getElementById('contentContainer').innerHTML = `
-        <div class="content-card help-content-card">
-            <div class="help-header">
-                <div>
-                    <h1>Guitar Chord Help</h1>
-                    <p>Use these reference charts to look up guitar chord shapes, chord relationships, and the circle of fifths.</p>
-                </div>
-                <a class="btn btn-primary request-songs-btn" href="mailto:cynicandroid@gmail.com?subject=Please%20add%20chords%20for%20this%20song" title="Request more songs"><span aria-hidden="true">✉️</span><span>Request More Songs</span></a>
-            </div>
-            <div class="help-images">
-                <section class="help-image-card">
-                    <h2>Guitar Chords</h2>
-                    <img src="Guitar%20Tabs/guitar-chords.jpg" alt="Guitar chord reference chart" loading="lazy">
-                </section>
-                <section class="help-image-card">
-                    <h2>Guitar Chord Chart</h2>
-                    <img src="Guitar%20Tabs/guitar-chord-chart.png" alt="Guitar chord chart" loading="lazy">
-                </section>
-                <section class="help-image-card">
-                    <h2>Circle of Fifths</h2>
-                    <img src="Guitar%20Tabs/circle-of-fifths.webp" alt="Circle of fifths reference diagram" loading="lazy">
-                </section>
-                <div>
-                    <footer class="collection-credit">Happy Playing Sathi - From Saroj Poudyal</footer>
-                </div>
-            </div>
-        </div>
-    `;
+    document.getElementById('contentContainer').innerHTML = renderHelpView({
+        circleKey,
+        canReturnToSong: helpReturnSongIndex !== null
+    });
+    const contentContainer = document.getElementById('contentContainer');
+    contentContainer.scrollTop = 0;
+    if (circleKey) {
+        requestAnimationFrame(() => {
+            const circle = document.getElementById('circleOfFifths');
+            if (!circle) return;
+            const isMobile = window.matchMedia('(max-width: 768px)').matches;
+            if (isMobile) {
+                circle.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                return;
+            }
+            const top = circle.offsetTop - Math.max(24, (contentContainer.clientHeight - circle.offsetHeight) / 2);
+            contentContainer.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
+        });
+    }
+}
+
+function showCircleOfFifths(key = songs[currentSongIndex]?.key) {
+    if (key && key !== 'N/A') showHelp(key, currentSongIndex >= 0 ? currentSongIndex : null);
+}
+
+function returnToSong() {
+    if (helpReturnSongIndex === null) return;
+    const songIndex = helpReturnSongIndex;
+    helpReturnSongIndex = null;
+    currentSongIndex = songIndex;
+    document.getElementById('viewerHeader').style.display = 'flex';
+    document.getElementById('backToListBtn').hidden = false;
+    document.querySelectorAll('.song-item').forEach((item, index) => {
+        item.classList.toggle('active', Number(item.dataset.songIndex) === songIndex);
+    });
+    renderCurrentSong();
     document.getElementById('contentContainer').scrollTop = 0;
 }
 
 function showFavorites() {
+    helpReturnSongIndex = null;
     currentSongIndex = -1;
     stopStrummingPlayer();
     stopDrumMachine();
@@ -371,51 +381,26 @@ function showFavorites() {
     document.getElementById('backToListBtn').hidden = true;
     document.querySelectorAll('.song-item').forEach(item => item.classList.remove('active'));
     if (autoScrolling) toggleAutoScroll();
+    stopMetronome();
+    releaseWakeLock();
 
-    const favorites = songs.filter((_, index) => favoriteSongs.has(index));
+    const { favorites, html } = renderFavorites({ songs, favoriteSongs, escapeHtml, songHistory });
     renderSongList(favorites);
-    const content = favorites.length
-        ? `<div class="directory-songs-grid">${favorites.map(song => {
-            const index = songs.indexOf(song);
-            const capoText = song.capo && song.capo.toLowerCase() !== 'none' ? `Capo: ${escapeHtml(song.capo)}` : '';
-            return `<div class="directory-song-card" onclick="selectSong(${index})"><div class="directory-song-title">${escapeHtml(song.title)}</div>${capoText ? `<div class="directory-song-capo">🎸 ${capoText}</div>` : ''}</div>`;
-        }).join('')}</div>`
-        : '<p class="favorites-empty">No favorite songs yet. Open a song and tap ☆ to add it here.</p>';
-
-    document.getElementById('contentContainer').innerHTML = `
-        <div class="content-card favorites-card">
-            <div class="help-header"><div><h1>☆ Favorite Songs</h1><p>${favorites.length} song${favorites.length === 1 ? '' : 's'} selected for this session.</p></div>
-            <button class="btn btn-primary" onclick="showHome()" title="Return to the song list">🏠 Home</button></div>
-            ${content}
-        </div>`;
+    document.getElementById('contentContainer').innerHTML = html;
     document.getElementById('contentContainer').scrollTop = 0;
 }
 
 function loadFavoriteSongs() {
-    try {
-        const storedFavorites = JSON.parse(localStorage.getItem(FAVORITES_STORAGE_KEY) || '[]');
-        if (!Array.isArray(storedFavorites)) return;
-        songs.forEach((song, index) => {
-            if (storedFavorites.includes(song.filename)) favoriteSongs.add(index);
-        });
-    } catch (error) {
-        console.warn('Could not load saved favorites:', error);
-    }
+    favoritesStore.load(songs);
 }
 
 function saveFavoriteSongs() {
-    try {
-        const filenames = Array.from(favoriteSongs, index => songs[index]?.filename).filter(Boolean);
-        localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(filenames));
-    } catch (error) {
-        console.warn('Could not save favorites:', error);
-    }
+    favoritesStore.save(songs);
 }
 
 function toggleFavorite() {
     if (currentSongIndex < 0) return;
-    if (favoriteSongs.has(currentSongIndex)) favoriteSongs.delete(currentSongIndex);
-    else favoriteSongs.add(currentSongIndex);
+    favoritesStore.toggle(currentSongIndex);
     saveFavoriteSongs();
     updateFavoriteButton();
     if (document.querySelector('.favorites-card')) showFavorites();
@@ -447,6 +432,8 @@ function sortedLetters() {
 
 function selectSong(index, sourceLetter = null) {
     currentSongIndex = index;
+    songHistory.record(songs[index]);
+    requestWakeLock();
     const titleInitial = songs[index]?.title?.[0]?.toUpperCase() || '#';
     returnLetter = sourceLetter || (/[A-Z]/.test(titleInitial) ? titleInitial : '#');
     document.getElementById('backToListBtn').hidden = false;
@@ -486,6 +473,7 @@ function renderCurrentSong() {
     document.getElementById('songTitleDisplay').innerText = song.title;
     updateFavoriteButton();
     document.getElementById('badgeCapo').innerText = `Capo: ${song.capo || 'None'}`;
+    document.getElementById('badgeKey').innerText = `Key: ${song.key || 'N/A'}`;
     document.getElementById('badgeGenre').innerText = `Genre: ${song.genre || 'N/A'}`;
     document.getElementById('badgeStrummingText').innerText = `Strumming: ${song.strumming || 'N/A'}`;
 
@@ -514,8 +502,29 @@ function renderCurrentSong() {
     selectedDrumBeat = DRUM_BEATS[selectedDrumBeat] ? selectedDrumBeat : 'pop-44';
     drumBpm = Number.isFinite(drumBpm) ? drumBpm : 100;
     document.getElementById('contentContainer').innerHTML = `
-        <section class="drum-machine-panel" aria-label="Drum beat sampler">
-            <div class="drum-machine-heading" onclick="toggleDrumMachinePanel()" onkeydown="if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); toggleDrumMachinePanel(); }" role="button" tabindex="0">
+        <section class="performance-panel" aria-label="Performance controls">
+            <div class="performance-heading" onclick="togglePerformanceControls()" onkeydown="if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); togglePerformanceControls(); }" role="button" tabindex="0">
+                <h5>🎵 Controls</h5>
+                <div class="performance-heading-actions"><button class="drum-machine-toggle" id="performanceControlsToggle" onclick="event.stopPropagation(); togglePerformanceControls()" aria-label="Expand controls" aria-expanded="false" aria-controls="performanceControlsBody">+</button></div>
+            </div>
+            <div class="performance-controls" id="performanceControlsBody" hidden>
+                <label>Metronome tempo <span id="metronomeBpmLabel">${metronomeBpm} BPM</span>
+                    <input id="metronomeBpmInput" type="range" min="30" max="220" value="${metronomeBpm}" oninput="setMetronomeBpm(this.value)">
+                </label>
+                <label class="metronome-accent"><input id="metronomeAccentInput" type="checkbox" ${metronomeAccent ? 'checked' : ''} onchange="setMetronomeAccent(this.checked)"> Accent first beat</label>
+                <label class="metronome-accent"><input id="screenAwakeInput" type="checkbox" ${screenAwakeEnabled ? 'checked' : ''} onchange="setScreenAwake(this.checked)"> Keep screen awake</label>
+                <button class="btn btn-primary" id="metronomePlayBtn" onclick="toggleMetronome()">▶ Start metronome</button>
+                <button class="btn" onclick="toggleFullscreen()">⛶ Fullscreen</button>
+            </div>
+        </section>
+        <section class="drum-machine-panel rhythm-sampler-panel" aria-label="Rhythm samplers">
+            <div class="drum-machine-heading" onclick="toggleRhythmSamplerPanel()" onkeydown="if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); toggleRhythmSamplerPanel(); }" role="button" tabindex="0">
+                <h5>🥁 Rhythm Samplers</h5>
+                <button class="drum-machine-toggle" id="rhythmSamplerToggle" onclick="event.stopPropagation(); toggleRhythmSamplerPanel()" aria-label="${rhythmSamplerExpanded ? 'Collapse' : 'Expand'} rhythm samplers" aria-expanded="${rhythmSamplerExpanded}" aria-controls="rhythmSamplerBody">${rhythmSamplerExpanded ? '−' : '+'}</button>
+            </div>
+            <div class="rhythm-sampler-body" id="rhythmSamplerBody"${rhythmSamplerExpanded ? '' : ' hidden'}>
+            <div class="rhythm-sampler-subsection">
+            <div class="drum-machine-heading subsection-heading" onclick="toggleDrumMachinePanel()" onkeydown="if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); toggleDrumMachinePanel(); }" role="button" tabindex="0">
                 <h5>🥁 Drum Beat Sampler</h5>
                 <button class="drum-machine-toggle" id="drumMachineToggle" onclick="event.stopPropagation(); toggleDrumMachinePanel()" aria-label="${drumSamplerExpanded ? 'Collapse' : 'Expand'} drum beat sampler" aria-expanded="${drumSamplerExpanded}" aria-controls="drumMachineBody">${drumSamplerExpanded ? '−' : '+'}</button>
             </div>
@@ -550,9 +559,9 @@ function renderCurrentSong() {
                 </div>
                 <div class="drum-beat-indicator" id="drumBeatIndicator" aria-live="off"></div>
             </div>
-        </section>
-        <section class="drum-machine-panel tabla-machine-panel" aria-label="Tabla ko Taal Ma">
-            <div class="drum-machine-heading" onclick="toggleTablaMachinePanel()" onkeydown="if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); toggleTablaMachinePanel(); }" role="button" tabindex="0">
+            </div>
+            <div class="rhythm-sampler-subsection tabla-subsection">
+            <div class="drum-machine-heading subsection-heading" onclick="toggleTablaMachinePanel()" onkeydown="if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); toggleTablaMachinePanel(); }" role="button" tabindex="0">
                 <h5>🪘 Tabla ko Taal Ma</h5>
                 <button class="drum-machine-toggle" id="tablaMachineToggle" onclick="event.stopPropagation(); toggleTablaMachinePanel()" aria-label="${tablaSamplerExpanded ? 'Collapse' : 'Expand'} tabla sampler" aria-expanded="${tablaSamplerExpanded}" aria-controls="tablaMachineBody">${tablaSamplerExpanded ? '−' : '+'}</button>
             </div>
@@ -588,6 +597,8 @@ function renderCurrentSong() {
                     <button class="btn btn-primary" id="tablaPlayBtn" onclick="toggleTablaMachine()">▶ Play tabla</button>
                 </div>
                 <div class="drum-beat-indicator" id="tablaBeatIndicator" aria-live="off"></div>
+            </div>
+            </div>
             </div>
         </section>
         <div class="strumming-player-panel" id="strummingPlayerPanel">
@@ -631,41 +642,139 @@ function toggleDrumMachinePanel() {
     if (!expanded) stopDrumMachine();
 }
 
-const DRUM_BEATS = {
-    'pop-44':  { meter: 4, kick: [0, 4],    snare: [2, 6],    hat: [0, 1, 2, 3, 4, 5, 6, 7] },
-    'rock-44': { meter: 4, kick: [0, 3, 4], snare: [2, 6],    hat: [0, 2, 4, 6] },
-    'pop-34':  { meter: 3, kick: [0],       snare: [2, 4],    hat: [0, 2, 4] },
-    'rock-34': { meter: 3, kick: [0, 4],    snare: [2],      hat: [0, 2, 4] },
-    'pop-24':  { meter: 2, kick: [0],       snare: [2],      hat: [0, 1, 2, 3] },
-    'rock-24': { meter: 2, kick: [0, 2],    snare: [1, 3],   hat: [0, 1, 2, 3] },
-    'jazz-44': { meter: 4, kick: [0, 4],    snare: [2, 6],   hat: [1, 3, 5, 7] },
-    'jazz-34': { meter: 3, kick: [0],       snare: [2, 4],   hat: [1, 3, 5] },
-    'jazz-24': { meter: 2, kick: [0],       snare: [2],     hat: [1, 3] },
-    'funk-44': { meter: 4, kick: [0, 3, 5], snare: [2, 6],   hat: [0, 1, 2, 3, 4, 5, 6, 7] },
-    'funk-34': { meter: 3, kick: [0, 3],    snare: [2, 4],   hat: [0, 1, 2, 3, 4, 5] },
-    'funk-24': { meter: 2, kick: [0, 3],    snare: [2],     hat: [0, 1, 2, 3] },
-    'disco-44': { meter: 4, kick: [0, 2, 4, 6], snare: [2, 6], hat: [0, 1, 2, 3, 4, 5, 6, 7] },
-    'disco-34': { meter: 3, kick: [0, 2, 4], snare: [2, 4],  hat: [0, 1, 2, 3, 4, 5] },
-    'disco-24': { meter: 2, kick: [0, 2],    snare: [2],     hat: [0, 1, 2, 3] },
-    'hiphop-44': { meter: 4, kick: [0, 5],   snare: [2, 6],  hat: [0, 1, 2, 3, 4, 5, 6, 7] },
-    'hiphop-34': { meter: 3, kick: [0, 4],   snare: [2],     hat: [0, 2, 3, 4, 5] },
-    'hiphop-24': { meter: 2, kick: [0, 3],   snare: [2],     hat: [0, 1, 2, 3] },
-    // Tanpura plucks are synthesized by playTanpuraPluck(). A pluck occurs
-    // every two beats, producing the familiar Sa-Sa-Pa-Sa cycle.
-    'tanpura-pa': { meter: 4, kind: 'tanpura', drone: 'Pa' },
-    'tanpura-ma': { meter: 4, kind: 'tanpura', drone: 'Ma' },
-    'tanpura-ni': { meter: 4, kind: 'tanpura', drone: 'Ni' }
-};
+function toggleRhythmSamplerPanel() {
+    const body = document.getElementById('rhythmSamplerBody');
+    const toggle = document.getElementById('rhythmSamplerToggle');
+    if (!body || !toggle) return;
+    const expanded = body.hidden;
+    body.hidden = !expanded;
+    rhythmSamplerExpanded = expanded;
+    toggle.textContent = expanded ? '−' : '+';
+    toggle.setAttribute('aria-expanded', String(expanded));
+    toggle.setAttribute('aria-label', `${expanded ? 'Collapse' : 'Expand'} rhythm samplers`);
+    if (!expanded) {
+        stopDrumMachine();
+        stopTablaMachine();
+    }
+}
+
+function togglePerformanceControls() {
+    const body = document.getElementById('performanceControlsBody');
+    const toggle = document.getElementById('performanceControlsToggle');
+    if (!body || !toggle) return;
+    const expanded = body.hidden;
+    body.hidden = !expanded;
+    performanceControlsExpanded = expanded;
+    toggle.textContent = expanded ? '−' : '+';
+    toggle.setAttribute('aria-expanded', String(expanded));
+    toggle.setAttribute('aria-label', `${expanded ? 'Collapse' : 'Expand'} performance controls`);
+}
+
+function playMetronomeClick(time, accented = false) {
+    audioContext ||= getAudioContext();
+    if (!audioContext) return;
+    const oscillator = audioContext.createOscillator();
+    const gain = audioContext.createGain();
+    oscillator.type = 'sine';
+    oscillator.frequency.setValueAtTime(accented ? 1500 : 950, time);
+    gain.gain.setValueAtTime(accented ? 0.22 : 0.14, time);
+    gain.gain.exponentialRampToValueAtTime(0.001, time + 0.07);
+    oscillator.connect(gain).connect(audioContext.destination);
+    oscillator.start(time);
+    oscillator.stop(time + 0.08);
+}
+
+function playMetronomeStep() {
+    if (!audioContext) return;
+    playMetronomeClick(audioContext.currentTime, metronomeAccent && metronomeStep === 0);
+    metronomeStep = (metronomeStep + 1) % 4;
+}
+
+function startMetronome() {
+    audioContext ||= getAudioContext();
+    if (!audioContext) return;
+    if (audioContext.state === 'suspended') audioContext.resume();
+    clearInterval(metronomeInterval);
+    metronomePlaying = true;
+    metronomeStep = 0;
+    playMetronomeStep();
+    metronomeInterval = setInterval(playMetronomeStep, 60000 / metronomeBpm);
+    updateMetronomeControls();
+    requestWakeLock();
+}
+
+function stopMetronome() {
+    clearInterval(metronomeInterval);
+    metronomeInterval = null;
+    metronomePlaying = false;
+    metronomeStep = 0;
+    updateMetronomeControls();
+}
+
+function toggleMetronome() {
+    if (metronomePlaying) stopMetronome();
+    else startMetronome();
+}
+
+function setMetronomeBpm(value) {
+    metronomeBpm = Math.max(30, Math.min(220, Number(value) || 90));
+    const label = document.getElementById('metronomeBpmLabel');
+    if (label) label.textContent = `${metronomeBpm} BPM`;
+    if (metronomePlaying) startMetronome();
+}
+
+function setMetronomeAccent(value) {
+    metronomeAccent = Boolean(value);
+}
+
+function updateMetronomeControls() {
+    const button = document.getElementById('metronomePlayBtn');
+    const toolbarButton = document.getElementById('metronomeBtn');
+    if (button) button.textContent = metronomePlaying ? '⏹ Stop metronome' : '▶ Start metronome';
+    if (toolbarButton) toolbarButton.classList.toggle('btn-primary', metronomePlaying);
+}
+
+async function requestWakeLock() {
+    if (!screenAwakeEnabled || !('wakeLock' in navigator) || document.visibilityState !== 'visible' || wakeLock) return;
+    try {
+        wakeLock = await navigator.wakeLock.request('screen');
+        wakeLock.addEventListener('release', () => { wakeLock = null; });
+    } catch (error) {
+        console.warn('Screen wake lock is unavailable:', error);
+    }
+}
+
+function setScreenAwake(value) {
+    screenAwakeEnabled = Boolean(value);
+    if (screenAwakeEnabled) requestWakeLock();
+    else releaseWakeLock();
+}
+
+async function releaseWakeLock() {
+    if (!wakeLock) return;
+    try { await wakeLock.release(); } catch (error) { console.warn('Could not release screen wake lock:', error); }
+    wakeLock = null;
+}
+
+function toggleFullscreen() {
+    const target = document.querySelector('main');
+    if (!target) return;
+    if (document.fullscreenElement) document.exitFullscreen?.();
+    else if (target.requestFullscreen) target.requestFullscreen().catch(() => showFullscreenFallback());
+    else showFullscreenFallback();
+}
+
+function showFullscreenFallback() {
+    console.warn('Fullscreen is unavailable; use the browser menu instead.');
+}
+
+function handleVisibilityChange() {
+    if (document.visibilityState === 'visible' && currentSongIndex >= 0) requestWakeLock();
+}
 
 function selectDrumBeat(value) {
     selectedDrumBeat = DRUM_BEATS[value] ? value : 'pop-44';
     drumMachineStep = 0;
-    tanpuraPluckIndex = 0;
-    const selectedBeat = DRUM_BEATS[selectedDrumBeat];
-    if (selectedBeat.kind === 'tanpura') {
-        tanpuraSa = selectedBeat.sa;
-        tanpuraPattern = selectedBeat.pattern;
-    }
     saveSamplerSettings();
     if (drumMachinePlaying) {
         stopDrumMachine();
@@ -700,17 +809,15 @@ function toggleDrumMachine() {
 }
 
 function startDrumMachine() {
-    const AudioContextClass = window.AudioContext || window.webkitAudioContext;
-    if (!AudioContextClass) return;
+    audioContext ||= getAudioContext();
+    if (!audioContext) return;
     if (tablaPlaying) {
         stopTablaMachine();
         collapseTablaMachinePanel();
     }
-    audioContext ||= new AudioContextClass();
     if (audioContext.state === 'suspended') audioContext.resume();
     drumMachinePlaying = true;
     drumMachineStep = 0;
-    tanpuraPluckIndex = 0;
     document.getElementById('drumPlayBtn').textContent = '⏹ Stop beat';
     renderDrumBeatIndicator();
     playDrumMachineStep();
@@ -722,7 +829,6 @@ function stopDrumMachine() {
     drumMachineInterval = null;
     drumMachinePlaying = false;
     drumMachineStep = 0;
-    stopTanpuraDrone();
     const button = document.getElementById('drumPlayBtn');
     if (button) button.textContent = '▶ Play beat';
     renderDrumBeatIndicator();
@@ -733,165 +839,14 @@ function playDrumMachineStep() {
     const beatIndex = Math.floor(drumMachineStep / 2);
     renderDrumBeatIndicator(beatIndex);
     const now = audioContext.currentTime;
-    if (beat.kind === 'tanpura') {
-        // The existing half-beat clock is retained. Tanpura sounds on every
-        // fourth tick, i.e. once every two beats (about 1.2s at 100 BPM).
-        if (drumMachineStep % 4 === 0) {
-            playTanpuraPluck(beat.drone, tanpuraPluckIndex, now);
-            tanpuraPluckIndex = (tanpuraPluckIndex + 1) % 4;
-        }
-        drumMachineStep = (drumMachineStep + 1) % (beat.meter * 2);
-        return;
-    }
     if (beat.kick.includes(drumMachineStep)) playDrumHit('kick', now);
     if (beat.snare.includes(drumMachineStep)) playDrumHit('snare', now);
     if (beat.hat.includes(drumMachineStep)) playDrumHit('hat', now);
     drumMachineStep = (drumMachineStep + 1) % (beat.meter * 2);
 }
 
-function playTanpuraPluck(drone, index, time) {
-    const context = audioContext;
-    // C# is used as the tonic, matching the sample implementation's intent.
-    // Sa-Sa-(Pa/Ma/Ni)-Sa gives the characteristic four-string cycle.
-    const tonic = getTanpuraTonic();
-    const ratios = { Sa: 1, Pa: 3 / 2, Ma: 4 / 3, Ni: 15 / 8 };
-    const patternNote = tanpuraPattern[index] || 'S';
-    const patternRatio = patternNote === 'M' ? ratios.Ma : patternNote === 'N' ? ratios.Ni : patternNote === 'P' ? ratios.Pa : ratios.Sa;
-    const note = patternRatio || (ratios[drone] || ratios.Pa);
-    const fundamental = tonic * note;
-    const output = context.createGain();
-    const body = context.createBiquadFilter();
-    body.type = 'lowpass';
-    body.frequency.setValueAtTime(4200, time);
-    body.Q.value = 0.7;
-    output.gain.setValueAtTime(0.0001, time);
-    output.gain.exponentialRampToValueAtTime(0.28 * tanpuraVolume, time + 0.025);
-    output.gain.exponentialRampToValueAtTime(0.0001, time + 5.5);
-    body.connect(output).connect(context.destination);
-
-    // Fundamental plus harmonics approximate the bright, buzzing jawari tone.
-    [1, 2, 3, 4, 5].forEach((partial, partialIndex) => {
-        const oscillator = context.createOscillator();
-        const partialGain = context.createGain();
-        oscillator.type = partialIndex === 0 ? 'triangle' : 'sine';
-        oscillator.frequency.setValueAtTime(fundamental * partial, time);
-        partialGain.gain.value = [1, 0.34, 0.18, 0.09, 0.04][partialIndex];
-        oscillator.connect(partialGain).connect(body);
-        oscillator.start(time);
-        oscillator.stop(time + 5.8);
-    });
-
-    // A tiny burst of filtered noise supplies the string attack.
-    if (!drumNoiseBuffer) {
-        drumNoiseBuffer = context.createBuffer(1, context.sampleRate, context.sampleRate);
-        const data = drumNoiseBuffer.getChannelData(0);
-        for (let i = 0; i < data.length; i++) data[i] = Math.random() * 2 - 1;
-    }
-    const noise = context.createBufferSource();
-    const noiseGain = context.createGain();
-    const noiseFilter = context.createBiquadFilter();
-    noise.buffer = drumNoiseBuffer;
-    noiseFilter.type = 'bandpass';
-    noiseFilter.frequency.value = 1800;
-    noiseFilter.Q.value = 0.8;
-    noiseGain.gain.setValueAtTime(0.08, time);
-    noiseGain.gain.exponentialRampToValueAtTime(0.0001, time + 0.08);
-    noise.connect(noiseFilter).connect(noiseGain).connect(output);
-    noise.start(time);
-    noise.stop(time + 0.1);
-}
-
-function startTanpuraDrone(drone) {
-    stopTanpuraDrone();
-    const context = audioContext;
-    const tonic = getTanpuraTonic();
-    const ratios = { Pa: 3 / 2, Ma: 4 / 3, Ni: 15 / 8 };
-    const droneFrequency = tonic * (ratios[drone] || ratios.Pa);
-
-    // Keep a quiet Sa and Pa/Ma/Ni resonance running between the articulated
-    // plucks. This is what makes the accompaniment feel sustained.
-    [tonic, droneFrequency].forEach((frequency, index) => {
-        const oscillator = context.createOscillator();
-        const gain = context.createGain();
-        const filter = context.createBiquadFilter();
-        oscillator.type = index === 0 ? 'sine' : 'triangle';
-        oscillator.frequency.value = frequency;
-        filter.type = 'lowpass';
-        filter.frequency.value = 1800;
-        gain.gain.value = (index === 0 ? 0.035 : 0.022) * tanpuraVolume;
-        oscillator.connect(filter).connect(gain).connect(context.destination);
-        oscillator.start();
-        tanpuraDroneOscillators.push(oscillator);
-    });
-}
-
-function getTanpuraTonic() {
-    const notes = { C: 261.63, 'C#': 277.18, D: 293.66, 'D#': 311.13, E: 329.63, F: 349.23, 'F#': 369.99, G: 392, 'G#': 415.3, A: 440, 'A#': 466.16, B: 493.88 };
-    return notes[tanpuraSa] || notes['C#'];
-}
-
-function setTanpuraSa(value) {
-    tanpuraSa = value;
-    if (drumMachinePlaying && DRUM_BEATS[selectedDrumBeat].kind === 'tanpura') {
-        startTanpuraDrone(DRUM_BEATS[selectedDrumBeat].drone);
-    }
-}
-
-function setTanpuraPattern(value) {
-    tanpuraPattern = /^[PMN]SSS$/.test(value) ? value : 'PSSS';
-}
-
-function setTanpuraVolume(value) {
-    tanpuraVolume = Number(value);
-    const label = document.getElementById('tanpuraVolumeLabel');
-    if (label) label.textContent = `${Math.round(tanpuraVolume * 100)}%`;
-}
-
-function stopTanpuraDrone() {
-    if (!tanpuraDroneOscillators.length || !audioContext) return;
-    tanpuraDroneOscillators.forEach(oscillator => {
-        try {
-            oscillator.stop(audioContext.currentTime + 0.03);
-            oscillator.disconnect();
-        } catch (error) {
-            // Ignore an oscillator that has already been stopped.
-        }
-    });
-    tanpuraDroneOscillators = [];
-}
-
 function playDrumHit(type, time) {
-    const context = audioContext;
-    const gain = context.createGain();
-    gain.connect(context.destination);
-    const duration = type === 'kick' ? 0.32 : type === 'snare' ? 0.18 : 0.055;
-    gain.gain.setValueAtTime(type === 'hat' ? 0.12 : 0.45, time);
-    gain.gain.exponentialRampToValueAtTime(0.001, time + duration);
-
-    if (type === 'kick') {
-        const oscillator = context.createOscillator();
-        oscillator.type = 'sine';
-        oscillator.frequency.setValueAtTime(145, time);
-        oscillator.frequency.exponentialRampToValueAtTime(42, time + duration);
-        oscillator.connect(gain);
-        oscillator.start(time);
-        oscillator.stop(time + duration);
-        return;
-    }
-
-    if (!drumNoiseBuffer) {
-        drumNoiseBuffer = context.createBuffer(1, context.sampleRate, context.sampleRate);
-        const data = drumNoiseBuffer.getChannelData(0);
-        for (let i = 0; i < data.length; i++) data[i] = Math.random() * 2 - 1;
-    }
-    const noise = context.createBufferSource();
-    noise.buffer = drumNoiseBuffer;
-    const filter = context.createBiquadFilter();
-    filter.type = 'highpass';
-    filter.frequency.value = type === 'hat' ? 7000 : 1500;
-    noise.connect(filter).connect(gain);
-    noise.start(time);
-    noise.stop(time + duration);
+    drumVoicePlayer.play(type, audioContext, time);
 }
 
 const TABLA_TAALS = {
@@ -916,31 +871,6 @@ let tablaBpm = 100;
 let tablaNote = 'A';
 let tablaTaal = 'teentaal';
 let tablaSamplerExpanded = false;
-const tablaBuffers = {};
-let tablaSamplesPromise = null;
-const TABLA_SAMPLE_FILES = ['ghe', 'na', 'na-open', 'na-sharp', 'tun', 'te', 'te-middlefinger', 'te-ne', 're', 'ke', 'tas'];
-const TABLA_BOL_SAMPLES = {
-    Dha: ['ghe', 'na'],
-    Dhin: ['ghe', 'tun'],
-    Dhi: ['ghe', 'te'],
-    Ge: ['ghe'],
-    Ghe: ['ghe'],
-    Na: ['na'],
-    NaOpen: ['na-open'],
-    NaSharp: ['na-sharp'],
-    Tin: ['tun'],
-    Tun: ['tun'],
-    Ti: ['te'],
-    Ta: ['te-middlefinger'],
-    Te: ['te'],
-    TeNe: ['te-ne'],
-    Re: ['re'],
-    Ke: ['ke'],
-    Ka: ['ke'],
-    Tu: ['tun'],
-    Tas: ['tas']
-};
-
 function toggleTablaMachinePanel() {
     const body = document.getElementById('tablaMachineBody');
     const toggle = document.getElementById('tablaMachineToggle');
@@ -1012,34 +942,26 @@ function renderTablaIndicator(activeBeat = -1) {
 }
 
 function loadSamplerSettings() {
-    try {
-        const saved = JSON.parse(localStorage.getItem(SAMPLER_SETTINGS_STORAGE_KEY) || '{}');
-        if (DRUM_BEATS[saved.drumBeat]) selectedDrumBeat = saved.drumBeat;
-        if (Number.isFinite(Number(saved.drumBpm))) drumBpm = Number(saved.drumBpm);
-        if (typeof saved.tablaNote === 'string') tablaNote = saved.tablaNote;
-        if (TABLA_TAALS[saved.tablaTaal]) tablaTaal = saved.tablaTaal;
-        if (Number.isFinite(Number(saved.tablaBpm))) tablaBpm = Number(saved.tablaBpm);
-        if (typeof saved.drumSamplerExpanded === 'boolean') drumSamplerExpanded = saved.drumSamplerExpanded;
-        if (typeof saved.tablaSamplerExpanded === 'boolean') tablaSamplerExpanded = saved.tablaSamplerExpanded;
-    } catch (error) {
-        console.warn('Could not load sampler settings:', error);
-    }
+    const saved = readJson(SAMPLER_SETTINGS_STORAGE_KEY, {});
+    if (DRUM_BEATS[saved.drumBeat]) selectedDrumBeat = saved.drumBeat;
+    if (Number.isFinite(Number(saved.drumBpm))) drumBpm = Number(saved.drumBpm);
+    if (typeof saved.tablaNote === 'string') tablaNote = saved.tablaNote;
+    if (TABLA_TAALS[saved.tablaTaal]) tablaTaal = saved.tablaTaal;
+    if (Number.isFinite(Number(saved.tablaBpm))) tablaBpm = Number(saved.tablaBpm);
+    if (typeof saved.drumSamplerExpanded === 'boolean') drumSamplerExpanded = saved.drumSamplerExpanded;
+    if (typeof saved.tablaSamplerExpanded === 'boolean') tablaSamplerExpanded = saved.tablaSamplerExpanded;
 }
 
 function saveSamplerSettings() {
-    try {
-        localStorage.setItem(SAMPLER_SETTINGS_STORAGE_KEY, JSON.stringify({
-            drumBeat: selectedDrumBeat,
-            drumBpm,
-            tablaNote,
-            tablaTaal,
-            tablaBpm,
-            drumSamplerExpanded,
-            tablaSamplerExpanded
-        }));
-    } catch (error) {
-        console.warn('Could not save sampler settings:', error);
-    }
+    writeJson(SAMPLER_SETTINGS_STORAGE_KEY, {
+        drumBeat: selectedDrumBeat,
+        drumBpm,
+        tablaNote,
+        tablaTaal,
+        tablaBpm,
+        drumSamplerExpanded,
+        tablaSamplerExpanded
+    });
 }
 
 function syncSamplerControls() {
@@ -1065,25 +987,19 @@ function toggleTablaMachine() {
 }
 
 async function loadTablaSamples() {
-    if (tablaSamplesPromise) return tablaSamplesPromise;
-    const AudioContextClass = window.AudioContext || window.webkitAudioContext;
-    audioContext ||= new AudioContextClass();
-    tablaSamplesPromise = Promise.all(TABLA_SAMPLE_FILES.map(async name => {
-        const response = await fetch(`assets/tabla/${name}.wav`);
-        if (!response.ok) throw new Error(`Could not load tabla sample: ${name}.wav`);
-        tablaBuffers[name] = await audioContext.decodeAudioData(await response.arrayBuffer());
-    }));
-    return tablaSamplesPromise;
+    audioContext ||= getAudioContext();
+    if (!audioContext) throw new Error('Web Audio is not supported in this browser.');
+    return tablaSamplePlayer.load(audioContext);
 }
 
 async function startTablaMachine() {
-    const AudioContextClass = window.AudioContext || window.webkitAudioContext;
-    if (!AudioContextClass) return;
+    const startToken = ++tablaStartToken;
+    audioContext ||= getAudioContext();
+    if (!audioContext) return;
     if (drumMachinePlaying) {
         stopDrumMachine();
         collapseDrumMachinePanel();
     }
-    audioContext ||= new AudioContextClass();
     if (audioContext.state === 'suspended') audioContext.resume();
     try {
         await loadTablaSamples();
@@ -1093,6 +1009,7 @@ async function startTablaMachine() {
         if (button) button.textContent = '⚠ Tabla samples unavailable';
         return;
     }
+    if (startToken !== tablaStartToken) return;
     clearInterval(tablaInterval);
     tablaPlaying = true;
     tablaStep = 0;
@@ -1103,6 +1020,7 @@ async function startTablaMachine() {
 }
 
 function stopTablaMachine() {
+    tablaStartToken += 1;
     clearInterval(tablaInterval);
     tablaInterval = null;
     tablaPlaying = false;
@@ -1125,20 +1043,8 @@ function playTablaStep() {
 }
 
 function playTablaBol(bol, time) {
-    const context = audioContext;
-    const samples = TABLA_BOL_SAMPLES[bol] || TABLA_BOL_SAMPLES.Ta;
     const playbackRate = getTablaNoteFrequency() / 440;
-    samples.forEach((sampleName, index) => {
-        const buffer = tablaBuffers[sampleName];
-        if (!buffer) return;
-        const source = context.createBufferSource();
-        const gain = context.createGain();
-        source.buffer = buffer;
-        source.playbackRate.value = playbackRate;
-        gain.gain.value = index === 0 ? 0.85 : 0.7;
-        source.connect(gain).connect(context.destination);
-        source.start(time);
-    });
+    tablaSamplePlayer.playBol(bol, audioContext, time, playbackRate);
 }
 
 // Strumming Player Logic
@@ -1155,24 +1061,7 @@ function toggleStrummingPlayer() {
 }
 
 function parseStrummingStrokes(strumStr) {
-    if (!strumStr) return [];
-    let strokes = [];
-    // Clean up special notes in brackets like [Reggee], (slur)
-    let cleaned = strumStr.replace(/\[.*?\]/g, '').replace(/\(.*?\)/g, '').toUpperCase();
-    
-    for (let i = 0; i < cleaned.length; i++) {
-        let ch = cleaned[i];
-        if (ch === 'D' || ch === 'U' || ch === 'C' || ch === 'M' || ch === 'S' || ch === 'X') {
-            strokes.push(ch);
-        } else if (ch === ' ') {
-            // Optional rest or spacing
-        }
-    }
-    if (strokes.length === 0) {
-        // Fallback default
-        strokes = ['D', 'D', 'U', 'U', 'D', 'U'];
-    }
-    return strokes;
+    return parseStrummingPattern(strumStr);
 }
 
 function buildStrokesCards() {
@@ -1201,48 +1090,14 @@ function buildStrokesCards() {
 }
 
 function toggleStrummingPlayback() {
-    strummingPlaying = !strummingPlaying;
     const btn = document.getElementById('strumPlayPauseBtn');
-    
-    if (strummingPlaying) {
-        if (btn) btn.innerText = '⏸️ Pause';
+    if (!strummingPlayer.isPlaying) {
         if (currentStrokesList.length === 0) buildStrokesCards();
-        
-        currentStrokeIndex = 0;
-        highlightStroke(currentStrokeIndex);
-        playStrokeTone(currentStrokesList[currentStrokeIndex]);
-
-                // Interval calculation based on BPM (8th note spacing).
-                startStrummingLoop(Math.round(60000 / strumBpm / 2));
+        strummingPlaying = strummingPlayer.start(currentStrokesList, strumBpm);
+        if (strummingPlaying && btn) btn.innerText = '⏸️ Pause';
     } else {
         stopStrummingPlayer();
     }
-}
-
-function startStrummingLoop(intervalMs) {
-    clearInterval(strummingInterval);
-    clearTimeout(strummingLoopTimeout);
-
-    strummingInterval = setInterval(() => {
-        if (!strummingPlaying || !currentStrokesList.length) return;
-
-        if (currentStrokeIndex === currentStrokesList.length - 1) {
-            clearInterval(strummingInterval);
-            strummingInterval = null;
-            strummingLoopTimeout = setTimeout(() => {
-                if (!strummingPlaying) return;
-                currentStrokeIndex = 0;
-                highlightStroke(currentStrokeIndex);
-                playStrokeTone(currentStrokesList[currentStrokeIndex]);
-                startStrummingLoop(intervalMs);
-            }, 2000);
-            return;
-        }
-
-        currentStrokeIndex += 1;
-        highlightStroke(currentStrokeIndex);
-        playStrokeTone(currentStrokesList[currentStrokeIndex]);
-    }, intervalMs);
 }
 
 function highlightStroke(index) {
@@ -1251,69 +1106,9 @@ function highlightStroke(index) {
     });
 }
 
-function playStrokeTone(stroke) {
-    if (!stroke) return;
-    const AudioContextClass = window.AudioContext || window.webkitAudioContext;
-    if (!AudioContextClass) return;
-    audioContext ||= new AudioContextClass();
-    if (audioContext.state === 'suspended') audioContext.resume();
-
-    // Use WebAudioFont's sampled steel-string guitar for the G chord,
-    // matching the reference strum implementation. Keep the synth
-    // fallback below for offline use or failed CDN loading.
-    const guitar = window._tone_0250_SoundBlasterOld_sf2;
-    if (guitar && window.WebAudioFontPlayer) {
-        webAudioFontPlayer ||= new WebAudioFontPlayer();
-        if (!webAudioFontReady) {
-            webAudioFontPlayer.loader.decodeAfterLoading(audioContext, '_tone_0250_SoundBlasterOld_sf2');
-            webAudioFontReady = true;
-        }
-        const when = audioContext.currentTime + 0.01;
-        if (stroke === 'D') webAudioFontPlayer.queueStrumDown(audioContext, audioContext.destination, guitar, when, G_CHORD_MIDI, 1.2, 0.7);
-        else if (stroke === 'U') webAudioFontPlayer.queueStrumUp(audioContext, audioContext.destination, guitar, when, G_CHORD_MIDI, 1.2, 0.7);
-        else if (stroke === 'S' || stroke === 'C') webAudioFontPlayer.queueSnap(audioContext, audioContext.destination, guitar, when, G_CHORD_MIDI, 0.35, 0.6);
-        else if (stroke === 'M' || stroke === 'X') webAudioFontPlayer.queueStrumDown(audioContext, audioContext.destination, guitar, when, G_CHORD_MIDI, 0.12, 0.3);
-        return;
-    }
-
-    const now = audioContext.currentTime;
-    const muted = stroke === 'M' || stroke === 'X' || stroke === 'S' || stroke === 'C';
-    const direction = stroke === 'U' ? -1 : 1;
-    // Six steel-string guitar fundamentals (open-string voicing).
-    const strings = [82.41, 110.00, 146.83, 196.00, 246.94, 329.63];
-    strings.forEach((frequency, index) => {
-        const delay = ((direction > 0 ? index : 5 - index) * 0.012);
-        const start = now + delay;
-        const duration = muted ? 0.12 : 1.15 - index * 0.06;
-        const filter = audioContext.createBiquadFilter();
-        const gain = audioContext.createGain();
-        filter.type = 'lowpass';
-        filter.frequency.setValueAtTime(muted ? 900 : 4200, start);
-        filter.frequency.exponentialRampToValueAtTime(900, start + duration);
-        gain.gain.setValueAtTime(0.0001, start);
-        gain.gain.exponentialRampToValueAtTime(muted ? 0.018 : 0.045, start + 0.006);
-        gain.gain.exponentialRampToValueAtTime(0.0001, start + duration);
-        filter.connect(gain).connect(audioContext.destination);
-        // Partial-rich oscillator stack approximates a plucked steel string.
-        [1, 2, 3].forEach((partial, partialIndex) => {
-            const oscillator = audioContext.createOscillator();
-            oscillator.type = partialIndex === 0 ? 'triangle' : 'sine';
-            oscillator.frequency.value = frequency * partial;
-            const partialGain = audioContext.createGain();
-            partialGain.gain.value = partial === 1 ? 1 : 0.25 / partial;
-            oscillator.connect(partialGain).connect(filter);
-            oscillator.start(start);
-            oscillator.stop(start + duration + 0.02);
-        });
-    });
-}
-
 function stopStrummingPlayer() {
     strummingPlaying = false;
-    clearInterval(strummingInterval);
-    clearTimeout(strummingLoopTimeout);
-    strummingInterval = null;
-    strummingLoopTimeout = null;
+    strummingPlayer.stop();
     const btn = document.getElementById('strumPlayPauseBtn');
     if (btn) btn.innerText = '▶️ Play Rhythm';
     document.querySelectorAll('.stroke-card').forEach(card => card.classList.remove('active'));
@@ -1323,7 +1118,7 @@ function adjustStrumBpm(delta) {
     strumBpm = Math.max(40, Math.min(200, strumBpm + delta));
     document.getElementById('strumBpmLabel').innerText = `${strumBpm} BPM`;
     if (strummingPlaying) {
-        startStrummingLoop(Math.round(60000 / strumBpm / 2));
+        strummingPlayer.restart(strumBpm);
     }
 }
 
@@ -1450,4 +1245,23 @@ function formatScrollSpeed(speed) {
     return String(speed);
 }
 
+// The UI currently contains inline event handlers. Keep these public while
+// the application is progressively split into modules.
+Object.assign(window, {
+    showHome, showHelp, showCircleOfFifths, showFavorites, selectSong, goBackToSongList, returnToSong,
+    toggleFavorite, transpose, adjustFontSize, toggleTheme,
+    toggleAutoScroll, toggleScrollPlayback, changeScrollSpeed,
+    toggleStrummingPlayer, toggleStrummingPlayback, adjustStrumBpm,
+    toggleDrumMachinePanel, selectDrumBeat, setDrumBpm, toggleDrumMachine,
+    toggleTablaMachinePanel, toggleTablaMachine, setTablaBpm, setTablaNote,
+    setTablaTaal, installApp, showInstallHelp, closeInstallHelp,
+    toggleMetronome, setMetronomeBpm, setMetronomeAccent, toggleFullscreen,
+    togglePerformanceControls, toggleRhythmSamplerPanel, setScreenAwake
+});
+
+document.addEventListener('visibilitychange', handleVisibilityChange);
+document.addEventListener('fullscreenchange', () => {
+    const button = document.getElementById('fullscreenBtn');
+    if (button) button.textContent = document.fullscreenElement ? '⛶ Exit fullscreen' : '⛶ Fullscreen';
+});
 document.addEventListener('DOMContentLoaded', init);

@@ -1,6 +1,8 @@
 # Yeti Dherai Maya Diyi
 
 **Capo:** None  
+**Singer:** Narayan Gopal<br>
+**Key:** F<br>
 **Genre:** N/A  
 **Strumming:** N/A  
 

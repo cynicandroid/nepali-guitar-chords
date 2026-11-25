@@ -1,6 +1,8 @@
 # Chudaina Timro Mayale
 
 **Capo:** None  
+**Singer:** 1974 AD<br>
+**Key:** G<br>
 **Genre:** N/A  
 **Strumming:** N/A  
 

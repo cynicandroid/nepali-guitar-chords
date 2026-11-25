@@ -1,6 +1,8 @@
 # Have You Ever Seen The Rain
 
 **Capo:** None  
+**Singer:** Creedence Clearwater Revival<br>
+**Key:** C<br>
 **Genre:** Campfire Party English  
 **Strumming:** DUMU DUMU  
 

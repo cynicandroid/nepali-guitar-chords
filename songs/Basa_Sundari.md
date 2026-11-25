@@ -1,6 +1,8 @@
 # Basa Sundari
 
 **Capo:** None  
+**Singer:** Bro Sis Band<br>
+**Key:** G<br>
 **Genre:** Campfire , 5S  
 **Strumming:** D D UUD DUDU  
 

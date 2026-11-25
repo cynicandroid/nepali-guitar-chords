@@ -1,6 +1,8 @@
 # Kaha hola ghara bara
 
 **Capo:** None  
+**Singer:** Karma Band<br>
+**Key:** E<br>
 **Genre:** Party  
 **Strumming:** DUM—–DU  
 

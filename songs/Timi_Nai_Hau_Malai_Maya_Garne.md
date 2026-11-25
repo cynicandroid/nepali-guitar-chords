@@ -1,6 +1,8 @@
 # Timi Nai Hau Malai Maya Garne
 
 **Capo:** None  
+**Singer:** Sabin Rai<br>
+**Key:** G<br>
 **Genre:** N/A  
 **Strumming:** N/A  
 

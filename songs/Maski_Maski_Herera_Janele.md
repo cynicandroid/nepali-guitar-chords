@@ -1,6 +1,8 @@
 # Maski Maski Herera Janele
 
 **Capo:** None  
+**Singer:** Mt 8848<br>
+**Key:** A<br>
 **Genre:** Party  
 **Strumming:** DU DDU  
 

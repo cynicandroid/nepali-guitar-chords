@@ -1,6 +1,8 @@
 # Timi Lai Dekhera
 
 **Capo:** None  
+**Singer:** <br>
+**Key:** A<br>
 **Genre:** Campfire  
 **Strumming:** D UMUDU  
 

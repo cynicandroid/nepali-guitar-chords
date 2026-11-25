@@ -1,6 +1,8 @@
 # Maya Meri Maya Hamro Milan Kahile Huncha
 
 **Capo:** None  
+**Singer:** Crossroads (Nepal)<br>
+**Key:** Dm<br>
 **Genre:** N/A  
 **Strumming:** DD UUD DDU  
 

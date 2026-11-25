@@ -1,6 +1,8 @@
 # Chiya Bari Ma - Axe Band
 
 **Capo:** None  
+**Singer:** The Axe Band<br>
+**Key:** Am<br>
 **Genre:** Party , 5S  
 **Strumming:** D DU UDU  
 

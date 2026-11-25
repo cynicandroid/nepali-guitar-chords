@@ -1,6 +1,8 @@
 # Relimai Relimai
 
 **Capo:** None  
+**Singer:** Sukmit Gurung<br>
+**Key:** G<br>
 **Genre:** Party, Campfire 5S  
 **Strumming:** DUMU UDU  
 

@@ -1,6 +1,8 @@
 # Suna Bhanana
 
 **Capo:** None  
+**Singer:** Udit Narayan<br>
+**Key:** A<br>
 **Genre:** Campfire, 5S  
 **Strumming:** D DDU  
 

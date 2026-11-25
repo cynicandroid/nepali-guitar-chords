@@ -1,6 +1,8 @@
 # China Company
 
 **Capo:** None  
+**Singer:** Bro-Sis<br>
+**Key:** D<br>
 **Genre:** Campfire  
 **Strumming:** DM DM  
 

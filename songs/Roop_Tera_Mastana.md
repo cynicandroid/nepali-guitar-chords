@@ -1,6 +1,8 @@
 # Roop Tera Mastana
 
 **Capo:**   
+**Singer:** Sanam<br>
+**Key:** C<br>
 **Genre:** Party  
 **Strumming:** D D UDUDUD  
 

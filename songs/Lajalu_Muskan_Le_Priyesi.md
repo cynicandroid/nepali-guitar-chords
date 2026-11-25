@@ -1,6 +1,8 @@
 # Lajalu Muskan Le Priyesi
 
 **Capo:** None  
+**Singer:** Kalind Band<br>
+**Key:** D<br>
 **Genre:** campfire  
 **Strumming:** DD UUD DUDU  
 

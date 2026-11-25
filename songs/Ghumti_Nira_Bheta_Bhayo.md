@@ -1,6 +1,8 @@
 # Ghumti Nira Bheta Bhayo
 
 **Capo:** 4th fret  
+**Singer:** Bhagawati Dangal<br>
+**Key:** D<br>
 **Genre:** Oldschool  
 **Strumming:** DUMDU  
 

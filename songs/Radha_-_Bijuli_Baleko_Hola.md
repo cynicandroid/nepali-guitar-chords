@@ -1,6 +1,8 @@
 # Radha - Bijuli Baleko Hola
 
 **Capo:** 1st Fret  
+**Singer:** Swoopna Suman<br>
+**Key:** D<br>
 **Genre:** Campfire  
 **Strumming:** DDUMUDU  
 

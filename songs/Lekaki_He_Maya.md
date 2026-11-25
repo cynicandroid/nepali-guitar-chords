@@ -1,6 +1,8 @@
 # Lekaki He Maya
 
 **Capo:** None  
+**Singer:** Kandara<br>
+**Key:** G<br>
 **Genre:** Party, 4S  
 **Strumming:** DDUU DU  
 

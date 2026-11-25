@@ -1,6 +1,8 @@
 # Deurali Ma Batas Chalyo
 
 **Capo:** None  
+**Singer:** Prem Dhoj Pradhan<br>
+**Key:** G<br>
 **Genre:** Campfire  
 **Strumming:** DUMD / D DD  
 

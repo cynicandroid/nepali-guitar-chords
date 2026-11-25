@@ -1,6 +1,8 @@
 # Pidi Ma Basera
 
 **Capo:** None  
+**Singer:** <br>
+**Key:** G<br>
 **Genre:** N/A  
 **Strumming:** DUMDU  
 

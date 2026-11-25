@@ -1,6 +1,8 @@
 # Adhuro Prem
 
 **Capo:** None  
+**Singer:** Axix<br>
+**Key:** Am<br>
 **Genre:** Party  
 **Strumming:** D D UUD DUDU  
 

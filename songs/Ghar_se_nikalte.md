@@ -1,6 +1,8 @@
 # Ghar se nikalte
 
 **Capo:** 4th Fret  
+**Singer:** Armaan Malik<br>
+**Key:** C<br>
 **Genre:** Campfire  
 **Strumming:** DMU UMU  
 

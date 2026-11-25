@@ -48,6 +48,7 @@
                 <div class="song-badges">
                     <button class="badge favorite-toggle" id="favoriteToggle" onclick="toggleFavorite()" aria-label="Add to favorites" aria-pressed="false" title="Add to favorites">☆</button>
                     <span class="badge" id="badgeCapo">Capo: None</span>
+                    <button class="badge key-badge" id="badgeKey" onclick="showCircleOfFifths()" title="Show this key on the circle of fifths">Key: N/A</button>
                     <span class="badge" id="badgeGenre">Genre: N/A</span>
                     <span class="badge" id="badgeStrumming">
                         <span id="badgeStrummingText">Strumming: N/A</span>
@@ -64,6 +65,8 @@
                 <button class="btn" onclick="adjustFontSize(1)" title="Increase Font Size">A+</button>
                 <button class="btn" onclick="adjustFontSize(-1)" title="Decrease Font Size">A-</button>
                 <button class="btn" id="scrollBtn" onclick="toggleAutoScroll()" title="Auto Scroll">📜 Scroll</button>
+                <button class="btn" id="metronomeBtn" onclick="toggleMetronome()" title="Start metronome">♩ Metronome</button>
+                <button class="btn" id="fullscreenBtn" onclick="toggleFullscreen()" title="Enter full-screen song mode">⛶ Fullscreen</button>
                 <button class="btn" onclick="toggleTheme()" title="Toggle Dark/Light Mode">🌓</button>
             </div>
         </div>
@@ -78,6 +81,12 @@
         <button class="btn" onclick="changeScrollSpeed(-1)">-</button>
         <button class="btn" onclick="changeScrollSpeed(1)">+</button>
         <button class="btn btn-primary" id="scrollPlayPauseBtn" onclick="toggleScrollPlayback()" title="Pause auto scroll">⏸</button>
+    </div>
+
+    <div class="app-update-banner" id="appUpdateBanner" role="status" aria-live="polite" hidden>
+        <span>A new version is ready.</span>
+        <button class="btn btn-primary" id="applyAppUpdate">Update now</button>
+        <button class="app-update-dismiss" id="dismissAppUpdate" aria-label="Dismiss update notice">×</button>
     </div>
 
     <div class="install-help-modal" id="installHelpModal" hidden role="dialog" aria-modal="true" aria-labelledby="installHelpTitle">
@@ -95,6 +104,6 @@
         </div>
     </div>
 
-    <script src="src/app.js"></script>
+    <script type="module" src="src/app.js"></script>
 </body>
 </html>

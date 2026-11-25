@@ -1,6 +1,8 @@
 # Ek Din Bik Jayega
 
 **Capo:** No capo  
+**Singer:** Mukesh<br>
+**Key:** A<br>
 **Genre:** N/A  
 **Strumming:** D u u D u u  
 

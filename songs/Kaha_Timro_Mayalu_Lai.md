@@ -1,6 +1,8 @@
 # Kaha Timro Mayalu Lai
 
 **Capo:** None
+**Singer:** Sudeep Rijal<br>
+**Key:** A<br>
 **Genre:** N/A  
 **Strumming:** DUMDU
 

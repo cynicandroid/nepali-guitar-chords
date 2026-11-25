@@ -1,6 +1,8 @@
 # Tujhe Kitna Chahane Lage Hum
 
 **Capo:** 4th Fret  
+**Singer:** Misc Soundtrack<br>
+**Key:** D<br>
 **Genre:** Campfire , Hindi  
 **Strumming:** D D UUDD  
 

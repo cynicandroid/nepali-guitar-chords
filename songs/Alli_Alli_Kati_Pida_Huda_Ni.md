@@ -1,6 +1,8 @@
 # Alli Alli Kati Pida Huda Ni
 
 **Capo:** None  
+**Singer:** Nabin K Bhattarai<br>
+**Key:** G<br>
 **Genre:** Campfire  
 **Strumming:** DDU UDU  
 

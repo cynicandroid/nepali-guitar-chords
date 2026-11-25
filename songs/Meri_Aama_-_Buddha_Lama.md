@@ -1,6 +1,8 @@
 # Meri Aama - Buddha Lama
 
 **Capo:** 3rd Fret  
+**Singer:** Buddha Lama<br>
+**Key:** C<br>
 **Genre:** Emotional  
 **Strumming:** DUM DU  
 

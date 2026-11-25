@@ -1,6 +1,8 @@
 # Parelima
 
 **Capo:** 4th  
+**Singer:** 1974 AD<br>
+**Key:** C<br>
 **Genre:** N/A  
 **Strumming:** DMD UM  
 

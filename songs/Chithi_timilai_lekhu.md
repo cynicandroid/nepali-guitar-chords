@@ -1,6 +1,8 @@
 # Chithi timilai lekhu
 
 **Capo:** 3rd Fret  
+**Singer:** Sambhu Rai<br>
+**Key:** G<br>
 **Genre:** Campfire  
 **Strumming:** D MUDU D  
 

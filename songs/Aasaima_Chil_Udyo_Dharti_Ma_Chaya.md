@@ -1,6 +1,8 @@
 # Aasaima Chil Udyo Dharti Ma Chaya
 
 **Capo:** none  
+**Singer:** Sunij Parajuli<br>
+**Key:** Em<br>
 **Genre:** Party, 5S  
 **Strumming:** D UMUD  
 

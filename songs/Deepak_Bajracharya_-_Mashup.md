@@ -1,6 +1,8 @@
 # Deepak Bajracharya - Mashup
 
 **Capo:** none  
+**Singer:** Deepak Bajracharya<br>
+**Key:** Cm<br>
 **Genre:** N/A  
 **Strumming:** DDUMD  
 

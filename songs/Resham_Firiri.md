@@ -1,6 +1,8 @@
 # Resham Firiri
 
 **Capo:** None  
+**Singer:** Misc Traditional<br>
+**Key:** A<br>
 **Genre:** Campfire Party  
 **Strumming:** ddUmudu, Barre  
 

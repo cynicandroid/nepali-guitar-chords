@@ -1,6 +1,8 @@
 # Kesariya
 
 **Capo:** None  
+**Singer:** Arjit Singh<br>
+**Key:** C<br>
 **Genre:** Party, Hindi  
 **Strumming:** D D UUD DDU  
 

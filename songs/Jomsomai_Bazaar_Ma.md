@@ -1,6 +1,8 @@
 # Jomsomai Bazaar Ma
 
 **Capo:** None  
+**Singer:** Nepathya<br>
+**Key:** G<br>
 **Genre:** N/A  
 **Strumming:** DUMDU  
 

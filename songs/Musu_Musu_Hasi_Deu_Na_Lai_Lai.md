@@ -1,6 +1,8 @@
 # Musu Musu Hasi Deu Na Lai Lai
 
 **Capo:** None  
+**Singer:** The Himalayans<br>
+**Key:** C<br>
 **Genre:** Campfire & party  
 **Strumming:** DS UU SU  
 

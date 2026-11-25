@@ -1,6 +1,8 @@
 # Ishara Le Bolaunu Pardina
 
 **Capo:** None  
+**Singer:** Deepa Jha<br>
+**Key:** F<br>
 **Genre:** Campfire  
 **Strumming:** DUMUDU  
 

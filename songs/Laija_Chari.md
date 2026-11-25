@@ -1,6 +1,8 @@
 # Laija Chari
 
 **Capo:** None  
+**Singer:** Yogeshwar Amatya<br>
+**Key:** G<br>
 **Genre:** N/A  
 **Strumming:** DU DD U DUDU  
 

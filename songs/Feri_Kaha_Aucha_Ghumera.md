@@ -1,6 +1,8 @@
 # Feri Kaha Aucha Ghumera
 
 **Capo:** none  
+**Singer:** <br>
+**Key:** D<br>
 **Genre:** N/A  
 **Strumming:** DDUMUDU  
 

@@ -1,6 +1,8 @@
 # Timi le ta hoina timra bhaka
 
 **Capo:** none  
+**Singer:** <br>
+**Key:** D<br>
 **Genre:** Campfire, 4S  
 **Strumming:** DDUMUDU  
 

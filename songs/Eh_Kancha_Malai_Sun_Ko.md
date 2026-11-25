@@ -1,6 +1,8 @@
 # Eh Kancha Malai Sun Ko
 
 **Capo:** None  
+**Singer:** Aruna Lama<br>
+**Key:** G<br>
 **Genre:** Campfire  
 **Strumming:** DDU MUDU  
 

@@ -1,6 +1,8 @@
 # Marne Kasailai Rahar Hudaina
 
 **Capo:** None  
+**Singer:** <br>
+**Key:** G<br>
 **Genre:** N/A  
 **Strumming:** N/A  
 

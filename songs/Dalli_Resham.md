@@ -1,6 +1,8 @@
 # Dalli Resham
 
 **Capo:** None  
+**Singer:** Mukti And Revival<br>
+**Key:** Em<br>
 **Genre:** Party, 4S  
 **Strumming:** ddUmudu  
 

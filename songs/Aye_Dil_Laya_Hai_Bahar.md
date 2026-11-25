@@ -1,6 +1,8 @@
 # Aye Dil Laya Hai Bahar
 
 **Capo:** None  
+**Singer:** Misc Soundtrack<br>
+**Key:** G<br>
 **Genre:** Campfire, Hindi  
 **Strumming:** Du Du (slur) [Reggee]  
 

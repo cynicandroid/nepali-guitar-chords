@@ -1,6 +1,8 @@
 # Deurali Ko Chautari Ma
 
 **Capo:** None  
+**Singer:** Sanjeep Pradhan<br>
+**Key:** A<br>
 **Genre:** Campfire  
 **Strumming:** D UDDUD  
 

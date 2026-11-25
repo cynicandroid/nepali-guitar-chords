@@ -1,6 +1,8 @@
 # Charka Dheba Kuma Sagar
 
 **Capo:** None  
+**Singer:** Kuma Sagar<br>
+**Key:** Em<br>
 **Genre:** N/A  
 **Strumming:** DUM D  
 

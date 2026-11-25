@@ -1,6 +1,8 @@
 # Sanjha Pare Pachi Ni Lailai
 
 **Capo:** 3rd Fret, Key : C  
+**Singer:** Anmol Gurung<br>
+**Key:** C<br>
 **Genre:** Campfire, 5S  
 **Strumming:** D–U-D-U — U-D-U  
 

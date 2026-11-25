@@ -1,6 +1,8 @@
 # Jogale Huncha Bheta
 
 **Capo:** None  
+**Singer:** Nepathya<br>
+**Key:** A#<br>
 **Genre:** N/A  
 **Strumming:** DDUMD
 

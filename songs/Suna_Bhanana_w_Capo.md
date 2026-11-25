@@ -1,6 +1,8 @@
 # Suna Bhanana w Capo
 
 **Capo:** 2nd Fret  
+**Singer:** <br>
+**Key:** G<br>
 **Genre:** Campfire 4S  
 **Strumming:** D DDU  
 

@@ -1,6 +1,8 @@
 # Gazab Ka Hai Din
 
 **Capo:** None  
+**Singer:** Robin N' Looza<br>
+**Key:** G<br>
 **Genre:** Campfire  
 **Strumming:** D D UUD DUDU  
 

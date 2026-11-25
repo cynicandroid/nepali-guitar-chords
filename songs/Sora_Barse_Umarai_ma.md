@@ -1,6 +1,8 @@
 # Sora Barse Umarai ma
 
 **Capo:** None,51 low max  
+**Singer:** Kalyan Sherchan<br>
+**Key:** G<br>
 **Genre:** Party  
 **Strumming:** DUMUDU  
 

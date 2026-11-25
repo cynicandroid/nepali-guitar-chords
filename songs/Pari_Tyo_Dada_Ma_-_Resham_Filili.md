@@ -1,6 +1,8 @@
 # Pari Tyo Dada Ma - Resham Filili
 
 **Capo:** None  
+**Singer:** Kali Prasad Rijal<br>
+**Key:** C<br>
 **Genre:** Party  
 **Strumming:** DDU UDU  
 

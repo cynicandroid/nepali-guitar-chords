@@ -1,6 +1,8 @@
 # Let It Be
 
 **Capo:** None  
+**Singer:** The Beatles<br>
+**Key:** G<br>
 **Genre:** Campfire English  
 **Strumming:** D du D  
 

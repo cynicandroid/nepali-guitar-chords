@@ -1,6 +1,8 @@
 # Lag Ja Gale
 
 **Capo:** None  
+**Singer:** Sanam<br>
+**Key:** D<br>
 **Genre:** Campfire  
 **Strumming:** D DUDU  
 

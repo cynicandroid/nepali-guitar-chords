@@ -230,7 +230,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": "Nepathya"
   },
   {
     "title": "Aankha Ma Timilai",
@@ -363,7 +365,9 @@
         "text": "Maya timilai garchu ma dherai dherai  [x2]",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Nabin K Bhattarai"
   },
   {
     "title": "Aasaima Chil Udyo Dharti Ma Chaya",
@@ -552,7 +556,9 @@
         "text": "Aa hai timro tyo kapalai ma",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "Em",
+    "singer": "Sunij Parajuli"
   },
   {
     "title": "Adhuro Prem",
@@ -833,7 +839,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "Am",
+    "singer": "Axix"
   },
   {
     "title": "Agar Tum Na Hote - Humein Aur Jeene Ki Chahat",
@@ -1142,7 +1150,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "F",
+    "singer": "Kishor Kumar"
   },
   {
     "title": "Ago Lagyo Dilai Ma Damkal Bolayideu",
@@ -1407,7 +1417,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "A",
+    "singer": "Thupten Bhutia"
   },
   {
     "title": "Ajja Akash Ma Euta Tara Dekhina",
@@ -1588,7 +1600,9 @@
         "text": "Maile kahile tekina",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "Am",
+    "singer": "Dambar Nepali"
   },
   {
     "title": "Alli Alli Kati Pida Huda Ni",
@@ -1785,7 +1799,9 @@
         "text": "Ma timilai nai samjhanxu",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Nabin K Bhattarai"
   },
   {
     "title": "Amaaile Bhanthe Dhara Ko Pani",
@@ -2054,7 +2070,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "D",
+    "singer": "Udit Narayan"
   },
   {
     "title": "Ankha Chopi Narau Bhani",
@@ -2199,7 +2217,9 @@
         "text": "मुटुमाथि ढुंगा राखि हाँस्नुपर्‍याछ",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "F#m",
+    "singer": "Narayan Gopal"
   },
   {
     "title": "Asare Mahina Ma",
@@ -2392,7 +2412,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": "Chhusang Dukpa"
   },
   {
     "title": "Aye Dil Laya Hai Bahar",
@@ -2653,7 +2675,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Misc Soundtrack"
   },
   {
     "title": "Basa Sundari",
@@ -2990,7 +3014,9 @@
         "text": "tara yo jaan lai timrai khaacho cha",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Bro Sis Band"
   },
   {
     "title": "Bidesh Jane Mayalu Timilai",
@@ -3219,7 +3245,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Dipak Thapa"
   },
   {
     "title": "Big Yellow Taxi",
@@ -3564,7 +3592,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "D",
+    "singer": "Joni Mitchell"
   },
   {
     "title": "Blowing In The Wind",
@@ -3801,7 +3831,9 @@
         "text": " ",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Felicia Wong"
   },
   {
     "title": "Budeskaal Ko Laathi (60)",
@@ -4126,7 +4158,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Mt. 8848"
   },
   {
     "title": "Changba Hoi Changba",
@@ -4587,7 +4621,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "Am",
+    "singer": "Kranti Ale"
   },
   {
     "title": "Chari Maryo Sisai Ko Goli Le",
@@ -4832,7 +4868,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "A",
+    "singer": "Nepathya"
   },
   {
     "title": "Chari Udyo Badal Chuna Lai",
@@ -5041,7 +5079,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Sad Rose"
   },
   {
     "title": "Charka Dheba Kuma Sagar",
@@ -5318,7 +5358,9 @@
         "text": "ज्युला की मज्युला ?",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "Em",
+    "singer": "Kuma Sagar"
   },
   {
     "title": "Chaubandi Choli Ma – 1974 AD",
@@ -5555,7 +5597,9 @@
         "text": "Melaahai varera..Parkheko kaanchi laai",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "D",
+    "singer": "1974 AD"
   },
   {
     "title": "Chaubandi Cholo_",
@@ -5856,7 +5900,9 @@
         "text": "Chaubandi cholo",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "F",
+    "singer": "Mukti And Revival"
   },
   {
     "title": "Chaubandi Ma Patuki",
@@ -6177,7 +6223,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": "Aastha Raut"
   },
   {
     "title": "China Company",
@@ -6358,7 +6406,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "D",
+    "singer": "Bro-Sis"
   },
   {
     "title": "Chiso Chiso Hawa Ma",
@@ -6571,7 +6621,9 @@
         "text": "Tesai man baralincha [x2]",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "D",
+    "singer": "Danny Denzongpa"
   },
   {
     "title": "Chithi timilai lekhu",
@@ -6804,7 +6856,9 @@
         "text": "Manko Kura Manmai Rahayo [x3]",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Sambhu Rai"
   },
   {
     "title": "Chiya Bari Ma - Axe Band",
@@ -7077,7 +7131,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "Am",
+    "singer": "The Axe Band"
   },
   {
     "title": "Chudaina Timro Mayale",
@@ -7310,7 +7366,9 @@
         "text": "nabaljheko ghau baljhinchha",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "1974 AD"
   },
   {
     "title": "Chukar Mere Man Ko",
@@ -7491,7 +7549,9 @@
         "text": "Chukar mere man ko, Kiya tune kya ishara",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "D",
+    "singer": "Misc Soundtrack"
   },
   {
     "title": "Country Road",
@@ -7768,7 +7828,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "James Taylor"
   },
   {
     "title": "Dalli Resham",
@@ -8037,7 +8099,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "Em",
+    "singer": "Mukti And Revival"
   },
   {
     "title": "Dashain Tihar",
@@ -8314,7 +8378,9 @@
         "text": " Sajauna lai aafnai tyo sansara",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "A",
+    "singer": "Sugam Pokhrel"
   },
   {
     "title": "Deepak Bajracharya - Mashup",
@@ -8835,7 +8901,9 @@
         "text": "Ju ju na na na na na na",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "Cm",
+    "singer": "Deepak Bajracharya"
   },
   {
     "title": "Deurali Ko Chautari Ma",
@@ -8988,7 +9056,9 @@
         "text": "Aaucha ajhai jhajhalko x2] X2",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "A",
+    "singer": "Sanjeep Pradhan"
   },
   {
     "title": "Deurali Ko Chautari Ma(1)",
@@ -9173,7 +9243,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "A",
+    "singer": "Sanjeep Pradhan"
   },
   {
     "title": "Deurali Ma Batas Chalyo",
@@ -9482,7 +9554,9 @@
         "text": "देउरालीमा बतास चल्यो x3",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Prem Dhoj Pradhan"
   },
   {
     "title": "Dherai Choti Ankha Judhyo",
@@ -9711,7 +9785,9 @@
         "text": "Hasi rakhana maya boli rakhana [X4]",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "Em",
+    "singer": ""
   },
   {
     "title": "Dherai Dherai Aucha Man Ma",
@@ -9856,7 +9932,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "D",
+    "singer": "Situsit"
   },
   {
     "title": "Do dil mil rahehe",
@@ -10189,7 +10267,9 @@
         "text": "[Intro again]",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Misc Soundtrack"
   },
   {
     "title": "Dui Pate Suiro",
@@ -10554,7 +10634,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G#",
+    "singer": "Udit Narayan"
   },
   {
     "title": "Dum Maru Dum",
@@ -10827,7 +10909,9 @@
         "text": "Hare Krishna Hare Raam! X3",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "Am",
+    "singer": "Robin N' Looza"
   },
   {
     "title": "Eh Kancha Malai Sun Ko",
@@ -11016,7 +11100,9 @@
         "text": "Joon pani jhaari diula] x2",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Aruna Lama"
   },
   {
     "title": "Ek ajnabi hasina se",
@@ -11261,7 +11347,9 @@
         "text": "Ek Ajnabi Hasina Se Yun Mulaaqat Ho Gayi",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Misc Soundtrack"
   },
   {
     "title": "Ek Din Bik Jayega",
@@ -11574,7 +11662,9 @@
         "text": "La la la la la laa",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "A",
+    "singer": "Mukesh"
   },
   {
     "title": "Ek Ladki Bhigi Bhagisi",
@@ -11951,7 +12041,9 @@
         "text": "Tum hi kaho ye koyi baat hai, hmm",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "Em",
+    "singer": "Kishore Kumar"
   },
   {
     "title": "Euta Manche Ko Maya Le Kati",
@@ -12204,7 +12296,9 @@
         "text": "Farak parda cha jindagima...",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "F",
+    "singer": "Narayan Gopal"
   },
   {
     "title": "Feri Kaha Aucha Ghumera",
@@ -12437,7 +12531,9 @@
         "text": "       ",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "D",
+    "singer": ""
   },
   {
     "title": "Fulbutte Sari",
@@ -12650,7 +12746,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Marmik Lama"
   },
   {
     "title": "Furfuri",
@@ -13011,7 +13109,9 @@
         "text": "Aba do....li……ma chadhaai [x2]",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "Em",
+    "singer": "Kuma Sagar"
   },
   {
     "title": "Futki jane joban yo",
@@ -13264,7 +13364,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "E",
+    "singer": "Sajjan Raj Vaidya"
   },
   {
     "title": "Gajalu Le Ankha Chopne k ramri",
@@ -13533,7 +13635,9 @@
         "text": "मेरै निम्ती मात्रै हो हाँसेकी",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "The Himalayan Band"
   },
   {
     "title": "Gajalu Ti Thula Thula Ankha",
@@ -13718,7 +13822,9 @@
         "text": "Tira Bani Base Yo Dilai Ma",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "F",
+    "singer": "Gulam Ali"
   },
   {
     "title": "Gazab Ka Hai Din",
@@ -13963,7 +14069,9 @@
         "text": "Kasam se x2",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Robin N' Looza"
   },
   {
     "title": "Ghar se nikalte",
@@ -14272,7 +14380,9 @@
         "text": "Ghar se nikalte hi…",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": "Armaan Malik"
   },
   {
     "title": "Ghumti Nira Bheta Bhayo",
@@ -14493,7 +14603,9 @@
         "text": "सानु मायालाई बाटैमा भेट भयो x2] x2",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "D",
+    "singer": "Bhagawati Dangal"
   },
   {
     "title": "Goreto Ani Ustai Cha Galli",
@@ -14866,7 +14978,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Sunil Bardewa"
   },
   {
     "title": "Gurasa Ko Feda Muni",
@@ -15019,7 +15133,9 @@
         "text": "jaha gayani kina lagcha malai timro maya X2",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "Bm",
+    "singer": "Sabin Rai"
   },
   {
     "title": "Gurasai Fulyo Banaima",
@@ -15192,7 +15308,9 @@
         "text": "timro manai ma",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "1974 AD"
   },
   {
     "title": "Hai Apna Din To Awara",
@@ -15477,7 +15595,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "A",
+    "singer": "Sanam"
   },
   {
     "title": "Hamro Nepal Ma",
@@ -15794,7 +15914,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": "Neetesh Jung Kunwar"
   },
   {
     "title": "Have You Ever Seen The Rain",
@@ -15983,7 +16105,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": "Creedence Clearwater Revival"
   },
   {
     "title": "Hawa Chalyo Firiri",
@@ -16232,7 +16356,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": "Mahesh Kafle"
   },
   {
     "title": "Hawayein",
@@ -16525,7 +16651,9 @@
         "text": "Oooo ohh oh ooo",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "D",
+    "singer": "Misc Soundtrack"
   },
   {
     "title": "Hera Na Hera Kancha",
@@ -16874,7 +17002,9 @@
         "text": "ek palta haansi deuna",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "D",
+    "singer": "Aruna Lama"
   },
   {
     "title": "Herda Herdai Budo Bhaiyo_",
@@ -17147,7 +17277,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "E",
+    "singer": "The Firantee"
   },
   {
     "title": "Hongkong Pokhara_",
@@ -17300,7 +17432,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "F",
+    "singer": "Kandara"
   },
   {
     "title": "Hotel California -Eagles",
@@ -17785,7 +17919,9 @@
         "text": "Am   E7   G   D   F   C   Dm   E7   x3",
         "is_chord": true
       }
-    ]
+    ],
+    "key": "E",
+    "singer": "Eagles"
   },
   {
     "title": "Hukka Mero",
@@ -18074,7 +18210,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "Am",
+    "singer": "Karma Band"
   },
   {
     "title": "I Am Very Sorry (Fateko Jutta)",
@@ -18287,7 +18425,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": "Wilbur Soot"
   },
   {
     "title": "I_d Love You To Want Me - Lobo",
@@ -18624,7 +18764,9 @@
         "text": "If you'd only let it be",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Lobo"
   },
   {
     "title": "Ishara Le Bolaunu Pardina",
@@ -18857,7 +18999,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "F",
+    "singer": "Deepa Jha"
   },
   {
     "title": "Jab Koi Baat Bigad Jaye",
@@ -19222,7 +19366,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "D",
+    "singer": "Misc Soundtrack"
   },
   {
     "title": "Jaba Sandhya Huncha",
@@ -19387,7 +19533,9 @@
         "text": "adhyaro le sataucha]x2",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "Am",
+    "singer": "Yogeshwar Amatya"
   },
   {
     "title": "Jati maya laye pani",
@@ -19556,7 +19704,9 @@
         "text": "yo mann tesai marne nai bhayo ho aaha ha",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "E",
+    "singer": "Arun Thapa"
   },
   {
     "title": "Jiwan ho Ghamachaya",
@@ -19789,7 +19939,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": "Nepathya"
   },
   {
     "title": "Jogale Huncha Bheta",
@@ -19954,7 +20106,9 @@
         "text": "[जोगले हुन्छ भेट मायाले हुन्छ सम्झना] x8",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "A#",
+    "singer": "Nepathya"
   },
   {
     "title": "Jomsomai Bazaar Ma",
@@ -20195,7 +20349,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Nepathya"
   },
   {
     "title": "Jyanlai Parnu Pir Paryo",
@@ -20528,7 +20684,9 @@
         "text": "jyanlai parnu pir paryo x2",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": ""
   },
   {
     "title": "K bhane Hamro Samay",
@@ -20785,7 +20943,9 @@
         "text": "Hamro samaya sachai ramailo [X2]",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Anuprastha"
   },
   {
     "title": "K Bhanu Ma Kaso Gari Pare",
@@ -21038,7 +21198,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "Am",
+    "singer": "Misc Soundtrack"
   },
   {
     "title": "Kafal Gedi Kutukkai Bhayo Bhutukkai_",
@@ -21323,7 +21485,9 @@
         "text": "kafal gedi kuttukai..bhaiyo bhutukkai X4",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": ""
   },
   {
     "title": "Kaha hola ghara bara",
@@ -21612,7 +21776,9 @@
         "text": "………………… Se se se [x4]",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "E",
+    "singer": "Karma Band"
   },
   {
     "title": "Kaha Timro Mayalu Lai",
@@ -21833,7 +21999,9 @@
         "text": "Kaha Timro Mayalu Lai Chhadi rakheu",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "A",
+    "singer": "Sudeep Rijal"
   },
   {
     "title": "Kahi Door Jab Din Dhaljaye",
@@ -22078,7 +22246,9 @@
         "text": "Koi Sapnon Ke Deep Jalaaye Deep Jalaaye] X2",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": "Misc Soundtrack"
   },
   {
     "title": "Kal Ho Na Ho",
@@ -22287,7 +22457,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Misc Soundtrack"
   },
   {
     "title": "Kalilo Tamalai Sodha Rama Lai",
@@ -22588,7 +22760,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Padam Bista"
   },
   {
     "title": "Kalo Keshma Relimai",
@@ -22769,7 +22943,9 @@
         "text": "timilai herdai relimai bitaaula jibana",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Dinesh Dhakal"
   },
   {
     "title": "Kanchi He Kanchi",
@@ -23042,7 +23218,9 @@
         "text": "Timi Jureli Jastei Nachana",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "F",
+    "singer": "Aruna Lama"
   },
   {
     "title": "Karam Khudaya Ye- Tere Sang Yara",
@@ -23555,7 +23733,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Atif Aslam"
   },
   {
     "title": "Kehi Mitho Baat Gara",
@@ -23752,7 +23932,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "F",
+    "singer": "Narayan Gopal"
   },
   {
     "title": "Kesariya",
@@ -24021,7 +24203,9 @@
         "text": "Rain Saari Teri Khair Manaauuuuu ] X2",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": "Arjit Singh"
   },
   {
     "title": "Khairo khairo kapal timro",
@@ -24266,7 +24450,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "A",
+    "singer": "Adrian Pradhan"
   },
   {
     "title": "Khotang Jilla Diktel Bazara",
@@ -24571,7 +24757,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": ""
   },
   {
     "title": "Knocking On Heavens Door",
@@ -24784,7 +24972,9 @@
         "text": "  Oo oo-oo oo   (fade)",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Eric Clapton"
   },
   {
     "title": "Kusume Rumal",
@@ -24973,7 +25163,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": "Misc Soundtrack"
   },
   {
     "title": "Lag Ja Gale",
@@ -25202,7 +25394,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "D",
+    "singer": "Sanam"
   },
   {
     "title": "Laija Chari",
@@ -25411,7 +25605,9 @@
         "text": "Jaha hola usko saharrrr] x2",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Yogeshwar Amatya"
   },
   {
     "title": "Lajalu Muskan Le Priyesi",
@@ -25536,7 +25732,9 @@
         "text": "Chori lagyau maan mero timile] X2",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "D",
+    "singer": "Kalind Band"
   },
   {
     "title": "Lekaki He Maya",
@@ -25789,7 +25987,9 @@
         "text": "Mana nai khalbalaidine ] x2",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Kandara"
   },
   {
     "title": "Lekali He He Choya Ko Doko",
@@ -25974,7 +26174,9 @@
         "text": "Hey Vana Solti Barobar Nadhati x2",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Ram Thapa"
   },
   {
     "title": "Let It Be",
@@ -26419,7 +26621,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "The Beatles"
   },
   {
     "title": "Ma Maunta Ma",
@@ -26668,7 +26872,9 @@
         "text": "Euta jeevan [x2]",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Robin N' Looza"
   },
   {
     "title": "Makhamali Pachauri_",
@@ -26897,7 +27103,9 @@
         "text": "Kaleji ko Serofero",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": ""
   },
   {
     "title": "Malai Maaf Gari Deu",
@@ -27222,7 +27430,9 @@
         "text": "प्रियसी मायालु",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "D",
+    "singer": "Narayan Gopal"
   },
   {
     "title": "Malai Pyaro Lagcha",
@@ -27511,7 +27721,9 @@
         "text": "https://tabs.ultimate-guitar.com/tab/yogeshwor-amatya/malai-pyaro-lagchha-chords-4880732",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "D",
+    "singer": "Yogeshwor Amatya"
   },
   {
     "title": "Man Chhade Maichyang - Danny",
@@ -27788,7 +28000,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Danny"
   },
   {
     "title": "Marne Kasailai Rahar Hudaina",
@@ -28041,7 +28255,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": ""
   },
   {
     "title": "Maski Maski Herera Janele",
@@ -28278,7 +28494,9 @@
         "text": "pagal banaki che ghayal banaki che)*2",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "A",
+    "singer": "Mt 8848"
   },
   {
     "title": "Maya - Asutosh KC",
@@ -28619,7 +28837,9 @@
         "text": "Ho…",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": "Ashutosh KC"
   },
   {
     "title": "Maya Jalaima",
@@ -28832,7 +29052,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "A",
+    "singer": "Sabin Rai"
   },
   {
     "title": "Maya Ko Dori Le",
@@ -29013,7 +29235,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "Bm",
+    "singer": "Deepak Bajracharya"
   },
   {
     "title": "Maya Meri Maya Hamro Milan Kahile Huncha",
@@ -29118,7 +29342,9 @@
         "text": "Maya meri maya hamro milan kahile huncha",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "Dm",
+    "singer": "Crossroads (Nepal)"
   },
   {
     "title": "Mein tenu Samjhawa",
@@ -29339,7 +29565,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "A",
+    "singer": "Misc Soundtrack"
   },
   {
     "title": "Mera Dil Bhi Kitna Pagal He",
@@ -29660,7 +29888,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "A",
+    "singer": "Kumar Sanu"
   },
   {
     "title": "Mere samne wali khidki",
@@ -29901,7 +30131,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Kishor Kumar"
   },
   {
     "title": "Meri Aama - Buddha Lama",
@@ -30122,7 +30354,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": "Buddha Lama"
   },
   {
     "title": "Mohani Lagla Hai",
@@ -30535,7 +30769,9 @@
         "text": "[Mohani laagla hai…] x4",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Narayan Gopal"
   },
   {
     "title": "Mohani Maya Ko Hoki",
@@ -31008,7 +31244,9 @@
         "text": "la lala lalala.",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Kumar Kancha"
   },
   {
     "title": "Muglana hera jadai chu",
@@ -31233,7 +31471,9 @@
         "text": "Saanu Timilai Samjhera [X2]",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Sanjeev Singh"
   },
   {
     "title": "Musu Musu Hasi Deu Na Lai Lai",
@@ -31462,7 +31702,9 @@
         "text": "Musu Musu Hasi Deu",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": "The Himalayans"
   },
   {
     "title": "Musukka Hasne Timro Bani Le",
@@ -31647,7 +31889,9 @@
         "text": "Mero jyaanai laane bho] X2",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Swapnil Sharma"
   },
   {
     "title": "Na Mana Laaj Yestari",
@@ -32032,7 +32276,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": "Prem Dhoj Pradhan"
   },
   {
     "title": "Nachideu Maichang_",
@@ -32417,7 +32663,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Sambhujit Baskota"
   },
   {
     "title": "Naya Naya Sajau Hai Sansara",
@@ -32658,7 +32906,9 @@
         "text": "sukha dukhkha batau hai milera",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Arijit Singh"
   },
   {
     "title": "Neele Neele Ambar Par",
@@ -33007,7 +33257,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "Dm",
+    "singer": "Nitin Bali"
   },
   {
     "title": "Nira Jahile Risaune",
@@ -33260,7 +33512,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "A",
+    "singer": "Kali Prasad Rijal"
   },
   {
     "title": "Pal Pal Dil Ke Paas",
@@ -33517,7 +33771,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Kishor Kumar"
   },
   {
     "title": "Papa kehte hai",
@@ -33750,7 +34006,9 @@
         "text": "Papa kehte hain bada naam kare ga aaa",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": "Udit Narayan"
   },
   {
     "title": "Parelima",
@@ -33939,7 +34197,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": "1974 AD"
   },
   {
     "title": "Pari Tyo Dada Ma - Resham Filili",
@@ -34216,7 +34476,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": "Kali Prasad Rijal"
   },
   {
     "title": "Parkhi Base Aula Bhani_",
@@ -34461,7 +34723,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "F",
+    "singer": "Narayan Gopal"
   },
   {
     "title": "Pehla Nasha",
@@ -34814,7 +35078,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "F",
+    "singer": "Udit Narayan"
   },
   {
     "title": "Pehla Nasha - D Scale",
@@ -35143,7 +35409,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "D",
+    "singer": "Udit Narayan"
   },
   {
     "title": "Pehli Nazar Mein",
@@ -35384,7 +35652,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "D",
+    "singer": "Samir Shrestha"
   },
   {
     "title": "Phir Bhi Tum Ko Chahunga",
@@ -35697,7 +35967,9 @@
         "text": "Main phir bhi tumko chahunga",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "F",
+    "singer": "Arjit Singh"
   },
   {
     "title": "Phoolon Ka Taro Ka",
@@ -35942,7 +36214,9 @@
         "text": "Ho.. La La La La La La La…",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Kishor Kumar"
   },
   {
     "title": "Phul ko Ankha Ma",
@@ -36199,7 +36473,9 @@
         "text": "Kaanda ko aankha ma, kaandai sansara [X4]",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "D",
+    "singer": "Ani Cho Dolma"
   },
   {
     "title": "Pidi Ma Basera",
@@ -36344,7 +36620,9 @@
         "text": "मेरी आमा रुँदी हुन् मलाई  सम्झेर x3",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": ""
   },
   {
     "title": "Piudina Bhanda Bhandai Pilayo Sathi Le",
@@ -36585,7 +36863,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": ""
   },
   {
     "title": "Pokhiyera Gham Ko Jhulka",
@@ -36898,7 +37178,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "A",
+    "singer": "Narayan Gopal"
   },
   {
     "title": "Prem Patra",
@@ -37111,7 +37393,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": "Anil Singh"
   },
   {
     "title": "Purani Jeans_",
@@ -37424,7 +37708,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": "Ali Haider"
   },
   {
     "title": "Purbai Jane Rail",
@@ -37617,7 +37903,9 @@
         "text": "Hasera Bolana Sathi Dui Din Bachinjel",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "A",
+    "singer": ""
   },
   {
     "title": "Raataan Lambiyan",
@@ -37866,7 +38154,9 @@
         "text": "Kate Tere Sangeyan Sangeyan Re] X4",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": "Misc Soundtrack"
   },
   {
     "title": "Radha - Bijuli Baleko Hola",
@@ -38251,7 +38541,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "D",
+    "singer": "Swoopna Suman"
   },
   {
     "title": "Ram sailee",
@@ -38424,7 +38716,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Bipul Chettri"
   },
   {
     "title": "Rato Ra Chanda Surya",
@@ -38685,7 +38979,9 @@
         "text": "2(10,10,8,10),3(10,10/12,7, 9,10,12,10,9/7,9,7,5)",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": "1984 AD"
   },
   {
     "title": "Rato rani",
@@ -38914,7 +39210,9 @@
         "text": "कान्छीलाई घुमाउने काठमाण्डौ सहर [x6]",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Danny Denzongpa"
   },
   {
     "title": "Relimai Relimai",
@@ -39139,7 +39437,9 @@
         "text": "Lahure dai ko relimai relimai] X4",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Sukmit Gurung"
   },
   {
     "title": "Resham",
@@ -39368,7 +39668,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "A",
+    "singer": "Nepathya"
   },
   {
     "title": "Resham Firiri",
@@ -39649,7 +39951,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "A",
+    "singer": "Misc Traditional"
   },
   {
     "title": "Ritu Haru Ma Timi",
@@ -39790,7 +40094,9 @@
         "text": "Nadi haruma timi ho pabitra ganga hau",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": "Arun Thapa"
   },
   {
     "title": "Roop Tera Mastana",
@@ -39975,7 +40281,9 @@
         "text": "Bhool Koi Hamse Na Hojaye",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": "Sanam"
   },
   {
     "title": "Sadhai Sadhai",
@@ -40284,7 +40592,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "A",
+    "singer": "Mantra (Nepal)"
   },
   {
     "title": "Samaye Panchi Ho",
@@ -40389,7 +40699,9 @@
         "text": "Badera Badhidaina Udchha Nirantar",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "F",
+    "singer": "Danny"
   },
   {
     "title": "Samjhana Birsana_",
@@ -40626,7 +40938,9 @@
         "text": "[Majja aaula relimai tadak chadhesi] x2",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Udit Narayan"
   },
   {
     "title": "Samne Ye Kaun Aya",
@@ -41043,7 +41357,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "E",
+    "singer": "Misc Soundtrack"
   },
   {
     "title": "Sanjha Pakha",
@@ -41224,7 +41540,9 @@
         "text": "Sanjha Pakha Ekanta Ma Aafailai Birsinda",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "E",
+    "singer": "Nabin K Bhattarai"
   },
   {
     "title": "Sanjha Pare Pachi Ni Lailai",
@@ -41517,7 +41835,9 @@
         "text": "Ha ....  Ajhai najeek aau... na] X2",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": "Anmol Gurung"
   },
   {
     "title": "Sapana Sapana",
@@ -41870,7 +42190,9 @@
         "text": "Ushko nau sa-pa-na",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "D",
+    "singer": "Kumar Sanu"
   },
   {
     "title": "Sasson Ki Jarurat Hai Jaise",
@@ -42087,7 +42409,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Kumar Sanu"
   },
   {
     "title": "Sasto Mutu",
@@ -42436,7 +42760,9 @@
         "text": "] X2",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Sajjan Raj Vaidya"
   },
   {
     "title": "Sayad Timi Nai Hau",
@@ -42681,7 +43007,9 @@
         "text": "Aaideu baru eklo yo jiwan ma",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Nabin K Bhattarai"
   },
   {
     "title": "Sirima Siri Baisako bela",
@@ -42950,7 +43278,9 @@
         "text": "sabaile kaha vagaucha ra",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "D",
+    "singer": "Sanjeep Pradhan"
   },
   {
     "title": "Sirima Siri Ni Kancha",
@@ -43355,7 +43685,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": ""
   },
   {
     "title": "So Gaya Ye Jaha",
@@ -43536,7 +43868,9 @@
         "text": "[So Gaya Yeh Jahan, So Gaya Aasma] X2",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "E",
+    "singer": ""
   },
   {
     "title": "Somewhere Over The Rainbow",
@@ -43833,7 +44167,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "F",
+    "singer": "Jason Castro"
   },
   {
     "title": "Sooraj Duba He Yaro",
@@ -44234,7 +44570,9 @@
         "text": "Gham tum bhula do saare sansaar ke",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "D",
+    "singer": ""
   },
   {
     "title": "Sora Barse Umarai ma",
@@ -44551,7 +44889,9 @@
         "text": "Soi soi [X2]",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Kalyan Sherchan"
   },
   {
     "title": "Stand by me - Ben E. king",
@@ -44756,7 +45096,9 @@
         "text": "stand by me, stand by me.",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Ben E. King"
   },
   {
     "title": "Suna Bhanana",
@@ -44901,7 +45243,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "A",
+    "singer": "Udit Narayan"
   },
   {
     "title": "Suna Bhanana w Capo",
@@ -45082,7 +45426,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": ""
   },
   {
     "title": "Suna Katha Yeuta Geet",
@@ -45259,7 +45605,9 @@
         "text": "Maya basecha miteri sainoma",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Danny Denzongpa"
   },
   {
     "title": "Suna Saili",
@@ -45420,7 +45768,9 @@
         "text": "Challis katesi ramaula",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": ""
   },
   {
     "title": "Sundarta Ko Timi (Namuna)",
@@ -45589,7 +45939,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": "Sabin Rai"
   },
   {
     "title": "Suntali Mai Katima Ramro Darbara",
@@ -45822,7 +46174,9 @@
         "text": "Maaryo ni maayaa le maaryo] x2",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "Am",
+    "singer": ""
   },
   {
     "title": "Sweet Caroline",
@@ -46103,7 +46457,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "D",
+    "singer": "Neil Diamond"
   },
   {
     "title": "Syndicate Bipul Chhetri_",
@@ -46524,7 +46880,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": ""
   },
   {
     "title": "Take It Easy - Eagles_",
@@ -46865,7 +47223,9 @@
         "text": "Oh oh oh, oh oh oh X5",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Eagles"
   },
   {
     "title": "Tera mujse he pahle ka",
@@ -47110,7 +47470,9 @@
         "text": "LA la laal la la la la la la la…",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Misc Soundtrack"
   },
   {
     "title": "Tere jaisa yaar kaha",
@@ -47295,7 +47657,9 @@
         "text": "Kahan aisa yaarana",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Misc Soundtrack"
   },
   {
     "title": "Timi Lai Dekhera",
@@ -47536,7 +47900,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "A",
+    "singer": ""
   },
   {
     "title": "Timi le ta hoina timra bhaka",
@@ -47761,7 +48127,9 @@
         "text": "timro lagi roi sakechan",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "D",
+    "singer": ""
   },
   {
     "title": "Timi ma bhanda kosau",
@@ -47878,7 +48246,9 @@
         "text": "bholi bhet hola nahola",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "D",
+    "singer": "Sugam Pokhrel"
   },
   {
     "title": "Timi Nai Hau Malai Maya Garne",
@@ -48055,7 +48425,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Sabin Rai"
   },
   {
     "title": "Timi Pari Tyo Gau Ma",
@@ -48276,7 +48648,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": ""
   },
   {
     "title": "Timro Aankha Ma Dubi Herda",
@@ -48669,7 +49043,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Yogeshwor Amatya"
   },
   {
     "title": "Timro Nai Maya Lagcha Ni Saili",
@@ -48870,7 +49246,9 @@
         "text": "samjhai diyeko] x2] x2",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "Jhalak Man Gandarbha"
   },
   {
     "title": "Timro Nyano",
@@ -48983,7 +49361,9 @@
         "text": "nabirsidinu vani] X4",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "D",
+    "singer": "The Uglyz"
   },
   {
     "title": "Timro Tyo Hasilo Muhar Ko",
@@ -49192,7 +49572,9 @@
         "text": "Timro tashbir le chitta bujauda[x4]",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "D",
+    "singer": "Deepak Kharel"
   },
   {
     "title": "Trisuli Bagera",
@@ -49441,7 +49823,9 @@
         "text": "Papi aankha herana kastari dulaune] x2",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": "Misc Soundtrack"
   },
   {
     "title": "Tu Mere Agal Bagal Hey",
@@ -49914,7 +50298,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "A",
+    "singer": "Misc Soundtrack"
   },
   {
     "title": "Tujhe Dekha To Yeh",
@@ -50175,7 +50561,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "Em",
+    "singer": "Misc Soundtrack"
   },
   {
     "title": "Tujhe Kitna Chahane Lage Hum",
@@ -50416,7 +50804,9 @@
         "text": "[Tujhe kitna chahne lage hum] x3",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "D",
+    "singer": "Misc Soundtrack"
   },
   {
     "title": "Tum Hi Ho",
@@ -50721,7 +51111,9 @@
         "text": "Meri aashiqui ab tum hi ho] X2",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": "Andmesh Kamaleng"
   },
   {
     "title": "Who Saam Kuch Ajeeb Thi",
@@ -50990,7 +51382,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "D",
+    "singer": "Kishore Kumar"
   },
   {
     "title": "Yaaron Dosti_",
@@ -51239,7 +51633,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "A#",
+    "singer": ""
   },
   {
     "title": "Ye dosti",
@@ -51492,7 +51888,9 @@
         "text": "tera saath na chhodenge.....",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "A",
+    "singer": "Misc Mashups"
   },
   {
     "title": "Ye dosti -Sad Version_",
@@ -51613,7 +52011,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "F",
+    "singer": ""
   },
   {
     "title": "Ye yo ta maya",
@@ -51998,7 +52398,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "G",
+    "singer": "The Police"
   },
   {
     "title": "Yeh Jeevan Hai",
@@ -52215,7 +52617,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "E",
+    "singer": "Misc Soundtrack"
   },
   {
     "title": "Yeti Dherai Maya Diyi",
@@ -52348,7 +52752,9 @@
         "text": "यति धेरै माया दिई",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "F",
+    "singer": "Narayan Gopal"
   },
   {
     "title": "Yo Man Ta Mero Nepali Ho",
@@ -52645,7 +53051,9 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": ""
   },
   {
     "title": "Yo samjhine man cha",
@@ -52798,6 +53206,1008 @@
         "text": "",
         "is_chord": false
       }
-    ]
+    ],
+    "key": "C",
+    "singer": "Narayan Gopal"
+  },
+  {
+    "title": "Chand Sifarish - Subhan Allha",
+    "filename": "Chand_Sifarish_-_Subhan_Allha.md",
+    "capo": "None",
+    "genre": "Party",
+    "strumming": "D UDUD D DUDU",
+    "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "Dm          Gm",
+        "is_chord": true
+      },
+      {
+        "text": "Hmm Hmm Hmm La La La La La",
+        "is_chord": false
+      },
+      {
+        "text": "C           Dm",
+        "is_chord": true
+      },
+      {
+        "text": "Hei Hei Hei Aha",
+        "is_chord": false
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": "[Instrumental]",
+        "is_chord": false
+      },
+      {
+        "text": "Dm Gm Dm Gm A",
+        "is_chord": true
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": "      Dm           Gm           A            Dm",
+        "is_chord": true
+      },
+      {
+        "text": "Subhanallah, Subhanallah, Subhanallah, Subhanallah",
+        "is_chord": false
+      },
+      {
+        "text": "      Bb           Gm           A            Dm",
+        "is_chord": true
+      },
+      {
+        "text": "Subhanallah, Subhanallah, Subhanallah, Subhanallah",
+        "is_chord": false
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": "[Instrumental on gaps]",
+        "is_chord": false
+      },
+      {
+        "text": "Dm     Gm          Dm   A",
+        "is_chord": true
+      },
+      {
+        "text": "       Walle Walle      Walle Walle",
+        "is_chord": false
+      },
+      {
+        "text": "Dm  C  Am  Bb",
+        "is_chord": true
+      },
+      {
+        "text": "Whistling",
+        "is_chord": false
+      },
+      {
+        "text": "Dm     Gm          Dm   A",
+        "is_chord": true
+      },
+      {
+        "text": "       Walle Walle      Walle Walle",
+        "is_chord": false
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": "Dm                Gm            A              Dm",
+        "is_chord": true
+      },
+      {
+        "text": "Chand Sifarish Jo Karta Hamari, Deta Woh Tumko Bata",
+        "is_chord": false
+      },
+      {
+        "text": "Dm             Gm            A               Dm",
+        "is_chord": true
+      },
+      {
+        "text": "Sharmo-Haya Ke Parde Gira Ke Karni Hai Humko Khata",
+        "is_chord": false
+      },
+      {
+        "text": "F                  G",
+        "is_chord": true
+      },
+      {
+        "text": "Zidd Hai Ab To Hai Khud Ko Mitana",
+        "is_chord": false
+      },
+      {
+        "text": "Bb              A",
+        "is_chord": true
+      },
+      {
+        "text": "Hona Hai Tujhme Fanaa",
+        "is_chord": false
+      },
+      {
+        "text": "Dm                Gm            A              Dm",
+        "is_chord": true
+      },
+      {
+        "text": "Chand Sifarish Jo Karta Hamari, Deta Woh Tumko Bata",
+        "is_chord": false
+      },
+      {
+        "text": "Dm             Gm            A               Dm",
+        "is_chord": true
+      },
+      {
+        "text": "Sharmo-Haya Ke Parde Gira Ke Karni Hai Humko Khata",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "Dm  C  Am  Bb  x2",
+        "is_chord": true
+      },
+      {
+        "text": "Whistling",
+        "is_chord": false
+      },
+      {
+        "text": "Dm     Gm          Dm   A",
+        "is_chord": true
+      },
+      {
+        "text": "       Walle Walle      Walle Walle",
+        "is_chord": false
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": "Dm                             C                  Dm",
+        "is_chord": true
+      },
+      {
+        "text": "Teri Adaa Bhi Hai Jhokenwaali, Chhuke Guzar Jaane De",
+        "is_chord": false
+      },
+      {
+        "text": "Dm              Bb           C                   Dm",
+        "is_chord": true
+      },
+      {
+        "text": "Teri Lachak Hai Jaise Daali, Dil Mein Utar Jaane De",
+        "is_chord": false
+      },
+      {
+        "text": "F                  G",
+        "is_chord": true
+      },
+      {
+        "text": "Aaja Baahon Mein Karke Bahana",
+        "is_chord": false
+      },
+      {
+        "text": "Bb              A",
+        "is_chord": true
+      },
+      {
+        "text": "Hona Hai Tujhme Fanaa",
+        "is_chord": false
+      },
+      {
+        "text": "Dm                Gm            A              Dm",
+        "is_chord": true
+      },
+      {
+        "text": "Chand Sifarish Jo Karta Hamari, Deta Woh Tumko Bata",
+        "is_chord": false
+      },
+      {
+        "text": "Dm             Gm            A               Dm",
+        "is_chord": true
+      },
+      {
+        "text": "Sharmo-Haya Ke Parde Gira Ke Karni Hai Humko Khata",
+        "is_chord": false
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": "[Instrumental]",
+        "is_chord": false
+      },
+      {
+        "text": "Dm Gm Dm Bb Gm",
+        "is_chord": true
+      },
+      {
+        "text": "Dm C Bb A x2",
+        "is_chord": true
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": "      Dm           Gm           A            Dm",
+        "is_chord": true
+      },
+      {
+        "text": "Subhanallah, Subhanallah, Subhanallah, Subhanallah",
+        "is_chord": false
+      },
+      {
+        "text": "      Bb           Gm           A            Dm",
+        "is_chord": true
+      },
+      {
+        "text": "Subhanallah, Subhanallah, Subhanallah, Subhanallah",
+        "is_chord": false
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": "Dm                         C                Dm",
+        "is_chord": true
+      },
+      {
+        "text": "Hai Jo Irade Batadu Tumko, Sharma Hi Jaaogi Tum",
+        "is_chord": false
+      },
+      {
+        "text": "Dm          Bb             C                Dm",
+        "is_chord": true
+      },
+      {
+        "text": "Dhadkane Jo Suna Du Tumko, Gabrah Hi Jaaogi Tum",
+        "is_chord": false
+      },
+      {
+        "text": "F          G",
+        "is_chord": true
+      },
+      {
+        "text": "Humko Aata Nahi Chhupana",
+        "is_chord": false
+      },
+      {
+        "text": "Bb              A",
+        "is_chord": true
+      },
+      {
+        "text": "Hona Hai Tujme Fanaa",
+        "is_chord": false
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": "Dm                Gm            A              Dm",
+        "is_chord": true
+      },
+      {
+        "text": "Chand Sifarish Jo Karta Hamari, Deta Woh Tumko Bata",
+        "is_chord": false
+      },
+      {
+        "text": "Dm             Gm            A               Dm",
+        "is_chord": true
+      },
+      {
+        "text": "Sharmo-Haya Ke Parde Gira Ke Karni Hai Humko Khata",
+        "is_chord": false
+      },
+      {
+        "text": "F                  G",
+        "is_chord": true
+      },
+      {
+        "text": "Zidd Hai Ab To Hai Khud Ko Mitana",
+        "is_chord": false
+      },
+      {
+        "text": "Bb              A",
+        "is_chord": true
+      },
+      {
+        "text": "Hona Hai Tujhme Fanaa",
+        "is_chord": false
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": "Dm  C  Am  Bb  x2",
+        "is_chord": true
+      },
+      {
+        "text": "Whistling",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      }
+    ],
+    "key": "Dm",
+    "singer": "Misc Soundtrack"
+  },
+  {
+    "title": "O Sanam - Lucky Ali",
+    "filename": "O_Sanam_-_Lucky_Ali.md",
+    "capo": "None",
+    "genre": "Campfire",
+    "strumming": "D D UUD DUDU",
+    "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "G    C    A    D",
+        "is_chord": true
+      },
+      {
+        "text": "Hmm, hmm, hmm, hmm X2",
+        "is_chord": false
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": "G    D",
+        "is_chord": true
+      },
+      {
+        "text": "Sham savarea teri",
+        "is_chord": false
+      },
+      {
+        "text": "C           D",
+        "is_chord": true
+      },
+      {
+        "text": "Yadain aati hain",
+        "is_chord": false
+      },
+      {
+        "text": "G      D",
+        "is_chord": true
+      },
+      {
+        "text": "Aaa ke dil ko mere",
+        "is_chord": false
+      },
+      {
+        "text": "C            D",
+        "is_chord": true
+      },
+      {
+        "text": "Yoon tadpati hain",
+        "is_chord": false
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": "C   D     C          D     G",
+        "is_chord": true
+      },
+      {
+        "text": "O sanam mohoobaat ki kasam",
+        "is_chord": false
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": "G    C    A    D",
+        "is_chord": true
+      },
+      {
+        "text": "Hmm, hmm, hmm, hmm X2",
+        "is_chord": false
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": "G     D",
+        "is_chord": true
+      },
+      {
+        "text": "Milke bichadna to",
+        "is_chord": false
+      },
+      {
+        "text": "C            D",
+        "is_chord": true
+      },
+      {
+        "text": "Dastoor ho gaya",
+        "is_chord": false
+      },
+      {
+        "text": "G           D",
+        "is_chord": true
+      },
+      {
+        "text": "Yadoon mein teri main",
+        "is_chord": false
+      },
+      {
+        "text": "   C       D",
+        "is_chord": true
+      },
+      {
+        "text": "Majboor ho gaya",
+        "is_chord": false
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": "C   D      C           D    G",
+        "is_chord": true
+      },
+      {
+        "text": "O Sanam in yadoon ki kasam  Hm",
+        "is_chord": false
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": "G    C    A    D",
+        "is_chord": true
+      },
+      {
+        "text": "Hmm, hmm, hmm, hmm X2",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "G                 D",
+        "is_chord": true
+      },
+      {
+        "text": "Samjhea zamana ki dil hai khilona",
+        "is_chord": false
+      },
+      {
+        "text": "C                    D",
+        "is_chord": true
+      },
+      {
+        "text": "Jaana hai ab kya hai dil ka lagana",
+        "is_chord": false
+      },
+      {
+        "text": "C              D",
+        "is_chord": true
+      },
+      {
+        "text": "Nazron se na ab hum ko girana",
+        "is_chord": false
+      },
+      {
+        "text": "C                D              G",
+        "is_chord": true
+      },
+      {
+        "text": "Mar bhi gaye tho bhool na jaana Hmm",
+        "is_chord": false
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": "G          D            C          D",
+        "is_chord": true
+      },
+      {
+        "text": "Ankhon main basi ho par door ho kahin",
+        "is_chord": false
+      },
+      {
+        "text": "G           D        C             D",
+        "is_chord": true
+      },
+      {
+        "text": "Dil kea kareeb ho ye mujh ko hai yakeen",
+        "is_chord": false
+      },
+      {
+        "text": "C   D        C          D   G",
+        "is_chord": true
+      },
+      {
+        "text": "O sanam tere pyaar ki kasam Hmm",
+        "is_chord": false
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": "G    C    A    D",
+        "is_chord": true
+      },
+      {
+        "text": "Hmm, hmm, hmm, hmm X2",
+        "is_chord": false
+      }
+    ],
+    "key": "D",
+    "singer": "Junaid Jamshed"
+  },
+  {
+    "title": "Pyar Diwana Hota Hai Mastana",
+    "filename": "Pyar_Diwana_Hota_Hai_Mastana.md",
+    "capo": "None",
+    "genre": "Campfire, Hindi",
+    "strumming": "DDU UDU",
+    "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "D            C            D    C    D",
+        "is_chord": true
+      },
+      {
+        "text": "Pyar Deewana Hota Hai, Mastana Hota Hai",
+        "is_chord": false
+      },
+      {
+        "text": "D              C                D    C    D",
+        "is_chord": true
+      },
+      {
+        "text": "Har Khushi Say Har Gham Say, Baigana Hota Hai",
+        "is_chord": false
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": "D                                     G",
+        "is_chord": true
+      },
+      {
+        "text": "Shamma Kahe Parwanay Say, Pare Chala Ja",
+        "is_chord": false
+      },
+      {
+        "text": "C             A                         D",
+        "is_chord": true
+      },
+      {
+        "text": "Meree Tarhaan Jal Jaye Ga, Yahan Nahein Aaa",
+        "is_chord": false
+      },
+      {
+        "text": "D             C            D    C    D",
+        "is_chord": true
+      },
+      {
+        "text": "Woh Nahein Sunta usko, Jal Jana Hota Hai",
+        "is_chord": false
+      },
+      {
+        "text": "D              C                D    C    D",
+        "is_chord": true
+      },
+      {
+        "text": "Har Khushi Say Har Gham Say, Baigana Hota Hai",
+        "is_chord": false
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": "D            C            D    C    D",
+        "is_chord": true
+      },
+      {
+        "text": "Pyar Deewana Hota Hai, Mastana Hota Hai",
+        "is_chord": false
+      },
+      {
+        "text": "D              C                D    C    D",
+        "is_chord": true
+      },
+      {
+        "text": "Har Khushi Say Har Gham Say, Baigana Hota Hai",
+        "is_chord": false
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": "D                                     G",
+        "is_chord": true
+      },
+      {
+        "text": "Rahe koee sau paradon me, Dare sharam se",
+        "is_chord": false
+      },
+      {
+        "text": "C          A                         D",
+        "is_chord": true
+      },
+      {
+        "text": "Najar ajee laakh churaye, Koee sanam se",
+        "is_chord": false
+      },
+      {
+        "text": "D             C                D     C    D",
+        "is_chord": true
+      },
+      {
+        "text": "Aa hee jaataa hain jis pe, Dil aanaa hota hain",
+        "is_chord": false
+      },
+      {
+        "text": "D              C                D    C    D",
+        "is_chord": true
+      },
+      {
+        "text": "Har Khushi Say Har Gham Say, Baigana Hota Hai",
+        "is_chord": false
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": "D                                     G",
+        "is_chord": true
+      },
+      {
+        "text": "Suno kisee shaayar ne ye, Kahaa bahot khub",
+        "is_chord": false
+      },
+      {
+        "text": "C          A                        D",
+        "is_chord": true
+      },
+      {
+        "text": "Manaa kare duniyaan lekin, Mere mehaboob",
+        "is_chord": false
+      },
+      {
+        "text": "D             C              D      C    D",
+        "is_chord": true
+      },
+      {
+        "text": "Wo chhalak jaataa hai, Jo paimaanaa hota hain",
+        "is_chord": false
+      },
+      {
+        "text": "D              C                D    C    D",
+        "is_chord": true
+      },
+      {
+        "text": "Har Khushi Say Har Gham Say, Baigana Hota Hai",
+        "is_chord": false
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": "D            C            D    C    D",
+        "is_chord": true
+      },
+      {
+        "text": "Pyar Deewana Hota Hai, Mastana Hota Hai",
+        "is_chord": false
+      },
+      {
+        "text": "D              C                D    C    D",
+        "is_chord": true
+      },
+      {
+        "text": "Har Khushi Say Har Gham Say, Baigana Hota Hai",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      }
+    ],
+    "key": "D",
+    "singer": "Misc Soundtrack"
+  },
+  {
+    "title": "Ye Shaam Mastani",
+    "filename": "Ye_Shaam_Mastani.md",
+    "capo": "None",
+    "genre": "Campfire, Hindi",
+    "strumming": "DUMU UMU",
+    "lines": [
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": " G                  Em             G",
+        "is_chord": true
+      },
+      {
+        "text": "[Ye shaam mastaani, madahosh kiye jaaye",
+        "is_chord": false
+      },
+      {
+        "text": "      Bm           C         D          G",
+        "is_chord": true
+      },
+      {
+        "text": "mujhe door koi khinche, teri or liye jaaye] X2",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "G                                   D   G",
+        "is_chord": true
+      },
+      {
+        "text": "Hu hu hu huu Huu huu huu.. Hu hu hu huu huuu",
+        "is_chord": false
+      },
+      {
+        "text": "C               G         C         G",
+        "is_chord": true
+      },
+      {
+        "text": "Door rehati hai tu, mere paas aati nahin",
+        "is_chord": false
+      },
+      {
+        "text": "   C        G            C          G",
+        "is_chord": true
+      },
+      {
+        "text": "honthon pe tere, kabhi pyaas aati nahin",
+        "is_chord": false
+      },
+      {
+        "text": "C        D             A             D     C     G",
+        "is_chord": true
+      },
+      {
+        "text": "aisa lage jaise ke tu, hans ke zahar koi piye jaaye",
+        "is_chord": false
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": "G                  Em             G",
+        "is_chord": true
+      },
+      {
+        "text": "Ye shaam mastaani, madahosh kiye jaaye",
+        "is_chord": false
+      },
+      {
+        "text": "      Bm            C        D          G",
+        "is_chord": true
+      },
+      {
+        "text": "mujhe door koi khinche, teri or liye jaaye ",
+        "is_chord": false
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": "C                G          C             G",
+        "is_chord": true
+      },
+      {
+        "text": "Baat jab main karun, mujhe rok deti hain kyun",
+        "is_chord": false
+      },
+      {
+        "text": "   C           G          C              G",
+        "is_chord": true
+      },
+      {
+        "text": "teri meethi nazar, mujhe tok deti hain kyun",
+        "is_chord": false
+      },
+      {
+        "text": "C          D            A               D      C     G",
+        "is_chord": true
+      },
+      {
+        "text": "teri hayaa, teri sharam teri kasam mere hoth siye jaaye",
+        "is_chord": false
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": "G                  Em             G",
+        "is_chord": true
+      },
+      {
+        "text": "Ye shaam mastaani, madahosh kiye jaaye",
+        "is_chord": false
+      },
+      {
+        "text": "      Bm           C         D          G",
+        "is_chord": true
+      },
+      {
+        "text": "mujhe door koi khinche, teri or liye jaaye ",
+        "is_chord": false
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": "C          G         C         G",
+        "is_chord": true
+      },
+      {
+        "text": "Ek ruthhi hui, taqadeer jaise koi",
+        "is_chord": false
+      },
+      {
+        "text": "     C            G         C         G",
+        "is_chord": true
+      },
+      {
+        "text": "khaamosh aise hai tu, tasaweer jaise koi",
+        "is_chord": false
+      },
+      {
+        "text": "C         D               A             D      C     G",
+        "is_chord": true
+      },
+      {
+        "text": "teri nazar, ban ke zubaan lekin tere paigaam diye jaaye",
+        "is_chord": false
+      },
+      {
+        "text": " ",
+        "is_chord": false
+      },
+      {
+        "text": " G                  Em             G",
+        "is_chord": true
+      },
+      {
+        "text": "[Ye shaam mastaani, madahosh kiye jaaye",
+        "is_chord": false
+      },
+      {
+        "text": "      Bm          C           D        G",
+        "is_chord": true
+      },
+      {
+        "text": "mujhe door koi khinche, teri or liye jaaye] X2",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      },
+      {
+        "text": "",
+        "is_chord": false
+      }
+    ],
+    "key": "G",
+    "singer": ""
   }
 ]

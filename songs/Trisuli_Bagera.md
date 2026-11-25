@@ -1,6 +1,8 @@
 # Trisuli Bagera
 
 **Capo:** 2nd fret  
+**Singer:** Misc Soundtrack<br>
+**Key:** C<br>
 **Genre:** Party, campfire  
 **Strumming:** D DU UDU / DM UUM  
 

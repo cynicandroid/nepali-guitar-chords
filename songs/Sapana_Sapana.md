@@ -1,6 +1,8 @@
 # Sapana Sapana
 
 **Capo:** 6th Fret  
+**Singer:** Kumar Sanu<br>
+**Key:** D<br>
 **Genre:** N/A  
 **Strumming:** DUMDU DUMDU  
 

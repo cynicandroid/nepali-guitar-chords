@@ -1,6 +1,8 @@
 # Kal Ho Na Ho
 
 **Capo:** 4th Fret  
+**Singer:** Misc Soundtrack<br>
+**Key:** G<br>
 **Genre:** Campfire, Hindi  
 **Strumming:** DUDUM du  
 

@@ -1,6 +1,8 @@
 # Syndicate Bipul Chhetri_
 
 **Capo:** 9th Fret  
+**Singer:** <br>
+**Key:** G<br>
 **Genre:** Campfire  
 **Strumming:** D UDUD UUD DU  
 

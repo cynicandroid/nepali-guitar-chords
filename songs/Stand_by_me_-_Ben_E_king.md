@@ -1,6 +1,8 @@
 # Stand by me - Ben E. king
 
 **Capo:** None  
+**Singer:** Ben E. King<br>
+**Key:** G<br>
 **Genre:** Campfire, English  
 **Strumming:** DMU UDU  
 

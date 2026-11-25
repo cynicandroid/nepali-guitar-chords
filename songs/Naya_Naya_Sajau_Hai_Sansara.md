@@ -1,6 +1,8 @@
 # Naya Naya Sajau Hai Sansara
 
 **Capo:** 5th Fret  
+**Singer:** Arijit Singh<br>
+**Key:** G<br>
 **Genre:** Campfire  
 **Strumming:** DDU UDU  
 

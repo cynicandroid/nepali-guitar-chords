@@ -1,6 +1,8 @@
 # Chaubandi Ma Patuki
 
 **Capo:** 3rd fret  
+**Singer:** Aastha Raut<br>
+**Key:** C<br>
 **Genre:** Campfire, 4S  
 **Strumming:** DDUM DU  
 

@@ -1,6 +1,8 @@
 # Yo samjhine man cha
 
 **Capo:** 3rd Fret  
+**Singer:** Narayan Gopal<br>
+**Key:** C<br>
 **Genre:** N/A  
 **Strumming:** D U DD D DUDU  
 

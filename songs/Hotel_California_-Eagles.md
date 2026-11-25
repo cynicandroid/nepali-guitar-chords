@@ -1,6 +1,8 @@
 # Hotel California -Eagles
 
 **Capo:** None  
+**Singer:** Eagles<br>
+**Key:** E<br>
 **Genre:** Campfire, English  
 **Strumming:** DD UUD DUDU  
 

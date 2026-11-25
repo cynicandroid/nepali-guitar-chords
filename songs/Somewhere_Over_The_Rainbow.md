@@ -1,6 +1,8 @@
 # Somewhere Over The Rainbow
 
 **Capo:** None  
+**Singer:** Jason Castro<br>
+**Key:** F<br>
 **Genre:** Campfire, English  
 **Strumming:** D DUX DU  
 

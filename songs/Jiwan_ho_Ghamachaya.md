@@ -1,6 +1,8 @@
 # Jiwan ho Ghamachaya
 
 **Capo:**   
+**Singer:** Nepathya<br>
+**Key:** C<br>
 **Genre:** N/A  
 **Strumming:** DD UUD DDU  
 

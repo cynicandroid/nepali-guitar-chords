@@ -1,6 +1,8 @@
 # Mera Dil Bhi Kitna Pagal He
 
 **Capo:** None  
+**Singer:** Kumar Sanu<br>
+**Key:** A<br>
 **Genre:** Campfire, Hindi  
 **Strumming:** D D UUD DUDU  
 

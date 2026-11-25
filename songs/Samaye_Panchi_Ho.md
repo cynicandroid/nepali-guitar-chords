@@ -1,6 +1,8 @@
 # Samaye Panchi Ho
 
 **Capo:** None  
+**Singer:** Danny<br>
+**Key:** F<br>
 **Genre:** Campfire  
 **Strumming:** D DuDu  
 

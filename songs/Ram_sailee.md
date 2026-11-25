@@ -1,6 +1,8 @@
 # Ram sailee
 
 **Capo:** None/ 1st fret  
+**Singer:** Bipul Chettri<br>
+**Key:** G<br>
 **Genre:** Campfire 4S  
 **Strumming:** D (dudu D)  
 

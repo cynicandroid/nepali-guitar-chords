@@ -1,6 +1,8 @@
 # Gurasa Ko Feda Muni
 
 **Capo:**   
+**Singer:** Sabin Rai<br>
+**Key:** Bm<br>
 **Genre:** Party, Campfire  
 **Strumming:** D D UUD DUDU  
 

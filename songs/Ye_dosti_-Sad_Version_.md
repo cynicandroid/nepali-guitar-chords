@@ -1,6 +1,8 @@
 # Ye dosti -Sad Version_
 
 **Capo:** None  
+**Singer:** <br>
+**Key:** F<br>
 **Genre:** Campfire  
 **Strumming:** Down strum slow  
 

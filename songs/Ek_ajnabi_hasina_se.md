@@ -1,6 +1,8 @@
 # Ek ajnabi hasina se
 
 **Capo:** None  
+**Singer:** Misc Soundtrack<br>
+**Key:** G<br>
 **Genre:** Campfire,  Hindi, 5S  
 **Strumming:** D-UM-D-UM-D  
 

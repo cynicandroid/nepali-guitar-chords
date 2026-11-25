@@ -1,6 +1,8 @@
 # Futki jane joban yo
 
 **Capo:** none  
+**Singer:** Sajjan Raj Vaidya<br>
+**Key:** E<br>
 **Genre:** N/A  
 **Strumming:** D UMUDU  
 

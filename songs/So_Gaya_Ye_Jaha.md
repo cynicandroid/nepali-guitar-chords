@@ -1,6 +1,8 @@
 # So Gaya Ye Jaha
 
 **Capo:**   
+**Singer:** <br>
+**Key:** E<br>
 **Genre:** N/A  
 **Strumming:** DMU UDU  
 

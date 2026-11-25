@@ -1,6 +1,8 @@
 # Timro Aankha Ma Dubi Herda
 
 **Capo:** 7th Fret  
+**Singer:** Yogeshwor Amatya<br>
+**Key:** G<br>
 **Genre:** Campfire  
 **Strumming:** D D UUD DUDU  
 

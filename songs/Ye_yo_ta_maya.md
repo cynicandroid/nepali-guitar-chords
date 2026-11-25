@@ -1,6 +1,8 @@
 # Ye yo ta maya
 
 **Capo:** None  
+**Singer:** The Police<br>
+**Key:** G<br>
 **Genre:** N/A  
 **Strumming:** N/A  
 

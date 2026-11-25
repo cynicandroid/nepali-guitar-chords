@@ -1,6 +1,8 @@
 # Na Mana Laaj Yestari
 
 **Capo:** 5th Fret  
+**Singer:** Prem Dhoj Pradhan<br>
+**Key:** C<br>
 **Genre:** N/A  
 **Strumming:** D dudu D dudu  
 

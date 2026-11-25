@@ -1,6 +1,8 @@
 # Sweet Caroline
 
 **Capo:**   
+**Singer:** Neil Diamond<br>
+**Key:** D<br>
 **Genre:** N/A  
 **Strumming:** D-DUMUDU /DD-DUDU-DUDU-DUDU  
 

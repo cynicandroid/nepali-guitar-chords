@@ -1,6 +1,8 @@
 # Ago Lagyo Dilai Ma Damkal Bolayideu
 
 **Capo:** None  
+**Singer:** Thupten Bhutia<br>
+**Key:** A<br>
 **Genre:** Party  
 **Strumming:** D U DUDU  
 

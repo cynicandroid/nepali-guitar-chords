@@ -1,6 +1,8 @@
 # Sadhai Sadhai
 
 **Capo:**   
+**Singer:** Mantra (Nepal)<br>
+**Key:** A<br>
 **Genre:** Campfire, 5S  
 **Strumming:** D-DUUD-DUD  
 

@@ -1,6 +1,8 @@
 # Dherai Choti Ankha Judhyo
 
 **Capo:** No capo  
+**Singer:** <br>
+**Key:** Em<br>
 **Genre:** Campfire, 4S  
 **Strumming:** DDU UDU  
 

@@ -1,6 +1,8 @@
 # Suna Saili
 
 **Capo:** None  
+**Singer:** <br>
+**Key:** G<br>
 **Genre:** Campfire  
 **Strumming:** D U DUDU  
 

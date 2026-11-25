@@ -1,6 +1,8 @@
 # Suntali Mai Katima Ramro Darbara
 
 **Capo:** , 44, (20L,50M,20H)  
+**Singer:** <br>
+**Key:** Am<br>
 **Genre:** Party , 5S, OldSchool  
 **Strumming:** DUMUDU  
 

@@ -1,6 +1,8 @@
 # Hai Apna Din To Awara
 
 **Capo:** None  
+**Singer:** Sanam<br>
+**Key:** A<br>
 **Genre:** N/A  
 **Strumming:** DD DD DD DD/DU DU DU DU  
 

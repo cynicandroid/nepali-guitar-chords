@@ -1,6 +1,8 @@
 # Hamro Nepal Ma
 
 **Capo:** 2nd Fret  
+**Singer:** Neetesh Jung Kunwar<br>
+**Key:** C<br>
 **Genre:** N/A  
 **Strumming:** D UDU M  DU  
 

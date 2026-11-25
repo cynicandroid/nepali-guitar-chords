@@ -1,6 +1,8 @@
 # Dui Pate Suiro
 
 **Capo:** None  
+**Singer:** Udit Narayan<br>
+**Key:** G#<br>
 **Genre:** Campfire  
 **Strumming:** DU DDU  
 

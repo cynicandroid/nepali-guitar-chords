@@ -1,6 +1,8 @@
 # I Am Very Sorry (Fateko Jutta)
 
 **Capo:** 6th Fret  
+**Singer:** Wilbur Soot<br>
+**Key:** C<br>
 **Genre:** Party  
 **Strumming:**   
 

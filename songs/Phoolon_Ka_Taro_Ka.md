@@ -1,6 +1,8 @@
 # Phoolon Ka Taro Ka
 
 **Capo:** None  
+**Singer:** Kishor Kumar<br>
+**Key:** G<br>
 **Genre:** Campfire Party Hindi  
 **Strumming:** D D UUD DDU  
 

@@ -1,6 +1,8 @@
 # Pehla Nasha
 
 **Capo:** none, Key : F  
+**Singer:** Udit Narayan<br>
+**Key:** F<br>
 **Genre:** N/A  
 **Strumming:** DD UUD DUDU  
 

@@ -1,6 +1,8 @@
 # Sasson Ki Jarurat Hai Jaise
 
 **Capo:** None  
+**Singer:** Kumar Sanu<br>
+**Key:** G<br>
 **Genre:** Campfire, Hindi  
 **Strumming:** D DUDU  
 

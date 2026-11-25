@@ -1,6 +1,8 @@
 # Jab Koi Baat Bigad Jaye
 
 **Capo:** 3rd Fret  
+**Singer:** Misc Soundtrack<br>
+**Key:** D<br>
 **Genre:** Campfire, Hindi  
 **Strumming:** D DU UDU  
 

@@ -1,6 +1,8 @@
 # Sanjha Pakha
 
 **Capo:** No Capo, Key : E  
+**Singer:** Nabin K Bhattarai<br>
+**Key:** E<br>
 **Genre:** Campfire  
 **Strumming:** DUMUD D DUDU / DM DUM  
 

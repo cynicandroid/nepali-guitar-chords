@@ -1,6 +1,8 @@
 # Dashain Tihar
 
 **Capo:** 4th Fret  
+**Singer:** Sugam Pokhrel<br>
+**Key:** A<br>
 **Genre:** Party  
 **Strumming:** D UMDU  
 

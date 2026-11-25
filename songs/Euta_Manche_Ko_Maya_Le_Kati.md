@@ -1,6 +1,8 @@
 # Euta Manche Ko Maya Le Kati
 
 **Capo:** None, Key : F, Narayan  
+**Singer:** Narayan Gopal<br>
+**Key:** F<br>
 **Genre:** Campfire 5S  
 **Strumming:** DU MUD D DUDU  
 

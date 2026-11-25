@@ -1,6 +1,8 @@
 # Chukar Mere Man Ko
 
 **Capo:** None  
+**Singer:** Misc Soundtrack<br>
+**Key:** D<br>
 **Genre:** Campfire, Hindi, 5S  
 **Strumming:** DDU UDU  
 

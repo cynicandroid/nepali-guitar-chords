@@ -1,6 +1,8 @@
 # Timi Pari Tyo Gau Ma
 
 **Capo:** None  
+**Singer:** <br>
+**Key:** C<br>
 **Genre:** Campfire 4S  
 **Strumming:** DUMU UMU  
 

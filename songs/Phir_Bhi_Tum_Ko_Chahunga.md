@@ -1,6 +1,8 @@
 # Phir Bhi Tum Ko Chahunga
 
 **Capo:** None  
+**Singer:** Arjit Singh<br>
+**Key:** F<br>
 **Genre:** N/A  
 **Strumming:** N/A  
 

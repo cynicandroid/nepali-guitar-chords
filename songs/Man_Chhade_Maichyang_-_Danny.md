@@ -1,6 +1,8 @@
 # Man Chhade Maichyang - Danny
 
 **Capo:** None  
+**Singer:** Danny<br>
+**Key:** G<br>
 **Genre:** N/A  
 **Strumming:** N/A  
 

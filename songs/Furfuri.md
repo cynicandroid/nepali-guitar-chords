@@ -1,6 +1,8 @@
 # Furfuri
 
 **Capo:** 6th Fret  
+**Singer:** Kuma Sagar<br>
+**Key:** Em<br>
 **Genre:** Party, 5S  
 **Strumming:** D UM DU  
 

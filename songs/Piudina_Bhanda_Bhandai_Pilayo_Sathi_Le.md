@@ -1,6 +1,8 @@
 # Piudina Bhanda Bhandai Pilayo Sathi Le
 
 **Capo:** 5th Fret  
+**Singer:** <br>
+**Key:** C<br>
 **Genre:** N/A  
 **Strumming:** DD UUD DUDU  
 

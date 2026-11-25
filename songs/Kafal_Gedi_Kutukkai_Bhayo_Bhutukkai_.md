@@ -1,6 +1,8 @@
 # Kafal Gedi Kutukkai Bhayo Bhutukkai_
 
 **Capo:** 2nd fret  
+**Singer:** <br>
+**Key:** G<br>
 **Genre:** Party,oldschool, 4S 
 **Strumming:** DUMD 
 

@@ -1,6 +1,8 @@
 # Asare Mahina Ma
 
 **Capo:** None  
+**Singer:** Chhusang Dukpa<br>
+**Key:** C<br>
 **Genre:** Campfire  
 **Strumming:** DU DUDU  
 

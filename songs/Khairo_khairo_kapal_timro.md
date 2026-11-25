@@ -1,6 +1,8 @@
 # Khairo khairo kapal timro
 
 **Capo:** None  
+**Singer:** Adrian Pradhan<br>
+**Key:** A<br>
 **Genre:** Party, 3S  
 **Strumming:** DUMDU  
 

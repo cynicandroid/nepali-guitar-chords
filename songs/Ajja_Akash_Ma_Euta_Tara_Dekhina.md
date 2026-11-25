@@ -1,6 +1,8 @@
 # Ajja Akash Ma Euta Tara Dekhina
 
 **Capo:** None  
+**Singer:** Dambar Nepali<br>
+**Key:** Am<br>
 **Genre:** N/A  
 **Strumming:** D D UUD DDU  
 

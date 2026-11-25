@@ -1,6 +1,8 @@
 # Hukka Mero
 
 **Capo:** none  
+**Singer:** Karma Band<br>
+**Key:** Am<br>
 **Genre:** Party, 5S  
 **Strumming:** DUSUDU  
 

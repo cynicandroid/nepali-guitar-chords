@@ -1,6 +1,8 @@
 # Ye dosti
 
 **Capo:**   
+**Singer:** Misc Mashups<br>
+**Key:** A<br>
 **Genre:** N/A  
 **Strumming:** D DU UDU  
 

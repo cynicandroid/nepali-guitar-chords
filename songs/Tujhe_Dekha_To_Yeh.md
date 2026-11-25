@@ -1,6 +1,8 @@
 # Tujhe Dekha To Yeh
 
 **Capo:** None  
+**Singer:** Misc Soundtrack<br>
+**Key:** Em<br>
 **Genre:** Campfire Hindi  
 **Strumming:** DDUM DU  
 

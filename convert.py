@@ -11,6 +11,32 @@ CHORD_REGEX = re.compile(
     r'^[A-G][#b]?(?:m|min|maj|dim|aug|sus|add|m7|maj7|7|9|11|13|add9|sus2|sus4|2|4|5|6)*(?:/[A-G][#b]?)?$'
 )
 
+KEY_CHORD_REGEX = re.compile(r'^([A-G](?:#|b)?)(m|min|maj|dim|aug|sus|add|m7|maj7|7|9|11|13|add9|sus2|sus4|2|4|5|6)*(?:/[A-G](?:#|b)?)?$')
+NOTE_FLATS = {'Db': 'C#', 'Eb': 'D#', 'Gb': 'F#', 'Ab': 'G#', 'Bb': 'A#'}
+
+def infer_key(body_lines):
+    counts = {}
+    qualities = {}
+    order = []
+    for line in body_lines:
+        if not is_chord_line(line):
+            continue
+        for token in line.split():
+            token = token.strip('[]()r,[]xX1234567890-|:—')
+            match = KEY_CHORD_REGEX.match(token)
+            if not match:
+                continue
+            root = NOTE_FLATS.get(match.group(1), match.group(1))
+            counts[root] = counts.get(root, 0) + 1
+            qualities.setdefault(root, []).append(match.group(2) or '')
+            if root not in order:
+                order.append(root)
+    if not counts:
+        return 'N/A'
+    tonic = max(counts, key=lambda root: (counts[root], -order.index(root)))
+    minor_count = sum(q.startswith(('m', 'min')) for q in qualities[tonic])
+    return tonic + ('m' if minor_count > len(qualities[tonic]) / 2 else '')
+
 def is_chord_line(line):
     if not line.strip():
         return False
@@ -87,6 +113,14 @@ def parse_docx(filepath):
 
 def main():
     os.makedirs('songs', exist_ok=True)
+
+    # Singer credits are curated separately from the DOCX charts. Keep them
+    # across conversions without requiring changes to the source documents.
+    try:
+        with open('singers.json', encoding='utf-8') as f:
+            singer_credits = json.load(f)
+    except FileNotFoundError:
+        singer_credits = {}
     
     # Find all .docx files in Guitar Tabs/
     docx_files = sorted(glob.glob('Guitar Tabs/*.docx'))
@@ -101,6 +135,7 @@ def main():
         metadata, body_lines = parse_docx(filepath)
         if metadata is None:
             continue
+        metadata['key'] = infer_key(body_lines)
             
         # Clean title for filename (replace spaces with underscores and remove special characters)
         safe_title = re.sub(r'[^a-zA-Z0-9_\-]', '', title.replace(' ', '_'))
@@ -131,7 +166,9 @@ def main():
         json_songs.append({
             'title': s['title'],
             'filename': s['filename'],
+            'singer': singer_credits.get(s['filename'], 'None'),
             'capo': s['metadata']['capo'],
+            'key': s['metadata']['key'],
             'genre': s['metadata']['genre'],
             'strumming': s['metadata']['strumming'],
             'lines': lines_data
@@ -151,6 +188,8 @@ def main():
         
         # Metadata
         md_content.append(f"**Capo:** {s['metadata']['capo']}  ")
+        md_content.append(f"**Singer:** {singer_credits.get(s['filename'], 'None')}<br>")
+        md_content.append(f"**Key:** {s['metadata']['key']}<br>")
         md_content.append(f"**Genre:** {s['metadata']['genre']}  ")
         md_content.append(f"**Strumming:** {s['metadata']['strumming']}  \n")
         md_content.append("---\n")
@@ -178,15 +217,18 @@ def main():
     readme_content = []
     readme_content.append("# 🎶 Nepali Guitar Chords & Tabs Collection 🎸\n")
     readme_content.append("[License: GNU GPL v3 or later](LICENSE.md) · [Full license text](LICENSE)\n")
-    readme_content.append("Welcome to the **Nepali Guitar Chords & Tabs Collection**! This repository is an interactive, digital songbook containing chords and lyrics for over 200+ popular Nepali, Hindi, and English songs.\n")
+    readme_content.append(f"Welcome to the **Nepali Guitar Chords & Tabs Collection**! This project includes {len(songs)} Nepali, Hindi, and English song charts, a searchable browser songbook, and practice tools for guitar and tabla.\n")
     
     readme_content.append("## 🌟 Features\n")
-    readme_content.append("- **Perfect Chord Alignment:** Every song is rendered using a monospaced layout to ensure that chord symbols remain perfectly aligned above the lyrics, matching the original formatting.")
-    readme_content.append("- **Seamless Sequential Navigation:** Every song includes handy `⏮️ Previous` and `⏭️ Next` links, allowing you to flip through the songbook sequentially like a real binder.")
-    readme_content.append("- **Instant Search & Transposition Web App:** Launch the companion static web app to search songs instantly, adjust font sizes, auto-scroll, and **transpose chords** on-the-fly to match your voice!\n")
+    readme_content.append("- **Search and navigation:** Browse alphabetically or search by song, genre, and capo. Song charts include capo, likely key, genre, strumming pattern, and lyrics/chords.")
+    readme_content.append("- **Practice tools:** Transpose chords, use adjustable auto-scroll and metronome, and play drum, tabla, and strumming-pattern accompaniments.")
+    readme_content.append("- **Favorites and history:** Save favorite songs, see play counts, and revisit recently opened songs.")
+    readme_content.append("- **Performance support:** Use the Circle of Fifths key reference, fullscreen, screen-awake mode, themes, and adjustable text size where supported.")
+    readme_content.append("- **Installable and offline capable:** The progressive web app caches the app and practice audio and offers an update prompt when a new version is ready.\n")
     
     readme_content.append("## 🖥️ Interactive Web Companion (GitHub Pages)\n")
-    readme_content.append("You can open `index.html` in any browser to launch the beautiful, responsive, mobile-friendly songbook web app. It is completely static and ready to be hosted on **GitHub Pages**!\n")
+    readme_content.append("The app is a static site and can be hosted on **GitHub Pages** or another static web host. Run it from a local HTTP server; opening `index.html` directly as a `file://` URL does not support JavaScript modules and data loading.\n")
+    readme_content.append("Start locally with `python3 server.py` and open `http://localhost:8000`, or use `just serve`. Use HTTPS on a public host for service workers, installation, fullscreen, and Screen Wake Lock where supported.\n")
     readme_content.append("### Dependencies and Installation\n")
     readme_content.append("Required:\n")
     readme_content.append("- Python 3.9 or newer — used by `server.py` and `convert.py`")
@@ -200,12 +242,8 @@ def main():
     readme_content.append("If Homebrew is not installed, install Python from [python.org](https://www.python.org/downloads/) or use the Python installation already available on your Mac. Just can be installed separately using its [installation instructions](https://github.com/casey/just#installation).\n")
     readme_content.append("#### Linux\n\nOn Debian or Ubuntu:\n\n```bash\nsudo apt update\nsudo apt install python3 just\n```\n\nOn Fedora:\n\n```bash\nsudo dnf install python3\n```\n\nJust can be installed separately on distributions that do not package it. Verify with `python3 --version` and `just --version`. Start the server with:\n\n```bash\njust serve\n```\n")
     readme_content.append("#### Windows\n\nInstall Python 3 from [python.org](https://www.python.org/downloads/windows/) and enable **Add Python to PATH** during installation. In PowerShell, verify it with:\n\n```powershell\npy --version\n```\n\nInstall Just using [Scoop](https://scoop.sh/):\n\n```powershell\nscoop install just\n```\n\nOr install it using [Chocolatey](https://chocolatey.org/install):\n\n```powershell\nchoco install just\n```\n\nStart the server without Just:\n\n```powershell\npy server.py\n```\n\nOr with Just:\n\n```powershell\njust serve\n```\n")
-    readme_content.append("### Web App Highlights:\n")
-    readme_content.append("- 🔍 **Instant Search:** Find any song by title in milliseconds.")
-    readme_content.append("- 🎼 **Transposition:** Transpose the key of any song up or down with a single click (with column alignment preserved!).")
-    readme_content.append("- 📜 **Auto-Scroll:** Play hands-free with adjustable scrolling speed.")
-    readme_content.append("- 🌓 **Dark Mode:** Easy on the eyes for late-night campfire jam sessions.")
-    readme_content.append("- 📏 **Font Adjuster:** Zoom in or out to fit your screen perfectly.\n")
+    readme_content.append("### App updates\n")
+    readme_content.append("The service worker precaches a versioned application shell and practice audio. New versions are staged and offered through an in-app prompt; choosing **Update now** activates the staged version and reloads the page. Increment `CACHE_NAME` in `sw.js` when changing precached files. The song directory (`songs.json`) refreshes from the network when available and falls back to its cached copy offline.\n")
     
     # Check if chord chart images exist in Guitar Tabs/
     readme_content.append("## 📊 Reference Charts\n")

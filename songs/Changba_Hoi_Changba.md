@@ -1,6 +1,8 @@
 # Changba Hoi Changba
 
 **Capo:** None  
+**Singer:** Kranti Ale<br>
+**Key:** Am<br>
 **Genre:** Party  
 **Strumming:** DUM DU, Barre  
 

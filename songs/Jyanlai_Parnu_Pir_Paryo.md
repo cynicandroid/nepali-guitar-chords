@@ -1,6 +1,8 @@
 # Jyanlai Parnu Pir Paryo
 
 **Capo:** None  
+**Singer:** <br>
+**Key:** G<br>
 **Genre:** Party, OldSchool, 4S  
 **Strumming:** DUMDU  
 

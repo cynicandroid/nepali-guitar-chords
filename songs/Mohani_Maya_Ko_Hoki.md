@@ -1,6 +1,8 @@
 # Mohani Maya Ko Hoki
 
 **Capo:** 7th fret  
+**Singer:** Kumar Kancha<br>
+**Key:** G<br>
 **Genre:** Campfire  
 **Strumming:** DUM—-DUD–UM  
 

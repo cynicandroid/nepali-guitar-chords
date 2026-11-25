@@ -1,6 +1,8 @@
 # Pokhiyera Gham Ko Jhulka
 
 **Capo:** 5th Fret  
+**Singer:** Narayan Gopal<br>
+**Key:** A<br>
 **Genre:** Campfire  
 **Strumming:** D DUDU  
 

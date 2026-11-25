@@ -1,6 +1,8 @@
 # Kalilo Tamalai Sodha Rama Lai
 
 **Capo:** None, all Barre Chords  
+**Singer:** Padam Bista<br>
+**Key:** G<br>
 **Genre:** Party, 4S, OldSchool  
 **Strumming:** DDUMDU  
 

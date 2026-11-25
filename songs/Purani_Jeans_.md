@@ -1,6 +1,8 @@
 # Purani Jeans_
 
 **Capo:** None  
+**Singer:** Ali Haider<br>
+**Key:** C<br>
 **Genre:** N/A  
 **Strumming:** N/A  
 

@@ -1,6 +1,8 @@
 # Timro Tyo Hasilo Muhar Ko
 
 **Capo:**   
+**Singer:** Deepak Kharel<br>
+**Key:** D<br>
 **Genre:** Campfire  
 **Strumming:** D D UUD DDU  
 

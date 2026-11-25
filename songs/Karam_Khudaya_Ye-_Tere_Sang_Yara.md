@@ -1,6 +1,8 @@
 # Karam Khudaya Ye- Tere Sang Yara
 
 **Capo:** 1st Fret  
+**Singer:** Atif Aslam<br>
+**Key:** G<br>
 **Genre:** Campfire, Hindi  
 **Strumming:** DDU UDU  
 

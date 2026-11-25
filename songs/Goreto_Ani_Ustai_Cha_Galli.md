@@ -1,6 +1,8 @@
 # Goreto Ani Ustai Cha Galli
 
 **Capo:** 3rd Fret, G Major  
+**Singer:** Sunil Bardewa<br>
+**Key:** G<br>
 **Genre:** Campfire  
 **Strumming:** DUDD D DUDU  
 

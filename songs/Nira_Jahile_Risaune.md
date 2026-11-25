@@ -1,6 +1,8 @@
 # Nira Jahile Risaune
 
 **Capo:**   
+**Singer:** Kali Prasad Rijal<br>
+**Key:** A<br>
 **Genre:** N/A  
 **Strumming:** DUMDU  
 

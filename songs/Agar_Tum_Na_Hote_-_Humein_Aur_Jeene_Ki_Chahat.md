@@ -1,6 +1,8 @@
 # Agar Tum Na Hote - Humein Aur Jeene Ki Chahat
 
 **Capo:** None  
+**Singer:** Kishor Kumar<br>
+**Key:** F<br>
 **Genre:** Campfire, Hindi 4S  
 **Strumming:** D DU UDU  
 

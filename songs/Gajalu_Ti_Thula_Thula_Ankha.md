@@ -1,6 +1,8 @@
 # Gajalu Ti Thula Thula Ankha
 
 **Capo:** None,  
+**Singer:** Gulam Ali<br>
+**Key:** F<br>
 **Genre:** N/A  
 **Strumming:** N/A  
 

@@ -1,6 +1,8 @@
 # Hera Na Hera Kancha
 
 **Capo:** none  
+**Singer:** Aruna Lama<br>
+**Key:** D<br>
 **Genre:** Campfire, oldschool  
 **Strumming:** DDUMUDU  
 

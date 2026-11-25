@@ -1,6 +1,8 @@
 # Kahi Door Jab Din Dhaljaye
 
 **Capo:** 4th Fret  
+**Singer:** Misc Soundtrack<br>
+**Key:** C<br>
 **Genre:** N/A  
 **Strumming:** D DUDUD D D  
 

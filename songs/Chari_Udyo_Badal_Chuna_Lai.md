@@ -1,6 +1,8 @@
 # Chari Udyo Badal Chuna Lai
 
 **Capo:** 1st Fret  
+**Singer:** Sad Rose<br>
+**Key:** G<br>
 **Genre:** Campfire, 5S  
 **Strumming:** DUM DU  
 

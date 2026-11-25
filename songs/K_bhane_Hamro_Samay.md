@@ -1,6 +1,8 @@
 # K bhane Hamro Samay
 
 **Capo:** 6th Fret  
+**Singer:** Anuprastha<br>
+**Key:** G<br>
 **Genre:** Party, OldSchool
 **Strumming:** DUM DU
 

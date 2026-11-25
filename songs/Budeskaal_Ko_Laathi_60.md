@@ -1,6 +1,8 @@
 # Budeskaal Ko Laathi (60)
 
 **Capo:** 4th Fret  
+**Singer:** Mt. 8848<br>
+**Key:** G<br>
 **Genre:** Party  
 **Strumming:** D D UUD DDU  
 

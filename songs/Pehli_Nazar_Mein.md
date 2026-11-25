@@ -1,6 +1,8 @@
 # Pehli Nazar Mein
 
 **Capo:** None  
+**Singer:** Samir Shrestha<br>
+**Key:** D<br>
 **Genre:** N/A  
 **Strumming:** N/A  
 

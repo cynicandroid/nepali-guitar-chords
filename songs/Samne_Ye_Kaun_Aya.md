@@ -1,6 +1,8 @@
 # Samne Ye Kaun Aya
 
 **Capo:** None  
+**Singer:** Misc Soundtrack<br>
+**Key:** E<br>
 **Genre:** N/A  
 **Strumming:** DDU UDU  
 

@@ -1,6 +1,8 @@
 # Kanchi He Kanchi
 
 **Capo:** None  
+**Singer:** Aruna Lama<br>
+**Key:** F<br>
 **Genre:** N/A  
 **Strumming:** DU SU DU  
 

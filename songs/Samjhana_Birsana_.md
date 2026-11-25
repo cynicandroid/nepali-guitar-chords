@@ -1,6 +1,8 @@
 # Samjhana Birsana_
 
 **Capo:** None  
+**Singer:** Udit Narayan<br>
+**Key:** G<br>
 **Genre:** N/A  
 **Strumming:** N/A  
 

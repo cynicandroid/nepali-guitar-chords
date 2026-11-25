@@ -1,6 +1,8 @@
 # Dherai Dherai Aucha Man Ma
 
 **Capo:** None,  
+**Singer:** Situsit<br>
+**Key:** D<br>
 **Genre:** N/A  
 **Strumming:** N/A  
 

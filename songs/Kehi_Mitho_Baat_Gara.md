@@ -1,6 +1,8 @@
 # Kehi Mitho Baat Gara
 
 **Capo:** None, Narayan  
+**Singer:** Narayan Gopal<br>
+**Key:** F<br>
 **Genre:** N/A  
 **Strumming:** N/A  
 

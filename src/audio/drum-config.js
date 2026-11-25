@@ -1,0 +1,20 @@
+export const DRUM_BEATS = {
+    'pop-44':  { meter: 4, kick: [0, 4], snare: [2, 6], hat: [0, 1, 2, 3, 4, 5, 6, 7] },
+    'rock-44': { meter: 4, kick: [0, 3, 4], snare: [2, 6], hat: [0, 2, 4, 6] },
+    'pop-34':  { meter: 3, kick: [0], snare: [2, 4], hat: [0, 2, 4] },
+    'rock-34': { meter: 3, kick: [0, 4], snare: [2], hat: [0, 2, 4] },
+    'pop-24':  { meter: 2, kick: [0], snare: [2], hat: [0, 1, 2, 3] },
+    'rock-24': { meter: 2, kick: [0, 2], snare: [1, 3], hat: [0, 1, 2, 3] },
+    'jazz-44': { meter: 4, kick: [0, 4], snare: [2, 6], hat: [1, 3, 5, 7] },
+    'jazz-34': { meter: 3, kick: [0], snare: [2, 4], hat: [1, 3, 5] },
+    'jazz-24': { meter: 2, kick: [0], snare: [2], hat: [1, 3] },
+    'funk-44': { meter: 4, kick: [0, 3, 5], snare: [2, 6], hat: [0, 1, 2, 3, 4, 5, 6, 7] },
+    'funk-34': { meter: 3, kick: [0, 3], snare: [2, 4], hat: [0, 1, 2, 3, 4, 5] },
+    'funk-24': { meter: 2, kick: [0, 3], snare: [2], hat: [0, 1, 2, 3] },
+    'disco-44': { meter: 4, kick: [0, 2, 4, 6], snare: [2, 6], hat: [0, 1, 2, 3, 4, 5, 6, 7] },
+    'disco-34': { meter: 3, kick: [0, 2, 4], snare: [2, 4], hat: [0, 1, 2, 3, 4, 5] },
+    'disco-24': { meter: 2, kick: [0, 2], snare: [2], hat: [0, 1, 2, 3] },
+    'hiphop-44': { meter: 4, kick: [0, 5], snare: [2, 6], hat: [0, 1, 2, 3, 4, 5, 6, 7] },
+    'hiphop-34': { meter: 3, kick: [0, 4], snare: [2], hat: [0, 2, 3, 4, 5] },
+    'hiphop-24': { meter: 2, kick: [0, 3], snare: [2], hat: [0, 1, 2, 3] }
+};

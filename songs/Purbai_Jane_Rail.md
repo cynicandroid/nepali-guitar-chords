@@ -1,6 +1,8 @@
 # Purbai Jane Rail
 
 **Capo:** None  
+**Singer:** <br>
+**Key:** A<br>
 **Genre:** Party, 5S  
 **Strumming:** (DUDU)MUDU Bar, slur the roll  
 

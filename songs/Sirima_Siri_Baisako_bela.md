@@ -1,6 +1,8 @@
 # Sirima Siri Baisako bela
 
 **Capo:** None  
+**Singer:** Sanjeep Pradhan<br>
+**Key:** D<br>
 **Genre:** Party  
 **Strumming:** DUM  
 

@@ -1,6 +1,8 @@
 # Mein tenu Samjhawa
 
 **Capo:** none  
+**Singer:** Misc Soundtrack<br>
+**Key:** A<br>
 **Genre:** Campfire, Hindi 5S  
 **Strumming:** DM UUM  
 

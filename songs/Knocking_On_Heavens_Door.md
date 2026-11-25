@@ -1,6 +1,8 @@
 # Knocking On Heavens Door
 
 **Capo:** None  
+**Singer:** Eric Clapton<br>
+**Key:** G<br>
 **Genre:** Campfire Party, English  
 **Strumming:** d-d-D-du (G, D)  
 

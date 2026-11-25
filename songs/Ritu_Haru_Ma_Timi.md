@@ -1,6 +1,8 @@
 # Ritu Haru Ma Timi
 
 **Capo:** 5th fret  
+**Singer:** Arun Thapa<br>
+**Key:** C<br>
 **Genre:** Campfire  
 **Strumming:** DDU UDU  
 

@@ -1,6 +1,8 @@
 # Raataan Lambiyan
 
 **Capo:** 3rd Fret  
+**Singer:** Misc Soundtrack<br>
+**Key:** C<br>
 **Genre:** Campfire Party  
 **Strumming:** DUM D  
 

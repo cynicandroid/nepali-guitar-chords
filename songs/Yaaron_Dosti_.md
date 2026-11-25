@@ -1,6 +1,8 @@
 # Yaaron Dosti_
 
 **Capo:** None, Key: F  
+**Singer:** <br>
+**Key:** A#<br>
 **Genre:** Campfire Party  
 **Strumming:** DDU UDU  
 
