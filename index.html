@@ -22,7 +22,7 @@
 
     <aside>
         <div class="sidebar-header">
-            <h1 onclick="showHome()">Nepali Chords <span class="app-version">v6</span></h1>
+            <h1 onclick="showHome()">Nepali Chords <span class="app-version">v7</span></h1>
             <div class="sidebar-nav-actions">
                 <button class="home-nav-btn" onclick="showHome()" title="Go to home"><span class="nav-icon">🏠</span><span>Home</span></button>
                 <button class="home-nav-btn" onclick="showFavorites()" title="Show favorite songs"><span class="nav-icon" aria-hidden="true">☆</span><span>Favorites</span></button>
@@ -64,8 +64,10 @@
                 </div>
                 <button class="btn" onclick="adjustFontSize(1)" title="Increase Font Size">A+</button>
                 <button class="btn" onclick="adjustFontSize(-1)" title="Decrease Font Size">A-</button>
+                <span id="scrollBtnHomeSlot" hidden></span>
                 <button class="btn" id="scrollBtn" onclick="toggleAutoScroll()" title="Auto Scroll">📜 Scroll</button>
                 <button class="btn" id="metronomeBtn" onclick="toggleMetronome()" title="Start metronome">♩ Metronome</button>
+                <span id="fullscreenBtnHomeSlot" hidden></span>
                 <button class="btn" id="fullscreenBtn" onclick="toggleFullscreen()" title="Enter full-screen song mode">⛶ Fullscreen</button>
                 <button class="btn" onclick="toggleTheme()" title="Toggle Dark/Light Mode">🌓</button>
             </div>

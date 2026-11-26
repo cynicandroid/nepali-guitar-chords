@@ -1339,5 +1339,28 @@ document.addEventListener('keydown', event => {
 document.addEventListener('fullscreenchange', () => {
     const button = document.getElementById('fullscreenBtn');
     if (button) button.textContent = document.fullscreenElement ? '⛶ Exit fullscreen' : '⛶ Fullscreen';
+    arrangeMobileFullscreenControls();
 });
+
+function arrangeMobileFullscreenControls() {
+    const scrollButton = document.getElementById('scrollBtn');
+    const fullscreenButton = document.getElementById('fullscreenBtn');
+    const scrollControls = document.getElementById('scrollControls');
+    const scrollSlot = document.getElementById('scrollBtnHomeSlot');
+    const fullscreenSlot = document.getElementById('fullscreenBtnHomeSlot');
+    if (!scrollButton || !fullscreenButton || !scrollControls || !scrollSlot || !fullscreenSlot) return;
+
+    const mobileFullscreen = Boolean(document.fullscreenElement)
+        && window.matchMedia('(max-width: 768px)').matches;
+    if (mobileFullscreen) {
+        scrollControls.append(scrollButton, fullscreenButton);
+        scrollControls.classList.add('mobile-fullscreen-controls');
+        return;
+    }
+
+    scrollSlot.before(scrollButton);
+    fullscreenSlot.before(fullscreenButton);
+    scrollControls.classList.remove('mobile-fullscreen-controls');
+}
+window.addEventListener('resize', arrangeMobileFullscreenControls);
 document.addEventListener('DOMContentLoaded', init);
