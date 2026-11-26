@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Nachideu Maichang_](Nachideu_Maichang_.md) | [🏡 Song List](../README.md) | [⏭️ Next: Neele Neele Ambar Par](Neele_Neele_Ambar_Par.md)
-
----
-
 ```text
 
 G                    D     G
@@ -72,7 +68,3 @@ naya naya sajaau hai sansaar
 G                       D   G
 sukha dukhkha batau hai milera
 ```
-
----
-
-[⏮️ Previous: Nachideu Maichang_](Nachideu_Maichang_.md) | [🏡 Song List](../README.md) | [⏭️ Next: Neele Neele Ambar Par](Neele_Neele_Ambar_Par.md)

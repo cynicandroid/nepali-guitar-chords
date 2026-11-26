@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Country Road](Country_Road.md) | [🏡 Song List](../README.md) | [⏭️ Next: Dashain Tihar](Dashain_Tihar.md)
-
----
-
 ```text
 
  Em
@@ -79,7 +75,3 @@ A
 Resham firiri
 
 ```
-
----
-
-[⏮️ Previous: Country Road](Country_Road.md) | [🏡 Song List](../README.md) | [⏭️ Next: Dashain Tihar](Dashain_Tihar.md)

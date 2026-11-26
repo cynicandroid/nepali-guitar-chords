@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Pehla Nasha](Pehla_Nasha.md) | [🏡 Song List](../README.md) | [⏭️ Next: Pehli Nazar Mein](Pehli_Nazar_Mein.md)
-
----
-
 ```text
 
 [Intro, Slow down strokes only] 
@@ -94,7 +90,3 @@ Tu hi bata
 
 
 ```
-
----
-
-[⏮️ Previous: Pehla Nasha](Pehla_Nasha.md) | [🏡 Song List](../README.md) | [⏭️ Next: Pehli Nazar Mein](Pehli_Nazar_Mein.md)

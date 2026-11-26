@@ -416,20 +416,6 @@ function updateFavoriteButton() {
     button.title = selected ? 'Remove from favorites' : 'Add to favorites';
 }
 
-function sortedLetters() {
-    const setLetters = new Set();
-    songs.forEach(s => {
-        const first = s.title ? s.title[0].toUpperCase() : '#';
-        const key = first.match(/[A-Z]/) ? first : '#';
-        setLetters.add(key);
-    });
-    return Array.from(setLetters).sort((a, b) => {
-        if (a === '#') return 1;
-        if (b === '#') return -1;
-        return a.localeCompare(b);
-    });
-}
-
 function selectSong(index, sourceLetter = null) {
     currentSongIndex = index;
     songHistory.record(songs[index]);
@@ -514,7 +500,6 @@ function renderCurrentSong() {
                 <label class="metronome-accent"><input id="metronomeAccentInput" type="checkbox" ${metronomeAccent ? 'checked' : ''} onchange="setMetronomeAccent(this.checked)"> Accent first beat</label>
                 <label class="metronome-accent"><input id="screenAwakeInput" type="checkbox" ${screenAwakeEnabled ? 'checked' : ''} onchange="setScreenAwake(this.checked)"> Keep screen awake</label>
                 <button class="btn btn-primary" id="metronomePlayBtn" onclick="toggleMetronome()">▶ Start metronome</button>
-                <button class="btn" onclick="toggleFullscreen()">⛶ Fullscreen</button>
             </div>
         </section>
         <section class="drum-machine-panel rhythm-sampler-panel" aria-label="Rhythm samplers">

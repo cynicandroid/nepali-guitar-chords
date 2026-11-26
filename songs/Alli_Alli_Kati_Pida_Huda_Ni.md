@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Ajja Akash Ma Euta Tara Dekhina](Ajja_Akash_Ma_Euta_Tara_Dekhina.md) | [🏡 Song List](../README.md) | [⏭️ Next: Amaaile Bhanthe Dhara Ko Pani](Amaaile_Bhanthe_Dhara_Ko_Pani.md)
-
----
-
 ```text
 
 G                Em
@@ -61,7 +57,3 @@ Ali alikati pida huda ni
 D                     G
 Ma timilai nai samjhanxu
 ```
-
----
-
-[⏮️ Previous: Ajja Akash Ma Euta Tara Dekhina](Ajja_Akash_Ma_Euta_Tara_Dekhina.md) | [🏡 Song List](../README.md) | [⏭️ Next: Amaaile Bhanthe Dhara Ko Pani](Amaaile_Bhanthe_Dhara_Ko_Pani.md)

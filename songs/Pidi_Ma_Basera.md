@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Phul ko Ankha Ma](Phul_ko_Ankha_Ma.md) | [🏡 Song List](../README.md) | [⏭️ Next: Piudina Bhanda Bhandai Pilayo Sathi Le](Piudina_Bhanda_Bhandai_Pilayo_Sathi_Le.md)
-
----
-
 ```text
 
 
@@ -48,7 +44,3 @@ G    Em  Cadd9  D
 G      Em     Cadd9 G
 मेरी आमा रुँदी हुन् मलाई  सम्झेर x3
 ```
-
----
-
-[⏮️ Previous: Phul ko Ankha Ma](Phul_ko_Ankha_Ma.md) | [🏡 Song List](../README.md) | [⏭️ Next: Piudina Bhanda Bhandai Pilayo Sathi Le](Piudina_Bhanda_Bhandai_Pilayo_Sathi_Le.md)

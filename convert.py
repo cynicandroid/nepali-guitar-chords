@@ -180,9 +180,6 @@ def main():
     
     # Generate individual markdown files in songs/
     for i, s in enumerate(songs):
-        prev_song = songs[i - 1] if i > 0 else songs[-1]
-        next_song = songs[i + 1] if i < len(songs) - 1 else songs[0]
-        
         md_content = []
         md_content.append(f"# {s['title']}\n")
         
@@ -194,19 +191,11 @@ def main():
         md_content.append(f"**Strumming:** {s['metadata']['strumming']}  \n")
         md_content.append("---\n")
         
-        # Navigation top
-        md_content.append(f"[⏮️ Previous: {prev_song['title']}]({prev_song['filename']}) | [🏡 Song List](../README.md) | [⏭️ Next: {next_song['title']}]({next_song['filename']})\n")
-        md_content.append("---\n")
-        
         # Song text body (rendered inside markdown code block to preserve exact character spacing)
         md_content.append("```text")
         for line in s['body_lines']:
             md_content.append(line)
         md_content.append("```\n")
-        
-        md_content.append("---\n")
-        # Navigation bottom
-        md_content.append(f"[⏮️ Previous: {prev_song['title']}]({prev_song['filename']}) | [🏡 Song List](../README.md) | [⏭️ Next: {next_song['title']}]({next_song['filename']})\n")
         
         with open(os.path.join('songs', s['filename']), 'w', encoding='utf-8') as f:
             f.write('\n'.join(md_content))

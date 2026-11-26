@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Gurasa Ko Feda Muni](Gurasa_Ko_Feda_Muni.md) | [🏡 Song List](../README.md) | [⏭️ Next: Hai Apna Din To Awara](Hai_Apna_Din_To_Awara.md)
-
----
-
 ```text
 
 G                   Am
@@ -55,7 +51,3 @@ mero mann jhulyo timro manai ma] x2
 D     G
 timro manai ma
 ```
-
----
-
-[⏮️ Previous: Gurasa Ko Feda Muni](Gurasa_Ko_Feda_Muni.md) | [🏡 Song List](../README.md) | [⏭️ Next: Hai Apna Din To Awara](Hai_Apna_Din_To_Awara.md)

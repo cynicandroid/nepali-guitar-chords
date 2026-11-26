@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Parelima](Parelima.md) | [🏡 Song List](../README.md) | [⏭️ Next: Parkhi Base Aula Bhani_](Parkhi_Base_Aula_Bhani_.md)
-
----
-
 ```text
 
 C
@@ -81,7 +77,3 @@ G                           (C F G C X3)
 timi pirati ko chhata odhau na
 
 ```
-
----
-
-[⏮️ Previous: Parelima](Parelima.md) | [🏡 Song List](../README.md) | [⏭️ Next: Parkhi Base Aula Bhani_](Parkhi_Base_Aula_Bhani_.md)

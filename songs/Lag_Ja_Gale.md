@@ -1,14 +1,10 @@
 # Lag Ja Gale
 
 **Capo:** None  
-**Singer:** Sanam<br>
+**Singer:** Lata Mangeshkar<br>
 **Key:** D<br>
 **Genre:** Campfire  
 **Strumming:** D DUDU  
-
----
-
-[⏮️ Previous: Kusume Rumal](Kusume_Rumal.md) | [🏡 Song List](../README.md) | [⏭️ Next: Laija Chari](Laija_Chari.md)
 
 ---
 
@@ -69,7 +65,3 @@ lag ja gale,fir...............
 
 
 ```
-
----
-
-[⏮️ Previous: Kusume Rumal](Kusume_Rumal.md) | [🏡 Song List](../README.md) | [⏭️ Next: Laija Chari](Laija_Chari.md)

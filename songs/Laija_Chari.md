@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Lag Ja Gale](Lag_Ja_Gale.md) | [🏡 Song List](../README.md) | [⏭️ Next: Lajalu Muskan Le Priyesi](Lajalu_Muskan_Le_Priyesi.md)
-
----
-
 ```text
 
 D           A
@@ -64,7 +60,3 @@ Hune ho ki baajho bagara
            D       G
 Jaha hola usko saharrrr] x2
 ```
-
----
-
-[⏮️ Previous: Lag Ja Gale](Lag_Ja_Gale.md) | [🏡 Song List](../README.md) | [⏭️ Next: Lajalu Muskan Le Priyesi](Lajalu_Muskan_Le_Priyesi.md)

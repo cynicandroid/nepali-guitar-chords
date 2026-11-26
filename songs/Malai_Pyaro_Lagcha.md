@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Malai Maaf Gari Deu](Malai_Maaf_Gari_Deu.md) | [🏡 Song List](../README.md) | [⏭️ Next: Man Chhade Maichyang - Danny](Man_Chhade_Maichyang_-_Danny.md)
-
----
-
 ```text
 
  G
@@ -84,7 +80,3 @@ https://lyricalchord.com/malai-pyaro-lagcha-chords/
 
 https://tabs.ultimate-guitar.com/tab/yogeshwor-amatya/malai-pyaro-lagchha-chords-4880732
 ```
-
----
-
-[⏮️ Previous: Malai Maaf Gari Deu](Malai_Maaf_Gari_Deu.md) | [🏡 Song List](../README.md) | [⏭️ Next: Man Chhade Maichyang - Danny](Man_Chhade_Maichyang_-_Danny.md)

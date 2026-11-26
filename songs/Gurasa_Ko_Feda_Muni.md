@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Goreto Ani Ustai Cha Galli](Goreto_Ani_Ustai_Cha_Galli.md) | [🏡 Song List](../README.md) | [⏭️ Next: Gurasai Fulyo Banaima](Gurasai_Fulyo_Banaima.md)
-
----
-
 ```text
 
 Bm                               D
@@ -50,7 +46,3 @@ Gurasha ko fed muni,samjhana ko chaya
             A                         Bm
 jaha gayani kina lagcha malai timro maya X2
 ```
-
----
-
-[⏮️ Previous: Goreto Ani Ustai Cha Galli](Goreto_Ani_Ustai_Cha_Galli.md) | [🏡 Song List](../README.md) | [⏭️ Next: Gurasai Fulyo Banaima](Gurasai_Fulyo_Banaima.md)

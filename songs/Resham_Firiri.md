@@ -1,14 +1,10 @@
 # Resham Firiri
 
 **Capo:** None  
-**Singer:** Misc Traditional<br>
+**Singer:** Sur Sudha<br>
 **Key:** A<br>
 **Genre:** Campfire Party  
 **Strumming:** ddUmudu, Barre  
-
----
-
-[⏮️ Previous: Resham](Resham.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ritu Haru Ma Timi](Ritu_Haru_Ma_Timi.md)
 
 ---
 
@@ -82,7 +78,3 @@ Bm         A
 resham firiri] X3
 
 ```
-
----
-
-[⏮️ Previous: Resham](Resham.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ritu Haru Ma Timi](Ritu_Haru_Ma_Timi.md)

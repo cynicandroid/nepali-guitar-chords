@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Kafal Gedi Kutukkai Bhayo Bhutukkai_](Kafal_Gedi_Kutukkai_Bhayo_Bhutukkai_.md) | [🏡 Song List](../README.md) | [⏭️ Next: Kaha Timro Mayalu Lai](Kaha_Timro_Mayalu_Lai.md)
-
----
-
 ```text
 E
 Kaha hola ghara bara
@@ -82,7 +78,3 @@ Kaha hola gaau
 C   D   E  E  E
 ………………… Se se se [x4]
 ```
-
----
-
-[⏮️ Previous: Kafal Gedi Kutukkai Bhayo Bhutukkai_](Kafal_Gedi_Kutukkai_Bhayo_Bhutukkai_.md) | [🏡 Song List](../README.md) | [⏭️ Next: Kaha Timro Mayalu Lai](Kaha_Timro_Mayalu_Lai.md)

@@ -1,14 +1,10 @@
 # Sooraj Duba He Yaro
 
 **Capo:** No capo Key: D  
-**Singer:** <br>
+**Singer:** Arijit Singh<br>
 **Key:** D<br>
 **Genre:** N/A  
 **Strumming:** DUD DUD DDU  
-
----
-
-[⏮️ Previous: Somewhere Over The Rainbow](Somewhere_Over_The_Rainbow.md) | [🏡 Song List](../README.md) | [⏭️ Next: Sora Barse Umarai ma](Sora_Barse_Umarai_ma.md)
 
 ---
 
@@ -112,7 +108,3 @@ Do ghoont nashe ke maaro
 G                        A
 Gham tum bhula do saare sansaar ke
 ```
-
----
-
-[⏮️ Previous: Somewhere Over The Rainbow](Somewhere_Over_The_Rainbow.md) | [🏡 Song List](../README.md) | [⏭️ Next: Sora Barse Umarai ma](Sora_Barse_Umarai_ma.md)

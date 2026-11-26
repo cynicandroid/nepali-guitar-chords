@@ -1,14 +1,10 @@
 # Kusume Rumal
 
 **Capo:** 3rd Fret  
-**Singer:** Misc Soundtrack<br>
+**Singer:** Udit Narayan<br>
 **Key:** C<br>
 **Genre:** Campfire  
 **Strumming:** DUM DU DUM  
-
----
-
-[⏮️ Previous: Knocking On Heavens Door](Knocking_On_Heavens_Door.md) | [🏡 Song List](../README.md) | [⏭️ Next: Lag Ja Gale](Lag_Ja_Gale.md)
 
 ---
 
@@ -59,7 +55,3 @@ Am     G     Am    C
 Kusume Rumal Kusme Rumal 2x
 
 ```
-
----
-
-[⏮️ Previous: Knocking On Heavens Door](Knocking_On_Heavens_Door.md) | [🏡 Song List](../README.md) | [⏭️ Next: Lag Ja Gale](Lag_Ja_Gale.md)

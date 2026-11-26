@@ -1,14 +1,10 @@
 # Ghar se nikalte
 
 **Capo:** 4th Fret  
-**Singer:** Armaan Malik<br>
+**Singer:** Udit Narayan<br>
 **Key:** C<br>
 **Genre:** Campfire  
 **Strumming:** DMU UMU  
-
----
-
-[⏮️ Previous: Gazab Ka Hai Din](Gazab_Ka_Hai_Din.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ghumti Nira Bheta Bhayo](Ghumti_Nira_Bheta_Bhayo.md)
 
 ---
 
@@ -89,7 +85,3 @@ khidki main aayi nazar
 C
 Ghar se nikalte hi…
 ```
-
----
-
-[⏮️ Previous: Gazab Ka Hai Din](Gazab_Ka_Hai_Din.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ghumti Nira Bheta Bhayo](Ghumti_Nira_Bheta_Bhayo.md)

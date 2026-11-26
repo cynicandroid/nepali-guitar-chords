@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Makhamali Pachauri_](Makhamali_Pachauri_.md) | [🏡 Song List](../README.md) | [⏭️ Next: Malai Pyaro Lagcha](Malai_Pyaro_Lagcha.md)
-
----
-
 ```text
 
 
@@ -93,7 +89,3 @@ G         D
 G
 प्रियसी मायालु
 ```
-
----
-
-[⏮️ Previous: Makhamali Pachauri_](Makhamali_Pachauri_.md) | [🏡 Song List](../README.md) | [⏭️ Next: Malai Pyaro Lagcha](Malai_Pyaro_Lagcha.md)

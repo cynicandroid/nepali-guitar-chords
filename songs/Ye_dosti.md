@@ -1,14 +1,10 @@
 # Ye dosti
 
 **Capo:**   
-**Singer:** Misc Mashups<br>
+**Singer:** Kishore Kumar<br>
 **Key:** A<br>
 **Genre:** N/A  
 **Strumming:** D DU UDU  
-
----
-
-[⏮️ Previous: Yaaron Dosti_](Yaaron_Dosti_.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ye dosti -Sad Version_](Ye_dosti_-Sad_Version_.md)
 
 ---
 
@@ -75,7 +71,3 @@ Todenge dam magar
       A
 tera saath na chhodenge.....
 ```
-
----
-
-[⏮️ Previous: Yaaron Dosti_](Yaaron_Dosti_.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ye dosti -Sad Version_](Ye_dosti_-Sad_Version_.md)

@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Karam Khudaya Ye- Tere Sang Yara](Karam_Khudaya_Ye-_Tere_Sang_Yara.md) | [🏡 Song List](../README.md) | [⏭️ Next: Kesariya](Kesariya.md)
-
----
-
 ```text
 Key: F
 Genre: Campfire, 5S
@@ -61,7 +57,3 @@ chuttinu ta chadai cha
 bhare pheri yekantama runu ta chadai cha
 
 ```
-
----
-
-[⏮️ Previous: Karam Khudaya Ye- Tere Sang Yara](Karam_Khudaya_Ye-_Tere_Sang_Yara.md) | [🏡 Song List](../README.md) | [⏭️ Next: Kesariya](Kesariya.md)

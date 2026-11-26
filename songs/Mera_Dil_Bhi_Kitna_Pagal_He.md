@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Mein tenu Samjhawa](Mein_tenu_Samjhawa.md) | [🏡 Song List](../README.md) | [⏭️ Next: Mere samne wali khidki](Mere_samne_wali_khidki.md)
-
----
-
 ```text
 
 A                   D
@@ -92,7 +88,3 @@ Yeh pyar to tum se karta hai] X2
 
 
 ```
-
----
-
-[⏮️ Previous: Mein tenu Samjhawa](Mein_tenu_Samjhawa.md) | [🏡 Song List](../README.md) | [⏭️ Next: Mere samne wali khidki](Mere_samne_wali_khidki.md)

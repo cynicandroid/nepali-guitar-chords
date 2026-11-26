@@ -1,14 +1,10 @@
 # Maya Meri Maya Hamro Milan Kahile Huncha
 
 **Capo:** None  
-**Singer:** Crossroads (Nepal)<br>
+**Singer:** Sanjay Shrestha<br>
 **Key:** Dm<br>
 **Genre:** N/A  
 **Strumming:** DD UUD DDU  
-
----
-
-[⏮️ Previous: Maya Ko Dori Le](Maya_Ko_Dori_Le.md) | [🏡 Song List](../README.md) | [⏭️ Next: Mein tenu Samjhawa](Mein_tenu_Samjhawa.md)
 
 ---
 
@@ -38,7 +34,3 @@ feri aaja malai chodi eklo banai bilai gayau
 Dm        Bb         C            Dm
 Maya meri maya hamro milan kahile huncha
 ```
-
----
-
-[⏮️ Previous: Maya Ko Dori Le](Maya_Ko_Dori_Le.md) | [🏡 Song List](../README.md) | [⏭️ Next: Mein tenu Samjhawa](Mein_tenu_Samjhawa.md)

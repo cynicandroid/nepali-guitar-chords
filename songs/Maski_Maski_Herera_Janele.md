@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Marne Kasailai Rahar Hudaina](Marne_Kasailai_Rahar_Hudaina.md) | [🏡 Song List](../README.md) | [⏭️ Next: Maya - Asutosh KC](Maya_-_Asutosh_KC.md)
-
----
-
 ```text
  
  D           A
@@ -71,7 +67,3 @@ pagal banaki che ghayal banaki che malai
 Bm            Bm   A            D
 pagal banaki che ghayal banaki che)*2
 ```
-
----
-
-[⏮️ Previous: Marne Kasailai Rahar Hudaina](Marne_Kasailai_Rahar_Hudaina.md) | [🏡 Song List](../README.md) | [⏭️ Next: Maya - Asutosh KC](Maya_-_Asutosh_KC.md)

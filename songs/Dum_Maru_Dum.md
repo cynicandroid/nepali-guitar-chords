@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Dui Pate Suiro](Dui_Pate_Suiro.md) | [🏡 Song List](../README.md) | [⏭️ Next: Eh Kancha Malai Sun Ko](Eh_Kancha_Malai_Sun_Ko.md)
-
----
-
 ```text
 
 [All Barre Chords]
@@ -80,7 +76,3 @@ Hare Krishna Hare Raam!
 Am
 Hare Krishna Hare Raam! X3
 ```
-
----
-
-[⏮️ Previous: Dui Pate Suiro](Dui_Pate_Suiro.md) | [🏡 Song List](../README.md) | [⏭️ Next: Eh Kancha Malai Sun Ko](Eh_Kancha_Malai_Sun_Ko.md)

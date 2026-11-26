@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Kaha hola ghara bara](Kaha_hola_ghara_bara.md) | [🏡 Song List](../README.md) | [⏭️ Next: Kahi Door Jab Din Dhaljaye](Kahi_Door_Jab_Din_Dhaljaye.md)
-
----
-
 ```text
 A           Bm
 [Kaha Timro Mayalu Lai 
@@ -63,7 +59,3 @@ Tehi Goretoma Tyesko Maya Chha Ki Chaina
 A          Bm         E        A
 Kaha Timro Mayalu Lai Chhadi rakheu
 ```
-
----
-
-[⏮️ Previous: Kaha hola ghara bara](Kaha_hola_ghara_bara.md) | [🏡 Song List](../README.md) | [⏭️ Next: Kahi Door Jab Din Dhaljaye](Kahi_Door_Jab_Din_Dhaljaye.md)

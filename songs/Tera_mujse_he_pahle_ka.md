@@ -1,14 +1,10 @@
 # Tera mujse he pahle ka
 
 **Capo:** 1st fret  
-**Singer:** Misc Soundtrack<br>
+**Singer:** Kishore Kumar<br>
 **Key:** G<br>
 **Genre:** campfire, Hindi  
 **Strumming:** D DUDU  
-
----
-
-[⏮️ Previous: Take It Easy - Eagles_](Take_It_Easy_-_Eagles_.md) | [🏡 Song List](../README.md) | [⏭️ Next: Tere jaisa yaar kaha](Tere_jaisa_yaar_kaha.md)
 
 ---
 
@@ -73,7 +69,3 @@ Maane tu, ya maane na
 
 LA la laal la la la la la la la…
 ```
-
----
-
-[⏮️ Previous: Take It Easy - Eagles_](Take_It_Easy_-_Eagles_.md) | [🏡 Song List](../README.md) | [⏭️ Next: Tere jaisa yaar kaha](Tere_jaisa_yaar_kaha.md)

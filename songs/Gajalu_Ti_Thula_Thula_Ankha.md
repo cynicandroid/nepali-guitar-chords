@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Gajalu Le Ankha Chopne k ramri](Gajalu_Le_Ankha_Chopne_k_ramri.md) | [🏡 Song List](../README.md) | [⏭️ Next: Gazab Ka Hai Din](Gazab_Ka_Hai_Din.md)
-
----
-
 ```text
 Key: F
 Genre: Campfire, 5S
@@ -58,7 +54,3 @@ Gajalu Ti Thula Thula Akha
 C                 Dm    F
 Tira Bani Base Yo Dilai Ma
 ```
-
----
-
-[⏮️ Previous: Gajalu Le Ankha Chopne k ramri](Gajalu_Le_Ankha_Chopne_k_ramri.md) | [🏡 Song List](../README.md) | [⏭️ Next: Gazab Ka Hai Din](Gazab_Ka_Hai_Din.md)

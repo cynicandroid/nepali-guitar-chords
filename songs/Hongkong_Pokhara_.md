@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Herda Herdai Budo Bhaiyo_](Herda_Herdai_Budo_Bhaiyo_.md) | [🏡 Song List](../README.md) | [⏭️ Next: Hotel California -Eagles](Hotel_California_-Eagles.md)
-
----
-
 ```text
 
 F            A#
@@ -50,7 +46,3 @@ F
 Nirmohi aphnuko ko chara eh]x2
 
 ```
-
----
-
-[⏮️ Previous: Herda Herdai Budo Bhaiyo_](Herda_Herdai_Budo_Bhaiyo_.md) | [🏡 Song List](../README.md) | [⏭️ Next: Hotel California -Eagles](Hotel_California_-Eagles.md)

@@ -1,14 +1,10 @@
 # Chand Sifarish - Subhan Allha
 
 **Capo:** None  
-**Singer:** Misc Soundtrack<br>
+**Singer:** Shaan<br>
 **Key:** Dm<br>
 **Genre:** Party  
 **Strumming:** D UDUD D DUDU  
-
----
-
-[⏮️ Previous: Ye Shaam Mastani](Ye_Shaam_Mastani.md) | [🏡 Song List](../README.md) | [⏭️ Next: O Sanam - Lucky Ali](O_Sanam_-_Lucky_Ali.md)
 
 ---
 
@@ -102,7 +98,3 @@ Whistling
 
 
 ```
-
----
-
-[⏮️ Previous: Ye Shaam Mastani](Ye_Shaam_Mastani.md) | [🏡 Song List](../README.md) | [⏭️ Next: O Sanam - Lucky Ali](O_Sanam_-_Lucky_Ali.md)

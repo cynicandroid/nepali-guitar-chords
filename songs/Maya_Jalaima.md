@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Maya - Asutosh KC](Maya_-_Asutosh_KC.md) | [🏡 Song List](../README.md) | [⏭️ Next: Maya Ko Dori Le](Maya_Ko_Dori_Le.md)
-
----
-
 ```text
 
 A
@@ -65,7 +61,3 @@ D         A           D
 maya jalaima maya jalaima x4
 
 ```
-
----
-
-[⏮️ Previous: Maya - Asutosh KC](Maya_-_Asutosh_KC.md) | [🏡 Song List](../README.md) | [⏭️ Next: Maya Ko Dori Le](Maya_Ko_Dori_Le.md)

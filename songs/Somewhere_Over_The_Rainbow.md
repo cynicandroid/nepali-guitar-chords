@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: So Gaya Ye Jaha](So_Gaya_Ye_Jaha.md) | [🏡 Song List](../README.md) | [⏭️ Next: Sooraj Duba He Yaro](Sooraj_Duba_He_Yaro.md)
-
----
-
 ```text
  
 C  Em  F  C
@@ -86,7 +82,3 @@ Oooo, oooo, ooo
 
 
 ```
-
----
-
-[⏮️ Previous: So Gaya Ye Jaha](So_Gaya_Ye_Jaha.md) | [🏡 Song List](../README.md) | [⏭️ Next: Sooraj Duba He Yaro](Sooraj_Duba_He_Yaro.md)

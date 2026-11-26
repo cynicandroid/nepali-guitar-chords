@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Blowing In The Wind](Blowing_In_The_Wind.md) | [🏡 Song List](../README.md) | [⏭️ Next: Changba Hoi Changba](Changba_Hoi_Changba.md)
-
----
-
 ```text
  
 G                       D
@@ -93,7 +89,3 @@ jaba pugchu ma saathi
 
 
 ```
-
----
-
-[⏮️ Previous: Blowing In The Wind](Blowing_In_The_Wind.md) | [🏡 Song List](../README.md) | [⏭️ Next: Changba Hoi Changba](Changba_Hoi_Changba.md)

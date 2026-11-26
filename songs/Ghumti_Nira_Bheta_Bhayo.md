@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Ghar se nikalte](Ghar_se_nikalte.md) | [🏡 Song List](../README.md) | [⏭️ Next: Goreto Ani Ustai Cha Galli](Goreto_Ani_Ustai_Cha_Galli.md)
-
----
-
 ```text
 
  D         Am  G D
@@ -67,7 +63,3 @@ D
     Am    C   D    
 सानु मायालाई बाटैमा भेट भयो x2] x2
 ```
-
----
-
-[⏮️ Previous: Ghar se nikalte](Ghar_se_nikalte.md) | [🏡 Song List](../README.md) | [⏭️ Next: Goreto Ani Ustai Cha Galli](Goreto_Ani_Ustai_Cha_Galli.md)

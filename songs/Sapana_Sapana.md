@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Sanjha Pare Pachi Ni Lailai](Sanjha_Pare_Pachi_Ni_Lailai.md) | [🏡 Song List](../README.md) | [⏭️ Next: Sasson Ki Jarurat Hai Jaise](Sasson_Ki_Jarurat_Hai_Jaise.md)
-
----
-
 ```text
 
 G
@@ -100,6 +96,3 @@ Ushko nau sa-pa-na ho…
 D         D7    G
 Ushko nau sa-pa-na
 ```
----
-
-[⏮️ Previous: Sanjha Pare Pachi Ni Lailai](Sanjha_Pare_Pachi_Ni_Lailai.md) | [🏡 Song List](../README.md) | [⏭️ Next: Sasson Ki Jarurat Hai Jaise](Sasson_Ki_Jarurat_Hai_Jaise.md)

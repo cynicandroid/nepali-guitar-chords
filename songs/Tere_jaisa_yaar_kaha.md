@@ -1,14 +1,10 @@
 # Tere jaisa yaar kaha
 
 **Capo:** none  
-**Singer:** Misc Soundtrack<br>
+**Singer:** Kishore Kumar<br>
 **Key:** G<br>
 **Genre:** Campfire Hindi  
 **Strumming:** D DU UDU  
-
----
-
-[⏮️ Previous: Tera mujse he pahle ka](Tera_mujse_he_pahle_ka.md) | [🏡 Song List](../README.md) | [⏭️ Next: Timi Lai Dekhera](Timi_Lai_Dekhera.md)
 
 ---
 
@@ -58,7 +54,3 @@ Tere jaisa yaar kahan
 D               G
 Kahan aisa yaarana
 ```
-
----
-
-[⏮️ Previous: Tera mujse he pahle ka](Tera_mujse_he_pahle_ka.md) | [🏡 Song List](../README.md) | [⏭️ Next: Timi Lai Dekhera](Timi_Lai_Dekhera.md)

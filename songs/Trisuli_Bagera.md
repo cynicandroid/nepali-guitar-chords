@@ -1,14 +1,10 @@
 # Trisuli Bagera
 
 **Capo:** 2nd fret  
-**Singer:** Misc Soundtrack<br>
+**Singer:** Udit Narayan<br>
 **Key:** C<br>
 **Genre:** Party, campfire  
 **Strumming:** D DU UDU / DM UUM  
-
----
-
-[⏮️ Previous: Timro Tyo Hasilo Muhar Ko](Timro_Tyo_Hasilo_Muhar_Ko.md) | [🏡 Song List](../README.md) | [⏭️ Next: Tu Mere Agal Bagal Hey](Tu_Mere_Agal_Bagal_Hey.md)
 
 ---
 
@@ -74,7 +70,3 @@ Timro maya lau malai raksi jhai chadhe cha]x2
 Am				C
 Papi aankha herana kastari dulaune] x2
 ```
-
----
-
-[⏮️ Previous: Timro Tyo Hasilo Muhar Ko](Timro_Tyo_Hasilo_Muhar_Ko.md) | [🏡 Song List](../README.md) | [⏭️ Next: Tu Mere Agal Bagal Hey](Tu_Mere_Agal_Bagal_Hey.md)

@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Let It Be](Let_It_Be.md) | [🏡 Song List](../README.md) | [⏭️ Next: Makhamali Pachauri_](Makhamali_Pachauri_.md)
-
----
-
 ```text
 
  G          Bm       Am
@@ -74,7 +70,3 @@ Ma maunta ma aljhi raheko
 D          G       Bm    Am   D7
 Euta jeevan [x2]
 ```
-
----
-
-[⏮️ Previous: Let It Be](Let_It_Be.md) | [🏡 Song List](../README.md) | [⏭️ Next: Makhamali Pachauri_](Makhamali_Pachauri_.md)

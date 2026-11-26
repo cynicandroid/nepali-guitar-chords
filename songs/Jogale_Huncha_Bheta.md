@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Jiwan ho Ghamachaya](Jiwan_ho_Ghamachaya.md) | [🏡 Song List](../README.md) | [⏭️ Next: Jomsomai Bazaar Ma](Jomsomai_Bazaar_Ma.md)
-
----
-
 ```text
 
 [4 fast down strum, 5th slow]
@@ -50,7 +46,3 @@ A#
  A#         Gm        A#
 [जोगले हुन्छ भेट मायाले हुन्छ सम्झना] x8
 ```
-
----
-
-[⏮️ Previous: Jiwan ho Ghamachaya](Jiwan_ho_Ghamachaya.md) | [🏡 Song List](../README.md) | [⏭️ Next: Jomsomai Bazaar Ma](Jomsomai_Bazaar_Ma.md)

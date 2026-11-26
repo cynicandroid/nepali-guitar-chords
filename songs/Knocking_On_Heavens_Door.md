@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Khotang Jilla Diktel Bazara](Khotang_Jilla_Diktel_Bazara.md) | [🏡 Song List](../README.md) | [⏭️ Next: Kusume Rumal](Kusume_Rumal.md)
-
----
-
 ```text
 	     d-d-D-du-uuD-dudu (Am, C)
 
@@ -65,7 +61,3 @@ G               D                    C
 G    D     Am    G
   Oo oo-oo oo   (fade)
 ```
-
----
-
-[⏮️ Previous: Khotang Jilla Diktel Bazara](Khotang_Jilla_Diktel_Bazara.md) | [🏡 Song List](../README.md) | [⏭️ Next: Kusume Rumal](Kusume_Rumal.md)

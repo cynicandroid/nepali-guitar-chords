@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Big Yellow Taxi](Big_Yellow_Taxi.md) | [🏡 Song List](../README.md) | [⏭️ Next: Budeskaal Ko Laathi (60)](Budeskaal_Ko_Laathi_60.md)
-
----
-
 ```text
 Tab 1
 Capo : 7th Fret
@@ -71,7 +67,3 @@ that too many people have died
 The answer is blowin' in the wind ] X2
  
 ```
-
----
-
-[⏮️ Previous: Big Yellow Taxi](Big_Yellow_Taxi.md) | [🏡 Song List](../README.md) | [⏭️ Next: Budeskaal Ko Laathi (60)](Budeskaal_Ko_Laathi_60.md)

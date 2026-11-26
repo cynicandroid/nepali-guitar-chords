@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Kanchi He Kanchi](Kanchi_He_Kanchi.md) | [🏡 Song List](../README.md) | [⏭️ Next: Kehi Mitho Baat Gara](Kehi_Mitho_Baat_Gara.md)
-
----
-
 ```text
  
   G
@@ -140,7 +136,3 @@ Tu thehra kinara.
 
 
 ```
-
----
-
-[⏮️ Previous: Kanchi He Kanchi](Kanchi_He_Kanchi.md) | [🏡 Song List](../README.md) | [⏭️ Next: Kehi Mitho Baat Gara](Kehi_Mitho_Baat_Gara.md)

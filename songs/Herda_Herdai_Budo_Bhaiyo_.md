@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Hera Na Hera Kancha](Hera_Na_Hera_Kancha.md) | [🏡 Song List](../README.md) | [⏭️ Next: Hongkong Pokhara_](Hongkong_Pokhara_.md)
-
----
-
 ```text
 
 E                                Asus2
@@ -77,7 +73,3 @@ herda herdai budo bhaiyo x2
 yehi yehi yeee… yee x8
 
 ```
-
----
-
-[⏮️ Previous: Hera Na Hera Kancha](Hera_Na_Hera_Kancha.md) | [🏡 Song List](../README.md) | [⏭️ Next: Hongkong Pokhara_](Hongkong_Pokhara_.md)

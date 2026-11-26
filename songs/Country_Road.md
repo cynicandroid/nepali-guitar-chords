@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Chukar Mere Man Ko](Chukar_Mere_Man_Ko.md) | [🏡 Song List](../README.md) | [⏭️ Next: Dalli Resham](Dalli_Resham.md)
-
----
-
 ```text
 
 G              Em7             
@@ -81,7 +77,3 @@ take me home, country roads] [X2]
 Take me home, down country roads; [x2]
 
 ```
-
----
-
-[⏮️ Previous: Chukar Mere Man Ko](Chukar_Mere_Man_Ko.md) | [🏡 Song List](../README.md) | [⏭️ Next: Dalli Resham](Dalli_Resham.md)

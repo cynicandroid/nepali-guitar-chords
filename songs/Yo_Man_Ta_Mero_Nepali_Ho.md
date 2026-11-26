@@ -1,14 +1,10 @@
 # Yo Man Ta Mero Nepali Ho
 
 **Capo:** None, 16  
-**Singer:** <br>
+**Singer:** 1974 AD<br>
 **Key:** C<br>
 **Genre:** Party, 5S  
 **Strumming:** DD UUD DUDU / D DU UDU  
-
----
-
-[⏮️ Previous: Yeti Dherai Maya Diyi](Yeti_Dherai_Maya_Diyi.md) | [🏡 Song List](../README.md) | [⏭️ Next: Yo samjhine man cha](Yo_samjhine_man_cha.md)
 
 ---
 
@@ -86,7 +82,3 @@ Yo mann ta mero Nepali ho [x2]
 
 
 ```
-
----
-
-[⏮️ Previous: Yeti Dherai Maya Diyi](Yeti_Dherai_Maya_Diyi.md) | [🏡 Song List](../README.md) | [⏭️ Next: Yo samjhine man cha](Yo_samjhine_man_cha.md)

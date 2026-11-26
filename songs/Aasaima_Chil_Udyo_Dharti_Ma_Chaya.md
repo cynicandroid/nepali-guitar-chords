@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Aankha Ma Timilai](Aankha_Ma_Timilai.md) | [🏡 Song List](../README.md) | [⏭️ Next: Adhuro Prem](Adhuro_Prem.md)
-
----
-
 ```text
 
 A|-2-4-5---3-2-0—
@@ -59,7 +55,3 @@ Aa hai resham ko rumalai ma x2
        A             Em
 Aa hai timro tyo kapalai ma
 ```
-
----
-
-[⏮️ Previous: Aankha Ma Timilai](Aankha_Ma_Timilai.md) | [🏡 Song List](../README.md) | [⏭️ Next: Adhuro Prem](Adhuro_Prem.md)

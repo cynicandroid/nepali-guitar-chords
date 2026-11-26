@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Do dil mil rahehe](Do_dil_mil_rahehe.md) | [🏡 Song List](../README.md) | [⏭️ Next: Dum Maru Dum](Dum_Maru_Dum.md)
-
----
-
 ```text
 
  G#              DD
@@ -103,7 +99,3 @@ ahile aba phool bhayo
 
 
 ```
-
----
-
-[⏮️ Previous: Do dil mil rahehe](Do_dil_mil_rahehe.md) | [🏡 Song List](../README.md) | [⏭️ Next: Dum Maru Dum](Dum_Maru_Dum.md)

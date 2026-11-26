@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Hai Apna Din To Awara](Hai_Apna_Din_To_Awara.md) | [🏡 Song List](../README.md) | [⏭️ Next: Have You Ever Seen The Rain](Have_You_Ever_Seen_The_Rain.md)
-
----
-
 ```text
 
 G               Cadd9
@@ -91,7 +87,3 @@ Em7      D
 Pyaro Nepal ma
 
 ```
-
----
-
-[⏮️ Previous: Hai Apna Din To Awara](Hai_Apna_Din_To_Awara.md) | [🏡 Song List](../README.md) | [⏭️ Next: Have You Ever Seen The Rain](Have_You_Ever_Seen_The_Rain.md)

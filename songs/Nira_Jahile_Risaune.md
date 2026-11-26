@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Neele Neele Ambar Par](Neele_Neele_Ambar_Par.md) | [🏡 Song List](../README.md) | [⏭️ Next: Pal Pal Dil Ke Paas](Pal_Pal_Dil_Ke_Paas.md)
-
----
-
 ```text
 
 A
@@ -75,7 +71,3 @@ Nira jaile risauni, nira jaile risauni
 Nira kahile hola maya sanga maya misauni
 
 ```
-
----
-
-[⏮️ Previous: Neele Neele Ambar Par](Neele_Neele_Ambar_Par.md) | [🏡 Song List](../README.md) | [⏭️ Next: Pal Pal Dil Ke Paas](Pal_Pal_Dil_Ke_Paas.md)

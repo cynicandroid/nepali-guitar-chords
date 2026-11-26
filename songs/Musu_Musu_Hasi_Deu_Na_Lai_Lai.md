@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Muglana hera jadai chu](Muglana_hera_jadai_chu.md) | [🏡 Song List](../README.md) | [⏭️ Next: Musukka Hasne Timro Bani Le](Musukka_Hasne_Timro_Bani_Le.md)
-
----
-
 ```text
 
  C              Dm
@@ -69,7 +65,3 @@ Musu Musu Hasi Deu Na Lai Lai
 G              C
 Musu Musu Hasi Deu
 ```
-
----
-
-[⏮️ Previous: Muglana hera jadai chu](Muglana_hera_jadai_chu.md) | [🏡 Song List](../README.md) | [⏭️ Next: Musukka Hasne Timro Bani Le](Musukka_Hasne_Timro_Bani_Le.md)

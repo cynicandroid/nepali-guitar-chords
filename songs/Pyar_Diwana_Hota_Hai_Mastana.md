@@ -1,14 +1,10 @@
 # Pyar Diwana Hota Hai Mastana
 
 **Capo:** None  
-**Singer:** Misc Soundtrack<br>
+**Singer:** Kishore Kumar<br>
 **Key:** D<br>
 **Genre:** Campfire, Hindi  
 **Strumming:** DDU UDU  
-
----
-
-[⏮️ Previous: O Sanam - Lucky Ali](O_Sanam_-_Lucky_Ali.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ye Shaam Mastani](Ye_Shaam_Mastani.md)
 
 ---
 
@@ -63,7 +59,3 @@ Har Khushi Say Har Gham Say, Baigana Hota Hai
 
 
 ```
-
----
-
-[⏮️ Previous: O Sanam - Lucky Ali](O_Sanam_-_Lucky_Ali.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ye Shaam Mastani](Ye_Shaam_Mastani.md)

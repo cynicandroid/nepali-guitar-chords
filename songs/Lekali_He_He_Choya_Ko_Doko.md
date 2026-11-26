@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Lekaki He Maya](Lekaki_He_Maya.md) | [🏡 Song List](../README.md) | [⏭️ Next: Let It Be](Let_It_Be.md)
-
----
-
 ```text
 
 G                         D
@@ -58,7 +54,3 @@ Napugdai Marchu Po Kyare
          D             G
 Hey Vana Solti Barobar Nadhati x2
 ```
-
----
-
-[⏮️ Previous: Lekaki He Maya](Lekaki_He_Maya.md) | [🏡 Song List](../README.md) | [⏭️ Next: Let It Be](Let_It_Be.md)

@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Basa Sundari](Basa_Sundari.md) | [🏡 Song List](../README.md) | [⏭️ Next: Big Yellow Taxi](Big_Yellow_Taxi.md)
-
----
-
 ```text
 
 G           Bm         C
@@ -69,7 +65,3 @@ Timro Sathi Lai Ke Ko Pira
 [Jiudai Marne Yo Avagi Dekhera] X4
 
 ```
-
----
-
-[⏮️ Previous: Basa Sundari](Basa_Sundari.md) | [🏡 Song List](../README.md) | [⏭️ Next: Big Yellow Taxi](Big_Yellow_Taxi.md)

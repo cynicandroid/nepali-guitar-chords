@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Samaye Panchi Ho](Samaye_Panchi_Ho.md) | [🏡 Song List](../README.md) | [⏭️ Next: Samne Ye Kaun Aya](Samne_Ye_Kaun_Aya.md)
-
----
-
 ```text
 Tab 1
 Capo : None
@@ -71,7 +67,3 @@ Ye Muglin jharesi
  D                   C           G
 [Majja aaula relimai tadak chadhesi] x2
 ```
-
----
-
-[⏮️ Previous: Samaye Panchi Ho](Samaye_Panchi_Ho.md) | [🏡 Song List](../README.md) | [⏭️ Next: Samne Ye Kaun Aya](Samne_Ye_Kaun_Aya.md)

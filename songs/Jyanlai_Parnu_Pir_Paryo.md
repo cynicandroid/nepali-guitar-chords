@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Jomsomai Bazaar Ma](Jomsomai_Bazaar_Ma.md) | [🏡 Song List](../README.md) | [⏭️ Next: K bhane Hamro Samay](K_bhane_Hamro_Samay.md)
-
----
-
 ```text
 
 Strum..
@@ -95,7 +91,3 @@ parnu pir paryo
         G
 jyanlai parnu pir paryo x2
 ```
-
----
-
-[⏮️ Previous: Jomsomai Bazaar Ma](Jomsomai_Bazaar_Ma.md) | [🏡 Song List](../README.md) | [⏭️ Next: K bhane Hamro Samay](K_bhane_Hamro_Samay.md)

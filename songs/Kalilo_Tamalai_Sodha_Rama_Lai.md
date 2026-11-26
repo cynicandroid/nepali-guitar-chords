@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Kal Ho Na Ho](Kal_Ho_Na_Ho.md) | [🏡 Song List](../README.md) | [⏭️ Next: Kalo Keshma Relimai](Kalo_Keshma_Relimai.md)
-
----
-
 ```text
 
 G [Down Down]  A
@@ -87,7 +83,3 @@ Kilai paraune sodha rama lai
 [Aaha kati lai paraune sodha rama lai] x5
 
 ```
-
----
-
-[⏮️ Previous: Kal Ho Na Ho](Kal_Ho_Na_Ho.md) | [🏡 Song List](../README.md) | [⏭️ Next: Kalo Keshma Relimai](Kalo_Keshma_Relimai.md)

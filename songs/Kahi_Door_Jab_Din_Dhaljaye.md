@@ -1,14 +1,10 @@
 # Kahi Door Jab Din Dhaljaye
 
 **Capo:** 4th Fret  
-**Singer:** Misc Soundtrack<br>
+**Singer:** Mukesh<br>
 **Key:** C<br>
 **Genre:** N/A  
 **Strumming:** D DUDUD D D  
-
----
-
-[⏮️ Previous: Kaha Timro Mayalu Lai](Kaha_Timro_Mayalu_Lai.md) | [🏡 Song List](../README.md) | [⏭️ Next: Kal Ho Na Ho](Kal_Ho_Na_Ho.md)
 
 ---
 
@@ -72,7 +68,3 @@ Mere Khayaalon Ke Aangan Mein
 C             G    D       C
 Koi Sapnon Ke Deep Jalaaye Deep Jalaaye] X2
 ```
-
----
-
-[⏮️ Previous: Kaha Timro Mayalu Lai](Kaha_Timro_Mayalu_Lai.md) | [🏡 Song List](../README.md) | [⏭️ Next: Kal Ho Na Ho](Kal_Ho_Na_Ho.md)

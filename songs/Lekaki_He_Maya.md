@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Lajalu Muskan Le Priyesi](Lajalu_Muskan_Le_Priyesi.md) | [🏡 Song List](../README.md) | [⏭️ Next: Lekali He He Choya Ko Doko](Lekali_He_He_Choya_Ko_Doko.md)
-
----
-
 ```text
  G       Am
 [Timi ramri chau
@@ -75,7 +71,3 @@ Aakhako rimjhim le
 Am       C        G
 Mana nai khalbalaidine ] x2
 ```
-
----
-
-[⏮️ Previous: Lajalu Muskan Le Priyesi](Lajalu_Muskan_Le_Priyesi.md) | [🏡 Song List](../README.md) | [⏭️ Next: Lekali He He Choya Ko Doko](Lekali_He_He_Choya_Ko_Doko.md)

@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: China Company](China_Company.md) | [🏡 Song List](../README.md) | [⏭️ Next: Chithi timilai lekhu](Chithi_timilai_lekhu.md)
-
----
-
 ```text
 
 Em
@@ -65,7 +61,3 @@ Chiso chiso hawa ma
 C         Em
 Tesai man baralincha [x2]
 ```
-
----
-
-[⏮️ Previous: China Company](China_Company.md) | [🏡 Song List](../README.md) | [⏭️ Next: Chithi timilai lekhu](Chithi_timilai_lekhu.md)

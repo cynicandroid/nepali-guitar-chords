@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Maya Jalaima](Maya_Jalaima.md) | [🏡 Song List](../README.md) | [⏭️ Next: Maya Meri Maya Hamro Milan Kahile Huncha](Maya_Meri_Maya_Hamro_Milan_Kahile_Huncha.md)
-
----
-
 ```text
 
 [Fast DUD 1st, & DD 2nd]
@@ -57,7 +53,3 @@ Ju ju na na na na na na
  
 
 ```
-
----
-
-[⏮️ Previous: Maya Jalaima](Maya_Jalaima.md) | [🏡 Song List](../README.md) | [⏭️ Next: Maya Meri Maya Hamro Milan Kahile Huncha](Maya_Meri_Maya_Hamro_Milan_Kahile_Huncha.md)

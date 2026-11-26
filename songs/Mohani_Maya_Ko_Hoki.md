@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Mohani Lagla Hai](Mohani_Lagla_Hai.md) | [🏡 Song List](../README.md) | [⏭️ Next: Muglana hera jadai chu](Muglana_hera_jadai_chu.md)
-
----
-
 ```text
 G -[6,(1,2,3)M, 5(open) 5(Ham),6(Ham)(1,2,3)M]
  G 
@@ -130,7 +126,3 @@ dada kada saaraa] [X2]
 G
 la lala lalala.
 ```
-
----
-
-[⏮️ Previous: Mohani Lagla Hai](Mohani_Lagla_Hai.md) | [🏡 Song List](../README.md) | [⏭️ Next: Muglana hera jadai chu](Muglana_hera_jadai_chu.md)

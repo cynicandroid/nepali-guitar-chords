@@ -1,14 +1,10 @@
 # Suntali Mai Katima Ramro Darbara
 
 **Capo:** , 44, (20L,50M,20H)  
-**Singer:** <br>
+**Singer:** Krishna Bikram Thapa<br>
 **Key:** Am<br>
 **Genre:** Party , 5S, OldSchool  
 **Strumming:** DUMUDU  
-
----
-
-[⏮️ Previous: Sundarta Ko Timi (Namuna)](Sundarta_Ko_Timi_Namuna.md) | [🏡 Song List](../README.md) | [⏭️ Next: Sweet Caroline](Sweet_Caroline.md)
 
 ---
 
@@ -70,7 +66,3 @@ Maaryo ni maayaa le maaryo] x2
 F         G         Am
 Maaryo ni maayaa le maaryo] x2
 ```
-
----
-
-[⏮️ Previous: Sundarta Ko Timi (Namuna)](Sundarta_Ko_Timi_Namuna.md) | [🏡 Song List](../README.md) | [⏭️ Next: Sweet Caroline](Sweet_Caroline.md)

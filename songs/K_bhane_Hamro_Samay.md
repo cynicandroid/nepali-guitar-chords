@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Jyanlai Parnu Pir Paryo](Jyanlai_Parnu_Pir_Paryo.md) | [🏡 Song List](../README.md) | [⏭️ Next: K Bhanu Ma Kaso Gari Pare](K_Bhanu_Ma_Kaso_Gari_Pare.md)
-
----
-
 ```text
 
 [G - Down strum        D D       
@@ -73,7 +69,3 @@ Dus mohar mahina ko kamai
 C      	  D		   G
 Hamro samaya sachai ramailo [X2]
 ```
-
----
-
-[⏮️ Previous: Jyanlai Parnu Pir Paryo](Jyanlai_Parnu_Pir_Paryo.md) | [🏡 Song List](../README.md) | [⏭️ Next: K Bhanu Ma Kaso Gari Pare](K_Bhanu_Ma_Kaso_Gari_Pare.md)

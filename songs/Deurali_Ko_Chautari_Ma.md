@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Deepak Bajracharya - Mashup](Deepak_Bajracharya_-_Mashup.md) | [🏡 Song List](../README.md) | [⏭️ Next: Deurali Ko Chautari Ma(1)](Deurali_Ko_Chautari_Ma1.md)
-
----
-
 ```text
 
  A          G
@@ -50,7 +46,3 @@ Sangini le aakha chopeko
 G                   A
 Aaucha ajhai jhajhalko x2] X2
 ```
-
----
-
-[⏮️ Previous: Deepak Bajracharya - Mashup](Deepak_Bajracharya_-_Mashup.md) | [🏡 Song List](../README.md) | [⏭️ Next: Deurali Ko Chautari Ma(1)](Deurali_Ko_Chautari_Ma1.md)

@@ -1,14 +1,10 @@
 # Ye dosti -Sad Version_
 
 **Capo:** None  
-**Singer:** <br>
+**Singer:** Kishore Kumar<br>
 **Key:** F<br>
 **Genre:** Campfire  
 **Strumming:** Down strum slow  
-
----
-
-[⏮️ Previous: Ye dosti](Ye_dosti.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ye yo ta maya](Ye_yo_ta_maya.md)
 
 ---
 
@@ -42,7 +38,3 @@ Tera Saath Na…
 
 
 ```
-
----
-
-[⏮️ Previous: Ye dosti](Ye_dosti.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ye yo ta maya](Ye_yo_ta_maya.md)

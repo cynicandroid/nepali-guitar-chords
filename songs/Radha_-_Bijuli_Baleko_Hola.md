@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Raataan Lambiyan](Raataan_Lambiyan.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ram sailee](Ram_sailee.md)
-
----
-
 ```text
 Plucking :  r-r- (23)-r
 
@@ -108,7 +104,3 @@ Dmaj7           D
 Mai Jane Putali Relai Ma] X6
 
 ```
-
----
-
-[⏮️ Previous: Raataan Lambiyan](Raataan_Lambiyan.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ram sailee](Ram_sailee.md)

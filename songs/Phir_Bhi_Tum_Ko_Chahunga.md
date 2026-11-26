@@ -1,14 +1,10 @@
 # Phir Bhi Tum Ko Chahunga
 
 **Capo:** None  
-**Singer:** Arjit Singh<br>
+**Singer:** Arijit Singh<br>
 **Key:** F<br>
 **Genre:** N/A  
 **Strumming:** N/A  
-
----
-
-[⏮️ Previous: Pehli Nazar Mein](Pehli_Nazar_Mein.md) | [🏡 Song List](../README.md) | [⏭️ Next: Phoolon Ka Taro Ka](Phoolon_Ka_Taro_Ka.md)
 
 ---
 
@@ -90,7 +86,3 @@ Iss chahat mein marr jaaunga
      C              F
 Main phir bhi tumko chahunga
 ```
-
----
-
-[⏮️ Previous: Pehli Nazar Mein](Pehli_Nazar_Mein.md) | [🏡 Song List](../README.md) | [⏭️ Next: Phoolon Ka Taro Ka](Phoolon_Ka_Taro_Ka.md)

@@ -1,14 +1,10 @@
 # Timi Lai Dekhera
 
 **Capo:** None  
-**Singer:** <br>
+**Singer:** Raju Lama<br>
 **Key:** A<br>
 **Genre:** Campfire  
 **Strumming:** D UMUDU  
-
----
-
-[⏮️ Previous: Tere jaisa yaar kaha](Tere_jaisa_yaar_kaha.md) | [🏡 Song List](../README.md) | [⏭️ Next: Timi le ta hoina timra bhaka](Timi_le_ta_hoina_timra_bhaka.md)
 
 ---
 
@@ -71,7 +67,3 @@ E          A
 Pirati Gaseko X4
 
 ```
-
----
-
-[⏮️ Previous: Tere jaisa yaar kaha](Tere_jaisa_yaar_kaha.md) | [🏡 Song List](../README.md) | [⏭️ Next: Timi le ta hoina timra bhaka](Timi_le_ta_hoina_timra_bhaka.md)

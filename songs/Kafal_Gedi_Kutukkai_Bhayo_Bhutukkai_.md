@@ -1,14 +1,10 @@
 # Kafal Gedi Kutukkai Bhayo Bhutukkai_
 
 **Capo:** 2nd fret  
-**Singer:** <br>
+**Singer:** Mahesh Budhathoki<br>
 **Key:** G<br>
 **Genre:** Party,oldschool, 4S 
 **Strumming:** DUMD 
-
----
-
-[⏮️ Previous: K Bhanu Ma Kaso Gari Pare](K_Bhanu_Ma_Kaso_Gari_Pare.md) | [🏡 Song List](../README.md) | [⏭️ Next: Kaha hola ghara bara](Kaha_hola_ghara_bara.md)
 
 ---
 
@@ -80,7 +76,3 @@ hey… aau hai maya lau suttukkai …
 Em         G         Em           G
 kafal gedi kuttukai..bhaiyo bhutukkai X4
 ```
-
----
-
-[⏮️ Previous: K Bhanu Ma Kaso Gari Pare](K_Bhanu_Ma_Kaso_Gari_Pare.md) | [🏡 Song List](../README.md) | [⏭️ Next: Kaha hola ghara bara](Kaha_hola_ghara_bara.md)

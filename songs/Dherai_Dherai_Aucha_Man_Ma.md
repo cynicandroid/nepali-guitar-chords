@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Dherai Choti Ankha Judhyo](Dherai_Choti_Ankha_Judhyo.md) | [🏡 Song List](../README.md) | [⏭️ Next: Do dil mil rahehe](Do_dil_mil_rahehe.md)
-
----
-
 ```text
 Key : G
 Genre: Campfire, 3S
@@ -48,7 +44,3 @@ mero biswas ma, mero atmama ma
 [Repeat whole song again]
 
 ```
-
----
-
-[⏮️ Previous: Dherai Choti Ankha Judhyo](Dherai_Choti_Ankha_Judhyo.md) | [🏡 Song List](../README.md) | [⏭️ Next: Do dil mil rahehe](Do_dil_mil_rahehe.md)

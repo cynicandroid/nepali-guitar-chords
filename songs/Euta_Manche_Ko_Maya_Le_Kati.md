@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Ek Ladki Bhigi Bhagisi](Ek_Ladki_Bhigi_Bhagisi.md) | [🏡 Song List](../README.md) | [⏭️ Next: Feri Kaha Aucha Ghumera](Feri_Kaha_Aucha_Ghumera.md)
-
----
-
 ```text
 654123(G) 543123 (Am7,Em7), 432123 (D7)
 
@@ -75,7 +71,3 @@ Euta mancheko maya le kati
          Bb          F
 Farak parda cha jindagima...
 ```
-
----
-
-[⏮️ Previous: Ek Ladki Bhigi Bhagisi](Ek_Ladki_Bhigi_Bhagisi.md) | [🏡 Song List](../README.md) | [⏭️ Next: Feri Kaha Aucha Ghumera](Feri_Kaha_Aucha_Ghumera.md)

@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Radha - Bijuli Baleko Hola](Radha_-_Bijuli_Baleko_Hola.md) | [🏡 Song List](../README.md) | [⏭️ Next: Rato Ra Chanda Surya](Rato_Ra_Chanda_Surya.md)
-
----
-
 ```text
 
 G      D           Em      C
@@ -55,7 +51,3 @@ Gum Khaye Yesai Birano Sahar ma
 Sing the whole song again
 
 ```
-
----
-
-[⏮️ Previous: Radha - Bijuli Baleko Hola](Radha_-_Bijuli_Baleko_Hola.md) | [🏡 Song List](../README.md) | [⏭️ Next: Rato Ra Chanda Surya](Rato_Ra_Chanda_Surya.md)

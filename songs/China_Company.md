@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Chaubandi Ma Patuki](Chaubandi_Ma_Patuki.md) | [🏡 Song List](../README.md) | [⏭️ Next: Chiso Chiso Hawa Ma](Chiso_Chiso_Hawa_Ma.md)
-
----
-
 ```text
 
   D        Bm         A            D
@@ -57,7 +53,3 @@ China Company, China Company x2
 
 
 ```
-
----
-
-[⏮️ Previous: Chaubandi Ma Patuki](Chaubandi_Ma_Patuki.md) | [🏡 Song List](../README.md) | [⏭️ Next: Chiso Chiso Hawa Ma](Chiso_Chiso_Hawa_Ma.md)

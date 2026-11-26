@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Changba Hoi Changba](Changba_Hoi_Changba.md) | [🏡 Song List](../README.md) | [⏭️ Next: Chari Udyo Badal Chuna Lai](Chari_Udyo_Badal_Chuna_Lai.md)
-
----
-
 ```text
 
 4(5/7, 7,7,7,4) 5(7,7) 4(4,7)
@@ -73,7 +69,3 @@ udayo relai le [x4]
 
 
 ```
-
----
-
-[⏮️ Previous: Changba Hoi Changba](Changba_Hoi_Changba.md) | [🏡 Song List](../README.md) | [⏭️ Next: Chari Udyo Badal Chuna Lai](Chari_Udyo_Badal_Chuna_Lai.md)

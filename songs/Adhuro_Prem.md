@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Aasaima Chil Udyo Dharti Ma Chaya](Aasaima_Chil_Udyo_Dharti_Ma_Chaya.md) | [🏡 Song List](../README.md) | [⏭️ Next: Agar Tum Na Hote - Humein Aur Jeene Ki Chahat](Agar_Tum_Na_Hote_-_Humein_Aur_Jeene_Ki_Chahat.md)
-
----
-
 ```text
 
 Am      F              C    G
@@ -82,7 +78,3 @@ C  G
 mero prem] x3
 
 ```
-
----
-
-[⏮️ Previous: Aasaima Chil Udyo Dharti Ma Chaya](Aasaima_Chil_Udyo_Dharti_Ma_Chaya.md) | [🏡 Song List](../README.md) | [⏭️ Next: Agar Tum Na Hote - Humein Aur Jeene Ki Chahat](Agar_Tum_Na_Hote_-_Humein_Aur_Jeene_Ki_Chahat.md)

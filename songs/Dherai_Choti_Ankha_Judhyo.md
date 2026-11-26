@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Deurali Ma Batas Chalyo](Deurali_Ma_Batas_Chalyo.md) | [🏡 Song List](../README.md) | [⏭️ Next: Dherai Dherai Aucha Man Ma](Dherai_Dherai_Aucha_Man_Ma.md)
-
----
-
 ```text
 
 Em                [arpeggio]
@@ -69,7 +65,3 @@ K k hune ho
 D                 Em
 Hasi rakhana maya boli rakhana [X4]
 ```
-
----
-
-[⏮️ Previous: Deurali Ma Batas Chalyo](Deurali_Ma_Batas_Chalyo.md) | [🏡 Song List](../README.md) | [⏭️ Next: Dherai Dherai Aucha Man Ma](Dherai_Dherai_Aucha_Man_Ma.md)

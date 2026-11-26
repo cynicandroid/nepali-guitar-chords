@@ -1,14 +1,10 @@
 # Kal Ho Na Ho
 
 **Capo:** 4th Fret  
-**Singer:** Misc Soundtrack<br>
+**Singer:** Sonu Nigam<br>
 **Key:** G<br>
 **Genre:** Campfire, Hindi  
 **Strumming:** DUDUM du  
-
----
-
-[⏮️ Previous: Kahi Door Jab Din Dhaljaye](Kahi_Door_Jab_Din_Dhaljaye.md) | [🏡 Song List](../README.md) | [⏭️ Next: Kalilo Tamalai Sodha Rama Lai](Kalilo_Tamalai_Sodha_Rama_Lai.md)
 
 ---
 
@@ -64,7 +60,3 @@ Jo hai sama kal ho na ho] X2
 
 
 ```
-
----
-
-[⏮️ Previous: Kahi Door Jab Din Dhaljaye](Kahi_Door_Jab_Din_Dhaljaye.md) | [🏡 Song List](../README.md) | [⏭️ Next: Kalilo Tamalai Sodha Rama Lai](Kalilo_Tamalai_Sodha_Rama_Lai.md)

@@ -1,14 +1,10 @@
 # Yeh Jeevan Hai
 
 **Capo:** None  
-**Singer:** Misc Soundtrack<br>
+**Singer:** Kishore Kumar<br>
 **Key:** E<br>
 **Genre:** Campfire, Hindi  
 **Strumming:** D UDU D.. U D U / D U U UDU  
-
----
-
-[⏮️ Previous: Ye yo ta maya](Ye_yo_ta_maya.md) | [🏡 Song List](../README.md) | [⏭️ Next: Yeti Dherai Maya Diyi](Yeti_Dherai_Maya_Diyi.md)
 
 ---
 
@@ -66,7 +62,3 @@ Yeh Jeevan Hai…
 
 
 ```
-
----
-
-[⏮️ Previous: Ye yo ta maya](Ye_yo_ta_maya.md) | [🏡 Song List](../README.md) | [⏭️ Next: Yeti Dherai Maya Diyi](Yeti_Dherai_Maya_Diyi.md)

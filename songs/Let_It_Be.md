@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Lekali He He Choya Ko Doko](Lekali_He_He_Choya_Ko_Doko.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ma Maunta Ma](Ma_Maunta_Ma.md)
-
----
-
 ```text
 
        G              D
@@ -123,7 +119,3 @@ let it be
 
 
 ```
-
----
-
-[⏮️ Previous: Lekali He He Choya Ko Doko](Lekali_He_He_Choya_Ko_Doko.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ma Maunta Ma](Ma_Maunta_Ma.md)

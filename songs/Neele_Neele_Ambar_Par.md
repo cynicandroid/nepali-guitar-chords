@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Naya Naya Sajau Hai Sansara](Naya_Naya_Sajau_Hai_Sansara.md) | [🏡 Song List](../README.md) | [⏭️ Next: Nira Jahile Risaune](Nira_Jahile_Risaune.md)
-
----
-
 ```text
 
             C                     Dm
@@ -99,7 +95,3 @@ Neele neele ambar par, chaand jab aaye
 La la la
 
 ```
-
----
-
-[⏮️ Previous: Naya Naya Sajau Hai Sansara](Naya_Naya_Sajau_Hai_Sansara.md) | [🏡 Song List](../README.md) | [⏭️ Next: Nira Jahile Risaune](Nira_Jahile_Risaune.md)

@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Musu Musu Hasi Deu Na Lai Lai](Musu_Musu_Hasi_Deu_Na_Lai_Lai.md) | [🏡 Song List](../README.md) | [⏭️ Next: Na Mana Laaj Yestari](Na_Mana_Laaj_Yestari.md)
-
----
-
 ```text
 
 G              Am
@@ -58,7 +54,3 @@ Musukka hasne timro baani le
      D                 G
 Mero jyaanai laane bho] X2
 ```
-
----
-
-[⏮️ Previous: Musu Musu Hasi Deu Na Lai Lai](Musu_Musu_Hasi_Deu_Na_Lai_Lai.md) | [🏡 Song List](../README.md) | [⏭️ Next: Na Mana Laaj Yestari](Na_Mana_Laaj_Yestari.md)

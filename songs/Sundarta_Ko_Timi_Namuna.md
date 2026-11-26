@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Suna Saili](Suna_Saili.md) | [🏡 Song List](../README.md) | [⏭️ Next: Suntali Mai Katima Ramro Darbara](Suntali_Mai_Katima_Ramro_Darbara.md)
-
----
-
 ```text
 
 C           Em            F   G
@@ -54,7 +50,3 @@ Ishwor ko timi malai upahaar hau
 
 
 ```
-
----
-
-[⏮️ Previous: Suna Saili](Suna_Saili.md) | [🏡 Song List](../README.md) | [⏭️ Next: Suntali Mai Katima Ramro Darbara](Suntali_Mai_Katima_Ramro_Darbara.md)

@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Timi Pari Tyo Gau Ma](Timi_Pari_Tyo_Gau_Ma.md) | [🏡 Song List](../README.md) | [⏭️ Next: Timro Nai Maya Lagcha Ni Saili](Timro_Nai_Maya_Lagcha_Ni_Saili.md)
-
----
-
 ```text
 
 [Single Strum]
@@ -110,7 +106,3 @@ Hoo oo Hoo oo x2
 
 
 ```
-
----
-
-[⏮️ Previous: Timi Pari Tyo Gau Ma](Timi_Pari_Tyo_Gau_Ma.md) | [🏡 Song List](../README.md) | [⏭️ Next: Timro Nai Maya Lagcha Ni Saili](Timro_Nai_Maya_Lagcha_Ni_Saili.md)

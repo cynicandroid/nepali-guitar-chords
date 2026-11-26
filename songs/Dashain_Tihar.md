@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Dalli Resham](Dalli_Resham.md) | [🏡 Song List](../README.md) | [⏭️ Next: Deepak Bajracharya - Mashup](Deepak_Bajracharya_-_Mashup.md)
-
----
-
 ```text
 
 G        Em
@@ -81,7 +77,3 @@ Ahh ha ha ha aaa
 A            Am              G
  Sajauna lai aafnai tyo sansara
 ```
-
----
-
-[⏮️ Previous: Dalli Resham](Dalli_Resham.md) | [🏡 Song List](../README.md) | [⏭️ Next: Deepak Bajracharya - Mashup](Deepak_Bajracharya_-_Mashup.md)

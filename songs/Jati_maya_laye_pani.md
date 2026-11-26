@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Jaba Sandhya Huncha](Jaba_Sandhya_Huncha.md) | [🏡 Song List](../README.md) | [⏭️ Next: Jiwan ho Ghamachaya](Jiwan_ho_Ghamachaya.md)
-
----
-
 ```text
 
 E                               
@@ -54,7 +50,3 @@ mannma pira ta parne nai bhayo
 A                       E
 yo mann tesai marne nai bhayo ho aaha ha
 ```
-
----
-
-[⏮️ Previous: Jaba Sandhya Huncha](Jaba_Sandhya_Huncha.md) | [🏡 Song List](../README.md) | [⏭️ Next: Jiwan ho Ghamachaya](Jiwan_ho_Ghamachaya.md)

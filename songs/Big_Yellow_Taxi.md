@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Bidesh Jane Mayalu Timilai](Bidesh_Jane_Mayalu_Timilai.md) | [🏡 Song List](../README.md) | [⏭️ Next: Blowing In The Wind](Blowing_In_The_Wind.md)
-
----
-
 ```text
 Tab 1
 Capo : 2nd Fret
@@ -98,7 +94,3 @@ X
 
 
 ```
-
----
-
-[⏮️ Previous: Bidesh Jane Mayalu Timilai](Bidesh_Jane_Mayalu_Timilai.md) | [🏡 Song List](../README.md) | [⏭️ Next: Blowing In The Wind](Blowing_In_The_Wind.md)

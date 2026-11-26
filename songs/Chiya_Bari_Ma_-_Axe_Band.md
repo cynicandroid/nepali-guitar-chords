@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Chithi timilai lekhu](Chithi_timilai_lekhu.md) | [🏡 Song List](../README.md) | [⏭️ Next: Chudaina Timro Mayale](Chudaina_Timro_Mayale.md)
-
----
-
 ```text
 
  Am            Em          D C     Am
@@ -80,7 +76,3 @@ D          Am  D          Am
 Chiya bari ma, Chiya bari ma
 
 ```
-
----
-
-[⏮️ Previous: Chithi timilai lekhu](Chithi_timilai_lekhu.md) | [🏡 Song List](../README.md) | [⏭️ Next: Chudaina Timro Mayale](Chudaina_Timro_Mayale.md)

@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Purani Jeans_](Purani_Jeans_.md) | [🏡 Song List](../README.md) | [⏭️ Next: Raataan Lambiyan](Raataan_Lambiyan.md)
-
----
-
 ```text
 
        A
@@ -60,7 +56,3 @@ Hasera Bolana Sathi Dui Din Bachinjel]x2
        E            A
 Hasera Bolana Sathi Dui Din Bachinjel
 ```
-
----
-
-[⏮️ Previous: Purani Jeans_](Purani_Jeans_.md) | [🏡 Song List](../README.md) | [⏭️ Next: Raataan Lambiyan](Raataan_Lambiyan.md)

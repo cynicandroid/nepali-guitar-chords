@@ -1,14 +1,10 @@
 # I Am Very Sorry (Fateko Jutta)
 
 **Capo:** 6th Fret  
-**Singer:** Wilbur Soot<br>
+**Singer:** Pravesh Mallick<br>
 **Key:** C<br>
 **Genre:** Party  
 **Strumming:**   
-
----
-
-[⏮️ Previous: Hukka Mero](Hukka_Mero.md) | [🏡 Song List](../README.md) | [⏭️ Next: I_d Love You To Want Me - Lobo](I_d_Love_You_To_Want_Me_-_Lobo.md)
 
 ---
 
@@ -65,7 +61,3 @@ I am very sorry
 Sorry sorry sorry......x2
 
 ```
-
----
-
-[⏮️ Previous: Hukka Mero](Hukka_Mero.md) | [🏡 Song List](../README.md) | [⏭️ Next: I_d Love You To Want Me - Lobo](I_d_Love_You_To_Want_Me_-_Lobo.md)

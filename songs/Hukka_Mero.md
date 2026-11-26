@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Hotel California -Eagles](Hotel_California_-Eagles.md) | [🏡 Song List](../README.md) | [⏭️ Next: I Am Very Sorry (Fateko Jutta)](I_Am_Very_Sorry_Fateko_Jutta.md)
-
----
-
 ```text
 
 Am
@@ -84,7 +80,3 @@ C        Am
 घर आऊआऊ लाग्छ (ल है!) x2
 
 ```
-
----
-
-[⏮️ Previous: Hotel California -Eagles](Hotel_California_-Eagles.md) | [🏡 Song List](../README.md) | [⏭️ Next: I Am Very Sorry (Fateko Jutta)](I_Am_Very_Sorry_Fateko_Jutta.md)

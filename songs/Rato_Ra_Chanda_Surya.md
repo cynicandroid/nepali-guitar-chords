@@ -1,14 +1,10 @@
 # Rato Ra Chanda Surya
 
 **Capo:** None  
-**Singer:** 1984 AD<br>
+**Singer:** 1974 AD<br>
 **Key:** C<br>
 **Genre:** Party  
 **Strumming:** D DU UDU / DD UUD DUDU (if fast) Barre  
-
----
-
-[⏮️ Previous: Ram sailee](Ram_sailee.md) | [🏡 Song List](../README.md) | [⏭️ Next: Rato rani](Rato_rani.md)
 
 ---
 
@@ -77,7 +73,3 @@ Rato ra chandra surya….
 2(13,13,13,13,12,13/15/13,12,13,15,13,12/10,12,10/8,8)
 2(10,10,8,10),3(10,10/12,7, 9,10,12,10,9/7,9,7,5)
 ```
-
----
-
-[⏮️ Previous: Ram sailee](Ram_sailee.md) | [🏡 Song List](../README.md) | [⏭️ Next: Rato rani](Rato_rani.md)

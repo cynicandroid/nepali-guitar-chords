@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Aaganai Bhari](Aaganai_Bhari.md) | [🏡 Song List](../README.md) | [⏭️ Next: Aasaima Chil Udyo Dharti Ma Chaya](Aasaima_Chil_Udyo_Dharti_Ma_Chaya.md)
-
----
-
 ```text
      G       Am       C      D         G
 Ankhama timi lai paaunchu ma dherai dherai [x2]
@@ -44,7 +40,3 @@ Jalai aaphulai dekhauna ma sakdina  [x2]
   G          Am     C          D               G
 Maya timilai garchu ma dherai dherai  [x2]
 ```
-
----
-
-[⏮️ Previous: Aaganai Bhari](Aaganai_Bhari.md) | [🏡 Song List](../README.md) | [⏭️ Next: Aasaima Chil Udyo Dharti Ma Chaya](Aasaima_Chil_Udyo_Dharti_Ma_Chaya.md)

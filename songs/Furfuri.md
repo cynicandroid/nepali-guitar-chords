@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Fulbutte Sari](Fulbutte_Sari.md) | [🏡 Song List](../README.md) | [⏭️ Next: Futki jane joban yo](Futki_jane_joban_yo.md)
-
----
-
 ```text
 
  Em
@@ -101,7 +97,3 @@ Jaane bhaye… jaam kaanchi
     Asus4 A     Asus2
 Aba do....li……ma chadhaai [x2]
 ```
-
----
-
-[⏮️ Previous: Fulbutte Sari](Fulbutte_Sari.md) | [🏡 Song List](../README.md) | [⏭️ Next: Futki jane joban yo](Futki_jane_joban_yo.md)

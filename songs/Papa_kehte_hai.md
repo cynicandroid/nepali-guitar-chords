@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Pal Pal Dil Ke Paas](Pal_Pal_Dil_Ke_Paas.md) | [🏡 Song List](../README.md) | [⏭️ Next: Parelima](Parelima.md)
-
----
-
 ```text
 Key  : C
 Genre : Party, Hindi
@@ -70,7 +66,3 @@ Ke meri manzil hai kahan
 C       Am           F         G  C
 Papa kehte hain bada naam kare ga aaa
 ```
-
----
-
-[⏮️ Previous: Pal Pal Dil Ke Paas](Pal_Pal_Dil_Ke_Paas.md) | [🏡 Song List](../README.md) | [⏭️ Next: Parelima](Parelima.md)

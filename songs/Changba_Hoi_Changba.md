@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Budeskaal Ko Laathi (60)](Budeskaal_Ko_Laathi_60.md) | [🏡 Song List](../README.md) | [⏭️ Next: Chari Maryo Sisai Ko Goli Le](Chari_Maryo_Sisai_Ko_Goli_Le.md)
-
----
-
 ```text
 
 G|-----5h7-5-5-----------5h7-5-5—-- (X2)
@@ -127,7 +123,3 @@ Jam kata jam jam kata jam jam jam
 
 
 ```
-
----
-
-[⏮️ Previous: Budeskaal Ko Laathi (60)](Budeskaal_Ko_Laathi_60.md) | [🏡 Song List](../README.md) | [⏭️ Next: Chari Maryo Sisai Ko Goli Le](Chari_Maryo_Sisai_Ko_Goli_Le.md)

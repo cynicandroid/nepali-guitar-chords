@@ -1,14 +1,10 @@
 # K Bhanu Ma Kaso Gari Pare
 
 **Capo:** None  
-**Singer:** Misc Soundtrack<br>
+**Singer:** Abhijeet<br>
 **Key:** Am<br>
 **Genre:** Campfire ,4S  
 **Strumming:** D D UUD DUDU  
-
----
-
-[⏮️ Previous: K bhane Hamro Samay](K_bhane_Hamro_Samay.md) | [🏡 Song List](../README.md) | [⏭️ Next: Kafal Gedi Kutukkai Bhayo Bhutukkai_](Kafal_Gedi_Kutukkai_Bhayo_Bhutukkai_.md)
 
 ---
 
@@ -76,7 +72,3 @@ Hm He He He Hey Hey x2
 
 
 ```
-
----
-
-[⏮️ Previous: K bhane Hamro Samay](K_bhane_Hamro_Samay.md) | [🏡 Song List](../README.md) | [⏭️ Next: Kafal Gedi Kutukkai Bhayo Bhutukkai_](Kafal_Gedi_Kutukkai_Bhayo_Bhutukkai_.md)

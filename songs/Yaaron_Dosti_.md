@@ -1,14 +1,10 @@
 # Yaaron Dosti_
 
 **Capo:** None, Key: F  
-**Singer:** <br>
+**Singer:** KK<br>
 **Key:** A#<br>
 **Genre:** Campfire Party  
 **Strumming:** DDU UDU  
-
----
-
-[⏮️ Previous: Who Saam Kuch Ajeeb Thi](Who_Saam_Kuch_Ajeeb_Thi.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ye dosti](Ye_dosti.md)
 
 ---
 
@@ -74,7 +70,3 @@ Jisko tujhse ho pyar
 Koi to dilbar ho yaar
 
 ```
-
----
-
-[⏮️ Previous: Who Saam Kuch Ajeeb Thi](Who_Saam_Kuch_Ajeeb_Thi.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ye dosti](Ye_dosti.md)

@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Chaubandi Choli Ma – 1974 AD](Chaubandi_Choli_Ma__1974_AD.md) | [🏡 Song List](../README.md) | [⏭️ Next: Chaubandi Ma Patuki](Chaubandi_Ma_Patuki.md)
-
----
-
 ```text
 Tab 1
 Capo : None
@@ -86,7 +82,3 @@ Chaubandi cholo hatai ma rumal
 C         Am
 Chaubandi cholo
 ```
-
----
-
-[⏮️ Previous: Chaubandi Choli Ma – 1974 AD](Chaubandi_Choli_Ma__1974_AD.md) | [🏡 Song List](../README.md) | [⏭️ Next: Chaubandi Ma Patuki](Chaubandi_Ma_Patuki.md)

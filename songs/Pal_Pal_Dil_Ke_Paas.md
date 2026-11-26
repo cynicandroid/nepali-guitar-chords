@@ -1,14 +1,10 @@
 # Pal Pal Dil Ke Paas
 
 **Capo:** None  
-**Singer:** Kishor Kumar<br>
+**Singer:** Kishore Kumar<br>
 **Key:** G<br>
 **Genre:** Campfire, Hindi  
 **Strumming:** D DU UDU  
-
----
-
-[⏮️ Previous: Nira Jahile Risaune](Nira_Jahile_Risaune.md) | [🏡 Song List](../README.md) | [⏭️ Next: Papa kehte hai](Papa_kehte_hai.md)
 
 ---
 
@@ -72,7 +68,3 @@ Jeevan Meethi Pyaas Yeh Kehti Ho
 C    D  G      Am       G
 Pal Pal Dil Ke Paas Tum Rehti Ho X2
 ```
-
----
-
-[⏮️ Previous: Nira Jahile Risaune](Nira_Jahile_Risaune.md) | [🏡 Song List](../README.md) | [⏭️ Next: Papa kehte hai](Papa_kehte_hai.md)

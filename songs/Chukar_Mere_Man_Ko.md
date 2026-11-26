@@ -1,14 +1,10 @@
 # Chukar Mere Man Ko
 
 **Capo:** None  
-**Singer:** Misc Soundtrack<br>
+**Singer:** Kishore Kumar<br>
 **Key:** D<br>
 **Genre:** Campfire, Hindi, 5S  
 **Strumming:** DDU UDU  
-
----
-
-[⏮️ Previous: Chudaina Timro Mayale](Chudaina_Timro_Mayale.md) | [🏡 Song List](../README.md) | [⏭️ Next: Country Road](Country_Road.md)
 
 ---
 
@@ -57,7 +53,3 @@ To hi mera jeevan, Tu jeene ka sahara
 D           A       A            D
 Chukar mere man ko, Kiya tune kya ishara
 ```
-
----
-
-[⏮️ Previous: Chudaina Timro Mayale](Chudaina_Timro_Mayale.md) | [🏡 Song List](../README.md) | [⏭️ Next: Country Road](Country_Road.md)

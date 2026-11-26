@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Chiso Chiso Hawa Ma](Chiso_Chiso_Hawa_Ma.md) | [🏡 Song List](../README.md) | [⏭️ Next: Chiya Bari Ma - Axe Band](Chiya_Bari_Ma_-_Axe_Band.md)
-
----
-
 ```text
 
 G              Em    Am     D
@@ -70,7 +66,3 @@ Samjhanale Satairahayo,Yo Aakhale Herirahayo
 G      Em  G
 Manko Kura Manmai Rahayo [x3]
 ```
-
----
-
-[⏮️ Previous: Chiso Chiso Hawa Ma](Chiso_Chiso_Hawa_Ma.md) | [🏡 Song List](../README.md) | [⏭️ Next: Chiya Bari Ma - Axe Band](Chiya_Bari_Ma_-_Axe_Band.md)

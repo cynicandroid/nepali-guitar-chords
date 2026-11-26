@@ -1,14 +1,10 @@
 # Mere samne wali khidki
 
 **Capo:**   
-**Singer:** Kishor Kumar<br>
+**Singer:** Kishore Kumar<br>
 **Key:** G<br>
 **Genre:** N/A  
 **Strumming:** DUMU DUM  
-
----
-
-[⏮️ Previous: Mera Dil Bhi Kitna Pagal He](Mera_Dil_Bhi_Kitna_Pagal_He.md) | [🏡 Song List](../README.md) | [⏭️ Next: Meri Aama - Buddha Lama](Meri_Aama_-_Buddha_Lama.md)
 
 ---
 
@@ -72,7 +68,3 @@ Mere saamnewaali khidki mein
 Ek chaand ka tukda rehta hai
 
 ```
-
----
-
-[⏮️ Previous: Mera Dil Bhi Kitna Pagal He](Mera_Dil_Bhi_Kitna_Pagal_He.md) | [🏡 Song List](../README.md) | [⏭️ Next: Meri Aama - Buddha Lama](Meri_Aama_-_Buddha_Lama.md)

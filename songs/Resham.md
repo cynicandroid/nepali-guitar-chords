@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Relimai Relimai](Relimai_Relimai.md) | [🏡 Song List](../README.md) | [⏭️ Next: Resham Firiri](Resham_Firiri.md)
-
----
-
 ```text
 
  A                     
@@ -69,7 +65,3 @@ Kaha jali,
 Umkera ho resham… Resham
 
 ```
-
----
-
-[⏮️ Previous: Relimai Relimai](Relimai_Relimai.md) | [🏡 Song List](../README.md) | [⏭️ Next: Resham Firiri](Resham_Firiri.md)

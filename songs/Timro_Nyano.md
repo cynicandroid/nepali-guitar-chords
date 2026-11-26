@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Timro Nai Maya Lagcha Ni Saili](Timro_Nai_Maya_Lagcha_Ni_Saili.md) | [🏡 Song List](../README.md) | [⏭️ Next: Timro Tyo Hasilo Muhar Ko](Timro_Tyo_Hasilo_Muhar_Ko.md)
-
----
-
 ```text
 
 G          D            C
@@ -40,7 +36,3 @@ jiwana ka dherai mod haru ma
 Em     D      G
 nabirsidinu vani] X4
 ```
-
----
-
-[⏮️ Previous: Timro Nai Maya Lagcha Ni Saili](Timro_Nai_Maya_Lagcha_Ni_Saili.md) | [🏡 Song List](../README.md) | [⏭️ Next: Timro Tyo Hasilo Muhar Ko](Timro_Tyo_Hasilo_Muhar_Ko.md)

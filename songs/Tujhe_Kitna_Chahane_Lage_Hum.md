@@ -1,14 +1,10 @@
 # Tujhe Kitna Chahane Lage Hum
 
 **Capo:** 4th Fret  
-**Singer:** Misc Soundtrack<br>
+**Singer:** Arijit Singh<br>
 **Key:** D<br>
 **Genre:** Campfire , Hindi  
 **Strumming:** D D UUDD  
-
----
-
-[⏮️ Previous: Tujhe Dekha To Yeh](Tujhe_Dekha_To_Yeh.md) | [🏡 Song List](../README.md) | [⏭️ Next: Tum Hi Ho](Tum_Hi_Ho.md)
 
 ---
 
@@ -72,7 +68,3 @@ Tere saath ho jayenge khatam
          C     D         G
 [Tujhe kitna chahne lage hum] x3
 ```
-
----
-
-[⏮️ Previous: Tujhe Dekha To Yeh](Tujhe_Dekha_To_Yeh.md) | [🏡 Song List](../README.md) | [⏭️ Next: Tum Hi Ho](Tum_Hi_Ho.md)

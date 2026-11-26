@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Suntali Mai Katima Ramro Darbara](Suntali_Mai_Katima_Ramro_Darbara.md) | [🏡 Song List](../README.md) | [⏭️ Next: Syndicate Bipul Chhetri_](Syndicate_Bipul_Chhetri_.md)
-
----
-
 ```text
 E [Palm mute]
 La la la.. La la la la… [x2]
@@ -82,7 +78,3 @@ I believe they never could
 
 
 ```
-
----
-
-[⏮️ Previous: Suntali Mai Katima Ramro Darbara](Suntali_Mai_Katima_Ramro_Darbara.md) | [🏡 Song List](../README.md) | [⏭️ Next: Syndicate Bipul Chhetri_](Syndicate_Bipul_Chhetri_.md)

@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Hongkong Pokhara_](Hongkong_Pokhara_.md) | [🏡 Song List](../README.md) | [⏭️ Next: Hukka Mero](Hukka_Mero.md)
-
----
-
 ```text
 
 Am                                         E7
@@ -133,7 +129,3 @@ But you can never leave...
 [Outro Solo]
 Am   E7   G   D   F   C   Dm   E7   x3
 ```
-
----
-
-[⏮️ Previous: Hongkong Pokhara_](Hongkong_Pokhara_.md) | [🏡 Song List](../README.md) | [⏭️ Next: Hukka Mero](Hukka_Mero.md)

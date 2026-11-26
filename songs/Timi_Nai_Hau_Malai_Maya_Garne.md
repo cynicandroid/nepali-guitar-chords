@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Timi ma bhanda kosau](Timi_ma_bhanda_kosau.md) | [🏡 Song List](../README.md) | [⏭️ Next: Timi Pari Tyo Gau Ma](Timi_Pari_Tyo_Gau_Ma.md)
-
----
-
 ```text
 Tab 1
 Capo : None
@@ -56,7 +52,3 @@ G      D     Em7   C
 तिमी नै, तिमी नै हौ
 
 ```
-
----
-
-[⏮️ Previous: Timi ma bhanda kosau](Timi_ma_bhanda_kosau.md) | [🏡 Song List](../README.md) | [⏭️ Next: Timi Pari Tyo Gau Ma](Timi_Pari_Tyo_Gau_Ma.md)

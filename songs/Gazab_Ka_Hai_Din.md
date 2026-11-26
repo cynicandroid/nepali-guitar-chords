@@ -1,14 +1,10 @@
 # Gazab Ka Hai Din
 
 **Capo:** None  
-**Singer:** Robin N' Looza<br>
+**Singer:** Udit Narayan<br>
 **Key:** G<br>
 **Genre:** Campfire  
 **Strumming:** D D UUD DUDU  
-
----
-
-[⏮️ Previous: Gajalu Ti Thula Thula Ankha](Gajalu_Ti_Thula_Thula_Ankha.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ghar se nikalte](Ghar_se_nikalte.md)
 
 ---
 
@@ -73,7 +69,3 @@ Maza aa raha hai
          G C D
 Kasam se x2
 ```
-
----
-
-[⏮️ Previous: Gajalu Ti Thula Thula Ankha](Gajalu_Ti_Thula_Thula_Ankha.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ghar se nikalte](Ghar_se_nikalte.md)

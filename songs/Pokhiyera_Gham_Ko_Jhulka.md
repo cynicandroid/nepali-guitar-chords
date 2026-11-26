@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Piudina Bhanda Bhandai Pilayo Sathi Le](Piudina_Bhanda_Bhandai_Pilayo_Sathi_Le.md) | [🏡 Song List](../README.md) | [⏭️ Next: Prem Patra](Prem_Patra.md)
-
----
-
 ```text
 
 A      D      A             D
@@ -90,7 +86,3 @@ Kholu kholu laagchha hai
 
 
 ```
-
----
-
-[⏮️ Previous: Piudina Bhanda Bhandai Pilayo Sathi Le](Piudina_Bhanda_Bhandai_Pilayo_Sathi_Le.md) | [🏡 Song List](../README.md) | [⏭️ Next: Prem Patra](Prem_Patra.md)

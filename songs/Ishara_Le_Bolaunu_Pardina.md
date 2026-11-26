@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: I_d Love You To Want Me - Lobo](I_d_Love_You_To_Want_Me_-_Lobo.md) | [🏡 Song List](../README.md) | [⏭️ Next: Jab Koi Baat Bigad Jaye](Jab_Koi_Baat_Bigad_Jaye.md)
-
----
-
 ```text
 
 F
@@ -70,7 +66,3 @@ Maya Bhaye Daraunu Pardaina
 
 
 ```
-
----
-
-[⏮️ Previous: I_d Love You To Want Me - Lobo](I_d_Love_You_To_Want_Me_-_Lobo.md) | [🏡 Song List](../README.md) | [⏭️ Next: Jab Koi Baat Bigad Jaye](Jab_Koi_Baat_Bigad_Jaye.md)

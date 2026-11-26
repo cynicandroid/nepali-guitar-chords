@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Pokhiyera Gham Ko Jhulka](Pokhiyera_Gham_Ko_Jhulka.md) | [🏡 Song List](../README.md) | [⏭️ Next: Purani Jeans_](Purani_Jeans_.md)
-
----
-
 ```text
 
 C       Em     F      G
@@ -65,7 +61,3 @@ mero yo prem patra
  
 
 ```
-
----
-
-[⏮️ Previous: Pokhiyera Gham Ko Jhulka](Pokhiyera_Gham_Ko_Jhulka.md) | [🏡 Song List](../README.md) | [⏭️ Next: Purani Jeans_](Purani_Jeans_.md)

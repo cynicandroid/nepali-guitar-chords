@@ -1,14 +1,10 @@
 # Hawayein
 
 **Capo:** None  
-**Singer:** Misc Soundtrack<br>
+**Singer:** Arijit Singh<br>
 **Key:** D<br>
 **Genre:** Campfire  
 **Strumming:** d dU udu  
-
----
-
-[⏮️ Previous: Hawa Chalyo Firiri](Hawa_Chalyo_Firiri.md) | [🏡 Song List](../README.md) | [⏭️ Next: Hera Na Hera Kancha](Hera_Na_Hera_Kancha.md)
 
 ---
 
@@ -85,7 +81,3 @@ Oool ooo hooooo .. ohh oooh ohhhh x2
 A        D
 Oooo ohh oh ooo
 ```
-
----
-
-[⏮️ Previous: Hawa Chalyo Firiri](Hawa_Chalyo_Firiri.md) | [🏡 Song List](../README.md) | [⏭️ Next: Hera Na Hera Kancha](Hera_Na_Hera_Kancha.md)

@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Suna Bhanana w Capo](Suna_Bhanana_w_Capo.md) | [🏡 Song List](../README.md) | [⏭️ Next: Suna Saili](Suna_Saili.md)
-
----
-
 ```text
 
 [Roll strum and up pull on _]
@@ -56,7 +52,3 @@ Bhana mero sano meet
 G        Am      G      Am
 Maya basecha miteri sainoma
 ```
-
----
-
-[⏮️ Previous: Suna Bhanana w Capo](Suna_Bhanana_w_Capo.md) | [🏡 Song List](../README.md) | [⏭️ Next: Suna Saili](Suna_Saili.md)

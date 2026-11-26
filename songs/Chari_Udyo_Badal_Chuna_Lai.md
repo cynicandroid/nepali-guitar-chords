@@ -1,14 +1,10 @@
 # Chari Udyo Badal Chuna Lai
 
 **Capo:** 1st Fret  
-**Singer:** Sad Rose<br>
+**Singer:** Creative Brothers<br>
 **Key:** G<br>
 **Genre:** Campfire, 5S  
 **Strumming:** DUM DU  
-
----
-
-[⏮️ Previous: Chari Maryo Sisai Ko Goli Le](Chari_Maryo_Sisai_Ko_Goli_Le.md) | [🏡 Song List](../README.md) | [⏭️ Next: Charka Dheba Kuma Sagar](Charka_Dheba_Kuma_Sagar.md)
 
 ---
 
@@ -64,7 +60,3 @@ Kanchi baschin eklai runa lai] X2
 
 
 ```
-
----
-
-[⏮️ Previous: Chari Maryo Sisai Ko Goli Le](Chari_Maryo_Sisai_Ko_Goli_Le.md) | [🏡 Song List](../README.md) | [⏭️ Next: Charka Dheba Kuma Sagar](Charka_Dheba_Kuma_Sagar.md)

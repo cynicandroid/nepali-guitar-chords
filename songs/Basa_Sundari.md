@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Aye Dil Laya Hai Bahar](Aye_Dil_Laya_Hai_Bahar.md) | [🏡 Song List](../README.md) | [⏭️ Next: Bidesh Jane Mayalu Timilai](Bidesh_Jane_Mayalu_Timilai.md)
-
----
-
 ```text
 
 G                                 Em                Am
@@ -96,7 +92,3 @@ la hai.. tyo man pakka aatai jasto cha
          Am            Em          G
 tara yo jaan lai timrai khaacho cha
 ```
-
----
-
-[⏮️ Previous: Aye Dil Laya Hai Bahar](Aye_Dil_Laya_Hai_Bahar.md) | [🏡 Song List](../README.md) | [⏭️ Next: Bidesh Jane Mayalu Timilai](Bidesh_Jane_Mayalu_Timilai.md)

@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Tujhe Kitna Chahane Lage Hum](Tujhe_Kitna_Chahane_Lage_Hum.md) | [🏡 Song List](../README.md) | [⏭️ Next: Who Saam Kuch Ajeeb Thi](Who_Saam_Kuch_Ajeeb_Thi.md)
-
----
-
 ```text
 
 e|-------7-----8------------|
@@ -88,7 +84,3 @@ Chain bhi, mera dard bhi
      D           Bm     C
 Meri aashiqui ab tum hi ho] X2
 ```
-
----
-
-[⏮️ Previous: Tujhe Kitna Chahane Lage Hum](Tujhe_Kitna_Chahane_Lage_Hum.md) | [🏡 Song List](../README.md) | [⏭️ Next: Who Saam Kuch Ajeeb Thi](Who_Saam_Kuch_Ajeeb_Thi.md)

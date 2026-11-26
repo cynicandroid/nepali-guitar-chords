@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Kalo Keshma Relimai](Kalo_Keshma_Relimai.md) | [🏡 Song List](../README.md) | [⏭️ Next: Karam Khudaya Ye- Tere Sang Yara](Karam_Khudaya_Ye-_Tere_Sang_Yara.md)
-
----
-
 ```text
 
 [Single strum]
@@ -80,7 +76,3 @@ Ma Madal Ghanghan Ghankaula
 C
 Timi Jureli Jastei Nachana
 ```
-
----
-
-[⏮️ Previous: Kalo Keshma Relimai](Kalo_Keshma_Relimai.md) | [🏡 Song List](../README.md) | [⏭️ Next: Karam Khudaya Ye- Tere Sang Yara](Karam_Khudaya_Ye-_Tere_Sang_Yara.md)

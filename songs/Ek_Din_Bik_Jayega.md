@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Ek ajnabi hasina se](Ek_ajnabi_hasina_se.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ek Ladki Bhigi Bhagisi](Ek_Ladki_Bhigi_Bhagisi.md)
-
----
-
 ```text
 
 A                            E
@@ -90,7 +86,3 @@ La la la la la laa
 A  E           A
 La la la la la laa
 ```
-
----
-
-[⏮️ Previous: Ek ajnabi hasina se](Ek_ajnabi_hasina_se.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ek Ladki Bhigi Bhagisi](Ek_Ladki_Bhigi_Bhagisi.md)

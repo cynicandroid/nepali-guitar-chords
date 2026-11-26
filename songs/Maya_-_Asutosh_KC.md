@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Maski Maski Herera Janele](Maski_Maski_Herera_Janele.md) | [🏡 Song List](../README.md) | [⏭️ Next: Maya Jalaima](Maya_Jalaima.md)
-
----
-
 ```text
 
 C       G       C
@@ -97,7 +93,3 @@ Yadale jiban, Sajaunu ho maya
 C       G       F       C
 Ho…
 ```
-
----
-
-[⏮️ Previous: Maski Maski Herera Janele](Maski_Maski_Herera_Janele.md) | [🏡 Song List](../README.md) | [⏭️ Next: Maya Jalaima](Maya_Jalaima.md)

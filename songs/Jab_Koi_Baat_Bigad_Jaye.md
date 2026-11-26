@@ -1,14 +1,10 @@
 # Jab Koi Baat Bigad Jaye
 
 **Capo:** 3rd Fret  
-**Singer:** Misc Soundtrack<br>
+**Singer:** Kumar Sanu<br>
 **Key:** D<br>
 **Genre:** Campfire, Hindi  
 **Strumming:** D DU UDU  
-
----
-
-[⏮️ Previous: Ishara Le Bolaunu Pardina](Ishara_Le_Bolaunu_Pardina.md) | [🏡 Song List](../README.md) | [⏭️ Next: Jaba Sandhya Huncha](Jaba_Sandhya_Huncha.md)
 
 ---
 
@@ -103,7 +99,3 @@ Zindage Mein Tumhaare Siva
 O Humnawaaz] X2
 
 ```
-
----
-
-[⏮️ Previous: Ishara Le Bolaunu Pardina](Ishara_Le_Bolaunu_Pardina.md) | [🏡 Song List](../README.md) | [⏭️ Next: Jaba Sandhya Huncha](Jaba_Sandhya_Huncha.md)

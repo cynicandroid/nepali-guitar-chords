@@ -1,14 +1,10 @@
 # Ye Shaam Mastani
 
 **Capo:** None  
-**Singer:** <br>
+**Singer:** Kishore Kumar<br>
 **Key:** G<br>
 **Genre:** Campfire, Hindi  
 **Strumming:** DUMU UMU  
-
----
-
-[⏮️ Previous: Pyar Diwana Hota Hai Mastana](Pyar_Diwana_Hota_Hai_Mastana.md) | [🏡 Song List](../README.md) | [⏭️ Next: Chand Sifarish - Subhan Allha](Chand_Sifarish_-_Subhan_Allha.md)
 
 ---
 
@@ -64,7 +60,3 @@ mujhe door koi khinche, teri or liye jaaye] X2
 
 
 ```
-
----
-
-[⏮️ Previous: Pyar Diwana Hota Hai Mastana](Pyar_Diwana_Hota_Hai_Mastana.md) | [🏡 Song List](../README.md) | [⏭️ Next: Chand Sifarish - Subhan Allha](Chand_Sifarish_-_Subhan_Allha.md)

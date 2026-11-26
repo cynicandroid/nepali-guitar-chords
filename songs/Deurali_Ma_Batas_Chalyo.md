@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Deurali Ko Chautari Ma(1)](Deurali_Ko_Chautari_Ma1.md) | [🏡 Song List](../README.md) | [⏭️ Next: Dherai Choti Ankha Judhyo](Dherai_Choti_Ankha_Judhyo.md)
-
----
-
 ```text
 Finger : 654,321
 G
@@ -89,7 +85,3 @@ G        Am      G        D
        G
 देउरालीमा बतास चल्यो x3
 ```
-
----
-
-[⏮️ Previous: Deurali Ko Chautari Ma(1)](Deurali_Ko_Chautari_Ma1.md) | [🏡 Song List](../README.md) | [⏭️ Next: Dherai Choti Ankha Judhyo](Dherai_Choti_Ankha_Judhyo.md)

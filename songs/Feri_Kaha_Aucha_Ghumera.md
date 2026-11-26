@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Euta Manche Ko Maya Le Kati](Euta_Manche_Ko_Maya_Le_Kati.md) | [🏡 Song List](../README.md) | [⏭️ Next: Fulbutte Sari](Fulbutte_Sari.md)
-
----
-
 ```text
 
 [Music]
@@ -70,7 +66,3 @@ Bm          D      Em     D
 
        
 ```
-
----
-
-[⏮️ Previous: Euta Manche Ko Maya Le Kati](Euta_Manche_Ko_Maya_Le_Kati.md) | [🏡 Song List](../README.md) | [⏭️ Next: Fulbutte Sari](Fulbutte_Sari.md)

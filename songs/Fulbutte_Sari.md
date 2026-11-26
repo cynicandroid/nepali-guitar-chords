@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Feri Kaha Aucha Ghumera](Feri_Kaha_Aucha_Ghumera.md) | [🏡 Song List](../README.md) | [⏭️ Next: Furfuri](Furfuri.md)
-
----
-
 ```text
 
 G                 Em
@@ -62,7 +58,3 @@ Pachyauri malmal ko
 
 
 ```
-
----
-
-[⏮️ Previous: Feri Kaha Aucha Ghumera](Feri_Kaha_Aucha_Ghumera.md) | [🏡 Song List](../README.md) | [⏭️ Next: Furfuri](Furfuri.md)

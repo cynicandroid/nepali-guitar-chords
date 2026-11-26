@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Jab Koi Baat Bigad Jaye](Jab_Koi_Baat_Bigad_Jaye.md) | [🏡 Song List](../README.md) | [⏭️ Next: Jati maya laye pani](Jati_maya_laye_pani.md)
-
----
-
 ```text
 
  Am             E   
@@ -53,7 +49,3 @@ Timro milan ko aashma aha haa..
 G               Am
 adhyaro le sataucha]x2
 ```
-
----
-
-[⏮️ Previous: Jab Koi Baat Bigad Jaye](Jab_Koi_Baat_Bigad_Jaye.md) | [🏡 Song List](../README.md) | [⏭️ Next: Jati maya laye pani](Jati_maya_laye_pani.md)

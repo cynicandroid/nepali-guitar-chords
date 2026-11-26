@@ -1,14 +1,10 @@
 # Pehli Nazar Mein
 
 **Capo:** None  
-**Singer:** Samir Shrestha<br>
+**Singer:** Atif Aslam<br>
 **Key:** D<br>
 **Genre:** N/A  
 **Strumming:** N/A  
-
----
-
-[⏮️ Previous: Pehla Nasha - D Scale](Pehla_Nasha_-_D_Scale.md) | [🏡 Song List](../README.md) | [⏭️ Next: Phir Bhi Tum Ko Chahunga](Phir_Bhi_Tum_Ko_Chahunga.md)
 
 ---
 
@@ -72,7 +68,3 @@ Meri Bahon Mein Aa Bhool Ja Aa
 
 
 ```
-
----
-
-[⏮️ Previous: Pehla Nasha - D Scale](Pehla_Nasha_-_D_Scale.md) | [🏡 Song List](../README.md) | [⏭️ Next: Phir Bhi Tum Ko Chahunga](Phir_Bhi_Tum_Ko_Chahunga.md)

@@ -1,14 +1,10 @@
 # Ye yo ta maya
 
 **Capo:** None  
-**Singer:** The Police<br>
+**Singer:** Nabin K Bhattarai<br>
 **Key:** G<br>
 **Genre:** N/A  
 **Strumming:** N/A  
-
----
-
-[⏮️ Previous: Ye dosti -Sad Version_](Ye_dosti_-Sad_Version_.md) | [🏡 Song List](../README.md) | [⏭️ Next: Yeh Jeevan Hai](Yeh_Jeevan_Hai.md)
 
 ---
 
@@ -108,7 +104,3 @@ joon timilai ma sunaai rahechhu] x2
 
 
 ```
-
----
-
-[⏮️ Previous: Ye dosti -Sad Version_](Ye_dosti_-Sad_Version_.md) | [🏡 Song List](../README.md) | [⏭️ Next: Yeh Jeevan Hai](Yeh_Jeevan_Hai.md)

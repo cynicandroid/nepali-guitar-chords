@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Samne Ye Kaun Aya](Samne_Ye_Kaun_Aya.md) | [🏡 Song List](../README.md) | [⏭️ Next: Sanjha Pare Pachi Ni Lailai](Sanjha_Pare_Pachi_Ni_Lailai.md)
-
----
-
 ```text
 
  E              B	        A        E
@@ -57,7 +53,3 @@ Manko Pida Ukkai Aafain Maa Tadpinchu
 E             B		 A            E
 Sanjha Pakha Ekanta Ma Aafailai Birsinda
 ```
-
----
-
-[⏮️ Previous: Samne Ye Kaun Aya](Samne_Ye_Kaun_Aya.md) | [🏡 Song List](../README.md) | [⏭️ Next: Sanjha Pare Pachi Ni Lailai](Sanjha_Pare_Pachi_Ni_Lailai.md)

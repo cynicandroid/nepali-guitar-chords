@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Agar Tum Na Hote - Humein Aur Jeene Ki Chahat](Agar_Tum_Na_Hote_-_Humein_Aur_Jeene_Ki_Chahat.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ajja Akash Ma Euta Tara Dekhina](Ajja_Akash_Ma_Euta_Tara_Dekhina.md)
-
----
-
 ```text
 
 D            A          E          A   
@@ -78,7 +74,3 @@ A
 (Aago lagyo dilaima damkal bolai deu)x2
 
 ```
-
----
-
-[⏮️ Previous: Agar Tum Na Hote - Humein Aur Jeene Ki Chahat](Agar_Tum_Na_Hote_-_Humein_Aur_Jeene_Ki_Chahat.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ajja Akash Ma Euta Tara Dekhina](Ajja_Akash_Ma_Euta_Tara_Dekhina.md)

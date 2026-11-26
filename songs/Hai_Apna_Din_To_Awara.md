@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Gurasai Fulyo Banaima](Gurasai_Fulyo_Banaima.md) | [🏡 Song List](../README.md) | [⏭️ Next: Hamro Nepal Ma](Hamro_Nepal_Ma.md)
-
----
-
 ```text
 
 [Press unpress each down stroke]
@@ -83,7 +79,3 @@ Bm        D   E    A
 Naa jaane kis pe aayega] X2
 
 ```
-
----
-
-[⏮️ Previous: Gurasai Fulyo Banaima](Gurasai_Fulyo_Banaima.md) | [🏡 Song List](../README.md) | [⏭️ Next: Hamro Nepal Ma](Hamro_Nepal_Ma.md)

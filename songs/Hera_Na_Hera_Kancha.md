@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Hawayein](Hawayein.md) | [🏡 Song List](../README.md) | [⏭️ Next: Herda Herdai Budo Bhaiyo_](Herda_Herdai_Budo_Bhaiyo_.md)
-
----
-
 ```text
 
 2(10) 1(10AP,14,12,10,14,12,10,9) 2(12) 2(10) 1(9AP,12,10,9,12,10,9,7) 2(10)   
@@ -99,7 +95,3 @@ Phooleko phool jhain tara
 C         D
 ek palta haansi deuna
 ```
-
----
-
-[⏮️ Previous: Hawayein](Hawayein.md) | [🏡 Song List](../README.md) | [⏭️ Next: Herda Herdai Budo Bhaiyo_](Herda_Herdai_Budo_Bhaiyo_.md)

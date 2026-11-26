@@ -1,14 +1,10 @@
 # Phoolon Ka Taro Ka
 
 **Capo:** None  
-**Singer:** Kishor Kumar<br>
+**Singer:** Kishore Kumar<br>
 **Key:** G<br>
 **Genre:** Campfire Party Hindi  
 **Strumming:** D D UUD DDU  
-
----
-
-[⏮️ Previous: Phir Bhi Tum Ko Chahunga](Phir_Bhi_Tum_Ko_Chahunga.md) | [🏡 Song List](../README.md) | [⏭️ Next: Phul ko Ankha Ma](Phul_ko_Ankha_Ma.md)
 
 ---
 
@@ -73,7 +69,3 @@ Ek Hazaron Mein Meri Behna Hai
 G       D        G
 Ho.. La La La La La La La…
 ```
-
----
-
-[⏮️ Previous: Phir Bhi Tum Ko Chahunga](Phir_Bhi_Tum_Ko_Chahunga.md) | [🏡 Song List](../README.md) | [⏭️ Next: Phul ko Ankha Ma](Phul_ko_Ankha_Ma.md)

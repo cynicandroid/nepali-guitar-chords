@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Dashain Tihar](Dashain_Tihar.md) | [🏡 Song List](../README.md) | [⏭️ Next: Deurali Ko Chautari Ma](Deurali_Ko_Chautari_Ma.md)
-
----
-
 ```text
 
 [Single Down Strum]
@@ -142,7 +138,3 @@ Bhanu ma kasari maya timrai nai hu ma
 A#                 Cm
 Ju ju na na na na na na
 ```
-
----
-
-[⏮️ Previous: Dashain Tihar](Dashain_Tihar.md) | [🏡 Song List](../README.md) | [⏭️ Next: Deurali Ko Chautari Ma](Deurali_Ko_Chautari_Ma.md)

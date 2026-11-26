@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Roop Tera Mastana](Roop_Tera_Mastana.md) | [🏡 Song List](../README.md) | [⏭️ Next: Samaye Panchi Ho](Samaye_Panchi_Ho.md)
-
----
-
 ```text
 A                  Bm
 Sadhai sadhai aai rahancha
@@ -89,7 +85,3 @@ Atit ka ti dhun haru
 
 
 ```
-
----
-
-[⏮️ Previous: Roop Tera Mastana](Roop_Tera_Mastana.md) | [🏡 Song List](../README.md) | [⏭️ Next: Samaye Panchi Ho](Samaye_Panchi_Ho.md)

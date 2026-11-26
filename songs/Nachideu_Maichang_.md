@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Na Mana Laaj Yestari](Na_Mana_Laaj_Yestari.md) | [🏡 Song List](../README.md) | [⏭️ Next: Naya Naya Sajau Hai Sansara](Naya_Naya_Sajau_Hai_Sansara.md)
-
----
-
 ```text
 
 G
@@ -108,7 +104,3 @@ kasle paalcha ani-kaalai-ma] x2
 
 
 ```
-
----
-
-[⏮️ Previous: Na Mana Laaj Yestari](Na_Mana_Laaj_Yestari.md) | [🏡 Song List](../README.md) | [⏭️ Next: Naya Naya Sajau Hai Sansara](Naya_Naya_Sajau_Hai_Sansara.md)

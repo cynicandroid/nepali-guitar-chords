@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Resham Firiri](Resham_Firiri.md) | [🏡 Song List](../README.md) | [⏭️ Next: Roop Tera Mastana](Roop_Tera_Mastana.md)
-
----
-
 ```text
 
 C-Dm-F-C
@@ -47,7 +43,3 @@ phoola haruma timi komal gulab hau
 Dm         F                     C
 Nadi haruma timi ho pabitra ganga hau
 ```
-
----
-
-[⏮️ Previous: Resham Firiri](Resham_Firiri.md) | [🏡 Song List](../README.md) | [⏭️ Next: Roop Tera Mastana](Roop_Tera_Mastana.md)

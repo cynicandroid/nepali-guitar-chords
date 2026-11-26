@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Jati maya laye pani](Jati_maya_laye_pani.md) | [🏡 Song List](../README.md) | [⏭️ Next: Jogale Huncha Bheta](Jogale_Huncha_Bheta.md)
-
----
-
 ```text
 
        C        Dm    
@@ -70,7 +66,3 @@ yo jindagani
 yo jindagani] [X8]
 
 ```
-
----
-
-[⏮️ Previous: Jati maya laye pani](Jati_maya_laye_pani.md) | [🏡 Song List](../README.md) | [⏭️ Next: Jogale Huncha Bheta](Jogale_Huncha_Bheta.md)

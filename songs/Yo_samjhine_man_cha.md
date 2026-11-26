@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Yo Man Ta Mero Nepali Ho](Yo_Man_Ta_Mero_Nepali_Ho.md) | [🏡 Song List](../README.md) | [⏭️ Next: Aaganai Bhari](Aaganai_Bhari.md)
-
----
-
 ```text
 (Start line on underline strum)
 C                               Dm
@@ -50,7 +46,3 @@ Dm                  G7        C
 Timi Nai Bhani Deu, Ae Jane Nithuri.. Jane Nithuri
 
 ```
-
----
-
-[⏮️ Previous: Yo Man Ta Mero Nepali Ho](Yo_Man_Ta_Mero_Nepali_Ho.md) | [🏡 Song List](../README.md) | [⏭️ Next: Aaganai Bhari](Aaganai_Bhari.md)

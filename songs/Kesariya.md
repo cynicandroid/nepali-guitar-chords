@@ -1,14 +1,10 @@
 # Kesariya
 
 **Capo:** None  
-**Singer:** Arjit Singh<br>
+**Singer:** Arijit Singh<br>
 **Key:** C<br>
 **Genre:** Party, Hindi  
 **Strumming:** D D UUD DDU  
-
----
-
-[⏮️ Previous: Kehi Mitho Baat Gara](Kehi_Mitho_Baat_Gara.md) | [🏡 Song List](../README.md) | [⏭️ Next: Khairo khairo kapal timro](Khairo_khairo_kapal_timro.md)
 
 ---
 
@@ -79,6 +75,3 @@ Din Beete Saara Teri Fikr Mein
      C                G
 Rain Saari Teri Khair Manaauuuuu ] X2
 ```
----
-
-[⏮️ Previous: Kehi Mitho Baat Gara](Kehi_Mitho_Baat_Gara.md) | [🏡 Song List](../README.md) | [⏭️ Next: Khairo khairo kapal timro](Khairo_khairo_kapal_timro.md)

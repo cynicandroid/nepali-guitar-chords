@@ -1,14 +1,10 @@
 # Makhamali Pachauri_
 
 **Capo:** None  
-**Singer:** <br>
+**Singer:** Udit Narayan<br>
 **Key:** G<br>
 **Genre:** N/A  
 **Strumming:** N/A  
-
----
-
-[⏮️ Previous: Ma Maunta Ma](Ma_Maunta_Ma.md) | [🏡 Song List](../README.md) | [⏭️ Next: Malai Maaf Gari Deu](Malai_Maaf_Gari_Deu.md)
 
 ---
 
@@ -69,7 +65,3 @@ Timi Pani Basekaa Chhau Hasi
 Am        D      G
 Kaleji ko Serofero
 ```
-
----
-
-[⏮️ Previous: Ma Maunta Ma](Ma_Maunta_Ma.md) | [🏡 Song List](../README.md) | [⏭️ Next: Malai Maaf Gari Deu](Malai_Maaf_Gari_Deu.md)

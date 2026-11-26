@@ -1,14 +1,10 @@
 # Tujhe Dekha To Yeh
 
 **Capo:** None  
-**Singer:** Misc Soundtrack<br>
+**Singer:** Kumar Sanu<br>
 **Key:** Em<br>
 **Genre:** Campfire Hindi  
 **Strumming:** DDUM DU  
-
----
-
-[⏮️ Previous: Tu Mere Agal Bagal Hey](Tu_Mere_Agal_Bagal_Hey.md) | [🏡 Song List](../README.md) | [⏭️ Next: Tujhe Kitna Chahane Lage Hum](Tujhe_Kitna_Chahane_Lage_Hum.md)
 
 ---
 
@@ -77,7 +73,3 @@ Tujhe dekha to yeh jaana sanam...
 
 
 ```
-
----
-
-[⏮️ Previous: Tu Mere Agal Bagal Hey](Tu_Mere_Agal_Bagal_Hey.md) | [🏡 Song List](../README.md) | [⏭️ Next: Tujhe Kitna Chahane Lage Hum](Tujhe_Kitna_Chahane_Lage_Hum.md)

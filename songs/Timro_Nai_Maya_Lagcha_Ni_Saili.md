@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Timro Aankha Ma Dubi Herda](Timro_Aankha_Ma_Dubi_Herda.md) | [🏡 Song List](../README.md) | [⏭️ Next: Timro Nyano](Timro_Nyano.md)
-
----
-
 ```text
 
  G
@@ -62,7 +58,3 @@ G             Cadd9
 G
 samjhai diyeko] x2] x2
 ```
-
----
-
-[⏮️ Previous: Timro Aankha Ma Dubi Herda](Timro_Aankha_Ma_Dubi_Herda.md) | [🏡 Song List](../README.md) | [⏭️ Next: Timro Nyano](Timro_Nyano.md)

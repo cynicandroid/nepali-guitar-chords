@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Ankha Chopi Narau Bhani](Ankha_Chopi_Narau_Bhani.md) | [🏡 Song List](../README.md) | [⏭️ Next: Aye Dil Laya Hai Bahar](Aye_Dil_Laya_Hai_Bahar.md)
-
----
-
 ```text
  
 Am
@@ -60,7 +56,3 @@ Naudada pari cha company sahara
 
 
 ```
-
----
-
-[⏮️ Previous: Ankha Chopi Narau Bhani](Ankha_Chopi_Narau_Bhani.md) | [🏡 Song List](../README.md) | [⏭️ Next: Aye Dil Laya Hai Bahar](Aye_Dil_Laya_Hai_Bahar.md)

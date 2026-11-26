@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Deurali Ko Chautari Ma](Deurali_Ko_Chautari_Ma.md) | [🏡 Song List](../README.md) | [⏭️ Next: Deurali Ma Batas Chalyo](Deurali_Ma_Batas_Chalyo.md)
-
----
-
 ```text
 
   A          G
@@ -58,7 +54,3 @@ Sangini le aakha chopeko
 (Aaucha ajhai jhajhalko) X2] X2
 
 ```
-
----
-
-[⏮️ Previous: Deurali Ko Chautari Ma](Deurali_Ko_Chautari_Ma.md) | [🏡 Song List](../README.md) | [⏭️ Next: Deurali Ma Batas Chalyo](Deurali_Ma_Batas_Chalyo.md)

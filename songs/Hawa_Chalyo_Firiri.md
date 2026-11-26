@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Have You Ever Seen The Rain](Have_You_Ever_Seen_The_Rain.md) | [🏡 Song List](../README.md) | [⏭️ Next: Hawayein](Hawayein.md)
-
----
-
 ```text
  
  C
@@ -74,7 +70,3 @@ Ae timi nacha firiri
 Lahai nacha firiri
 
 ```
-
----
-
-[⏮️ Previous: Have You Ever Seen The Rain](Have_You_Ever_Seen_The_Rain.md) | [🏡 Song List](../README.md) | [⏭️ Next: Hawayein](Hawayein.md)

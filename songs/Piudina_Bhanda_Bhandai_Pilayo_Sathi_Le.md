@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Pidi Ma Basera](Pidi_Ma_Basera.md) | [🏡 Song List](../README.md) | [⏭️ Next: Pokhiyera Gham Ko Jhulka](Pokhiyera_Gham_Ko_Jhulka.md)
-
----
-
 ```text
 
 C [no Strum]   Am      F               C
@@ -72,7 +68,3 @@ Dm          C
 Pilayo sathile] x2
 
 ```
-
----
-
-[⏮️ Previous: Pidi Ma Basera](Pidi_Ma_Basera.md) | [🏡 Song List](../README.md) | [⏭️ Next: Pokhiyera Gham Ko Jhulka](Pokhiyera_Gham_Ko_Jhulka.md)

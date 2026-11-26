@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Rato rani](Rato_rani.md) | [🏡 Song List](../README.md) | [⏭️ Next: Resham](Resham.md)
-
----
-
 ```text
    G       C        D          G
 Yo hawa yo lahar yo saanjh timilai X2
@@ -67,7 +63,3 @@ Tara ke ho timro dosh
 G             Am      D    G
 Lahure dai ko relimai relimai] X4
 ```
-
----
-
-[⏮️ Previous: Rato rani](Rato_rani.md) | [🏡 Song List](../README.md) | [⏭️ Next: Resham](Resham.md)

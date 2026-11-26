@@ -1,14 +1,10 @@
 # Sirima Siri Ni Kancha
 
 **Capo:** 1st Fret or none  
-**Singer:** <br>
+**Singer:** Gyanu Rana<br>
 **Key:** G<br>
 **Genre:** N/A  
 **Strumming:** DUMUDU  
-
----
-
-[⏮️ Previous: Sirima Siri Baisako bela](Sirima_Siri_Baisako_bela.md) | [🏡 Song List](../README.md) | [⏭️ Next: So Gaya Ye Jaha](So_Gaya_Ye_Jaha.md)
 
 ---
 
@@ -113,7 +109,3 @@ G
 suna mero nirmaya
 
 ```
-
----
-
-[⏮️ Previous: Sirima Siri Baisako bela](Sirima_Siri_Baisako_bela.md) | [🏡 Song List](../README.md) | [⏭️ Next: So Gaya Ye Jaha](So_Gaya_Ye_Jaha.md)

@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Parkhi Base Aula Bhani_](Parkhi_Base_Aula_Bhani_.md) | [🏡 Song List](../README.md) | [⏭️ Next: Pehla Nasha - D Scale](Pehla_Nasha_-_D_Scale.md)
-
----
-
 ```text
 
 [Intro, Slow down strokes only] 
@@ -100,7 +96,3 @@ Tu hi bata
 
 
 ```
-
----
-
-[⏮️ Previous: Parkhi Base Aula Bhani_](Parkhi_Base_Aula_Bhani_.md) | [🏡 Song List](../README.md) | [⏭️ Next: Pehla Nasha - D Scale](Pehla_Nasha_-_D_Scale.md)

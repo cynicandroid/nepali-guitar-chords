@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Malai Pyaro Lagcha](Malai_Pyaro_Lagcha.md) | [🏡 Song List](../README.md) | [⏭️ Next: Marne Kasailai Rahar Hudaina](Marne_Kasailai_Rahar_Hudaina.md)
-
----
-
 ```text
 Key: C
 Genre: Campfire Party , 4S
@@ -81,7 +77,3 @@ F               G
 Lapcha ko chaap jasto
 
 ```
-
----
-
-[⏮️ Previous: Malai Pyaro Lagcha](Malai_Pyaro_Lagcha.md) | [🏡 Song List](../README.md) | [⏭️ Next: Marne Kasailai Rahar Hudaina](Marne_Kasailai_Rahar_Hudaina.md)

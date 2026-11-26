@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Sapana Sapana](Sapana_Sapana.md) | [🏡 Song List](../README.md) | [⏭️ Next: Sasto Mutu](Sasto_Mutu.md)
-
----
-
 ```text
 
  G                       F
@@ -66,7 +62,3 @@ F             G
 Aashiqui Ke Liye
 
 ```
-
----
-
-[⏮️ Previous: Sapana Sapana](Sapana_Sapana.md) | [🏡 Song List](../README.md) | [⏭️ Next: Sasto Mutu](Sasto_Mutu.md)

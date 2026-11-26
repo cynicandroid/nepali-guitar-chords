@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Amaaile Bhanthe Dhara Ko Pani](Amaaile_Bhanthe_Dhara_Ko_Pani.md) | [🏡 Song List](../README.md) | [⏭️ Next: Asare Mahina Ma](Asare_Mahina_Ma.md)
-
----
-
 ```text
 
 F#m                     D
@@ -48,7 +44,3 @@ F#m                 D
        E            F#m
 मुटुमाथि ढुंगा राखि हाँस्नुपर्‍याछ
 ```
-
----
-
-[⏮️ Previous: Amaaile Bhanthe Dhara Ko Pani](Amaaile_Bhanthe_Dhara_Ko_Pani.md) | [🏡 Song List](../README.md) | [⏭️ Next: Asare Mahina Ma](Asare_Mahina_Ma.md)

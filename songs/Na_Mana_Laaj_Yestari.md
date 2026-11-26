@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Musukka Hasne Timro Bani Le](Musukka_Hasne_Timro_Bani_Le.md) | [🏡 Song List](../README.md) | [⏭️ Next: Nachideu Maichang_](Nachideu_Maichang_.md)
-
----
-
 ```text
 
 C
@@ -108,7 +104,3 @@ G            C
 Namana Laaj Yestari
 
 ```
-
----
-
-[⏮️ Previous: Musukka Hasne Timro Bani Le](Musukka_Hasne_Timro_Bani_Le.md) | [🏡 Song List](../README.md) | [⏭️ Next: Nachideu Maichang_](Nachideu_Maichang_.md)

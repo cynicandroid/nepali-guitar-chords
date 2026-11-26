@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Chiya Bari Ma - Axe Band](Chiya_Bari_Ma_-_Axe_Band.md) | [🏡 Song List](../README.md) | [⏭️ Next: Chukar Mere Man Ko](Chukar_Mere_Man_Ko.md)
-
----
-
 ```text
 Key : C
 Genre: Party, 5S
@@ -70,7 +66,3 @@ Jhan jhan mutuma aago dankinchha
   F          C         G
 nabaljheko ghau baljhinchha
 ```
-
----
-
-[⏮️ Previous: Chiya Bari Ma - Axe Band](Chiya_Bari_Ma_-_Axe_Band.md) | [🏡 Song List](../README.md) | [⏭️ Next: Chukar Mere Man Ko](Chukar_Mere_Man_Ko.md)

@@ -1,14 +1,10 @@
 # Syndicate Bipul Chhetri_
 
 **Capo:** 9th Fret  
-**Singer:** <br>
+**Singer:** Bipul Chhetri<br>
 **Key:** G<br>
 **Genre:** Campfire  
 **Strumming:** D UDUD UUD DU  
-
----
-
-[⏮️ Previous: Sweet Caroline](Sweet_Caroline.md) | [🏡 Song List](../README.md) | [⏭️ Next: Take It Easy - Eagles_](Take_It_Easy_-_Eagles_.md)
 
 ---
 
@@ -117,7 +113,3 @@ D                G
 Ma jaane Sikkima tira] x2
 
 ```
-
----
-
-[⏮️ Previous: Sweet Caroline](Sweet_Caroline.md) | [🏡 Song List](../README.md) | [⏭️ Next: Take It Easy - Eagles_](Take_It_Easy_-_Eagles_.md)

@@ -1,14 +1,10 @@
 # Marne Kasailai Rahar Hudaina
 
 **Capo:** None  
-**Singer:** <br>
+**Singer:** Prem Pariyar<br>
 **Key:** G<br>
 **Genre:** N/A  
 **Strumming:** N/A  
-
----
-
-[⏮️ Previous: Man Chhade Maichyang - Danny](Man_Chhade_Maichyang_-_Danny.md) | [🏡 Song List](../README.md) | [⏭️ Next: Maski Maski Herera Janele](Maski_Maski_Herera_Janele.md)
 
 ---
 
@@ -75,7 +71,3 @@ G     Em       D     G
 Marne kasailai rahar hudaina
 
 ```
-
----
-
-[⏮️ Previous: Man Chhade Maichyang - Danny](Man_Chhade_Maichyang_-_Danny.md) | [🏡 Song List](../README.md) | [⏭️ Next: Maski Maski Herera Janele](Maski_Maski_Herera_Janele.md)

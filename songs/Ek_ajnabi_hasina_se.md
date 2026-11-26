@@ -1,14 +1,10 @@
 # Ek ajnabi hasina se
 
 **Capo:** None  
-**Singer:** Misc Soundtrack<br>
+**Singer:** Kishore Kumar<br>
 **Key:** G<br>
 **Genre:** Campfire,  Hindi, 5S  
 **Strumming:** D-UM-D-UM-D  
-
----
-
-[⏮️ Previous: Eh Kancha Malai Sun Ko](Eh_Kancha_Malai_Sun_Ko.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ek Din Bik Jayega](Ek_Din_Bik_Jayega.md)
 
 ---
 
@@ -73,7 +69,3 @@ Ek Ajnabi Hasina Se Yun Mulaaqat Ho Gayi
 G                Cadd9    D           G
 Ek Ajnabi Hasina Se Yun Mulaaqat Ho Gayi
 ```
-
----
-
-[⏮️ Previous: Eh Kancha Malai Sun Ko](Eh_Kancha_Malai_Sun_Ko.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ek Din Bik Jayega](Ek_Din_Bik_Jayega.md)

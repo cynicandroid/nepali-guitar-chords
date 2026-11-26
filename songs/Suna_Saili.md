@@ -1,14 +1,10 @@
 # Suna Saili
 
 **Capo:** None  
-**Singer:** <br>
+**Singer:** Hemant Rana<br>
 **Key:** G<br>
 **Genre:** Campfire  
 **Strumming:** D U DUDU  
-
----
-
-[⏮️ Previous: Suna Katha Yeuta Geet](Suna_Katha_Yeuta_Geet.md) | [🏡 Song List](../README.md) | [⏭️ Next: Sundarta Ko Timi (Namuna)](Sundarta_Ko_Timi_Namuna.md)
 
 ---
 
@@ -52,7 +48,3 @@ Challis katesi ramaula(Oh..)
 C        D           G
 Challis katesi ramaula
 ```
-
----
-
-[⏮️ Previous: Suna Katha Yeuta Geet](Suna_Katha_Yeuta_Geet.md) | [🏡 Song List](../README.md) | [⏭️ Next: Sundarta Ko Timi (Namuna)](Sundarta_Ko_Timi_Namuna.md)

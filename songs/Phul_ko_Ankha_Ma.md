@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Phoolon Ka Taro Ka](Phoolon_Ka_Taro_Ka.md) | [🏡 Song List](../README.md) | [⏭️ Next: Pidi Ma Basera](Pidi_Ma_Basera.md)
-
----
-
 ```text
 		D DUDU D
 
@@ -76,7 +72,3 @@ Kaanda ko aankha ma, kaandai sansara
 Em        D          A            D
 Kaanda ko aankha ma, kaandai sansara [X4]
 ```
-
----
-
-[⏮️ Previous: Phoolon Ka Taro Ka](Phoolon_Ka_Taro_Ka.md) | [🏡 Song List](../README.md) | [⏭️ Next: Pidi Ma Basera](Pidi_Ma_Basera.md)

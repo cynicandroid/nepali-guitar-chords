@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Prem Patra](Prem_Patra.md) | [🏡 Song List](../README.md) | [⏭️ Next: Purbai Jane Rail](Purbai_Jane_Rail.md)
-
----
-
 ```text
 Tab 1
 Capo : None
@@ -90,7 +86,3 @@ Woh Raton ko... Jagna
 Subah Ghar Jana... Kood ke Diwar] x2
 
 ```
-
----
-
-[⏮️ Previous: Prem Patra](Prem_Patra.md) | [🏡 Song List](../README.md) | [⏭️ Next: Purbai Jane Rail](Purbai_Jane_Rail.md)

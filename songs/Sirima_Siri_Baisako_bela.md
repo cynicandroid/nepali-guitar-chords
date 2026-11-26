@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Sayad Timi Nai Hau](Sayad_Timi_Nai_Hau.md) | [🏡 Song List](../README.md) | [⏭️ Next: Sirima Siri Ni Kancha](Sirima_Siri_Ni_Kancha.md)
-
----
-
 ```text
 
  D           G
@@ -79,7 +75,3 @@ fakaudai ma ko mancha ra
         Em   A7       D
 sabaile kaha vagaucha ra
 ```
-
----
-
-[⏮️ Previous: Sayad Timi Nai Hau](Sayad_Timi_Nai_Hau.md) | [🏡 Song List](../README.md) | [⏭️ Next: Sirima Siri Ni Kancha](Sirima_Siri_Ni_Kancha.md)

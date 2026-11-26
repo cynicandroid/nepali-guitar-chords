@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Stand by me - Ben E. king](Stand_by_me_-_Ben_E_king.md) | [🏡 Song List](../README.md) | [⏭️ Next: Suna Bhanana w Capo](Suna_Bhanana_w_Capo.md)
-
----
-
 ```text
 
 A      F#m   A     F#m
@@ -48,7 +44,3 @@ Bm     G  D  E   A
 
 
 ```
-
----
-
-[⏮️ Previous: Stand by me - Ben E. king](Stand_by_me_-_Ben_E_king.md) | [🏡 Song List](../README.md) | [⏭️ Next: Suna Bhanana w Capo](Suna_Bhanana_w_Capo.md)

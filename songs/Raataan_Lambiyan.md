@@ -1,14 +1,10 @@
 # Raataan Lambiyan
 
 **Capo:** 3rd Fret  
-**Singer:** Misc Soundtrack<br>
+**Singer:** Jubin Nautiyal<br>
 **Key:** C<br>
 **Genre:** Campfire Party  
 **Strumming:** DUM D  
-
----
-
-[⏮️ Previous: Purbai Jane Rail](Purbai_Jane_Rail.md) | [🏡 Song List](../README.md) | [⏭️ Next: Radha - Bijuli Baleko Hola](Radha_-_Bijuli_Baleko_Hola.md)
 
 ---
 
@@ -74,7 +70,3 @@ Kate Tere Sangeyan Sangeyan Re] X2
           D
 Kate Tere Sangeyan Sangeyan Re] X4
 ```
-
----
-
-[⏮️ Previous: Purbai Jane Rail](Purbai_Jane_Rail.md) | [🏡 Song List](../README.md) | [⏭️ Next: Radha - Bijuli Baleko Hola](Radha_-_Bijuli_Baleko_Hola.md)

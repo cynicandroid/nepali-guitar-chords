@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Sasson Ki Jarurat Hai Jaise](Sasson_Ki_Jarurat_Hai_Jaise.md) | [🏡 Song List](../README.md) | [⏭️ Next: Sayad Timi Nai Hau](Sayad_Timi_Nai_Hau.md)
-
----
-
 ```text
 Tab 1
 Capo : None
@@ -99,7 +95,3 @@ Cadd9
 Timro maya mhango mutu chai sasto raicha
 ] X2
 ```
-
----
-
-[⏮️ Previous: Sasson Ki Jarurat Hai Jaise](Sasson_Ki_Jarurat_Hai_Jaise.md) | [🏡 Song List](../README.md) | [⏭️ Next: Sayad Timi Nai Hau](Sayad_Timi_Nai_Hau.md)

@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Ritu Haru Ma Timi](Ritu_Haru_Ma_Timi.md) | [🏡 Song List](../README.md) | [⏭️ Next: Sadhai Sadhai](Sadhai_Sadhai.md)
-
----
-
 ```text
  
 C         A#      C         A#
@@ -58,7 +54,3 @@ Roop Tera Mastana Pyar Mera Diwana
 C         A#       G
 Bhool Koi Hamse Na Hojaye
 ```
-
----
-
-[⏮️ Previous: Ritu Haru Ma Timi](Ritu_Haru_Ma_Timi.md) | [🏡 Song List](../README.md) | [⏭️ Next: Sadhai Sadhai](Sadhai_Sadhai.md)

@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Pari Tyo Dada Ma - Resham Filili](Pari_Tyo_Dada_Ma_-_Resham_Filili.md) | [🏡 Song List](../README.md) | [⏭️ Next: Pehla Nasha](Pehla_Nasha.md)
-
----
-
 ```text
 
 F      Am   Dm      Gm
@@ -73,7 +69,3 @@ Mero Uthane Palo Mero Uthane Palo
 
 
 ```
-
----
-
-[⏮️ Previous: Pari Tyo Dada Ma - Resham Filili](Pari_Tyo_Dada_Ma_-_Resham_Filili.md) | [🏡 Song List](../README.md) | [⏭️ Next: Pehla Nasha](Pehla_Nasha.md)

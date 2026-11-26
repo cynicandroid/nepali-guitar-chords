@@ -1,14 +1,10 @@
 # Do dil mil rahehe
 
 **Capo:** 3rd Fret  
-**Singer:** Misc Soundtrack<br>
+**Singer:** Kumar Sanu<br>
 **Key:** G<br>
 **Genre:** Campfire, Hindi  
 **Strumming:** DUDUD D D  
-
----
-
-[⏮️ Previous: Dherai Dherai Aucha Man Ma](Dherai_Dherai_Aucha_Man_Ma.md) | [🏡 Song List](../README.md) | [⏭️ Next: Dui Pate Suiro](Dui_Pate_Suiro.md)
 
 ---
 
@@ -95,7 +91,3 @@ Magar Chupke Chupke
 
 [Intro again]
 ```
-
----
-
-[⏮️ Previous: Dherai Dherai Aucha Man Ma](Dherai_Dherai_Aucha_Man_Ma.md) | [🏡 Song List](../README.md) | [⏭️ Next: Dui Pate Suiro](Dui_Pate_Suiro.md)

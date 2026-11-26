@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Jogale Huncha Bheta](Jogale_Huncha_Bheta.md) | [🏡 Song List](../README.md) | [⏭️ Next: Jyanlai Parnu Pir Paryo](Jyanlai_Parnu_Pir_Paryo.md)
-
----
-
 ```text
 
  G        F     G
@@ -72,7 +68,3 @@ F               G
 Ghar Hamro Pokhara] x4
 
 ```
-
----
-
-[⏮️ Previous: Jogale Huncha Bheta](Jogale_Huncha_Bheta.md) | [🏡 Song List](../README.md) | [⏭️ Next: Jyanlai Parnu Pir Paryo](Jyanlai_Parnu_Pir_Paryo.md)

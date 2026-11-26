@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Papa kehte hai](Papa_kehte_hai.md) | [🏡 Song List](../README.md) | [⏭️ Next: Pari Tyo Dada Ma - Resham Filili](Pari_Tyo_Dada_Ma_-_Resham_Filili.md)
-
----
-
 ```text
 Picking: 
 E - 6,(1,2,3),S, F#m-(1,2,3),4,3,1,2
@@ -59,7 +55,3 @@ yo ta timrai sahara ho....
 
 
 ```
-
----
-
-[⏮️ Previous: Papa kehte hai](Papa_kehte_hai.md) | [🏡 Song List](../README.md) | [⏭️ Next: Pari Tyo Dada Ma - Resham Filili](Pari_Tyo_Dada_Ma_-_Resham_Filili.md)

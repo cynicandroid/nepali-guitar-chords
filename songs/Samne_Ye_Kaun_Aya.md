@@ -1,14 +1,10 @@
 # Samne Ye Kaun Aya
 
 **Capo:** None  
-**Singer:** Misc Soundtrack<br>
+**Singer:** Kishore Kumar<br>
 **Key:** E<br>
 **Genre:** N/A  
 **Strumming:** DDU UDU  
-
----
-
-[⏮️ Previous: Samjhana Birsana_](Samjhana_Birsana_.md) | [🏡 Song List](../README.md) | [⏭️ Next: Sanjha Pakha](Sanjha_Pakha.md)
 
 ---
 
@@ -116,7 +112,3 @@ ho gaye hum paagal
 
 
 ```
-
----
-
-[⏮️ Previous: Samjhana Birsana_](Samjhana_Birsana_.md) | [🏡 Song List](../README.md) | [⏭️ Next: Sanjha Pakha](Sanjha_Pakha.md)

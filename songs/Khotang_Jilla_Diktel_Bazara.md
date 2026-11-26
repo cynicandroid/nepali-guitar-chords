@@ -1,14 +1,10 @@
 # Khotang Jilla Diktel Bazara
 
 **Capo:** None  
-**Singer:** <br>
+**Singer:** Shayal Limbu<br>
 **Key:** G<br>
 **Genre:** Party oldschool  
 **Strumming:** DUMUDU  
-
----
-
-[⏮️ Previous: Khairo khairo kapal timro](Khairo_khairo_kapal_timro.md) | [🏡 Song List](../README.md) | [⏭️ Next: Knocking On Heavens Door](Knocking_On_Heavens_Door.md)
 
 ---
 
@@ -88,7 +84,3 @@ G                  Em
 
 
 ```
-
----
-
-[⏮️ Previous: Khairo khairo kapal timro](Khairo_khairo_kapal_timro.md) | [🏡 Song List](../README.md) | [⏭️ Next: Knocking On Heavens Door](Knocking_On_Heavens_Door.md)

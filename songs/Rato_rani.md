@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Rato Ra Chanda Surya](Rato_Ra_Chanda_Surya.md) | [🏡 Song List](../README.md) | [⏭️ Next: Relimai Relimai](Relimai_Relimai.md)
-
----
-
 ```text
  
  G            Em
@@ -69,6 +65,3 @@ Am
 G              D     G
 कान्छीलाई घुमाउने काठमाण्डौ सहर [x6]
 ```
----
-
-[⏮️ Previous: Rato Ra Chanda Surya](Rato_Ra_Chanda_Surya.md) | [🏡 Song List](../README.md) | [⏭️ Next: Relimai Relimai](Relimai_Relimai.md)

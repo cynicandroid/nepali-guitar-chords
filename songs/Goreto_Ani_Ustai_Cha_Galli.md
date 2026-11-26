@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Ghumti Nira Bheta Bhayo](Ghumti_Nira_Bheta_Bhayo.md) | [🏡 Song List](../README.md) | [⏭️ Next: Gurasa Ko Feda Muni](Gurasa_Ko_Feda_Muni.md)
-
----
-
 ```text
 
 G           D
@@ -105,7 +101,3 @@ oo priyea
 
 
 ```
-
----
-
-[⏮️ Previous: Ghumti Nira Bheta Bhayo](Ghumti_Nira_Bheta_Bhayo.md) | [🏡 Song List](../README.md) | [⏭️ Next: Gurasa Ko Feda Muni](Gurasa_Ko_Feda_Muni.md)

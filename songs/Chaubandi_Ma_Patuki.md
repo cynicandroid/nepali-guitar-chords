@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Chaubandi Cholo_](Chaubandi_Cholo_.md) | [🏡 Song List](../README.md) | [⏭️ Next: China Company](China_Company.md)
-
----
-
 ```text
 
  C                Am
@@ -92,7 +88,3 @@ Malai Nepali haina vanna kaha paincha
 Malai ma jastai maya chaincha] X2
 
 ```
-
----
-
-[⏮️ Previous: Chaubandi Cholo_](Chaubandi_Cholo_.md) | [🏡 Song List](../README.md) | [⏭️ Next: China Company](China_Company.md)

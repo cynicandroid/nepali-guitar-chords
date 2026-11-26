@@ -1,14 +1,10 @@
 # Tu Mere Agal Bagal Hey
 
 **Capo:** None  
-**Singer:** Misc Soundtrack<br>
+**Singer:** Mika Singh<br>
 **Key:** A<br>
 **Genre:** Party, Hindi  
 **Strumming:** DU DDU  
-
----
-
-[⏮️ Previous: Trisuli Bagera](Trisuli_Bagera.md) | [🏡 Song List](../README.md) | [⏭️ Next: Tujhe Dekha To Yeh](Tujhe_Dekha_To_Yeh.md)
 
 ---
 
@@ -130,7 +126,3 @@ Tu Mere Agal Bagal Hai
 Main Tere Agal Bagal Hoon..
 
 ```
-
----
-
-[⏮️ Previous: Trisuli Bagera](Trisuli_Bagera.md) | [🏡 Song List](../README.md) | [⏭️ Next: Tujhe Dekha To Yeh](Tujhe_Dekha_To_Yeh.md)

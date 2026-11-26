@@ -1,14 +1,10 @@
 # Aye Dil Laya Hai Bahar
 
 **Capo:** None  
-**Singer:** Misc Soundtrack<br>
+**Singer:** Hariharan<br>
 **Key:** G<br>
 **Genre:** Campfire, Hindi  
 **Strumming:** Du Du (slur) [Reggee]  
-
----
-
-[⏮️ Previous: Asare Mahina Ma](Asare_Mahina_Ma.md) | [🏡 Song List](../README.md) | [⏭️ Next: Basa Sundari](Basa_Sundari.md)
 
 ---
 
@@ -77,7 +73,3 @@ khushi ka khumaar,  kya kehna]X2
 
 
 ```
-
----
-
-[⏮️ Previous: Asare Mahina Ma](Asare_Mahina_Ma.md) | [🏡 Song List](../README.md) | [⏭️ Next: Basa Sundari](Basa_Sundari.md)

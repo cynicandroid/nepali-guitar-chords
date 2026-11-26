@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Timro Nyano](Timro_Nyano.md) | [🏡 Song List](../README.md) | [⏭️ Next: Trisuli Bagera](Trisuli_Bagera.md)
-
----
-
 ```text
 
 D                 G
@@ -64,7 +60,3 @@ Yi akha mera tolauna thalchan[x2]
       Bm                D
 Timro tashbir le chitta bujauda[x4]
 ```
-
----
-
-[⏮️ Previous: Timro Nyano](Timro_Nyano.md) | [🏡 Song List](../README.md) | [⏭️ Next: Trisuli Bagera](Trisuli_Bagera.md)

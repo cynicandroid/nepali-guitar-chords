@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Yo samjhine man cha](Yo_samjhine_man_cha.md) | [🏡 Song List](../README.md) | [⏭️ Next: Aankha Ma Timilai](Aankha_Ma_Timilai.md)
-
----
-
 ```text
 
 C		             Am
@@ -70,7 +66,3 @@ C                F      G         C
 Samjhi deu sumpi deu yo jovan hamilai [x4]
 
 ```
-
----
-
-[⏮️ Previous: Yo samjhine man cha](Yo_samjhine_man_cha.md) | [🏡 Song List](../README.md) | [⏭️ Next: Aankha Ma Timilai](Aankha_Ma_Timilai.md)

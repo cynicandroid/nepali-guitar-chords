@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Yeh Jeevan Hai](Yeh_Jeevan_Hai.md) | [🏡 Song List](../README.md) | [⏭️ Next: Yo Man Ta Mero Nepali Ho](Yo_Man_Ta_Mero_Nepali_Ho.md)
-
----
-
 ```text
 Key : F
 Genre: Campfire, 5S
@@ -45,7 +41,3 @@ F   Gm     F     Bb     F
 F   Gm     F
 यति धेरै माया दिई
 ```
-
----
-
-[⏮️ Previous: Yeh Jeevan Hai](Yeh_Jeevan_Hai.md) | [🏡 Song List](../README.md) | [⏭️ Next: Yo Man Ta Mero Nepali Ho](Yo_Man_Ta_Mero_Nepali_Ho.md)

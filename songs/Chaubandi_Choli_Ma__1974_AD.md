@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Charka Dheba Kuma Sagar](Charka_Dheba_Kuma_Sagar.md) | [🏡 Song List](../README.md) | [⏭️ Next: Chaubandi Cholo_](Chaubandi_Cholo_.md)
-
----
-
 ```text
 
 D
@@ -71,7 +67,3 @@ Hoooo ho ho hoo,
 D            G                    D
 Melaahai varera..Parkheko kaanchi laai
 ```
-
----
-
-[⏮️ Previous: Charka Dheba Kuma Sagar](Charka_Dheba_Kuma_Sagar.md) | [🏡 Song List](../README.md) | [⏭️ Next: Chaubandi Cholo_](Chaubandi_Cholo_.md)

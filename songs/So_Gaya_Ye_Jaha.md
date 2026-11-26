@@ -1,14 +1,10 @@
 # So Gaya Ye Jaha
 
 **Capo:**   
-**Singer:** <br>
+**Singer:** Nitin Mukesh<br>
 **Key:** E<br>
 **Genre:** N/A  
 **Strumming:** DMU UDU  
-
----
-
-[⏮️ Previous: Sirima Siri Ni Kancha](Sirima_Siri_Ni_Kancha.md) | [🏡 Song List](../README.md) | [⏭️ Next: Somewhere Over The Rainbow](Somewhere_Over_The_Rainbow.md)
 
 ---
 
@@ -57,7 +53,3 @@ So Gaya Hai Rasta
  E       F     E            F  E
 [So Gaya Yeh Jahan, So Gaya Aasma] X2
 ```
-
----
-
-[⏮️ Previous: Sirima Siri Ni Kancha](Sirima_Siri_Ni_Kancha.md) | [🏡 Song List](../README.md) | [⏭️ Next: Somewhere Over The Rainbow](Somewhere_Over_The_Rainbow.md)

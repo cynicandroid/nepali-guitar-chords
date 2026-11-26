@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Timi le ta hoina timra bhaka](Timi_le_ta_hoina_timra_bhaka.md) | [🏡 Song List](../README.md) | [⏭️ Next: Timi Nai Hau Malai Maya Garne](Timi_Nai_Hau_Malai_Maya_Garne.md)
-
----
-
 ```text
 
 
@@ -41,7 +37,3 @@ aafnai dhadkanlai chami hera
       G    A        D
 bholi bhet hola nahola
 ```
-
----
-
-[⏮️ Previous: Timi le ta hoina timra bhaka](Timi_le_ta_hoina_timra_bhaka.md) | [🏡 Song List](../README.md) | [⏭️ Next: Timi Nai Hau Malai Maya Garne](Timi_Nai_Hau_Malai_Maya_Garne.md)

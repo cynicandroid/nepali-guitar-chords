@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Chari Udyo Badal Chuna Lai](Chari_Udyo_Badal_Chuna_Lai.md) | [🏡 Song List](../README.md) | [⏭️ Next: Chaubandi Choli Ma – 1974 AD](Chaubandi_Choli_Ma__1974_AD.md)
-
----
-
 ```text
 
 छर्का ढेबा, छमाना बकुला
@@ -81,7 +77,3 @@ Em
 A         Em
 ज्युला की मज्युला ?
 ```
-
----
-
-[⏮️ Previous: Chari Udyo Badal Chuna Lai](Chari_Udyo_Badal_Chuna_Lai.md) | [🏡 Song List](../README.md) | [⏭️ Next: Chaubandi Choli Ma – 1974 AD](Chaubandi_Choli_Ma__1974_AD.md)

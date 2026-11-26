@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Meri Aama - Buddha Lama](Meri_Aama_-_Buddha_Lama.md) | [🏡 Song List](../README.md) | [⏭️ Next: Mohani Maya Ko Hoki](Mohani_Maya_Ko_Hoki.md)
-
----
-
 ```text
 
 G      A          G           A      G
@@ -115,7 +111,3 @@ Mohani laagla hai gaaunle ko boli le
  G      A         G
 [Mohani laagla hai…] x4
 ```
-
----
-
-[⏮️ Previous: Meri Aama - Buddha Lama](Meri_Aama_-_Buddha_Lama.md) | [🏡 Song List](../README.md) | [⏭️ Next: Mohani Maya Ko Hoki](Mohani_Maya_Ko_Hoki.md)

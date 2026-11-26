@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: I Am Very Sorry (Fateko Jutta)](I_Am_Very_Sorry_Fateko_Jutta.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ishara Le Bolaunu Pardina](Ishara_Le_Bolaunu_Pardina.md)
-
----
-
 ```text
 
 [ D D D D]
@@ -96,7 +92,3 @@ The way that I want to
          D           G
 If you'd only let it be
 ```
-
----
-
-[⏮️ Previous: I Am Very Sorry (Fateko Jutta)](I_Am_Very_Sorry_Fateko_Jutta.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ishara Le Bolaunu Pardina](Ishara_Le_Bolaunu_Pardina.md)

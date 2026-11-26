@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Sora Barse Umarai ma](Sora_Barse_Umarai_ma.md) | [🏡 Song List](../README.md) | [⏭️ Next: Suna Bhanana](Suna_Bhanana.md)
-
----
-
 ```text
 
          G         G             
@@ -62,7 +58,3 @@ stand by me, oh now stand by me,
 C            G
 stand by me, stand by me.
 ```
-
----
-
-[⏮️ Previous: Sora Barse Umarai ma](Sora_Barse_Umarai_ma.md) | [🏡 Song List](../README.md) | [⏭️ Next: Suna Bhanana](Suna_Bhanana.md)

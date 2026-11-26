@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Alli Alli Kati Pida Huda Ni](Alli_Alli_Kati_Pida_Huda_Ni.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ankha Chopi Narau Bhani](Ankha_Chopi_Narau_Bhani.md)
-
----
-
 ```text
 
 D              G       D
@@ -79,7 +75,3 @@ kalko pani raksi ganayo] X2
 
 
 ```
-
----
-
-[⏮️ Previous: Alli Alli Kati Pida Huda Ni](Alli_Alli_Kati_Pida_Huda_Ni.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ankha Chopi Narau Bhani](Ankha_Chopi_Narau_Bhani.md)

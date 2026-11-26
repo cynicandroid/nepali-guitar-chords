@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Kesariya](Kesariya.md) | [🏡 Song List](../README.md) | [⏭️ Next: Khotang Jilla Diktel Bazara](Khotang_Jilla_Diktel_Bazara.md)
-
----
-
 ```text
  
  A 
@@ -73,7 +69,3 @@ Aaha pipal pate otha
 Ani sundar muskaan timro] X2
 
 ```
-
----
-
-[⏮️ Previous: Kesariya](Kesariya.md) | [🏡 Song List](../README.md) | [⏭️ Next: Khotang Jilla Diktel Bazara](Khotang_Jilla_Diktel_Bazara.md)

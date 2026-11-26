@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Mere samne wali khidki](Mere_samne_wali_khidki.md) | [🏡 Song List](../README.md) | [⏭️ Next: Mohani Lagla Hai](Mohani_Lagla_Hai.md)
-
----
-
 ```text
 
 [5,4,3,2]
@@ -63,7 +59,3 @@ Aaaaa Maaaaa, saarai garo bho
 Dm        G    C
 Bichod ko jindagi] X2
 ```
-
----
-
-[⏮️ Previous: Mere samne wali khidki](Mere_samne_wali_khidki.md) | [🏡 Song List](../README.md) | [⏭️ Next: Mohani Lagla Hai](Mohani_Lagla_Hai.md)

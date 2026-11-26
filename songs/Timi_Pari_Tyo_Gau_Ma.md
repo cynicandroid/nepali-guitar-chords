@@ -1,14 +1,10 @@
 # Timi Pari Tyo Gau Ma
 
 **Capo:** None  
-**Singer:** <br>
+**Singer:** Kandara<br>
 **Key:** C<br>
 **Genre:** Campfire 4S  
 **Strumming:** DUMU UMU  
-
----
-
-[⏮️ Previous: Timi Nai Hau Malai Maya Garne](Timi_Nai_Hau_Malai_Maya_Garne.md) | [🏡 Song List](../README.md) | [⏭️ Next: Timro Aankha Ma Dubi Herda](Timro_Aankha_Ma_Dubi_Herda.md)
 
 ---
 
@@ -67,7 +63,3 @@ Dm   F        C
 Maya basisakecha x2
 
 ```
-
----
-
-[⏮️ Previous: Timi Nai Hau Malai Maya Garne](Timi_Nai_Hau_Malai_Maya_Garne.md) | [🏡 Song List](../README.md) | [⏭️ Next: Timro Aankha Ma Dubi Herda](Timro_Aankha_Ma_Dubi_Herda.md)

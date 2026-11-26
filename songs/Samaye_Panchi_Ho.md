@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Sadhai Sadhai](Sadhai_Sadhai.md) | [🏡 Song List](../README.md) | [⏭️ Next: Samjhana Birsana_](Samjhana_Birsana_.md)
-
----
-
 ```text
 
 F                                  Gm
@@ -38,7 +34,3 @@ Samaya Panchhi Ho Khulla Yasko Bandhan
 F      D#                     F
 Badera Badhidaina Udchha Nirantar
 ```
-
----
-
-[⏮️ Previous: Sadhai Sadhai](Sadhai_Sadhai.md) | [🏡 Song List](../README.md) | [⏭️ Next: Samjhana Birsana_](Samjhana_Birsana_.md)

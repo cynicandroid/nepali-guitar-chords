@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Dum Maru Dum](Dum_Maru_Dum.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ek ajnabi hasina se](Ek_ajnabi_hasina_se.md)
-
----
-
 ```text
 
  G
@@ -59,7 +55,3 @@ Tyoo tara matra haina
 D                G
 Joon pani jhaari diula] x2
 ```
-
----
-
-[⏮️ Previous: Dum Maru Dum](Dum_Maru_Dum.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ek ajnabi hasina se](Ek_ajnabi_hasina_se.md)

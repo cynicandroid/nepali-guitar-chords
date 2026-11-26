@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Sanjha Pakha](Sanjha_Pakha.md) | [🏡 Song List](../README.md) | [⏭️ Next: Sapana Sapana](Sapana_Sapana.md)
-
----
-
 ```text
 
 [1 fast down stroke, each chord and e,B]
@@ -85,7 +81,3 @@ Timi nai bhanana, Ma k garau timi bina
 F        G                   C
 Ha ....  Ajhai najeek aau... na] X2
 ```
-
----
-
-[⏮️ Previous: Sanjha Pakha](Sanjha_Pakha.md) | [🏡 Song List](../README.md) | [⏭️ Next: Sapana Sapana](Sapana_Sapana.md)

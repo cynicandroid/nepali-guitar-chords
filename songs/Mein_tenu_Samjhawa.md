@@ -1,14 +1,10 @@
 # Mein tenu Samjhawa
 
 **Capo:** none  
-**Singer:** Misc Soundtrack<br>
+**Singer:** Rahat Fateh Ali<br>
 **Key:** A<br>
 **Genre:** Campfire, Hindi 5S  
 **Strumming:** DM UUM  
-
----
-
-[⏮️ Previous: Maya Meri Maya Hamro Milan Kahile Huncha](Maya_Meri_Maya_Hamro_Milan_Kahile_Huncha.md) | [🏡 Song List](../README.md) | [⏭️ Next: Mera Dil Bhi Kitna Pagal He](Mera_Dil_Bhi_Kitna_Pagal_He.md)
 
 ---
 
@@ -67,7 +63,3 @@ Na tere baju lagda jee
 
 
 ```
-
----
-
-[⏮️ Previous: Maya Meri Maya Hamro Milan Kahile Huncha](Maya_Meri_Maya_Hamro_Milan_Kahile_Huncha.md) | [🏡 Song List](../README.md) | [⏭️ Next: Mera Dil Bhi Kitna Pagal He](Mera_Dil_Bhi_Kitna_Pagal_He.md)

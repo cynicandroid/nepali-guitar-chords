@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Kalilo Tamalai Sodha Rama Lai](Kalilo_Tamalai_Sodha_Rama_Lai.md) | [🏡 Song List](../README.md) | [⏭️ Next: Kanchi He Kanchi](Kanchi_He_Kanchi.md)
-
----
-
 ```text
 
 G                    Cadd9     D
@@ -55,7 +51,3 @@ kalo kesh ma relimai badheko riban
 G                      Cadd9     D   G
 timilai herdai relimai bitaaula jibana
 ```
-
----
-
-[⏮️ Previous: Kalilo Tamalai Sodha Rama Lai](Kalilo_Tamalai_Sodha_Rama_Lai.md) | [🏡 Song List](../README.md) | [⏭️ Next: Kanchi He Kanchi](Kanchi_He_Kanchi.md)

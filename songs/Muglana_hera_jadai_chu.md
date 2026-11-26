@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Mohani Maya Ko Hoki](Mohani_Maya_Ko_Hoki.md) | [🏡 Song List](../README.md) | [⏭️ Next: Musu Musu Hasi Deu Na Lai Lai](Musu_Musu_Hasi_Deu_Na_Lai_Lai.md)
-
----
-
 ```text
 
 [Chorus]
@@ -68,7 +64,3 @@ Yo Mana Jalchha Herana
 C     D             G
 Saanu Timilai Samjhera [X2]
 ```
-
----
-
-[⏮️ Previous: Mohani Maya Ko Hoki](Mohani_Maya_Ko_Hoki.md) | [🏡 Song List](../README.md) | [⏭️ Next: Musu Musu Hasi Deu Na Lai Lai](Musu_Musu_Hasi_Deu_Na_Lai_Lai.md)

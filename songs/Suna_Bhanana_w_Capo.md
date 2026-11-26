@@ -1,14 +1,10 @@
 # Suna Bhanana w Capo
 
 **Capo:** 2nd Fret  
-**Singer:** <br>
+**Singer:** Udit Narayan<br>
 **Key:** G<br>
 **Genre:** Campfire 4S  
 **Strumming:** D DDU  
-
----
-
-[⏮️ Previous: Suna Bhanana](Suna_Bhanana.md) | [🏡 Song List](../README.md) | [⏭️ Next: Suna Katha Yeuta Geet](Suna_Katha_Yeuta_Geet.md)
 
 ---
 
@@ -57,7 +53,3 @@ yeutai sahara timrai maya ko x2
 
 
 ```
-
----
-
-[⏮️ Previous: Suna Bhanana](Suna_Bhanana.md) | [🏡 Song List](../README.md) | [⏭️ Next: Suna Katha Yeuta Geet](Suna_Katha_Yeuta_Geet.md)

@@ -1,14 +1,10 @@
 # Agar Tum Na Hote - Humein Aur Jeene Ki Chahat
 
 **Capo:** None  
-**Singer:** Kishor Kumar<br>
+**Singer:** Kishore Kumar<br>
 **Key:** F<br>
 **Genre:** Campfire, Hindi 4S  
 **Strumming:** D DU UDU  
-
----
-
-[⏮️ Previous: Adhuro Prem](Adhuro_Prem.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ago Lagyo Dilai Ma Damkal Bolayideu](Ago_Lagyo_Dilai_Ma_Damkal_Bolayideu.md)
 
 ---
 
@@ -89,7 +85,3 @@ In Aankhon Ke Aansoo Na Kehlaate Moti
 Agar Tum Na Hote Agar Tum Na Hote
 
 ```
-
----
-
-[⏮️ Previous: Adhuro Prem](Adhuro_Prem.md) | [🏡 Song List](../README.md) | [⏭️ Next: Ago Lagyo Dilai Ma Damkal Bolayideu](Ago_Lagyo_Dilai_Ma_Damkal_Bolayideu.md)

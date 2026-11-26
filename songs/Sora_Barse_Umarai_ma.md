@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Sooraj Duba He Yaro](Sooraj_Duba_He_Yaro.md) | [🏡 Song List](../README.md) | [⏭️ Next: Stand by me - Ben E. king](Stand_by_me_-_Ben_E_king.md)
-
----
-
 ```text
 
 G
@@ -91,7 +87,3 @@ Aahile po budo vayera
 D
 Soi soi [X2]
 ```
-
----
-
-[⏮️ Previous: Sooraj Duba He Yaro](Sooraj_Duba_He_Yaro.md) | [🏡 Song List](../README.md) | [⏭️ Next: Stand by me - Ben E. king](Stand_by_me_-_Ben_E_king.md)

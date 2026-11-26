@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Hamro Nepal Ma](Hamro_Nepal_Ma.md) | [🏡 Song List](../README.md) | [⏭️ Next: Hawa Chalyo Firiri](Hawa_Chalyo_Firiri.md)
-
----
-
 ```text
  
 C
@@ -59,7 +55,3 @@ F        G                C
 Coming down on a sunny day ]x2
 
 ```
-
----
-
-[⏮️ Previous: Hamro Nepal Ma](Hamro_Nepal_Ma.md) | [🏡 Song List](../README.md) | [⏭️ Next: Hawa Chalyo Firiri](Hawa_Chalyo_Firiri.md)

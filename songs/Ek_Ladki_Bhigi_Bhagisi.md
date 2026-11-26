@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Ek Din Bik Jayega](Ek_Din_Bik_Jayega.md) | [🏡 Song List](../README.md) | [⏭️ Next: Euta Manche Ko Maya Le Kati](Euta_Manche_Ko_Maya_Le_Kati.md)
-
----
-
 ```text
 
 Em        D     Em
@@ -106,7 +102,3 @@ Koyi aage na peechhe
 Em     D            Em
 Tum hi kaho ye koyi baat hai, hmm
 ```
-
----
-
-[⏮️ Previous: Ek Din Bik Jayega](Ek_Din_Bik_Jayega.md) | [🏡 Song List](../README.md) | [⏭️ Next: Euta Manche Ko Maya Le Kati](Euta_Manche_Ko_Maya_Le_Kati.md)

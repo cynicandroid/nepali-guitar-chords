@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Tum Hi Ho](Tum_Hi_Ho.md) | [🏡 Song List](../README.md) | [⏭️ Next: Yaaron Dosti_](Yaaron_Dosti_.md)
-
----
-
 ```text
 
  A               D
@@ -79,7 +75,3 @@ Wo shaam kuchh ajeeb thi
 
 
 ```
-
----
-
-[⏮️ Previous: Tum Hi Ho](Tum_Hi_Ho.md) | [🏡 Song List](../README.md) | [⏭️ Next: Yaaron Dosti_](Yaaron_Dosti_.md)

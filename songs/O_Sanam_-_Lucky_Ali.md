@@ -1,14 +1,10 @@
 # O Sanam - Lucky Ali
 
 **Capo:** None  
-**Singer:** Junaid Jamshed<br>
+**Singer:** Lucky Ali<br>
 **Key:** D<br>
 **Genre:** Campfire  
 **Strumming:** D D UUD DUDU  
-
----
-
-[⏮️ Previous: Chand Sifarish - Subhan Allha](Chand_Sifarish_-_Subhan_Allha.md) | [🏡 Song List](../README.md) | [⏭️ Next: Pyar Diwana Hota Hai Mastana](Pyar_Diwana_Hota_Hai_Mastana.md)
 
 ---
 
@@ -66,7 +62,3 @@ O sanam tere pyaar ki kasam Hmm
 G    C    A    D
 Hmm, hmm, hmm, hmm X2
 ```
-
----
-
-[⏮️ Previous: Chand Sifarish - Subhan Allha](Chand_Sifarish_-_Subhan_Allha.md) | [🏡 Song List](../README.md) | [⏭️ Next: Pyar Diwana Hota Hai Mastana](Pyar_Diwana_Hota_Hai_Mastana.md)

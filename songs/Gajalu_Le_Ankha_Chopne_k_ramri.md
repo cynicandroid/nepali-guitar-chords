@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Futki jane joban yo](Futki_jane_joban_yo.md) | [🏡 Song List](../README.md) | [⏭️ Next: Gajalu Ti Thula Thula Ankha](Gajalu_Ti_Thula_Thula_Ankha.md)
-
----
-
 ```text
 
 G
@@ -79,7 +75,3 @@ F          G
 F            G
 मेरै निम्ती मात्रै हो हाँसेकी
 ```
-
----
-
-[⏮️ Previous: Futki jane joban yo](Futki_jane_joban_yo.md) | [🏡 Song List](../README.md) | [⏭️ Next: Gajalu Ti Thula Thula Ankha](Gajalu_Ti_Thula_Thula_Ankha.md)

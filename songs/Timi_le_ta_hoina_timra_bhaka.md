@@ -1,14 +1,10 @@
 # Timi le ta hoina timra bhaka
 
 **Capo:** none  
-**Singer:** <br>
+**Singer:** Bachu Kailash<br>
 **Key:** D<br>
 **Genre:** Campfire, 4S  
 **Strumming:** DDUMUDU  
-
----
-
-[⏮️ Previous: Timi Lai Dekhera](Timi_Lai_Dekhera.md) | [🏡 Song List](../README.md) | [⏭️ Next: Timi ma bhanda kosau](Timi_ma_bhanda_kosau.md)
 
 ---
 
@@ -68,7 +64,3 @@ Maile pani haina, mera aankhaharu le,
           A7          D
 timro lagi roi sakechan
 ```
-
----
-
-[⏮️ Previous: Timi Lai Dekhera](Timi_Lai_Dekhera.md) | [🏡 Song List](../README.md) | [⏭️ Next: Timi ma bhanda kosau](Timi_ma_bhanda_kosau.md)

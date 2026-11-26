@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Furfuri](Furfuri.md) | [🏡 Song List](../README.md) | [⏭️ Next: Gajalu Le Ankha Chopne k ramri](Gajalu_Le_Ankha_Chopne_k_ramri.md)
-
----
-
 ```text
 
 E
@@ -75,7 +71,3 @@ Asus2
 [म चाँही..आफ्नै.. बाटो..लागुँ है..अब]x2
 
 ```
-
----
-
-[⏮️ Previous: Furfuri](Furfuri.md) | [🏡 Song List](../README.md) | [⏭️ Next: Gajalu Le Ankha Chopne k ramri](Gajalu_Le_Ankha_Chopne_k_ramri.md)

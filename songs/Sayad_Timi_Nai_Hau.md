@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Sasto Mutu](Sasto_Mutu.md) | [🏡 Song List](../README.md) | [⏭️ Next: Sirima Siri Baisako bela](Sirima_Siri_Baisako_bela.md)
-
----
-
 ```text
 
 G                              Em
@@ -73,7 +69,3 @@ Sahana ma ta sakdina yesto kura
              F            G
 Aaideu baru eklo yo jiwan ma
 ```
-
----
-
-[⏮️ Previous: Sasto Mutu](Sasto_Mutu.md) | [🏡 Song List](../README.md) | [⏭️ Next: Sirima Siri Baisako bela](Sirima_Siri_Baisako_bela.md)

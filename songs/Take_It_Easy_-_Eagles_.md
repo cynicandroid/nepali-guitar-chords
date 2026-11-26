@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Syndicate Bipul Chhetri_](Syndicate_Bipul_Chhetri_.md) | [🏡 Song List](../README.md) | [⏭️ Next: Tera mujse he pahle ka](Tera_mujse_he_pahle_ka.md)
-
----
-
 ```text
 
             G
@@ -97,7 +93,3 @@ is gonna save me
 C
 Oh oh oh, oh oh oh X5
 ```
-
----
-
-[⏮️ Previous: Syndicate Bipul Chhetri_](Syndicate_Bipul_Chhetri_.md) | [🏡 Song List](../README.md) | [⏭️ Next: Tera mujse he pahle ka](Tera_mujse_he_pahle_ka.md)

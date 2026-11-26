@@ -8,10 +8,6 @@
 
 ---
 
-[⏮️ Previous: Ago Lagyo Dilai Ma Damkal Bolayideu](Ago_Lagyo_Dilai_Ma_Damkal_Bolayideu.md) | [🏡 Song List](../README.md) | [⏭️ Next: Alli Alli Kati Pida Huda Ni](Alli_Alli_Kati_Pida_Huda_Ni.md)
-
----
-
 ```text
 
 Am                      G
@@ -57,7 +53,3 @@ Tesaile bolcha ma-chahi-ne timro tasbir
              Am
 Maile kahile tekina
 ```
-
----
-
-[⏮️ Previous: Ago Lagyo Dilai Ma Damkal Bolayideu](Ago_Lagyo_Dilai_Ma_Damkal_Bolayideu.md) | [🏡 Song List](../README.md) | [⏭️ Next: Alli Alli Kati Pida Huda Ni](Alli_Alli_Kati_Pida_Huda_Ni.md)
