@@ -22,7 +22,7 @@
 
     <aside>
         <div class="sidebar-header">
-            <h1 onclick="showHome()">Nepali Chords</h1>
+            <h1 onclick="showHome()">Nepali Chords <span class="app-version">v6</span></h1>
             <div class="sidebar-nav-actions">
                 <button class="home-nav-btn" onclick="showHome()" title="Go to home"><span class="nav-icon">🏠</span><span>Home</span></button>
                 <button class="home-nav-btn" onclick="showFavorites()" title="Show favorite songs"><span class="nav-icon" aria-hidden="true">☆</span><span>Favorites</span></button>
@@ -74,14 +74,14 @@
         <div class="content-container" id="contentContainer">
             <!-- Loaded dynamically with Home Directory or Song Viewer -->
         </div>
-    </main>
 
-    <div class="scroll-controls" id="scrollControls">
-        <span id="scrollSpeedLabel">Speed: 1x</span>
-        <button class="btn" onclick="changeScrollSpeed(-1)">-</button>
-        <button class="btn" onclick="changeScrollSpeed(1)">+</button>
-        <button class="btn btn-primary" id="scrollPlayPauseBtn" onclick="toggleScrollPlayback()" title="Pause auto scroll">⏸</button>
-    </div>
+        <div class="scroll-controls" id="scrollControls">
+            <span id="scrollSpeedLabel">Speed: 1x</span>
+            <button class="btn" onclick="changeScrollSpeed(-1)">-</button>
+            <button class="btn" onclick="changeScrollSpeed(1)">+</button>
+            <button class="btn btn-primary" id="scrollPlayPauseBtn" onclick="toggleScrollPlayback()" title="Pause auto scroll">⏸</button>
+        </div>
+    </main>
 
     <div class="app-update-banner" id="appUpdateBanner" role="status" aria-live="polite" hidden>
         <span>A new version is ready.</span>

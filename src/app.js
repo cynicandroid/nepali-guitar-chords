@@ -68,12 +68,13 @@ const strummingPlayer = createStrummingPlayer({
 const dom = {};
 let deferredInstallPrompt = null;
 let waitingServiceWorker = null;
+let serviceWorkerRegistration = null;
 let reloadingForUpdate = false;
 let activeChordElement = null;
 
 const NOTES_SHARP = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
 const NOTES_FLAT = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
-const CHORD_REGEX = /\b([A-G][#b]?(?:m|min|maj|dim|aug|sus|add|m7|maj7|7|9|11|13|add9|sus2|sus4|2|4|5|6)*(?:\/[A-G][#b]?)?)\b/g;
+const CHORD_REGEX = /\b([A-G][#b]?(?:m|min|maj|dim|aug|sus|add|m7|maj7|7|9|11|13|add9|sus2|sus4|2|4|5|6)*(?:\/[A-G][#b]?)?)(?![A-Za-z0-9#b])/g;
 
 function cacheDom() {
     [
@@ -130,6 +131,7 @@ async function init() {
 function registerServiceWorker() {
     if (!('serviceWorker' in navigator)) return;
     navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' }).then(registration => {
+        serviceWorkerRegistration = registration;
         if (registration.waiting && navigator.serviceWorker.controller) showAppUpdate(registration.waiting);
         registration.addEventListener('updatefound', () => {
             const installingWorker = registration.installing;
@@ -141,6 +143,7 @@ function registerServiceWorker() {
             });
         });
         registration.update().catch(error => console.warn('App update check failed:', error));
+        window.addEventListener('pageshow', checkForAppUpdate);
     }).catch(error => {
         console.warn('Service worker registration failed:', error);
     });
@@ -157,6 +160,11 @@ function registerServiceWorker() {
     document.getElementById('dismissAppUpdate')?.addEventListener('click', () => {
         document.getElementById('appUpdateBanner').hidden = true;
     });
+}
+
+function checkForAppUpdate() {
+    if (document.visibilityState !== 'visible' || !serviceWorkerRegistration) return;
+    serviceWorkerRegistration.update().catch(error => console.warn('App update check failed:', error));
 }
 
 function showAppUpdate(worker) {
@@ -829,7 +837,9 @@ function showFullscreenFallback() {
 }
 
 function handleVisibilityChange() {
-    if (document.visibilityState === 'visible' && currentSongIndex >= 0) requestWakeLock();
+    if (document.visibilityState !== 'visible') return;
+    checkForAppUpdate();
+    if (currentSongIndex >= 0) requestWakeLock();
 }
 
 function selectDrumBeat(value) {
@@ -1259,10 +1269,10 @@ function startAutoScrollInterval() {
         const distance = Math.floor(scrollDistanceRemainder);
         if (distance > 0) {
             scrollDistanceRemainder -= distance;
-            if (mobile) window.scrollBy(0, distance);
+            if (mobile && !document.fullscreenElement) window.scrollBy(0, distance);
             else container.scrollTop += distance;
         }
-        const atEnd = mobile
+        const atEnd = mobile && !document.fullscreenElement
             ? window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2
             : container.scrollTop + container.clientHeight >= container.scrollHeight;
         if (atEnd) {

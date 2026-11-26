@@ -240,6 +240,14 @@ aside {
     cursor: pointer;
 }
 
+.app-version {
+    color: #facc15;
+    font-size: .68em;
+    font-weight: 700;
+    align-self: flex-end;
+    margin: 0 0 2px -5px;
+}
+
 .home-nav-btn {
     background: var(--code-bg);
     border: 1px solid var(--border-color);
@@ -742,9 +750,43 @@ main {
 }
 
 main:fullscreen {
+    height: 100vh;
+    height: 100dvh;
+    min-height: 0;
     overflow: auto;
     padding: 24px;
     background: var(--bg-color);
+}
+
+main:fullscreen .content-container {
+    min-height: 0;
+    padding-right: 76px;
+    overscroll-behavior-y: contain;
+}
+
+main:fullscreen .viewer-header {
+    position: fixed;
+    top: 8px;
+    right: 8px;
+    z-index: 30;
+    justify-content: flex-end;
+    padding: 0;
+    border: 0;
+    background: transparent;
+}
+
+main:fullscreen .song-title-area,
+main:fullscreen .toolbar > :not(#fullscreenBtn):not(#scrollBtn) {
+    display: none;
+}
+
+main:fullscreen .toolbar {
+    width: auto;
+}
+
+main:fullscreen .content-container > .performance-panel,
+main:fullscreen .content-container > .rhythm-sampler-panel {
+    display: none;
 }
 
 .drum-machine-heading h3 {
@@ -1194,6 +1236,36 @@ pre .chord:focus-visible { outline: 2px solid var(--primary); outline-offset: 1p
         min-height: 76vh;
         min-height: 0;
         overflow: visible;
+    }
+    main:fullscreen {
+        height: 100vh;
+        height: 100dvh;
+        min-height: 0;
+        overflow: hidden;
+        padding: 0;
+    }
+    main:fullscreen .viewer-header {
+        flex: 0 0 auto;
+    }
+    main:fullscreen .toolbar {
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 5px;
+    }
+    main:fullscreen #fullscreenBtn {
+        width: 68px;
+        padding: 5px 3px;
+        white-space: normal;
+        justify-content: center;
+        text-align: center;
+        line-height: 1.1;
+    }
+    main:fullscreen .content-container {
+        flex: 1 1 auto;
+        min-height: 0;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        overscroll-behavior-y: contain;
     }
     .viewer-header {
         padding: 6px 8px;
