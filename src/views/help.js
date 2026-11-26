@@ -43,6 +43,10 @@ function circleOverlay(circleKey) {
     return `<svg class="circle-overlay" viewBox="0 0 746 746" aria-hidden="true">${sectors}</svg>`;
 }
 
+export function renderCircleOfFifthsModal(circleKey) {
+    return `<div class="circle-fifths-modal-backdrop" onclick="if (event.target === this) closeCircleOfFifths()"><section class="circle-fifths-modal-card" role="dialog" aria-modal="true" aria-labelledby="circleFifthsModalTitle"><header class="circle-fifths-modal-header"><h2 id="circleFifthsModalTitle">Circle of Fifths · ${circleKey}</h2><button class="circle-fifths-modal-close" onclick="closeCircleOfFifths()" aria-label="Close circle of fifths">×</button></header><div class="circle-of-fifths-wrap"><img src="Guitar%20Tabs/circle-of-fifths.webp" alt="Circle of fifths with ${circleKey} and neighboring fifths highlighted">${circleOverlay(circleKey)}</div></section></div>`;
+}
+
 export function renderHelpView({ circleKey = null, canReturnToSong = false } = {}) {
     const focusText = circleKey ? ` Showing ${circleKey} and its neighboring fifths.` : '';
     const returnButton = canReturnToSong

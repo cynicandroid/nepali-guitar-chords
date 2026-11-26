@@ -1,4 +1,4 @@
-const CACHE_NAME = 'nepali-guitar-chords-v3';
+const CACHE_NAME = 'nepali-guitar-chords-v5';
 const APP_SHELL = [
     './',
     './index.html',

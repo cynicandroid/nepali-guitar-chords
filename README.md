@@ -58,9 +58,20 @@ For maintainers: when changing files in the precached app shell, increment `CACH
 
 These charts are also available in the app’s help section:
 
-- [🎸 Chord Reference Chart](Guitar%20Tabs/_Guitar-chord-chart.png)
-- [🎼 Standard Chords Diagram](Guitar%20Tabs/_Guitar%20Chords.jpg)
+- [🎸 Chord Reference Chart](Guitar%20Tabs/guitar-chord-chart.png)
+- [🎼 Standard Chords Diagram](Guitar%20Tabs/guitar-chords.jpg)
 - [🔄 Circle of Fifths Diagram](Guitar%20Tabs/circle-of-fifths.webp)
+
+## Credits for third-party resources
+
+These are the non-FOSS resources currently identified in the project:
+
+- The 19 chord diagrams in `assets/chords/` are from [Life in 12 Keys’ Beginner Guitar Chords](https://lifein12keys.com/20-essential-guitar-chords-for-beginners/).
+- `Guitar Tabs/guitar-chord-chart.png` is the TrueFire “Ultimate Guitar Chord Chart” ([TrueFire chord charts](https://truefire.com/guitar-chord-charts/)).
+- `Guitar Tabs/guitar-chords.jpg` is a chart reposted with Reddit branding and an Adobe Stock watermark (asset ID 67045247). The original Reddit post and Adobe Stock listing/license have not been identified, so its attribution is incomplete.
+- The source and license for `Guitar Tabs/circle-of-fifths.webp` were not recorded and could not be verified.
+
+FOSS resources are not repeated here; their source and license notes are kept alongside the files where available. These credits identify asset sources but do not grant reuse rights.
 
 ---
 

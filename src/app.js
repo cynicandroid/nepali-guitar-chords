@@ -7,7 +7,7 @@ import { createDrumVoicePlayer } from './audio/drum-machine.js';
 import { createTablaSamplePlayer } from './audio/tabla-machine.js';
 import { createStrummingPlayer } from './audio/strumming-player.js';
 import { renderDirectory, renderFavorites } from './views/directory.js';
-import { renderHelpView } from './views/help.js';
+import { renderCircleOfFifthsModal, renderHelpView } from './views/help.js';
 import { createFavoritesStore } from './state/favorites.js';
 import { createSongHistoryStore } from './state/history.js';
 
@@ -69,6 +69,7 @@ const dom = {};
 let deferredInstallPrompt = null;
 let waitingServiceWorker = null;
 let reloadingForUpdate = false;
+let activeChordElement = null;
 
 const NOTES_SHARP = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
 const NOTES_FLAT = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
@@ -87,6 +88,17 @@ function cacheDom() {
 
 function bindEvents() {
     dom.searchInput.addEventListener('input', handleSearch);
+    dom.contentContainer.addEventListener('click', event => {
+        const chord = event.target.closest('.chord[data-chord]');
+        if (chord) showChordDiagram(chord.dataset.chord, chord);
+    });
+    dom.contentContainer.addEventListener('keydown', event => {
+        const chord = event.target.closest('.chord[data-chord]');
+        if (chord && (event.key === 'Enter' || event.key === ' ')) {
+            event.preventDefault();
+            showChordDiagram(chord.dataset.chord, chord);
+        }
+    });
 }
 
 async function init() {
@@ -354,7 +366,65 @@ function showHelp(circleKey = null, returnSongIndex = null) {
 }
 
 function showCircleOfFifths(key = songs[currentSongIndex]?.key) {
-    if (key && key !== 'N/A') showHelp(key, currentSongIndex >= 0 ? currentSongIndex : null);
+    if (!key || key === 'N/A') return;
+    const modal = document.getElementById('circleOfFifthsModal');
+    if (!modal) return;
+    modal.innerHTML = renderCircleOfFifthsModal(key);
+    modal.hidden = false;
+    document.body.classList.add('circle-modal-open');
+    modal.querySelector('.circle-fifths-modal-close')?.focus();
+}
+
+function closeCircleOfFifths() {
+    const modal = document.getElementById('circleOfFifthsModal');
+    if (!modal || modal.hidden) return;
+    modal.hidden = true;
+    modal.innerHTML = '';
+    document.body.classList.remove('circle-modal-open');
+    document.getElementById('badgeKey')?.focus();
+}
+
+function showChordDiagram(chordName, sourceElement) {
+    const modal = document.getElementById('chordDiagramModal');
+    const chord = String(chordName || '').trim();
+    if (!modal || !/^[A-G](?:#|b)?(?:m|min|maj|dim|aug|sus|add|\d+)*(?:\/[A-G](?:#|b)?)?$/.test(chord)) return;
+
+    activeChordElement = sourceElement;
+    const diagramNames = chord.split('/');
+    const diagramImages = diagramNames.map(name => `
+        <div class="chord-diagram-item">
+            <img class="chord-diagram-image" src="assets/chords/${encodeURIComponent(name)}.png" alt="${escapeHtml(name)} guitar chord diagram">
+            <p class="chord-diagram-unavailable" hidden>Diagram unavailable.</p>
+        </div>`).join('');
+    modal.innerHTML = `
+        <div class="chord-diagram-modal-backdrop" onclick="if (event.target === this) closeChordDiagram()">
+            <section class="chord-diagram-modal-card${diagramNames.length > 1 ? ' slash-chord-modal' : ''}" role="dialog" aria-modal="true" aria-label="Chord diagrams">
+                <header class="chord-diagram-modal-header">
+                    <button class="chord-diagram-modal-close" onclick="closeChordDiagram()" aria-label="Close chord diagram">×</button>
+                </header>
+                <div class="chord-diagram-images${diagramNames.length > 1 ? ' chord-diagram-pair' : ''}">${diagramImages}</div>
+            </section>
+        </div>`;
+    modal.hidden = false;
+    document.body.classList.add('chord-diagram-modal-open');
+    modal.querySelector('.chord-diagram-modal-close')?.focus();
+    modal.querySelectorAll('.chord-diagram-image').forEach(image => {
+        image.addEventListener('error', () => {
+            image.hidden = true;
+            const message = image.nextElementSibling;
+            if (message) message.hidden = false;
+        }, { once: true });
+    });
+}
+
+function closeChordDiagram() {
+    const modal = document.getElementById('chordDiagramModal');
+    if (!modal || modal.hidden) return;
+    modal.hidden = true;
+    modal.innerHTML = '';
+    document.body.classList.remove('chord-diagram-modal-open');
+    if (activeChordElement?.isConnected) activeChordElement.focus();
+    activeChordElement = null;
 }
 
 function returnToSong() {
@@ -483,7 +553,8 @@ function renderCurrentSong() {
         if (lineObj.is_chord) {
             text = text.replace(CHORD_REGEX, (match) => {
                 const transposed = transposeChord(match, transposeOffset);
-                return `<span class="chord">${transposed}</span>`;
+                const safeChord = escapeHtml(transposed);
+                return `<span class="chord" data-chord="${safeChord}" role="button" tabindex="0" aria-label="Show ${safeChord} chord diagram">${safeChord}</span>`;
             });
         }
         htmlContent += text + '\n';
@@ -1237,7 +1308,7 @@ function formatScrollSpeed(speed) {
 // The UI currently contains inline event handlers. Keep these public while
 // the application is progressively split into modules.
 Object.assign(window, {
-    showHome, showHelp, showCircleOfFifths, showFavorites, selectSong, goBackToSongList, returnToSong,
+    showHome, showHelp, showCircleOfFifths, closeCircleOfFifths, showChordDiagram, closeChordDiagram, showFavorites, selectSong, goBackToSongList, returnToSong,
     toggleFavorite, transpose, adjustFontSize, toggleTheme,
     toggleAutoScroll, toggleScrollPlayback, changeScrollSpeed,
     toggleStrummingPlayer, toggleStrummingPlayback, adjustStrumBpm,
@@ -1249,6 +1320,12 @@ Object.assign(window, {
 });
 
 document.addEventListener('visibilitychange', handleVisibilityChange);
+document.addEventListener('keydown', event => {
+    if (event.key === 'Escape') {
+        closeCircleOfFifths();
+        closeChordDiagram();
+    }
+});
 document.addEventListener('fullscreenchange', () => {
     const button = document.getElementById('fullscreenBtn');
     if (button) button.textContent = document.fullscreenElement ? '⛶ Exit fullscreen' : '⛶ Fullscreen';

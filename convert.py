@@ -237,12 +237,19 @@ def main():
     # Check if chord chart images exist in Guitar Tabs/
     readme_content.append("## 📊 Reference Charts\n")
     readme_content.append("Here are some useful visual references included in this project:\n")
-    if os.path.exists('Guitar Tabs/_Guitar-chord-chart.png'):
-        readme_content.append("- [🎸 Chord Reference Chart](Guitar%20Tabs/_Guitar-chord-chart.png)")
-    if os.path.exists('Guitar Tabs/_Guitar Chords.jpg'):
-        readme_content.append("- [🎼 Standard Chords Diagram](Guitar%20Tabs/_Guitar%20Chords.jpg)")
+    if os.path.exists('Guitar Tabs/guitar-chord-chart.png'):
+        readme_content.append("- [🎸 Chord Reference Chart](Guitar%20Tabs/guitar-chord-chart.png)")
+    if os.path.exists('Guitar Tabs/guitar-chords.jpg'):
+        readme_content.append("- [🎼 Standard Chords Diagram](Guitar%20Tabs/guitar-chords.jpg)")
     if os.path.exists('Guitar Tabs/circle-of-fifths.webp'):
         readme_content.append("- [🔄 Circle of Fifths Diagram](Guitar%20Tabs/circle-of-fifths.webp)")
+    readme_content.append("\n## Credits for third-party resources\n")
+    readme_content.append("These are the non-FOSS resources currently identified in the project:\n")
+    readme_content.append("- The 19 chord diagrams in `assets/chords/` are from [Life in 12 Keys’ Beginner Guitar Chords](https://lifein12keys.com/20-essential-guitar-chords-for-beginners/).")
+    readme_content.append("- `Guitar Tabs/guitar-chord-chart.png` is the TrueFire “Ultimate Guitar Chord Chart” ([TrueFire chord charts](https://truefire.com/guitar-chord-charts/)).")
+    readme_content.append("- `Guitar Tabs/guitar-chords.jpg` is a chart reposted with Reddit branding and an Adobe Stock watermark (asset ID 67045247). The original Reddit post and Adobe Stock listing/license have not been identified, so its attribution is incomplete.")
+    readme_content.append("- The source and license for `Guitar Tabs/circle-of-fifths.webp` were not recorded and could not be verified.\n")
+    readme_content.append("FOSS resources are not repeated here; their source and license notes are kept alongside the files where available. These credits identify asset sources but do not grant reuse rights.\n")
     readme_content.append("\n---\n")
     
     # Generate A-Z index header links
