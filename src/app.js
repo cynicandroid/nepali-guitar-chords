@@ -248,8 +248,8 @@ function renderSongList(list) {
             ? `<span>🎤 ${escapeHtml(singer)}</span>`
             : '';
         const capo = String(song.capo || '').trim();
-        const capoMeta = capo && !['none', 'no capo'].includes(capo.toLowerCase())
-            ? `<span>${capo.toLowerCase().includes('barre') ? '☝️' : '🎸'} ${escapeHtml(capo)}</span>`
+        const capoMeta = capo && !/^(?:none|no\s*capo|n\/a)\b/i.test(capo)
+            ? `<span>👆 ${escapeHtml(capo)}</span>`
             : '';
         const div = document.createElement('div');
         div.className = `song-item ${originalIndex === currentSongIndex && currentSongIndex !== -1 ? 'active' : ''}`;
@@ -458,7 +458,11 @@ function renderCurrentSong() {
 
     document.getElementById('songTitleDisplay').innerText = song.title;
     updateFavoriteButton();
-    document.getElementById('badgeCapo').innerText = `Capo: ${song.capo || 'None'}`;
+    const capo = String(song.capo || '').trim();
+    const capoBadge = document.getElementById('badgeCapo');
+    const hasCapoDisplay = capo && !/^(?:none|no\s*capo|n\/a)\b/i.test(capo);
+    capoBadge.style.display = hasCapoDisplay ? '' : 'none';
+    if (hasCapoDisplay) capoBadge.innerText = `Capo: ${capo}`;
     document.getElementById('badgeKey').innerText = `Key: ${song.key || 'N/A'}`;
     document.getElementById('badgeGenre').innerText = `Genre: ${song.genre || 'N/A'}`;
     document.getElementById('badgeStrummingText').innerText = `Strumming: ${song.strumming || 'N/A'}`;

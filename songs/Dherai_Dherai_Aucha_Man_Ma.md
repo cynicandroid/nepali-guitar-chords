@@ -1,7 +1,7 @@
 # Dherai Dherai Aucha Man Ma
 
 **Capo:** None,  
-**Singer:** Situsit<br>
+**Singer:** 1974 AD<br>
 **Key:** D<br>
 **Genre:** N/A  
 **Strumming:** N/A  

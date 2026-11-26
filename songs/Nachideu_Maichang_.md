@@ -1,6 +1,6 @@
 # Nachideu Maichang_
 
-**Capo:** No capo  
+**Capo:** None
 **Singer:** Sambhujit Baskota<br>
 **Key:** G<br>
 **Genre:** Party  

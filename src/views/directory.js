@@ -9,8 +9,8 @@ function lettersFor(songs) {
 
 function songCard(song, index, letter, escapeHtml, timesPlayed = null, compact = false, sequence = null, showGenre = false) {
     const capo = String(song.capo || '').trim();
-    const capoText = capo && !['none', 'no capo', 'n/a'].includes(capo.toLowerCase()) ? `Capo: ${capo}` : '';
-    const capoIcon = capo.toLowerCase().includes('barre') ? '☝️' : '🎸';
+    const capoText = capo && !/^(?:none|no\s*capo|n\/a)\b/i.test(capo) ? `Capo: ${capo}` : '';
+    const capoIcon = '👆';
     const genre = String(song.genre || '').trim();
     const genreText = genre && !['none', 'n/a'].includes(genre.toLowerCase()) ? genre : '';
     const singer = String(song.singer || '').trim();

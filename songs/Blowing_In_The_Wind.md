@@ -1,7 +1,7 @@
 # Blowing In The Wind
 
 **Capo:** None  
-**Singer:** Felicia Wong<br>
+**Singer:** Bob Dylon<br>
 **Key:** G<br>
 **Genre:** N/A  
 **Strumming:** N/A  

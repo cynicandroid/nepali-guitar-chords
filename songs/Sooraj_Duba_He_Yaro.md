@@ -1,6 +1,6 @@
 # Sooraj Duba He Yaro
 
-**Capo:** No capo Key: D  
+**Capo:** None
 **Singer:** Arijit Singh<br>
 **Key:** D<br>
 **Genre:** N/A  

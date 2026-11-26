@@ -1,6 +1,6 @@
 # Sanjha Pakha
 
-**Capo:** No Capo, Key : E  
+**Capo:** None
 **Singer:** Nabin K Bhattarai<br>
 **Key:** E<br>
 **Genre:** Campfire  
